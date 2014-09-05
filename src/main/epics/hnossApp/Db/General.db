@@ -1,0 +1,80 @@
+
+record (bi, "s7-status") {
+  field (DTYP, "S7plc stat")
+  field (INP,  "@PLC:HNOSS")
+  field (SCAN, "I/O Intr")
+  field (ZNAM, "disconnected")
+  field (ONAM, "connected")
+  field (ZSV,  "MAJOR")
+  field (FLNK, "s7-status-counter")
+}
+
+record (bo, "CstatH-Ctrl:opMode:cmdLocal") {
+  field (DTYP, "S7plc")
+  field (OUT, "@PLC:HNOSS/1 T=BYTE B=0")
+  field (ZNAM, "Iddle")
+  field (ONAM, "CmdLocal")
+  field (PINI, "NO")
+  field (HIGH, "0.5")
+}
+
+record (bi, "CstatH-Ctrl:opMode:sLocal") {
+  field (DTYP, "S7plc")
+  field (INP,  "@PLC:HNOSS/0 T=BYTE B=0")
+  field (ZSV,  "MINOR")
+  field (PINI, "YES")
+  field (PHAS, "0")
+  field (ONAM,  "Local")
+  field (ZNAM,  "Remote")
+  field (SCAN, "I/O Intr")
+}
+
+record (bo, "CstatH-Ctrl:opMode:cmdSetParam") {
+  field (DTYP, "S7plc")
+  field (OUT, "@PLC:HNOSS/0 T=BYTE B=0")
+  field (ZNAM, "Iddle")
+  field (ONAM, "CmdSetParam")
+  field (PINI, "NO")
+  field (HIGH, "0.5")
+}
+
+record (bo, "CstatH-Ctrl:opMode:cmdSetAck") {
+  field (DTYP, "S7plc")
+  field (OUT, "@PLC:HNOSS/0 T=BYTE B=1")
+  field (ZNAM, "Iddle")
+  field (ONAM, "CmdSetAck")
+  field (PINI, "NO")
+  field (HIGH, "0.5")
+}
+record (bo, "CstatH-Ctrl:opMode:cmdRemote") {
+  field (DTYP, "S7plc")
+  field (OUT, "@PLC:HNOSS/1 T=BYTE B=1")
+  field (ZNAM, "Iddle")
+  field (ONAM, "CmdRemote")
+  field (PINI, "NO")
+  field (HIGH, "0.5")
+}
+
+record (calc, "s7-status-counter")
+{
+   field (INPA, "s7-status-counter")
+   field (CALC, "A+1")
+   field (FLNK, "s7-disconnect-counter")
+}
+
+record (calc, "s7-disconnect-counter")
+{
+   field (INPA, "s7-status")
+   field (INPB, "s7-disconnect-counter.LA")
+   field (INPC, "s7-disconnect-counter")
+   field (CALC, "(A=0&&B=1)?C+1:C")
+}
+
+record (waveform, "wf-int16") {
+  field (DTYP, "S7plc")
+  field (INP,  "@PLC:HNOSS/0")
+  field (FTVL, "SHORT")
+  field (NELM, "1000")
+  field (SCAN, "I/O Intr")
+}
+

@@ -1,0 +1,16 @@
+record(bo, "CstatH-Ctrl:$(SUBS):c$(SIG)") {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/$(OFFS2) T=BYTE B=$(BIT2)")
+  field(HIGH, "0.5")
+  field(ZNAM, "Iddle")
+  field(ONAM, "c$(SIG)")
+  field(SDIS, "CstatH-Ctrl:opMode:sLocal")
+}
+
+record(bi, "CstatH-Ctrl:$(SUBS):s$(SIG)") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=$(BIT)")
+  field(ZNAM, "False")
+  field(ONAM, "True")
+  field(SCAN, "I/O Intr")
+}

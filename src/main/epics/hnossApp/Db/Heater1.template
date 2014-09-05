@@ -1,0 +1,180 @@
+
+record(bi, "CstatH-$(SUBS):$(DEV):sAuto")  {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=0")
+  field(OSV, "MAJOR")
+  field(ONAM, "Auto")
+  field(ZNAM, "Manual")
+  field(PINI, "YES")
+  field(SCAN, "I/O Intr")
+}
+
+record(bi, "CstatH-$(SUBS):$(DEV):sTsw")  {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=1")
+  field(OSV, "MAJOR")
+  field(ONAM, "True")
+  field(ZNAM, "False")
+  field(PINI, "YES")
+  field(SCAN, "I/O Intr")
+}
+
+record(bi, "CstatH-$(SUBS):$(DEV):sCmd")  {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=2")
+  field(OSV, "MAJOR")
+  field(ONAM, "True")
+  field(ZNAM, "False")
+  field(PINI, "YES")
+  field(SCAN, "I/O Intr")
+}
+
+record(ai, "CstatH-$(SUBS):$(DEV):sHL") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:HNOSS/$(OFFS)+2 T=FLOAT")
+  field(PREC, "6")
+  field(SCAN, "I/O Intr")
+  field(PINI, "YES")
+  field(FLNK, "CstatH-$(SUBS):$(DEV):sHL-cHL-link")
+}
+
+record(calcout, "CstatH-$(SUBS):$(DEV):sHL-cHL-link") {
+  field(INPA, "CstatH-$(SUBS):$(DEV):sHL.VAL NPP")
+  field(INPB, "CstatH-$(SUBS):$(DEV):sAuto PP")
+  field(INPC, "CstatH-Ctrl:opMode:sLocal PP")
+  field(CALC, "(B=0&&C=0)?VAL:A")
+  field(OOPT, "On Change")
+  field(OUT, "CstatH-$(SUBS):$(DEV):cHL PP")
+}
+
+record(calcout, "CstatH-$(SUBS):$(DEV):sHL-cHL-remInitLink") {
+  field(SDIS, "CstatH-Ctrl:opMode:sLocal PP")
+  field(INPA, "CstatH-$(SUBS):$(DEV):sHL.VAL PP")
+  field(INPB, "CstatH-$(SUBS):$(DEV):sAuto PP")
+  field(CALC, "(B=0)?A:VAL")
+  field(OOPT, "On Change")
+  field(PINI, "YES")
+  field(OUT, "CstatH-$(SUBS):$(DEV):cHL PP")
+}
+
+record(ai, "CstatH-$(SUBS):$(DEV):sLL") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:HNOSS/$(OFFS)+6 T=FLOAT")
+  field(PREC, "6")
+  field(SCAN, "I/O Intr")
+  field(PINI, "YES")
+  field(FLNK, "CstatH-$(SUBS):$(DEV):sLL-cHL-link")
+}
+
+record(calcout, "CstatH-$(SUBS):$(DEV):sLL-cHL-link") {
+  field(INPA, "CstatH-$(SUBS):$(DEV):sLL.VAL NPP")
+  field(INPB, "CstatH-$(SUBS):$(DEV):sAuto PP")
+  field(INPC, "CstatH-Ctrl:opMode:sLocal PP")
+  field(CALC, "(B=0&&C=0)?VAL:A")
+  field(OOPT, "On Change")
+  field(OUT, "CstatH-$(SUBS):$(DEV):cLL PP")
+}
+
+record(calcout, "CstatH-$(SUBS):$(DEV):sLL-cHL-remInitLink") {
+  field(SDIS, "CstatH-Ctrl:opMode:sLocal PP")
+  field(INPA, "CstatH-$(SUBS):$(DEV):sLL.VAL PP")
+  field(INPB, "CstatH-$(SUBS):$(DEV):sAuto PP")
+  field(CALC, "(B=0)?A:VAL")
+  field(OOPT, "On Change")
+  field(PINI, "YES")
+  field(OUT, "CstatH-$(SUBS):$(DEV):cLL PP")
+}
+
+record(bo, "CstatH-$(SUBS):$(DEV):cmdAuto") {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/$(OFFS2) T=BYTE B=0")
+  field(ZNAM, "Iddle")
+  field(ONAM, "CmdAuto")
+  field(PINI, "NO")
+  field(HIGH, "0.5")
+  field(SDIS, "CstatH-Ctrl:opMode:sLocal")
+}
+
+record(bo, "CstatH-$(SUBS):$(DEV):cmdMan") {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/$(OFFS2) T=BYTE B=1")
+  field(ZNAM, "Iddle")
+  field(ONAM, "CmdMan")
+  field(PINI, "NO")
+  field(HIGH, "0.5")
+  field(SDIS, "CstatH-Ctrl:opMode:sLocal")
+}
+
+record(bo, "CstatH-$(SUBS):$(DEV):cmdSet") {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/$(OFFS2) T=BYTE B=2")
+  field(ZNAM, "Iddle")
+  field(ONAM, "CmdSet")
+  field(PINI, "NO")
+  field(HIGH, "0.5")
+  field(SDIS, "CstatH-Ctrl:opMode:sLocal")
+}
+
+record(bo, "CstatH-$(SUBS):$(DEV):cmdRst") {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/$(OFFS2) T=BYTE B=3")
+  field(ZNAM, "Iddle")
+  field(ONAM, "CmdRst")
+  field(PINI, "NO")
+  field(HIGH, "0.5")
+  field(SDIS, "CstatH-Ctrl:opMode:sLocal")
+}
+
+record(bo, "CstatH-$(SUBS):$(DEV):cmdHL") {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/$(OFFS2) T=BYTE B=4")
+  field(ZNAM, "Iddle")
+  field(ONAM, "CmdHL")
+  field(PINI, "NO")
+  field(HIGH, "0.5")
+  field(SDIS, "CstatH-Ctrl:opMode:sLocal")
+}
+
+record(bo, "CstatH-$(SUBS):$(DEV):cmdLL") {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/$(OFFS2) T=BYTE B=5")
+  field(ZNAM, "Iddle")
+  field(ONAM, "CmdLL")
+  field(PINI, "NO")
+  field(HIGH, "0.5")
+  field(SDIS, "CstatH-Ctrl:opMode:sLocal")
+}
+
+record(bo, "CstatH-$(SUBS):$(DEV):cmdHL-link") {
+  field(DOL, "1")
+  field(OMSL, "closed_loop")
+  field(ONAM, "ON")
+  field(ZNAM, "OFF")
+  field(OUT, "CstatH-$(SUBS):$(DEV):cmdHL.VAL PP NMS")
+  field(SDIS, "CstatH-Ctrl:opMode:sLocal")
+}
+
+record(bo, "CstatH-$(SUBS):$(DEV):cmdLL-link") {
+  field(DOL, "1")
+  field(OMSL, "closed_loop")
+  field(ONAM, "ON")
+  field(ZNAM, "OFF")
+  field(OUT, "CstatH-$(SUBS):$(DEV):cmdLL.VAL PP NMS")
+  field(SDIS, "CstatH-Ctrl:opMode:sLocal")
+}
+
+record(ao, "CstatH-$(SUBS):$(DEV):cHL") {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/$(OFFS2)+2 T=FLOAT")
+  field(PINI, "NO")
+  field(PREC, "6")
+  field(FLNK, "CstatH-$(SUBS):$(DEV):cmdHL-link")
+}
+
+record(ao, "CstatH-$(SUBS):$(DEV):cLL") {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/$(OFFS2)+6 T=FLOAT")
+  field(PINI, "NO")
+  field(PREC, "6")
+  field(FLNK, "CstatH-$(SUBS):$(DEV):cmdLL-link")
+}

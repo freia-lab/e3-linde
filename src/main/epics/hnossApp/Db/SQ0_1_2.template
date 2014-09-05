@@ -1,0 +1,29 @@
+record(ai, "CstatH-Ctrl:$(SUBS):sStepTime") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:HNOSS/$(OFFS)+3 T=INT16")
+  field(PREC, "6")
+  field(SCAN, "I/O Intr")
+}
+
+record(ai, "CstatH-Ctrl:$(SUBS):sCptNbCycle") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:HNOSS/$(OFFS)+5 T=INT16")
+  field(PREC, "6")
+  field(SCAN, "I/O Intr")
+}
+
+record(bi, "CstatH-Ctrl:$(SUBS):sFltVac") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=0")
+  field(ZNAM, "False")
+  field(ONAM, "True")
+  field(SCAN, "I/O Intr")
+}
+
+record(bi, "CstatH-Ctrl:$(SUBS):sFltPre") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=1")
+  field(ZNAM, "False")
+  field(ONAM, "True")
+  field(SCAN, "I/O Intr")
+}
