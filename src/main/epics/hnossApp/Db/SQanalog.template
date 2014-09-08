@@ -3,7 +3,7 @@ record(bo, "CstatH-Ctrl:$(SUBS):$(SIG):cmdSetParam-link") {
   field(OMSL, "closed_loop")
   field(ONAM, "ON")
   field(ZNAM, "OFF")
-  field(OUT, "CstatH-Ctrl:$(SUBS):cmdSetParam")
+  field(OUT, "CstatH-Ctrl:$(SUBS):cmdSetParam PP")
   field(SDIS, "CstatH-Ctrl:opMode:sLocal")
 }
 
