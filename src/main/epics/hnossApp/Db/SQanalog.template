@@ -10,7 +10,8 @@ record(bo, "CstatH-Ctrl:$(SUBS):$(SIG):cmdSetParam-link") {
 record(ao, "CstatH-Ctrl:$(SUBS):$(SIG)") {
   field(DTYP, "S7plc")
   field(OUT, "@PLC:HNOSS/$(OFFS2) T=$(TYPE)")
-  field(PREC, "6")
+  field(PREC, "1")
+  field(EGU, "$(EGU)")
   field(FLNK, "CstatH-Ctrl:$(SUBS):$(SIG):cmdSetParam-link")
 }
 
@@ -34,7 +35,7 @@ record(calcout, "CstatH-Ctrl:$(SUBS):$(SIG2)-$(SIG)-remInitLink") {
 record(ai, "CstatH-Ctrl:$(SUBS):$(SIG2)") {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=$(TYPE)")
-  field(PREC, "6")
+  field(PREC, "1")
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
   field(FLNK, "CstatH-Ctrl:$(SUBS):$(SIG2)-$(SIG)-link")

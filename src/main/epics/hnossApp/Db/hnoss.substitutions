@@ -257,122 +257,122 @@ file "SQbinary.template" { pattern
 }
 
 file "SQanalog.template" { pattern
-{SUBS,	 SIG,          OFFS2, TYPE, SIG2, OFFS}
-{SQ0,	cNcycle,       2810, INT16, sNcycle, 3224}
-{SQ0,	cVacRate,      2812, INT16, sVacRate, 3226}
-{SQ0,	cPressRate,    2814, INT16, sPressRate, 3228}
-{SQ0,	cVacRateAlrm,  2816, INT16, sVacRateAlrm, 3230}
-{SQ0,	cPresRateAlrm, 2818, INT16, sPresRateAlrm, 3232}
-{SQ0,	cVac,          2828, FLOAT, sVac, 3242}
-{SQ0,	cVacFlt,       2832, FLOAT, sVacFlt, 3246}
-{SQ0,	cPressEOF,     2836, FLOAT, sPressEOF, 3250}
-{SQ0,	cPressFlt,     2840, FLOAT, sPressFlt, 3254}
-{SQ1,	cNcycle,       2894, INT16, sNcycle, 3326}
-{SQ1,	cVacRate,      2896, INT16, sVacRate, 3328}
-{SQ1,	cPressRate,    2898, INT16, sPressRate, 3330}
-{SQ1,	cVacRateAlrm,  2900, INT16, sVacRateAlrm, 3332}
-{SQ1,	cPresRateAlrm, 2902, INT16, sPresRateAlrm, 3334}
-{SQ1,	cVac,          2912, FLOAT, sVac, 3344}
-{SQ1,	cVacFlt,       2916, FLOAT, sVacFlt, 3348}
-{SQ1,	cPressEOF,     2920, FLOAT, sPressEOF, 3352}
-{SQ1,	cPressFlt,     2924, FLOAT, sPressFlt, 3356}
-{SQ1,	cP_CV100,      2928, FLOAT, sP_CV100, 3360}
-{SQ1,	cP_CV101,      2932, FLOAT, sP_CV101, 3364}
-{SQ1,	cP_CV102,      2936, FLOAT, sP_CV102, 3368}
-{SQ1,	cP_CV103,      2940, FLOAT, sP_CV103, 3372}
-{SQ1,	cP_CV104,      2944, FLOAT, sP_CV104, 3376}
-{SQ1,	cP_CV105,      2948, FLOAT, sP_CV105, 3380}
-{SQ1,	cP_CV550,      2952, FLOAT, sP_CV550, 3384}
-{SQ1,	cP_CV551,      2956, FLOAT, sP_CV551, 3388}
-{SQ2,	cNcycle,       2978, INT16, sNcycle, 3428}
-{SQ2,	cVacRate,      2980, INT16, sVacRate, 3430}
-{SQ2,	cPressRate,    2982, INT16, sPressRate, 3432}
-{SQ2,	cVacRateAlrm,  2984, INT16, sVacRateAlrm, 3434}
-{SQ2,	cPresRateAlrm, 2986, INT16, sPresRateAlrm, 3436}
-{SQ2,	cVac,          2996, FLOAT, sVac, 3446}
-{SQ2,	cVacFlt,       3000, FLOAT, sVacFlt, 3450}
-{SQ2,	cPressEOF,     3004, FLOAT, sPressEOF, 3454}
-{SQ2,	cPressFlt,     3008, FLOAT, sPressFlt, 3458}
-{SQ2,	cP_CV301,      3012, FLOAT, sP_CV301, 3462}
-{SQ2,	cP_CV302,      3016, FLOAT, sP_CV302, 3466}
-{SQ3A,	cP_Tt,         3080, FLOAT, sP_Tt, 3548}
-{SQ3A,	cP_Low_Tt,     3084, FLOAT, sP_Low_Tt, 3552}
-{SQ3A,	cP_High_Tt,    3088, FLOAT, sP_High_Tt, 3556}
-{SQ3B,	cP_Tt,         3092, FLOAT, sP_Tt, 3560}
-{SQ3B,	cP_Low_Tt,     3096, FLOAT, sP_Low_Tt, 3564}
-{SQ3B,	cP_High_Tt,    3100, FLOAT, sP_High_Tt, 3568}
-{SQ4,	cP_CV200_Tt,   3248, FLOAT, sP_CV200_Tt, 3752}
-{SQ4,	cP_CV200_Ft,   3252, FLOAT, sP_CV200_Ft, 3756}
-{SQ4,	cP_CV201_Tt,   3256, FLOAT, sP_CV201_Tt, 3760}
-{SQ4,	cP_CV201_Ft,   3260, FLOAT, sP_CV201_Ft, 3764}
-{SQ5,	cP_PT,         3332,  FLOAT, sP_PT,      3752}
-{SQ5,	cP_FT,         3336,  FLOAT, sP_FT,      3756}
-{SQ5,	cP_CV550,      3340,  FLOAT, sP_CV550,   3760}
-{SQ5,	cP_LowLt,      3344,  FLOAT, sP_LowLt,   3764}
-{SQ5,	cP_CoolD_Tt,   3348,  FLOAT, sP_CoolD_Tt,3768}
-{SQ5,	cP_HighLt,     3352,  FLOAT, sP_HighLt,  3772}
-{SQ5,	cP_CV100,      3356,  FLOAT, sP_CV100,   3776}
-{SQ6,	cP_Tt,         3416,  FLOAT, sP_Tt,      3956}
-{SQ6,	cP_Lt,         3420,  FLOAT, sP_Lt,      3960}
-{SQ7,	cP_PT,         3500,  FLOAT, sP_PT,      4058}
-{SQ7,	cP_FT550,      3504,  FLOAT, sP_FT550,   4062}
-{SQ7,	cP_Tt_Cold,    3508,  FLOAT, sP_Tt_Cold, 4066}
-{SQ7,	cP_SP_Tt,      3512,  FLOAT, sP_SP_Tt,   4070}
-{SQ7,	cP_CV550,      3516,  FLOAT, sP_CV550,   4074}
-{SQ7,	cP_CV551,      3520,  FLOAT, sP_CV551,   4078}
-{SQ7,	cP_FT552,      3524,  FLOAT, sP_FT552,   4082}
-{SQ7,	cP_HighLt,     3528,  FLOAT, sP_HighLt,  4086}
-{SQ7,	cP_LowLt,      3532,  FLOAT, sP_LowLt,   4090}
-{SQ7,	cP_CV552,      3536,  FLOAT, sP_CV552,   4094}
-{SQ7,	cP_CV101,      3540,  FLOAT, sP_CV101,   4098}
-{SQ7,	cP_CV102,      3544,  FLOAT, sP_CV102,   4102}
-{SQ7,	cP_CV103,      3548,  FLOAT, sP_CV103,   4106}
-{SQ7,	cP_CV104,      3552,  FLOAT, sP_CV104,   4110}
-{SQ8,	cP_CV550,      3584,  FLOAT, sP_CV550,   4160}
-{SQ8,	cP_LowLt,      3588,  FLOAT, sP_LowLt,   4164}
-{SQ8,	cP_HighLt,     3592,  FLOAT, sP_HighLt,  4168}
-{SQ8,	cP_Pt,         3596,  FLOAT, sP_Pt,      4172}
-{SQ8,	cP_SP_Tt,      3600,  FLOAT, sP_SP_Tt,   4176}
-{SQ8,	cP_CV551,      3604,  FLOAT, sP_CV551,   4180}
-{SQ8,	cP_CV552,      3608,  FLOAT, sP_CV552,   4184}
-{SQ8,	cP_CV104,      3612,  FLOAT, sP_CV104,   4188}
-{SQ9,	cP_CV550,      3668,  FLOAT, sP_CV550,   4262}
-{SQ9,	cP_LowLt,      3672,  FLOAT, sP_LowLt,   4266}
-{SQ9,	cP_HighLt,     3676,  FLOAT, sP_HighLt,  4270}
-{SQ9,	cP_Pt,         3680,  FLOAT, sP_Pt,      4274}
-{SQ9,	cP_SP_Tt,      3684,  FLOAT, sP_SP_Tt,   4278}
-{SQ9,	cP_CV105,      3688,  FLOAT, sP_CV105,   4282}
-{SQ10,	cP_CV301_Tt,   3752,  FLOAT, sP_CV301_Tt,4364}
-{SQ10,	cP_CV301_Ft,   3756,  FLOAT, sP_CV301_Ft,4368}
-{SQ10,	cP_CV302_Tt,   3760,  FLOAT, sP_CV302_Tt,4372}
-{SQ10,	cP_CV302_Ft,   3764,  FLOAT, sP_CV302_Ft,4376}
-{SQ11,	cP_CV550,      3836,  FLOAT, sP_CV550,   4466}
-{SQ11,	cP_Tt,         3840,  FLOAT, sP_Tt,      4470}
-{SQ11,	cP_Pt,         3844,  FLOAT, sP_Pt, 	 4474}
-{SQ11,	cP_SP_Tt,      3848,  FLOAT, sP_SP_Tt,   4478}
-{SQ11,	cP_CV551,      3852,  FLOAT, sP_CV551,   4482}
-{SQ11,	cP_CV552,      3856,  FLOAT, sP_CV552,   4486}
-{SQ11,	cP_CV104,      3860,  FLOAT, sP_CV104,   4490}
-{SQ12A,	cP_WarmUp,     3920,  FLOAT, sP_WarmUp,  4568}
-{SQ12B,	cP_WarmUp,     4004,  FLOAT, sP_WarmUp,  4670}
-{SQ12B,	cP_CV550,      4008,  FLOAT, sP_CV550,   4674}
-{SQ12B,	cP_CV551,      4012,  FLOAT, sP_CV551,   4678}
-{SQ12B,	cP_CV552,      4016,  FLOAT, sP_CV552,   4682}
-{SQ12B,	cP_CV100,      4020,  FLOAT, sP_CV100,   4686}
-{SQ12B,	cP_CV101,      4024,  FLOAT, sP_CV101,   4690}
-{SQ12B,	cP_CV102,      4028,  FLOAT, sP_CV102,   4694}
-{SQ12B,	cP_CV103,      4032,  FLOAT, sP_CV103,   4698}
-{SQ12B,	cP_CV104,      4036,  FLOAT, sP_CV104,   4702}
-{SQ12B,	cP_CV105,      4040,  FLOAT, sP_CV105,   4706}
-{SQ12B,	cP_CV200,      4044,  FLOAT, sP_CV200,   4710}
-{SQ12B,	cP_CV201,      4048,  FLOAT, sP_CV201,   4714}
-{SQ12B,	cP_CV302,      4052,  FLOAT, sP_CV302,   4718}
-{SQ12B,	cP_CV301,      4056,  FLOAT, sP_CV301,   4722}
-{SQ13,	cP_Al_SHe,     4088,  FLOAT, sP_Al_SHe,  4772}
-{SQ13,	cP_Al_He,      4092,  FLOAT, sP_Al_He,   4776}
-{SQ13,	cP_SHe,        4096,  FLOAT, sP_SHe,   	 4780}
-{SQ13,	cP_He,         4100,  FLOAT, sP_He,   	 4784}
-{SQ20,	cP_Op,         4154,  INT16, sP_Op,   	 4856}
+{SUBS,	 SIG,          OFFS2, TYPE, SIG2,	OFFS, EGU}
+{SQ0,	cNcycle,       2810, INT16, sNcycle, 3224, ""}
+{SQ0,	cVacRate,      2812, INT16, sVacRate, 3226,	"s"}
+{SQ0,	cPressRate,    2814, INT16, sPressRate, 3228,	"s"}
+{SQ0,	cVacRateAlrm,  2816, INT16, sVacRateAlrm, 3230,	"s"}
+{SQ0,	cPresRateAlrm, 2818, INT16, sPresRateAlrm, 3232,"s"}
+{SQ0,	cVac,          2828, FLOAT, sVac, 3242,	   "mbar"}
+{SQ0,	cVacFlt,       2832, FLOAT, sVacFlt, 3246, "mbar"}
+{SQ0,	cPressEOF,     2836, FLOAT, sPressEOF, 3250, "mbar"}
+{SQ0,	cPressFlt,     2840, FLOAT, sPressFlt, 3254, "mbar"}
+{SQ1,	cNcycle,       2894, INT16, sNcycle, 3326,   ""}
+{SQ1,	cVacRate,      2896, INT16, sVacRate, 3328,  "s"}
+{SQ1,	cPressRate,    2898, INT16, sPressRate, 3330,	"s"}
+{SQ1,	cVacRateAlrm,  2900, INT16, sVacRateAlrm, 3332,	"s"}
+{SQ1,	cPresRateAlrm, 2902, INT16, sPresRateAlrm, 3334,	"s"}
+{SQ1,	cVac,          2912, FLOAT, sVac, 3344,	   "mbar"}
+{SQ1,	cVacFlt,       2916, FLOAT, sVacFlt, 3348,	   "mbar"}
+{SQ1,	cPressEOF,     2920, FLOAT, sPressEOF, 3352,	   "mbar"}
+{SQ1,	cPressFlt,     2924, FLOAT, sPressFlt, 3356,	   "mbar"}
+{SQ1,	cP_CV100,      2928, FLOAT, sP_CV100, 3360,   ""}
+{SQ1,	cP_CV101,      2932, FLOAT, sP_CV101, 3364,   ""}
+{SQ1,	cP_CV102,      2936, FLOAT, sP_CV102, 3368,   ""}
+{SQ1,	cP_CV103,      2940, FLOAT, sP_CV103, 3372,   ""}
+{SQ1,	cP_CV104,      2944, FLOAT, sP_CV104, 3376,   ""}
+{SQ1,	cP_CV105,      2948, FLOAT, sP_CV105, 3380,   ""}
+{SQ1,	cP_CV550,      2952, FLOAT, sP_CV550, 3384,   ""}
+{SQ1,	cP_CV551,      2956, FLOAT, sP_CV551, 3388,   ""}
+{SQ2,	cNcycle,       2978, INT16, sNcycle, 3428,   ""}
+{SQ2,	cVacRate,      2980, INT16, sVacRate, 3430	"s"}
+{SQ2,	cPressRate,    2982, INT16, sPressRate, 3432	"s"}
+{SQ2,	cVacRateAlrm,  2984, INT16, sVacRateAlrm, 3434	"s"}
+{SQ2,	cPresRateAlrm, 2986, INT16, sPresRateAlrm, 3436	"s"}
+{SQ2,	cVac,          2996, FLOAT, sVac, 3446	"mbar"}
+{SQ2,	cVacFlt,       3000, FLOAT, sVacFlt, 3450	"mbar"}
+{SQ2,	cPressEOF,     3004, FLOAT, sPressEOF, 3454	"mbar"}
+{SQ2,	cPressFlt,     3008, FLOAT, sPressFlt, 3458	"mbar"}
+{SQ2,	cP_CV301,      3012, FLOAT, sP_CV301, 3462	""}
+{SQ2,	cP_CV302,      3016, FLOAT, sP_CV302, 3466	""}
+{SQ3A,	cP_Tt,         3080, FLOAT, sP_Tt, 3548	""}
+{SQ3A,	cP_Low_Tt,     3084, FLOAT, sP_Low_Tt, 3552	""}
+{SQ3A,	cP_High_Tt,    3088, FLOAT, sP_High_Tt, 3556	""}
+{SQ3B,	cP_Tt,         3092, FLOAT, sP_Tt, 3560	""}
+{SQ3B,	cP_Low_Tt,     3096, FLOAT, sP_Low_Tt, 3564	""}
+{SQ3B,	cP_High_Tt,    3100, FLOAT, sP_High_Tt, 3568	""}
+{SQ4,	cP_CV200_Tt,   3248, FLOAT, sP_CV200_Tt, 3752	""}
+{SQ4,	cP_CV200_Ft,   3252, FLOAT, sP_CV200_Ft, 3756	""}
+{SQ4,	cP_CV201_Tt,   3256, FLOAT, sP_CV201_Tt, 3760	""}
+{SQ4,	cP_CV201_Ft,   3260, FLOAT, sP_CV201_Ft, 3764	""}
+{SQ5,	cP_PT,         3332,  FLOAT, sP_PT,      3752	""}
+{SQ5,	cP_FT,         3336,  FLOAT, sP_FT,      3756	""}
+{SQ5,	cP_CV550,      3340,  FLOAT, sP_CV550,   3760	""}
+{SQ5,	cP_LowLt,      3344,  FLOAT, sP_LowLt,   3764	""}
+{SQ5,	cP_CoolD_Tt,   3348,  FLOAT, sP_CoolD_Tt,3768	""}
+{SQ5,	cP_HighLt,     3352,  FLOAT, sP_HighLt,  3772	""}
+{SQ5,	cP_CV100,      3356,  FLOAT, sP_CV100,   3776	""}
+{SQ6,	cP_Tt,         3416,  FLOAT, sP_Tt,      3956	""}
+{SQ6,	cP_Lt,         3420,  FLOAT, sP_Lt,      3960	""}
+{SQ7,	cP_PT,         3500,  FLOAT, sP_PT,      4058	""}
+{SQ7,	cP_FT550,      3504,  FLOAT, sP_FT550,   4062	""}
+{SQ7,	cP_Tt_Cold,    3508,  FLOAT, sP_Tt_Cold, 4066	""}
+{SQ7,	cP_SP_Tt,      3512,  FLOAT, sP_SP_Tt,   4070	""}
+{SQ7,	cP_CV550,      3516,  FLOAT, sP_CV550,   4074	""}
+{SQ7,	cP_CV551,      3520,  FLOAT, sP_CV551,   4078	""}
+{SQ7,	cP_FT552,      3524,  FLOAT, sP_FT552,   4082	""}
+{SQ7,	cP_HighLt,     3528,  FLOAT, sP_HighLt,  4086	""}
+{SQ7,	cP_LowLt,      3532,  FLOAT, sP_LowLt,   4090	""}
+{SQ7,	cP_CV552,      3536,  FLOAT, sP_CV552,   4094	""}
+{SQ7,	cP_CV101,      3540,  FLOAT, sP_CV101,   4098	""}
+{SQ7,	cP_CV102,      3544,  FLOAT, sP_CV102,   4102	""}
+{SQ7,	cP_CV103,      3548,  FLOAT, sP_CV103,   4106	""}
+{SQ7,	cP_CV104,      3552,  FLOAT, sP_CV104,   4110	""}
+{SQ8,	cP_CV550,      3584,  FLOAT, sP_CV550,   4160	""}
+{SQ8,	cP_LowLt,      3588,  FLOAT, sP_LowLt,   4164	""}
+{SQ8,	cP_HighLt,     3592,  FLOAT, sP_HighLt,  4168	""}
+{SQ8,	cP_Pt,         3596,  FLOAT, sP_Pt,      4172	""}
+{SQ8,	cP_SP_Tt,      3600,  FLOAT, sP_SP_Tt,   4176	""}
+{SQ8,	cP_CV551,      3604,  FLOAT, sP_CV551,   4180	""}
+{SQ8,	cP_CV552,      3608,  FLOAT, sP_CV552,   4184	""}
+{SQ8,	cP_CV104,      3612,  FLOAT, sP_CV104,   4188	""}
+{SQ9,	cP_CV550,      3668,  FLOAT, sP_CV550,   4262	""}
+{SQ9,	cP_LowLt,      3672,  FLOAT, sP_LowLt,   4266	""}
+{SQ9,	cP_HighLt,     3676,  FLOAT, sP_HighLt,  4270	""}
+{SQ9,	cP_Pt,         3680,  FLOAT, sP_Pt,      4274	""}
+{SQ9,	cP_SP_Tt,      3684,  FLOAT, sP_SP_Tt,   4278	""}
+{SQ9,	cP_CV105,      3688,  FLOAT, sP_CV105,   4282	""}
+{SQ10,	cP_CV301_Tt,   3752,  FLOAT, sP_CV301_Tt,4364	""}
+{SQ10,	cP_CV301_Ft,   3756,  FLOAT, sP_CV301_Ft,4368	""}
+{SQ10,	cP_CV302_Tt,   3760,  FLOAT, sP_CV302_Tt,4372	""}
+{SQ10,	cP_CV302_Ft,   3764,  FLOAT, sP_CV302_Ft,4376	""}
+{SQ11,	cP_CV550,      3836,  FLOAT, sP_CV550,   4466	""}
+{SQ11,	cP_Tt,         3840,  FLOAT, sP_Tt,      4470	""}
+{SQ11,	cP_Pt,         3844,  FLOAT, sP_Pt, 	 4474	""}
+{SQ11,	cP_SP_Tt,      3848,  FLOAT, sP_SP_Tt,   4478	""}
+{SQ11,	cP_CV551,      3852,  FLOAT, sP_CV551,   4482	""}
+{SQ11,	cP_CV552,      3856,  FLOAT, sP_CV552,   4486	""}
+{SQ11,	cP_CV104,      3860,  FLOAT, sP_CV104,   4490	""}
+{SQ12A,	cP_WarmUp,     3920,  FLOAT, sP_WarmUp,  4568	""}
+{SQ12B,	cP_WarmUp,     4004,  FLOAT, sP_WarmUp,  4670	""}
+{SQ12B,	cP_CV550,      4008,  FLOAT, sP_CV550,   4674	""}
+{SQ12B,	cP_CV551,      4012,  FLOAT, sP_CV551,   4678	""}
+{SQ12B,	cP_CV552,      4016,  FLOAT, sP_CV552,   4682	""}
+{SQ12B,	cP_CV100,      4020,  FLOAT, sP_CV100,   4686	""}
+{SQ12B,	cP_CV101,      4024,  FLOAT, sP_CV101,   4690	""}
+{SQ12B,	cP_CV102,      4028,  FLOAT, sP_CV102,   4694	""}
+{SQ12B,	cP_CV103,      4032,  FLOAT, sP_CV103,   4698	""}
+{SQ12B,	cP_CV104,      4036,  FLOAT, sP_CV104,   4702	""}
+{SQ12B,	cP_CV105,      4040,  FLOAT, sP_CV105,   4706	""}
+{SQ12B,	cP_CV200,      4044,  FLOAT, sP_CV200,   4710	""}
+{SQ12B,	cP_CV201,      4048,  FLOAT, sP_CV201,   4714	""}
+{SQ12B,	cP_CV302,      4052,  FLOAT, sP_CV302,   4718	""}
+{SQ12B,	cP_CV301,      4056,  FLOAT, sP_CV301,   4722	""}
+{SQ13,	cP_Al_SHe,     4088,  FLOAT, sP_Al_SHe,  4772	""}
+{SQ13,	cP_Al_He,      4092,  FLOAT, sP_Al_He,   4776	""}
+{SQ13,	cP_SHe,        4096,  FLOAT, sP_SHe,   	 4780	""}
+{SQ13,	cP_He,         4100,  FLOAT, sP_He,   	 4784	""}
+{SQ20,	cP_Op,         4154,  INT16, sP_Op,   	 4856	""}
 }
 
 file "SQcmds.template" { pattern
