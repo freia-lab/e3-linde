@@ -1,0 +1,8 @@
+# longin record template for State for Visualisation
+record (longin, "$(SYS)-$(SUBS):$(DEV):$(SIG)") {
+  field (DESC, "$(SUBS):$(DEV) State for visualisation")
+  field (DTYP, "S7plc")
+  field (INP,  "@Cryo-Linde/$(OFFS) T=INT16")
+  field (SCAN, "I/O Intr")
+}
+
