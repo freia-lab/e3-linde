@@ -1,12 +1,12 @@
 
-record (bi, "s7-status") {
+record (bi, "CstatH-Ctrl:s7-status") {
   field (DTYP, "S7plc stat")
   field (INP,  "@PLC:HNOSS")
   field (SCAN, "I/O Intr")
   field (ZNAM, "disconnected")
   field (ONAM, "connected")
   field (ZSV,  "MAJOR")
-  field (FLNK, "s7-status-counter")
+  field (FLNK, "CstatH-Ctrl:s7-status-counter")
 }
 
 record (bo, "CstatH-Ctrl:opMode:cmdLocal") {
@@ -55,18 +55,18 @@ record (bo, "CstatH-Ctrl:opMode:cmdRemote") {
   field (HIGH, "0.5")
 }
 
-record (calc, "s7-status-counter")
+record (calc, "CstatH-Ctrl:s7-status-counter")
 {
-   field (INPA, "s7-status-counter")
+   field (INPA, "CstatH-Ctrl:s7-status-counter")
    field (CALC, "A+1")
-   field (FLNK, "s7-disconnect-counter")
+   field (FLNK, "CstatH-Ctrl:s7-disconnect-counter")
 }
 
-record (calc, "s7-disconnect-counter")
+record (calc, "CstatH-Ctrl:s7-disconnect-counter")
 {
-   field (INPA, "s7-status")
-   field (INPB, "s7-disconnect-counter.LA")
-   field (INPC, "s7-disconnect-counter")
+   field (INPA, "CstatH-Ctrl:s7-status")
+   field (INPB, "CstatH-Ctrl:s7-disconnect-counter.LA")
+   field (INPC, "CstatH-Ctrl:s7-disconnect-counter")
    field (CALC, "(A=0&&B=1)?C+1:C")
 }
 
@@ -78,3 +78,24 @@ record (waveform, "wf-int16") {
   field (SCAN, "I/O Intr")
 }
 
+# Records with data from the Cryosystem
+
+record(ao, CstatH-Cryo:LHe:LI5200-PercOut) {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/20 T=FLOAT")
+  field(PINI, "NO")
+  field(SCAN, "10 second")
+  field(DOL, "Cryo-Dwr:LHe:LI5200-PercOut CA")
+  field(PREC, "2")
+  field(OMSL, "closed_loop")
+}
+
+record(ao, CstatH-Cryo:LN2:LI3685-PercOut) {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/24 T=FLOAT")
+  field(PINI, "NO")
+  field(SCAN, "10 second")
+  field(DOL, "Cryo-CBox:LN2:LI3685-PercOut CA")
+  field(PREC, "2")
+  field(OMSL, "closed_loop")
+}
