@@ -48,7 +48,6 @@ file "mbbi.template" { pattern
 {CBox,  Tu2,    Tr_Speed,  1064,   3,  OK,   "Too high", "Too low",  "Tr: Turbine 2 speed"}
 {CBox,  Tu1,    Tr_Speed,  1065,   3,  OK,   "Too high", "Too low",  "Tr: Turbine 1 speed"}
 }
-
 file "lindeBinaryInput.template" { pattern
 {SYS,	SUBS,	DEV,	SIG,	OFFS,	BIT,	ZNAM,	ONAM,  ZSV,  OSV, DESC}
 {Cryo,	Ctrl,	Ctrl,	EZ1000,	10,	0,	"Not OK", OK,  MAJOR,  NO_ALARM, "Emergency stop"}
@@ -64,7 +63,6 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Rec,	LP,	LSL7215,	11,	1,	Low,	"Not low",  MINOR,  NO_ALARM, "Balloon level"}
 {Cryo,	Rec,	LP,	LSH7215,	11,	2,	"Not high",	High,  NO_ALARM,  MINOR, "Balloon level"}
 {Cryo,	Rec,	LP,	LSHH7215,	11,	3,	"Not too high",	"Too high",  NO_ALARM,  MAJOR, "Balloon level"}
-
 {Cryo,	Rec,	LP,	GSH7225,	11,	4,	"Not running",	Running,  NO_ALARM,  NO_ALARM, "Compressor run "}
 {Cryo,	Rec,	LP,	GAH7225,	11,	5,	OK,	Warning,  NO_ALARM,  MINOR, "Compressor warning "}
 {Cryo,	Rec,	LP,	GAHH7225,	11,	6,	"No alarm",	Alarm,  NO_ALARM,  MAJOR, "Compressor alarm "}
@@ -79,7 +77,6 @@ file "lindeBinaryInput.template" { pattern
 #mbbi?
 {Cryo,	CBox,	Ads80K,	GSL3111,	14,	0,	"Not closed",	Closed,  NO_ALARM,  NO_ALARM, "Ads inlet vlv clsd"}
 {Cryo,	CBox,	Ads80K,	GSH3111,	14,	1,	"Not open",	Open,  NO_ALARM,  NO_ALARM, "Ads inlet vlv opn"}
-
 {Cryo,	CBox,	Ads80K,	GSL3112,	14,	2,	Closed,	Open,  NO_ALARM,  NO_ALARM, "Ads depress vlv"}
 
 {Cryo,	CBox,	Ads80K,	GSL3114,	14,	3,	"Not open",	Open,  NO_ALARM,  NO_ALARM, "Ads bypass vlv opn"}
@@ -123,13 +120,12 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Cmp,	C2,     sStrtStopCmd,	620,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Start/stop cmd"}
 {Cryo,	MCD,	MCD,    sStrtStopCmd,	630,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Start/stop cmd"}
 {Cryo,	Rec,	HPDisChrg, StrtStopCmd,	640,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Start/stop cmd"}
-{Cryo,	CBox,	CoolMode, StrtStopCmd,	650,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
+{Cryo,	CBox,	CoolMode, sStrtStopCmd,	650,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
 {Cryo,	CBox,	WarmUp,	StrtStopCmd,	660,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
-{Cryo,	CBox,	WarmUp,	StrtStopCmd,	660,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
-{Cryo,	CBox,	LN2,	StrtStopCmd,	670,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
+{Cryo,	CBox,	LN2,	sStrtStopCmd,	670,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
 {Cryo,	CBox,	LN2_IlkTu, StrtStopCmd,	680,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
 {Cryo,	Dwr,	Htr, sStrtStopCmd,	690,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
-{Cryo,	VacSys,	VacSys,	StrtStopCmd,	700,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
+{Cryo,	VacSys,	VacSys,	sStrtStopCmd,	700,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
 {Cryo,	Pur,	Pur, sStrtStopCmd,	710,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
 
 {Cryo,	Cmp,	Cx, Pms_StrtOk,	750,	0,	"Not OK",	OK,  NO_ALARM,  NO_ALARM, "General permissives"}
@@ -336,8 +332,6 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	CBox,	Pur,	Wr_TI3475,             1042,	1,	OK,	Warning,  NO_ALARM,  NO_ALARM, TI3475}
 {Cryo,	CBox,	Pur,	Wr_TI3460,             1042,	2,	OK,	Warning,  NO_ALARM,  NO_ALARM, TI3460}
 {Cryo,	CBox,	Pur,	Wr_TI3454,             1042,	3,	OK,	Warning,  NO_ALARM,  NO_ALARM, TI3454}
-
-
 {Cryo,	Rec,	LP,	Wr377_QI7210_ErrSum,	1046,	0,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
 {Cryo,	CBox,	HP,	Wr378_TI3115_ErrSum,	1046,	1,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
 {Cryo,	Rec,	LP,	Wr379_QI7220_ErrSum,	1046,	2,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
@@ -544,7 +538,6 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Pur,	Pur,	SdStat, 710,	4, "Operation", "Shutdown", NO_ALARM, MINOR, Shutdown}
 }
 
-
 file "visu_state.template" { pattern
 {SYS,	SUBS,	DEV,	SIG,	OFFS}
 {Cryo,	Cmp,	C1,	VisuState, 612}
@@ -569,7 +562,6 @@ file "lindeAnalogFloatInput.template" { pattern
 {Rec,	LP,	QI7240,	            36, "%", "Feed gas impurity"}
 {Rec,	LP,	QI7250,	            40, "%", "Feed gas impurity"}
 {CBox,	Pur,	PI3404,	            44, bara, "HP-Bundles outlet pre"}
-
 {Dwr,	LP,	TI5220,	    52,   "°C", temperature}
 {Rec,	LP,	TI7215,	    56,   "°C",	 temperature}
 {CBox,	HP,	SI3131,	            100, "m/s", "Speed tu 1"}
@@ -619,7 +611,6 @@ file "lindeAnalogFloatInput.template" { pattern
 {Dwr,	V,	UY5201-PercOut,	    378,  "%", CV5201}
 {Dwr,	V,	UY5202-PercOut,	    382,  "%", CV5201}
 {Dwr,	V,	UY5203-PercOut,	    386,  "%", CV5202}
-
 {CBox,	HP,	UY3130-PercOut,	    434,  "%", "Inlet vlv turbines"}
 {CBox,	HP,	UY3131-PercOut,	    438,  "%", "Brake vlv tu 1"}
 {CBox,	HP,	UY3151-PercOut,	    442,  "%", "Brake vlv tu 2"}
@@ -700,5 +691,4 @@ file "lindeString.template" { pattern
 {CBox,	Ads80K,	LastRegTm, 1318, "Reg: Last time"}
 {CBox,	Ads80K,	TotRegTm, 1348, "Reg: Total time"}
 }
-
 
