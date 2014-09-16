@@ -23,4 +23,6 @@
 #<sendIntervall> : time to wait before sending new data to PLC [ms]
 
 s7plcConfigure PLC:HNOSS,192.168.10.10,2000,5550,4740,1,1000,500
+s7plcConfigure Cryo-Linde,192.168.1.10,2000,2000,100,1,1000,100
+
 

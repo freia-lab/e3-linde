@@ -26,6 +26,15 @@ DB += Heater2.template
 DB += PID.template
 DB += Valves.template
 DB += hnoss.substitutions
+DB += linde.db
+DB += mbbi.template
+DB += lindeBinaryOutput.template
+DB += lindeBinaryInput.template
+DB += lindeString.template  
+DB += visu_state.template 
+DB += lindeAnalogFloatInput.template  
+DB += lindeAnalogIntInput.template
+DB += lindeCryosystem.substitutions
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add

@@ -8,6 +8,9 @@ cd "$(TOP)/db"
 dbLoadRecords("General.db","user=nicklasbpHost")
 dbLoadTemplate("hnoss.substitutions")
 
+dbLoadRecords("dlinde.db")
+dbLoadTemplate("lindeCryosystem.substitutions")
+
 # PLC communication 
 #cd "$(EPICS_MODULES)/s7plc/db"
 #dbLoadRecords("s7plccom.db", "CBS1=XXXX, CBS2=XXXX, CTRLTYPE=P, IDX=XX, IOCTYPE=XXXX, FOOTER_OFFSET=XXXX")
