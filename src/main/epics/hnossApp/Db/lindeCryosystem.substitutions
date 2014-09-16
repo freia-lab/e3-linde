@@ -30,23 +30,23 @@ file "lindeBinaryOutput.template" { pattern
 
 file "mbbi.template" { pattern
 {SUBS,	DEV,	SIG,	OFFS, SHFT, ZRST, ONST, TWST, DESC}
-{Cbox,  Ads80K,    InlVlv,  14,   0,  Null,   Closed, Open,  "inlet vlv"}
-{Cbox,  Ads80K,    BypVlv,  14,   3,  Null,   Open, Closed,  "bypass vlv"}
-{Cbox,  Ads80K,    OutVlv,  14,   5,  Null,   Closed, Open,  "outlet vlv"}
+{CBox,  Ads80K,    InlVlv,  14,   0,  Null,   Closed, Open,  "inlet vlv"}
+{CBox,  Ads80K,    BypVlv,  14,   3,  Null,   Open, Closed,  "bypass vlv"}
+{CBox,  Ads80K,    OutVlv,  14,   5,  Null,   Closed, Open,  "outlet vlv"}
 {Rec,	LP,    CmpStat,     362,  0,  Null,   On, Off, "Compressor on/off"}
 {Cmp,   Cmp,   LpSdStat,      752,  4,  OK,     underrun, overstep, "Sd: Low pre status"}
 {Cmp,   Cmp,   HpSdStat,      752,  6,  OK,     underrun, overstep, "Sd: Hi pre status"}
 {Cmp,   Cmp,   HpWrStat,      1003,  0,  OK,     "Too high", "Too low", "Wr: Hi pre status"}
 {Cmp,   Cmp,   LpWrStat,      1003,  2,  OK,     "Too high", "Too low", "Wr: Low pre status"}
-{Cbox,  Dwr,   DwrLvlStat,    1007,  6,  OK,  "Under range", "Over range", "Wr: Dewar level status"}
-{Cbox,	Tu2, BrakeTemp, 1008, 1, OK, High, Low, "Wr: Temp Turbine 2"}
-{Cbox,  Tu2,    Wr_Speed,  1008,   3,  OK,   "Too high", "Too low",  "Wr: Turbine 2 speed"}
-{Cbox,	Tu1, BrakeTemp, 1009, 1, OK, High, Low, "Wr: Temp Turbine 1"}
-{Cbox,  Tu1,    Wr_Speed,  1009,   3,  OK,   "Too high", "Too low",  "Wr: Turbine 1 speed"}
+{CBox,  Dwr,   DwrLvlStat,    1007,  6,  OK,  "Under range", "Over range", "Wr: Dewar level status"}
+{CBox,	Tu2, BrakeTemp, 1008, 1, OK, High, Low, "Wr: Temp Turbine 2"}
+{CBox,  Tu2,    Wr_Speed,  1008,   3,  OK,   "Too high", "Too low",  "Wr: Turbine 2 speed"}
+{CBox,	Tu1, BrakeTemp, 1009, 1, OK, High, Low, "Wr: Temp Turbine 1"}
+{CBox,  Tu1,    Wr_Speed,  1009,   3,  OK,   "Too high", "Too low",  "Wr: Turbine 1 speed"}
 {Cmp,   Cmp,   LpTrStat,      1058,  4,  OK,     underrun, overstep, "Tr: Low pre status"}
 {Cmp,   Cmp,   HpTrStat,      1058,  6,  OK,     underrun, overstep, "Tr: Hi pre status"}
-{Cbox,  Tu2,    Tr_Speed,  1064,   3,  OK,   "Too high", "Too low",  "Tr: Turbine 2 speed"}
-{Cbox,  Tu1,    Tr_Speed,  1065,   3,  OK,   "Too high", "Too low",  "Tr: Turbine 1 speed"}
+{CBox,  Tu2,    Tr_Speed,  1064,   3,  OK,   "Too high", "Too low",  "Tr: Turbine 2 speed"}
+{CBox,  Tu1,    Tr_Speed,  1065,   3,  OK,   "Too high", "Too low",  "Tr: Turbine 1 speed"}
 }
 
 file "lindeBinaryInput.template" { pattern
@@ -55,8 +55,8 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Ctrl,	Ctrl,	ES1001,	10,	1,	"Not OK",	OK,  MAJOR,  NO_ALARM, "Fuse failure info"}
 {Cryo,	Ctrl,	Ctrl,	ES1002,	10,	2,	"Not OK", OK,  MAJOR,  NO_ALARM, "Fuse failure plnt opr"}
 {Cryo,	Ctrl,	Ctrl,	ES1003,	10,	3,	"Not OK",	OK,  MAJOR,  NO_ALARM, "Fuse failure system"}
-{Cryo,	Cbox,	Pur,	TZHH3470,	10,	4,	Alarm,	"No alarm",  MAJOR,  NO_ALARM, "Purifier heater alarm"}
-{Cryo,	Cbox,	HP,	TZAHH3115,	10,	5,	Alarm,	"No alarm",  MAJOR,  NO_ALARM, "Ads80K Regen htr"}
+{Cryo,	CBox,	Pur,	TZHH3470,	10,	4,	Alarm,	"No alarm",  MAJOR,  NO_ALARM, "Purifier heater alarm"}
+{Cryo,	CBox,	HP,	TZAHH3115,	10,	5,	Alarm,	"No alarm",  MAJOR,  NO_ALARM, "Ads80K Regen htr"}
 {Cryo,	ICn,	LP,	HSS5220,	10,	6,	"Not on",	On,  NO_ALARM,  NO_ALARM, "Dewar filling manual on"}
 {Cryo,	ICn,	LP,	HSS5221,	10,	7,	"Not off",	Off,  NO_ALARM,  NO_ALARM, "Dewar filling manual off"}
 #mbbi?
@@ -72,33 +72,33 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	ICn,	LP,	US5206,	12,	1,	"Not OK",	OK,  MINOR,  NO_ALARM, "Hardwired interlock CV5202"}
 {Cryo,	ICn,	LP,	US5207,	12,	2,	"Not OK",	OK,  MINOR,  NO_ALARM, "Hardwired interlock CV5203"}
 {Cryo,	Ctrl,	Ctrl,	ES1004,	13,	0,	"Not OK",	OK,  MINOR,  NO_ALARM, "Fuse failure plant operation"}
-{Cryo,	Cbox,	HP,	UZ3130,	13,	2,	"Not OK",	OK,  MINOR,  NO_ALARM, "Hardwired safety turbines"}
-{Cryo,	Cbox,	HP,	GSL3130,	13,	4,	Open,	Closed,  MINOR,  NO_ALARM, "Turbine inlet valve"}
-{Cryo,	Cbox,	CW,	FSAL3721,	13,	5,	"No flow",	Flow,  NO_ALARM,  NO_ALARM, "Cooling water turbine 1"}
-{Cryo,	Cbox,	VacSys,	PSAL3951,	13,	7,	"Not OK",	OK,  MINOR,  NO_ALARM, "Controlling air"}
+{Cryo,	CBox,	HP,	UZ3130,	13,	2,	"Not OK",	OK,  MINOR,  NO_ALARM, "Hardwired safety turbines"}
+{Cryo,	CBox,	HP,	GSL3130,	13,	4,	Open,	Closed,  MINOR,  NO_ALARM, "Turbine inlet valve"}
+{Cryo,	CBox,	CW,	FSAL3721,	13,	5,	"No flow",	Flow,  NO_ALARM,  NO_ALARM, "Cooling water turbine 1"}
+{Cryo,	CBox,	VacSys,	PSAL3951,	13,	7,	"Not OK",	OK,  MINOR,  NO_ALARM, "Controlling air"}
 #mbbi?
-{Cryo,	Cbox,	Ads80K,	GSL3111,	14,	0,	"Not closed",	Closed,  NO_ALARM,  NO_ALARM, "Ads inlet vlv clsd"}
-{Cryo,	Cbox,	Ads80K,	GSH3111,	14,	1,	"Not open",	Open,  NO_ALARM,  NO_ALARM, "Ads inlet vlv opn"}
+{Cryo,	CBox,	Ads80K,	GSL3111,	14,	0,	"Not closed",	Closed,  NO_ALARM,  NO_ALARM, "Ads inlet vlv clsd"}
+{Cryo,	CBox,	Ads80K,	GSH3111,	14,	1,	"Not open",	Open,  NO_ALARM,  NO_ALARM, "Ads inlet vlv opn"}
 
-{Cryo,	Cbox,	Ads80K,	GSL3112,	14,	2,	Closed,	Open,  NO_ALARM,  NO_ALARM, "Ads depress vlv"}
+{Cryo,	CBox,	Ads80K,	GSL3112,	14,	2,	Closed,	Open,  NO_ALARM,  NO_ALARM, "Ads depress vlv"}
 
-{Cryo,	Cbox,	Ads80K,	GSL3114,	14,	3,	"Not open",	Open,  NO_ALARM,  NO_ALARM, "Ads bypass vlv opn"}
-{Cryo,	Cbox,	Ads80K,	GSH3114,	14,	4,	"Not closed",	Closed,  NO_ALARM,  NO_ALARM, "Ads bypass vlv clsd"}
+{Cryo,	CBox,	Ads80K,	GSL3114,	14,	3,	"Not open",	Open,  NO_ALARM,  NO_ALARM, "Ads bypass vlv opn"}
+{Cryo,	CBox,	Ads80K,	GSH3114,	14,	4,	"Not closed",	Closed,  NO_ALARM,  NO_ALARM, "Ads bypass vlv clsd"}
 
-{Cryo,	Cbox,	Ads80K,	GSL3117,	14,	5,	"Not closed",	Closed,  NO_ALARM,  NO_ALARM, "Ads outlet vlv clsd"}
-{Cryo,	Cbox,	Ads80K,	GSH3117,	14,	6,	"Not open",	Open,  NO_ALARM,  NO_ALARM, "Ads outlet vlv opn"}
+{Cryo,	CBox,	Ads80K,	GSL3117,	14,	5,	"Not closed",	Closed,  NO_ALARM,  NO_ALARM, "Ads outlet vlv clsd"}
+{Cryo,	CBox,	Ads80K,	GSH3117,	14,	6,	"Not open",	Open,  NO_ALARM,  NO_ALARM, "Ads outlet vlv opn"}
 
 {Cryo,	Cmp,	VacSys,	PSAL2951,	15,	0,	"Not OK",	OK,  MINOR,  NO_ALARM, "Controlling air"}
 {Cryo,	Cmp,	OilSys,	LSH2810,	15,	2,	Blowdown,	OK,  MINOR,  NO_ALARM, "Oildrain coalescer 1"}
 {Cryo,	Cmp,	OilSys,	LSH2811,	15,	2,	Blowdown,	OK,  MINOR,  NO_ALARM, "Oildrain coalescer 2"}
 {Cryo,	Ctrl,	Ctrl,	UAH1010,	360,	0,	OK,	Caution,  NO_ALARM,  MINOR, "Flashlight caution"}
 {Cryo,	Ctrl,	Ctrl,	UAHH1011,	360,	1,	OK,	Fault,  NO_ALARM,  MINOR, "Flashlight caution"}
-{Cryo,	Cbox,	VacSys,	EUS3910,	360,	4,	False,	True,  NO_ALARM,  NO_ALARM, "Prevacuum pump"}
+{Cryo,	CBox,	VacSys,	EUS3910,	360,	4,	False,	True,  NO_ALARM,  NO_ALARM, "Prevacuum pump"}
 {Cryo,	ICn,	LP,	EUS5200,	360,	5,	False,	True,  NO_ALARM,  NO_ALARM, "Dewar heater"}
 {Cryo,	Cmp,	HP,	US2160,	360,	6,	Off,	On,  NO_ALARM,  NO_ALARM, "Detector QE2190 On/off"}
-{Cryo,	Cbox,	Pur,	US3470,	360,	7,	False,	True,  NO_ALARM,  NO_ALARM, "Heater"}
+{Cryo,	CBox,	Pur,	US3470,	360,	7,	False,	True,  NO_ALARM,  NO_ALARM, "Heater"}
 {Cryo,	Rec,	LP,	EUS7210,	361,	0,	false,	true,  NO_ALARM,  NO_ALARM, "Impurity monitoring"}
-{Cryo,	Cbox,	Ads80K,	EUS3115,	361,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Regen heater"}
+{Cryo,	CBox,	Ads80K,	EUS3115,	361,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Regen heater"}
 {Cryo,	Rec,	LP,	US7215,	        361,	2,	False, True,  NO_ALARM,  NO_ALARM, "Balloon outlet to atm vlv"}
 {Cryo,	ICn,	LP,	US5220,	361,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Dwr filling vlv"}
 {Cryo,	Rec,	LP,	QS7220,	361,	4,	off,	on,  NO_ALARM,  NO_ALARM, "feed gas monitoring On/off"}
@@ -110,12 +110,12 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Rec,	LP,	US7225_2,	362,	1,	"Not off",	off,  NO_ALARM,  NO_ALARM, "Compressor off"}
 
 {Cryo,	ICn,	LP,	SAL5200,	362,	3,	Low,	OK,  NO_ALARM,  NO_ALARM, "Dewar level"}
-{Cryo,	Cbox,	HP,	US3108,	363,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Bearing gas valve"}
-{Cryo,	Cbox,	HP,	US3122,	363,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Warmup/cooldown bypass"}
-{Cryo,	Cbox,	HP,	US3130,	363,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Rst hrdwrd safety turbines"}
-{Cryo,	Cbox,	VacSys,	US3911,	363,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Isolation vlv"}
-{Cryo,	Cbox,	Pur,	US3410,	363,	4,	False,	True,  NO_ALARM,  NO_ALARM, "Regeneration 1 valve"}
-{Cryo,	Cbox,	Pur,    US3415,	363,	5,	False,	True,  NO_ALARM,  NO_ALARM, "LIN blow off valve"}
+{Cryo,	CBox,	HP,	US3108,	363,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Bearing gas valve"}
+{Cryo,	CBox,	HP,	US3122,	363,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Warmup/cooldown bypass"}
+{Cryo,	CBox,	HP,	US3130,	363,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Rst hrdwrd safety turbines"}
+{Cryo,	CBox,	VacSys,	US3911,	363,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Isolation vlv"}
+{Cryo,	CBox,	Pur,	US3410,	363,	4,	False,	True,  NO_ALARM,  NO_ALARM, "Regeneration 1 valve"}
+{Cryo,	CBox,	Pur,    US3415,	363,	5,	False,	True,  NO_ALARM,  NO_ALARM, "LIN blow off valve"}
 {Cryo,	Cmp,	OilSys,	US2810,	364,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Oil separator 1 valve"}
 {Cryo,	Cmp,	OilSys,	US2811,	364,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Oil separator 2 valve"}
 {Cryo,	Cmp,	HP,	US2161,	364,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Supply valve detector"}
@@ -123,11 +123,11 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Cmp,	C2,     sStrtStopCmd,	620,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Start/stop cmd"}
 {Cryo,	MCD,	MCD,    sStrtStopCmd,	630,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Start/stop cmd"}
 {Cryo,	Rec,	HPDisChrg, StrtStopCmd,	640,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Start/stop cmd"}
-{Cryo,	Cbox,	CoolMode, StrtStopCmd,	650,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
-{Cryo,	Cbox,	WarmUp,	StrtStopCmd,	660,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
-{Cryo,	Cbox,	WarmUp,	StrtStopCmd,	660,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
-{Cryo,	Cbox,	LN2,	StrtStopCmd,	670,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
-{Cryo,	Cbox,	LN2_IlkTu, StrtStopCmd,	680,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
+{Cryo,	CBox,	CoolMode, StrtStopCmd,	650,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
+{Cryo,	CBox,	WarmUp,	StrtStopCmd,	660,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
+{Cryo,	CBox,	WarmUp,	StrtStopCmd,	660,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
+{Cryo,	CBox,	LN2,	StrtStopCmd,	670,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
+{Cryo,	CBox,	LN2_IlkTu, StrtStopCmd,	680,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
 {Cryo,	Dwr,	Htr, sStrtStopCmd,	690,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
 {Cryo,	VacSys,	VacSys,	StrtStopCmd,	700,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
 {Cryo,	Pur,	Pur, sStrtStopCmd,	710,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
@@ -188,71 +188,71 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Cmp,	C1,	StStopProzActivated,             782,	5,	False,	True,  NO_ALARM,  NO_ALARM, "Stop Proc activ"}
 {Cryo,	Cmp,	C1,	StStopCondOk,             782,	6,	False,	True,  NO_ALARM,  NO_ALARM, "Stop Cond ok for end stop process"}
 {Cryo,	Cmp,	C1,	StFastStop,             782,	7,	False,	True,  NO_ALARM,  NO_ALARM, "Fast stop activated"}
-{Cryo,	Cbox,	Cbox,	PmsNotWu,             860,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Not in wu mode"}
-{Cryo,	Cbox,	Cbox,	PmsInstrAirOk,             860,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Instr air ok"}
-{Cryo,	Cbox,	Cbox,	PmsTuxInletVlvCls,             860,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Turbine inlet vlv clsd"}
-{Cryo,	Cbox,	Cbox,	PmsCWFlowTUxOk,             860,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Cool wtr flow tur 1&2 ok"}
-{Cryo,	Cbox,	Cbox,	PmsVacPrOk,             860,	4,	False,	True,  NO_ALARM,  NO_ALARM, "Vac pressure ok"}
-{Cryo,	Cbox,	Cbox,	PmsCxPrStable,             861,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Gasmanagement stable"}
-{Cryo,	Cbox,	Cbox,	PmsTuInVlvNoCtrlSig,             861,	1,	False,	True,  NO_ALARM,  NO_ALARM, "No control signal to tu"}
-{Cryo,	Cbox,	Cbox,	PmsTuxNotTurn,             861,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Turbines not turning"}
-{Cryo,	Cbox,	Cbox,	PmsToManyShutdowns,             861,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Too many shutdowns"}
-{Cryo,	Cbox,	Cbox,	Pms1_4,             861,	4,	False,	True,  NO_ALARM,  NO_ALARM, status}
-{Cryo,	Cbox,	Cbox,	Pms1_5,             861,	5,	False,	True,  NO_ALARM,  NO_ALARM, status}
-{Cryo,	Cbox,	Cbox,	PmsNoCbSd,             861,	6,	False,	True,  NO_ALARM,  NO_ALARM, "No Cbox shutdown"}
-{Cryo,	Cbox,	Cbox,	PmsCmOk,             861,	7,	False,	True,  NO_ALARM,  NO_ALARM, "Cold mode pms fulfilled"}
-{Cryo,	Cbox,	Cbox,	PmsWu_CmOff,             863,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Coldmode off"}
-{Cryo,	Cbox,	Cbox,	PmsWu_TuxInletVlvCls,             863,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Tu inlet vlv clsd"}
-{Cryo,	Cbox,	Cbox,	PmsWu_CxOn,             863,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Compressor on"}
-{Cryo,	Cbox,	Cbox,	PmsWu_CbCold,             863,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Cbox cold"}
-{Cryo,	Cbox,	Cbox,	PmsWu_NoWUSd,             863,	6,	False,	True,  NO_ALARM,  NO_ALARM, "No WU shutdown"}
-{Cryo,	Cbox,	Cbox,	PmsWuOk,             863,	7,	False,	True,  NO_ALARM,  NO_ALARM, "WU pms fulfilled"}
-{Cryo,	Cbox,	Cbox,	SdCxOff,             864,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Cmp off"}
-{Cryo,	Cbox,	Cbox,	SdFuse,             864,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Open fuse"}
-{Cryo,	Cbox,	Cbox,	SdInstrAir,             864,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Instr air fail"}
-{Cryo,	Cbox,	Cbox,	SdBufferPr,             864,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Buffer pressure lo"}
-{Cryo,	Cbox,	Cbox,	SdDewarFull,             864,	4,	False,	True,  NO_ALARM,  NO_ALARM, "Dewar full"}
-{Cryo,	Cbox,	Cbox,	SdCm_BrakeTe_Tu1,             865,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Temp brk cooler tu 1 too high"}
-{Cryo,	Cbox,	Cbox,	SdCm_BrakeTe_Tu2,             864,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Temp brk cooler tu 2 too high"}
-{Cryo,	Cbox,	Cbox,	SdCm_ErrorTu1,             864,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Err Tu 1"}
-{Cryo,	Cbox,	Cbox,	SdCm_ErrorTu2,             864,	4,	False,	True,  NO_ALARM,  NO_ALARM, "Err Tu 2"}
-{Cryo,	Cbox,	Cbox,	SdCm_HWS,             864,	5,	False,	True,  NO_ALARM,  NO_ALARM, "Hardwired safety"}
-{Cryo,	Cbox,	Cbox,	SdCm,             871,	7,	False,	True,  NO_ALARM,  NO_ALARM, "Cold mode shutdown"}
-{Cryo,	Cbox,	Cbox,	SdWu,             872,	7,	False,	True,  NO_ALARM,  NO_ALARM, "Warm-up shutdown"}
-{Cryo,	Cbox,	Cbox,	StOnOffCm,             874,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Cold mode on"}
-{Cryo,	Cbox,	Cbox,	StStartCm,             874,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Start cold mode"}
-{Cryo,	Cbox,	Cbox,	StStopCm,             874,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Stop cold mode by operator"}
-{Cryo,	Cbox,	Cbox,	StRstGSL3130,             874,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Reset of controller"}
-{Cryo,	Cbox,	Cbox,	StColdRestart,             874,	4,	False,	True,  NO_ALARM,  NO_ALARM, "Cold restart"}
-{Cryo,	Cbox,	Cbox,	StCooldown,             874,	5,	False,	True,  NO_ALARM,  NO_ALARM, "Cooldown"}
-{Cryo,	Cbox,	Cbox,	StCooldownEnd,             874,	6,	False,	True,  NO_ALARM,  NO_ALARM, "Cooldown end"}
-{Cryo,	Cbox,	Cbox,	StJtStartOpen,             874,	7,	False,	True,  NO_ALARM,  NO_ALARM, "JT vlv start open"}
-{Cryo,	Cbox,	Cbox,	StTuStringOn,             875,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Turbine string on"}
-{Cryo,	Cbox,	Cbox,	StTu1Turn,             876,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Tu 1 over lo speed lim"}
-{Cryo,	Cbox,	Cbox,	StTu1Cond,             876,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Tu 1 in conditioning"}
-{Cryo,	Cbox,	Cbox,	StTu1BearingGas,             876,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Tu 1 bearing gas on"}
-{Cryo,	Cbox,	Cbox,	StTu1Purge,             876,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Tu 1 purge"}
-{Cryo,	Cbox,	Cbox,	StTu1BearingGasOn,             876,	4,	False,	True,  NO_ALARM,  NO_ALARM, "Tu1 bearing gas on (opn vlv)"}
-{Cryo,	Cbox,	Cbox,	StTu1Warning,             876,	7,	OK,	Warning,  NO_ALARM,  NO_ALARM, "Turbine 1"}
-{Cryo,	Cbox,	Cbox,	StTu2Turn,             877,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Tu 2 over lo speed lim"}
-{Cryo,	Cbox,	Cbox,	StTu2Cond,             877,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Tu 2 in conditioning"}
-{Cryo,	Cbox,	Cbox,	StTu2BearingGas,             877,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Tu 2 bearing gas on"}
-{Cryo,	Cbox,	Cbox,	StTu2Purge,             877,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Tu 2 purge"}
-{Cryo,	Cbox,	Cbox,	StTu2BearingGasOn,             877,	4,	False,	True,  NO_ALARM,  NO_ALARM, "Tu2 bearing gas on (opn vlv)"}
-{Cryo,	Cbox,	Cbox,	StTu2Warning,             877,	7,	OK,	Warning,  NO_ALARM,  NO_ALARM, "Turbine 2"}
-{Cryo,	Cbox,	LN2,	StIlkPmsOk,             878,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Precool permissives ok"}
-{Cryo,	Cbox,	LN2,	StIlkTuLN2_ActiveStat,             878,	1,	Off,	On,  NO_ALARM,  NO_ALARM, "Precool act if ilk act"}
-{Cryo,	Cbox,	LN2,	StIlkTuLN2_PmsTuString,             878,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Tu string pms if ilk active"}
-{Cryo,	Cbox,	LN2,	StIlkTuLN2_On,             878,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Interlock on"}
-{Cryo,	Cbox,	Cbox,	StDwrHtrOn,             879,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Dewar htr on"}
-{Cryo,	Cbox,	Cbox,	StDwrHtrPrHigh,             879,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Dwr Htr pressure too high"}
-{Cryo,	Cbox,	Cbox,	StDwrHtrLvlOk,             879,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Htr lvl ok"}
-{Cryo,	Cbox,	Cbox,	StDwrHtrPmsOk,             879,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Pms fulfilled"}
-{Cryo,	Cbox,	Cbox,	StOnOffWu,             880,	0,	Off,	On,  NO_ALARM,  NO_ALARM, "Warm-up mode"}
-{Cryo,	Cbox,	Cbox,	StWuTerminated,             880,	7,	False,	True,  NO_ALARM,  NO_ALARM, "Wu High Temperature"}
+{Cryo,	CBox,	CBox,	PmsNotWu,             860,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Not in wu mode"}
+{Cryo,	CBox,	CBox,	PmsInstrAirOk,             860,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Instr air ok"}
+{Cryo,	CBox,	CBox,	PmsTuxInletVlvCls,             860,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Turbine inlet vlv clsd"}
+{Cryo,	CBox,	CBox,	PmsCWFlowTUxOk,             860,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Cool wtr flow tur 1&2 ok"}
+{Cryo,	CBox,	CBox,	PmsVacPrOk,             860,	4,	False,	True,  NO_ALARM,  NO_ALARM, "Vac pressure ok"}
+{Cryo,	CBox,	CBox,	PmsCxPrStable,             861,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Gasmanagement stable"}
+{Cryo,	CBox,	CBox,	PmsTuInVlvNoCtrlSig,             861,	1,	False,	True,  NO_ALARM,  NO_ALARM, "No control signal to tu"}
+{Cryo,	CBox,	CBox,	PmsTuxNotTurn,             861,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Turbines not turning"}
+{Cryo,	CBox,	CBox,	PmsToManyShutdowns,             861,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Too many shutdowns"}
+{Cryo,	CBox,	CBox,	Pms1_4,             861,	4,	False,	True,  NO_ALARM,  NO_ALARM, status}
+{Cryo,	CBox,	CBox,	Pms1_5,             861,	5,	False,	True,  NO_ALARM,  NO_ALARM, status}
+{Cryo,	CBox,	CBox,	PmsNoCbSd,             861,	6,	False,	True,  NO_ALARM,  NO_ALARM, "No CBox shutdown"}
+{Cryo,	CBox,	CBox,	PmsCmOk,             861,	7,	False,	True,  NO_ALARM,  NO_ALARM, "Cold mode pms fulfilled"}
+{Cryo,	CBox,	CBox,	PmsWu_CmOff,             863,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Coldmode off"}
+{Cryo,	CBox,	CBox,	PmsWu_TuxInletVlvCls,             863,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Tu inlet vlv clsd"}
+{Cryo,	CBox,	CBox,	PmsWu_CxOn,             863,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Compressor on"}
+{Cryo,	CBox,	CBox,	PmsWu_CbCold,             863,	3,	False,	True,  NO_ALARM,  NO_ALARM, "CBox cold"}
+{Cryo,	CBox,	CBox,	PmsWu_NoWUSd,             863,	6,	False,	True,  NO_ALARM,  NO_ALARM, "No WU shutdown"}
+{Cryo,	CBox,	CBox,	PmsWuOk,             863,	7,	False,	True,  NO_ALARM,  NO_ALARM, "WU pms fulfilled"}
+{Cryo,	CBox,	CBox,	SdCxOff,             864,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Cmp off"}
+{Cryo,	CBox,	CBox,	SdFuse,             864,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Open fuse"}
+{Cryo,	CBox,	CBox,	SdInstrAir,             864,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Instr air fail"}
+{Cryo,	CBox,	CBox,	SdBufferPr,             864,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Buffer pressure lo"}
+{Cryo,	CBox,	CBox,	SdDewarFull,             864,	4,	False,	True,  NO_ALARM,  NO_ALARM, "Dewar full"}
+{Cryo,	CBox,	CBox,	SdCm_BrakeTe_Tu1,             865,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Temp brk cooler tu 1 too high"}
+{Cryo,	CBox,	CBox,	SdCm_BrakeTe_Tu2,             864,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Temp brk cooler tu 2 too high"}
+{Cryo,	CBox,	CBox,	SdCm_ErrorTu1,             864,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Err Tu 1"}
+{Cryo,	CBox,	CBox,	SdCm_ErrorTu2,             864,	4,	False,	True,  NO_ALARM,  NO_ALARM, "Err Tu 2"}
+{Cryo,	CBox,	CBox,	SdCm_HWS,             864,	5,	False,	True,  NO_ALARM,  NO_ALARM, "Hardwired safety"}
+{Cryo,	CBox,	CBox,	SdCm,             871,	7,	False,	True,  NO_ALARM,  NO_ALARM, "Cold mode shutdown"}
+{Cryo,	CBox,	CBox,	SdWu,             872,	7,	False,	True,  NO_ALARM,  NO_ALARM, "Warm-up shutdown"}
+{Cryo,	CBox,	CBox,	StOnOffCm,             874,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Cold mode on"}
+{Cryo,	CBox,	CBox,	StStartCm,             874,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Start cold mode"}
+{Cryo,	CBox,	CBox,	StStopCm,             874,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Stop cold mode by operator"}
+{Cryo,	CBox,	CBox,	StRstGSL3130,             874,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Reset of controller"}
+{Cryo,	CBox,	CBox,	StColdRestart,             874,	4,	False,	True,  NO_ALARM,  NO_ALARM, "Cold restart"}
+{Cryo,	CBox,	CBox,	StCooldown,             874,	5,	False,	True,  NO_ALARM,  NO_ALARM, "Cooldown"}
+{Cryo,	CBox,	CBox,	StCooldownEnd,             874,	6,	False,	True,  NO_ALARM,  NO_ALARM, "Cooldown end"}
+{Cryo,	CBox,	CBox,	StJtStartOpen,             874,	7,	False,	True,  NO_ALARM,  NO_ALARM, "JT vlv start open"}
+{Cryo,	CBox,	CBox,	StTuStringOn,             875,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Turbine string on"}
+{Cryo,	CBox,	CBox,	StTu1Turn,             876,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Tu 1 over lo speed lim"}
+{Cryo,	CBox,	CBox,	StTu1Cond,             876,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Tu 1 in conditioning"}
+{Cryo,	CBox,	CBox,	StTu1BearingGas,             876,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Tu 1 bearing gas on"}
+{Cryo,	CBox,	CBox,	StTu1Purge,             876,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Tu 1 purge"}
+{Cryo,	CBox,	CBox,	StTu1BearingGasOn,             876,	4,	False,	True,  NO_ALARM,  NO_ALARM, "Tu1 bearing gas on (opn vlv)"}
+{Cryo,	CBox,	CBox,	StTu1Warning,             876,	7,	OK,	Warning,  NO_ALARM,  NO_ALARM, "Turbine 1"}
+{Cryo,	CBox,	CBox,	StTu2Turn,             877,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Tu 2 over lo speed lim"}
+{Cryo,	CBox,	CBox,	StTu2Cond,             877,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Tu 2 in conditioning"}
+{Cryo,	CBox,	CBox,	StTu2BearingGas,             877,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Tu 2 bearing gas on"}
+{Cryo,	CBox,	CBox,	StTu2Purge,             877,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Tu 2 purge"}
+{Cryo,	CBox,	CBox,	StTu2BearingGasOn,             877,	4,	False,	True,  NO_ALARM,  NO_ALARM, "Tu2 bearing gas on (opn vlv)"}
+{Cryo,	CBox,	CBox,	StTu2Warning,             877,	7,	OK,	Warning,  NO_ALARM,  NO_ALARM, "Turbine 2"}
+{Cryo,	CBox,	LN2,	StIlkPmsOk,             878,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Precool permissives ok"}
+{Cryo,	CBox,	LN2,	StIlkTuLN2_ActiveStat,             878,	1,	Off,	On,  NO_ALARM,  NO_ALARM, "Precool act if ilk act"}
+{Cryo,	CBox,	LN2,	StIlkTuLN2_PmsTuString,             878,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Tu string pms if ilk active"}
+{Cryo,	CBox,	LN2,	StIlkTuLN2_On,             878,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Interlock on"}
+{Cryo,	CBox,	CBox,	StDwrHtrOn,             879,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Dewar htr on"}
+{Cryo,	CBox,	CBox,	StDwrHtrPrHigh,             879,	1,	False,	True,  NO_ALARM,  NO_ALARM, "Dwr Htr pressure too high"}
+{Cryo,	CBox,	CBox,	StDwrHtrLvlOk,             879,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Htr lvl ok"}
+{Cryo,	CBox,	CBox,	StDwrHtrPmsOk,             879,	3,	False,	True,  NO_ALARM,  NO_ALARM, "Pms fulfilled"}
+{Cryo,	CBox,	CBox,	StOnOffWu,             880,	0,	Off,	On,  NO_ALARM,  NO_ALARM, "Warm-up mode"}
+{Cryo,	CBox,	CBox,	StWuTerminated,             880,	7,	False,	True,  NO_ALARM,  NO_ALARM, "Wu High Temperature"}
 {Cryo,	Pur,	Pur,	PmsSupplyPr,             930,	0,	False,	True,  NO_ALARM,  NO_ALARM, "minimum pre impure He ok"}
 {Cryo,	Pur,	Pur,	PmsTe,             930,	1,	False,	True,  NO_ALARM,  NO_ALARM, "temp ok for pur mode"}
-{Cryo,	Pur,	Pur,	PmsCbCMOn,             930,	2,	False,	True,  NO_ALARM,  NO_ALARM, "Cbox Cold mode on"}
+{Cryo,	Pur,	Pur,	PmsCbCMOn,             930,	2,	False,	True,  NO_ALARM,  NO_ALARM, "CBox Cold mode on"}
 {Cryo,	Pur,	Pur,	PmsPmsHeater,             931,	0,	False,	True,  NO_ALARM,  NO_ALARM, "regen heating enabled"}
 {Cryo,	Pur,	Pur,	PmsOk,             931,	7,	False,	True,  NO_ALARM,  NO_ALARM, "Pms ok"}
 {Cryo,	Pur,	Pur,	SdCbOff,             932,	0,	False,	True,  NO_ALARM,  NO_ALARM, "Coldbox off"}
@@ -300,26 +300,26 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Cmp,	MCD,	Wr_N2,             1003,	1,	OK,	Warning,  NO_ALARM,  MINOR, "Content too hi"}
 {Cryo,	Cmp,	MCD,	Wr_CxHy,             1003,	2,	OK,	Warning,  NO_ALARM,  MINOR, "Content too hi"}
 {Cryo,	Cmp,	MCD,	Wr_Oil,             1003,	3,	OK,	Warning,  NO_ALARM,  MINOR, "Content too hi"}
-{Cryo,	Cbox,	Cbox,	Wr_CWFlowTux,             1007,	1,	OK,	Warning,  NO_ALARM,  MINOR, "Brake cooler flow"}
-{Cryo,	Cbox,	Dwr,	Wr_DewarLvl,             1007,	2,	OK,	Warning,  NO_ALARM,  MINOR, "Dwr lvl too hi"}
+{Cryo,	CBox,	CBox,	Wr_CWFlowTux,             1007,	1,	OK,	Warning,  NO_ALARM,  MINOR, "Brake cooler flow"}
+{Cryo,	CBox,	Dwr,	Wr_DewarLvl,             1007,	2,	OK,	Warning,  NO_ALARM,  MINOR, "Dwr lvl too hi"}
 #mbbi?
-{Cryo,	Cbox,	Dwr,	Wr_DwrLvlUnderRange,             1007,	6,	OK,	Warning,  NO_ALARM,  MINOR, "Msr under range"}
-{Cryo,	Cbox,	Dwr,	Wr_DwrLvlOverRange,             1007,	7,	OK,	Warning,  NO_ALARM,  MINOR, "Msr over range"}
+{Cryo,	CBox,	Dwr,	Wr_DwrLvlUnderRange,             1007,	6,	OK,	Warning,  NO_ALARM,  MINOR, "Msr under range"}
+{Cryo,	CBox,	Dwr,	Wr_DwrLvlOverRange,             1007,	7,	OK,	Warning,  NO_ALARM,  MINOR, "Msr over range"}
 #mbbi?
-{Cryo,	Cbox,	Cbox,	Wr_BrakeTeHigh_Tu2,             1008,	1,	OK,	Warning,  NO_ALARM,  MINOR, "temp high tu2"}
-{Cryo,	Cbox,	Cbox,	Wr_TeLowTu2,             1008,	2,	OK,	Warning,  NO_ALARM,  MINOR, "temp low tu2"}
+{Cryo,	CBox,	CBox,	Wr_BrakeTeHigh_Tu2,             1008,	1,	OK,	Warning,  NO_ALARM,  MINOR, "temp high tu2"}
+{Cryo,	CBox,	CBox,	Wr_TeLowTu2,             1008,	2,	OK,	Warning,  NO_ALARM,  MINOR, "temp low tu2"}
 
-{Cryo,	Cbox,	Cbox,	Wr_SpeedHighTu2,             1008,	3,	OK,	Warning,  NO_ALARM,  MINOR, "speed high tu2"}
-{Cryo,	Cbox,	Cbox,	Wr_SpeedLowTu2,             1008,	4,	OK,	Warning,  NO_ALARM,  MINOR, "speed low tu2"}
+{Cryo,	CBox,	CBox,	Wr_SpeedHighTu2,             1008,	3,	OK,	Warning,  NO_ALARM,  MINOR, "speed high tu2"}
+{Cryo,	CBox,	CBox,	Wr_SpeedLowTu2,             1008,	4,	OK,	Warning,  NO_ALARM,  MINOR, "speed low tu2"}
 
-{Cryo,	Cbox,	Cbox,	Wr_BrakeTeHigh_Tu1,             1009,	1,	OK,	Warning,  NO_ALARM,  MINOR, "temp high tu1"}
-{Cryo,	Cbox,	Cbox,	Wr_TeLowTu1,             1009,	2,	OK,	Warning,  NO_ALARM,  MINOR, "temp low tu1"}
+{Cryo,	CBox,	CBox,	Wr_BrakeTeHigh_Tu1,             1009,	1,	OK,	Warning,  NO_ALARM,  MINOR, "temp high tu1"}
+{Cryo,	CBox,	CBox,	Wr_TeLowTu1,             1009,	2,	OK,	Warning,  NO_ALARM,  MINOR, "temp low tu1"}
 
-{Cryo,	Cbox,	Cbox,	Wr_SpeedHighTu1,             1009,	3,	OK,	Warning,  NO_ALARM,  MINOR, "speed high tu1"}
-{Cryo,	Cbox,	Cbox,	Wr_SpeedLowTu1,             1009,	4,	OK,	Warning,  NO_ALARM,  MINOR, "speed low tu1"}
+{Cryo,	CBox,	CBox,	Wr_SpeedHighTu1,             1009,	3,	OK,	Warning,  NO_ALARM,  MINOR, "speed high tu1"}
+{Cryo,	CBox,	CBox,	Wr_SpeedLowTu1,             1009,	4,	OK,	Warning,  NO_ALARM,  MINOR, "speed low tu1"}
 
-{Cryo,	Cbox,	LN2,	Wr_TAL3605,             1011,	0,	OK,	Warning,  NO_ALARM,  MINOR, "Outlet temp low"}
-{Cryo,	Cbox,	LN2,	Wr_TAL3610,             1011,	1,	OK,	Warning,  NO_ALARM,  MINOR, "Process temp low"}
+{Cryo,	CBox,	LN2,	Wr_TAL3605,             1011,	0,	OK,	Warning,  NO_ALARM,  MINOR, "Outlet temp low"}
+{Cryo,	CBox,	LN2,	Wr_TAL3610,             1011,	1,	OK,	Warning,  NO_ALARM,  MINOR, "Process temp low"}
 {Cryo,	Pur,	Pur,	Wr_SepLvlFail,             1012,	0,	OK,	Warning,  NO_ALARM,  MINOR, "separator lvl fail"}
 {Cryo,	VacSyS,	VacSys,	Wr_VcmCb_PrUnderRange,             1014,	0,	OK,	Warning,  NO_ALARM,  MINOR, "vcm msrmnt under range"}
 {Cryo,	VacSyS,	VacSys,	Wr_VcmCb_PrOverRange,             1014,	1,	OK,	Warning,  NO_ALARM,  MINOR, "vcm msrmnt over range"}
@@ -332,49 +332,49 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Pur,	Pur,	Wr_StaTout006,             1022,	6,	OK,	Warning,  NO_ALARM,  NO_ALARM, Cd2}
 {Cryo,	Pur,	Pur,	Wr_StaTout007,             1022,	7,	OK,	Warning,  NO_ALARM,  NO_ALARM, Purify}
 {Cryo,	Pur,	Pur,	Wr_StaTout008,             1023,	0,	OK,	Warning,  NO_ALARM,  NO_ALARM, Regen}
-{Cryo,	Cbox,	Pur,	Wr_TI3465,             1042,	0,	OK,	Warning,  NO_ALARM,  NO_ALARM, TI3465}
-{Cryo,	Cbox,	Pur,	Wr_TI3475,             1042,	1,	OK,	Warning,  NO_ALARM,  NO_ALARM, TI3475}
-{Cryo,	Cbox,	Pur,	Wr_TI3460,             1042,	2,	OK,	Warning,  NO_ALARM,  NO_ALARM, TI3460}
-{Cryo,	Cbox,	Pur,	Wr_TI3454,             1042,	3,	OK,	Warning,  NO_ALARM,  NO_ALARM, TI3454}
+{Cryo,	CBox,	Pur,	Wr_TI3465,             1042,	0,	OK,	Warning,  NO_ALARM,  NO_ALARM, TI3465}
+{Cryo,	CBox,	Pur,	Wr_TI3475,             1042,	1,	OK,	Warning,  NO_ALARM,  NO_ALARM, TI3475}
+{Cryo,	CBox,	Pur,	Wr_TI3460,             1042,	2,	OK,	Warning,  NO_ALARM,  NO_ALARM, TI3460}
+{Cryo,	CBox,	Pur,	Wr_TI3454,             1042,	3,	OK,	Warning,  NO_ALARM,  NO_ALARM, TI3454}
 
 
 {Cryo,	Rec,	LP,	Wr377_QI7210_ErrSum,	1046,	0,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	HP,	Wr378_TI3115_ErrSum,	1046,	1,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr378_TI3115_ErrSum,	1046,	1,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
 {Cryo,	Rec,	LP,	Wr379_QI7220_ErrSum,	1046,	2,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
 {Cryo,	Rec,	LP,	Wr380_QI7230_ErrSum,	1046,	3,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
 {Cryo,	Rec,	LP,	Wr381_QI7240_ErrSum,	1046,	4,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
 {Cryo,	Rec,	LP,	Wr383_QI7250_ErrSum,	1046,	5,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	Pur,	Wr383_PI3404_ErrSum,	1046,	6,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr383_PI3404_ErrSum,	1046,	6,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
 {Cryo,	Rec,	LP,	Wr383_PDI3685_ErrSum,	1046,	7,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
 {Cryo,	ICn,	LP,	Wr369_TI5220_ErrSum,	1047,	0,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
 {Cryo,	Rec,	LP,	Wr370_TI7215_ErrSum,	1047,	1,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	HP,	Wr397_SI3131_ErrSum,	1048,	4,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	HP,	Wr398_SI3151_ErrSum,	1048,	5,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	HP,	Wr399_PI3130_ErrSum,	1048,	6,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	HP,	Wr400_PI3150_ErrSum,	1048,	7,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	LP,	Wr385_PI3290_ErrSum,	1049,	0,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	VacSys,	Wr386_PI3905_ErrSum,	1049,	1,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	HP,	Wr387_TI3131_ErrSum,	1049,	2,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	HP,	Wr388_TI3151_ErrSum,	1049,	3,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	HP,	Wr389_TI3130_ErrSum,	1049,	4,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	HP,	Wr390_TI3155_ErrSum,	1049,	5,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	LP,	Wr391_TI3280_ErrSum,	1049,	6,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	HP,	Wr392_TI3112_ErrSum,	1049,	7,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	LN2,	Wr409_TI3610_ErrSum,	1050,	0,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	LN2,	Wr410_TI3605_ErrSum,	1050,	1,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr397_SI3131_ErrSum,	1048,	4,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr398_SI3151_ErrSum,	1048,	5,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr399_PI3130_ErrSum,	1048,	6,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr400_PI3150_ErrSum,	1048,	7,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	LP,	Wr385_PI3290_ErrSum,	1049,	0,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	VacSys,	Wr386_PI3905_ErrSum,	1049,	1,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr387_TI3131_ErrSum,	1049,	2,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr388_TI3151_ErrSum,	1049,	3,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr389_TI3130_ErrSum,	1049,	4,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr390_TI3155_ErrSum,	1049,	5,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	LP,	Wr391_TI3280_ErrSum,	1049,	6,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr392_TI3112_ErrSum,	1049,	7,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	LN2,	Wr409_TI3610_ErrSum,	1050,	0,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	LN2,	Wr410_TI3605_ErrSum,	1050,	1,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
 {Cryo,	ICn,	HP,	Wr412_LI5200_ErrSum,	1050,	3,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	Pur,	Wr413_PI3400_ErrSum,	1050,	4,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	Pur,	Wr414_PI3401_ErrSum,	1050,	5,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	Pur,	Wr415_PI3445_ErrSum,	1050,	6,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	Pur,	Wr416_LI3470_ErrSum,	1050,	7,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	HP,	Wr401_PI3117_ErrSum,	1051,	0,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	HP,	Wr402_PI3154_ErrSum,	1051,	1,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	HP,	Wr403_TI3111_ErrSum,	1051,	2,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	Pur,	Wr405_PI3420_ErrSum,	1051,	4,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	Pur,	Wr406_PI3465_ErrSum,	1051,   5,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	Pur,	Wr407_PI3460_ErrSum,	1051,   6,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	Pur,	Wr425_TI3440_ErrSum,	1052,   0,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cbox,	Pur,	Wr426_TI3450_ErrSum,	1052,   1,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr413_PI3400_ErrSum,	1050,	4,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr414_PI3401_ErrSum,	1050,	5,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr415_PI3445_ErrSum,	1050,	6,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr416_LI3470_ErrSum,	1050,	7,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr401_PI3117_ErrSum,	1051,	0,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr402_PI3154_ErrSum,	1051,	1,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr403_TI3111_ErrSum,	1051,	2,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr405_PI3420_ErrSum,	1051,	4,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr406_PI3465_ErrSum,	1051,   5,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr407_PI3460_ErrSum,	1051,   6,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr425_TI3440_ErrSum,	1052,   0,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr426_TI3450_ErrSum,	1052,   1,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
 {Cryo,	Cmp,	HP,	Wr421_PI2160_ErrSum,	1053,	4,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
 {Cryo,	Cmp,	HP,	Wr422_PI2170_ErrSum,	1053,	5,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
 {Cryo,	Cmp,	LP,	Wr423_PI2240_ErrSum,	1053,	6,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
@@ -400,67 +400,67 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Cmp,	C2,	Tr021_C2_Fault,	1059,	4,	OK, Fault,  NO_ALARM, MAJOR, "C2 Fault"}
 {Cryo,	Cmp,	C2,	Tr022_C2_NoReturnInfo,	1059,	5,	OK, "No conf",  NO_ALARM, MINOR, "C2 running conf"}
 {Cryo,	Cmp,	C2,	Tr023_C2_CwFail,	1059,	6,	OK, Failure,  NO_ALARM, MAJOR, "C2 Cooling water"}
-{Cryo,	Cbox,	Cbox,	Tr033_Cb_SdCmprOff,	1061,	0,	running, "not running",  NO_ALARM, MAJOR, "Cmp not running"}
-{Cryo,	Cbox,	Cbox,	Tr034_Cb_SdInstrAirMiss,	1061,	1,	"Not missing", missing,  NO_ALARM, MAJOR, "Instr air missing"}
-{Cryo,	Cbox,	Cbox,	Tr035_Cb_SdOpenFuse,	1061,	2,	OK, "Stop-check cabinet",  NO_ALARM, MAJOR, "fuses fallen off stop"}
-{Cryo,	Cbox,	Cbox,	Tr037_Cb_SdBufferPr,	1061,	4,	OK, "Too low",  NO_ALARM, MAJOR, "pure-he buffer"}
-{Cryo,	Cbox,	Dwr,	Tr038_Cb_SdDewarFull,	1061,	5,	OK, Full,  NO_ALARM, MAJOR, "dewar filling"}
-{Cryo,	Cbox,	Tu1,	Tr049_Cb_SdBrakeTe_Tu1,	1063,	0,	OK, "Too high",  NO_ALARM, MAJOR, "brake cooler tu 1 temp"}
-{Cryo,	Cbox,	Tu2,	Tr050_Cb_SdBrakeTe_Tu2,	1063,	1,	OK, "Too high",  NO_ALARM, MAJOR, "brake cooler tu 2 temp"}
-{Cryo,	Cbox,	Tu2,	Tr073_Cb_SdInPrLowTu2,	1064,	0,	OK, Low,  NO_ALARM, MINOR, "inlet pressure tu 2"}
-{Cryo,	Cbox,	Tu2,	Tr074_Cb_SdOutPrLowTu2,	1064,	1,	OK, Low,  NO_ALARM, MINOR, "outlet pressure tu 2"}
-{Cryo,	Cbox,	Tu2,	Tr075_Cb_SdOutTeLowTu2,	1064,	2,	OK, Low,  NO_ALARM, MINOR, "outlet temp tu 2"}
+{Cryo,	CBox,	CBox,	Tr033_Cb_SdCmprOff,	1061,	0,	running, "not running",  NO_ALARM, MAJOR, "Cmp not running"}
+{Cryo,	CBox,	CBox,	Tr034_Cb_SdInstrAirMiss,	1061,	1,	"Not missing", missing,  NO_ALARM, MAJOR, "Instr air missing"}
+{Cryo,	CBox,	CBox,	Tr035_Cb_SdOpenFuse,	1061,	2,	OK, "Stop-check cabinet",  NO_ALARM, MAJOR, "fuses fallen off stop"}
+{Cryo,	CBox,	CBox,	Tr037_Cb_SdBufferPr,	1061,	4,	OK, "Too low",  NO_ALARM, MAJOR, "pure-he buffer"}
+{Cryo,	CBox,	Dwr,	Tr038_Cb_SdDewarFull,	1061,	5,	OK, Full,  NO_ALARM, MAJOR, "dewar filling"}
+{Cryo,	CBox,	Tu1,	Tr049_Cb_SdBrakeTe_Tu1,	1063,	0,	OK, "Too high",  NO_ALARM, MAJOR, "brake cooler tu 1 temp"}
+{Cryo,	CBox,	Tu2,	Tr050_Cb_SdBrakeTe_Tu2,	1063,	1,	OK, "Too high",  NO_ALARM, MAJOR, "brake cooler tu 2 temp"}
+{Cryo,	CBox,	Tu2,	Tr073_Cb_SdInPrLowTu2,	1064,	0,	OK, Low,  NO_ALARM, MINOR, "inlet pressure tu 2"}
+{Cryo,	CBox,	Tu2,	Tr074_Cb_SdOutPrLowTu2,	1064,	1,	OK, Low,  NO_ALARM, MINOR, "outlet pressure tu 2"}
+{Cryo,	CBox,	Tu2,	Tr075_Cb_SdOutTeLowTu2,	1064,	2,	OK, Low,  NO_ALARM, MINOR, "outlet temp tu 2"}
 
 #mbbi?
-{Cryo,	Cbox,	Tu2,	Tr076_Cb_SdSpeedHighTu2,1064,	3,	"Not too high", "Too high",  NO_ALARM, MAJOR, "tu 2 speed hi"}
-{Cryo,	Cbox,	Tu2,	Tr077_Cb_SdSpeedLowTu2, 1064,	4,	"Not too low", "Too low",  NO_ALARM, MAJOR, "tu 2 speed lo"} 
+{Cryo,	CBox,	Tu2,	Tr076_Cb_SdSpeedHighTu2,1064,	3,	"Not too high", "Too high",  NO_ALARM, MAJOR, "tu 2 speed hi"}
+{Cryo,	CBox,	Tu2,	Tr077_Cb_SdSpeedLowTu2, 1064,	4,	"Not too low", "Too low",  NO_ALARM, MAJOR, "tu 2 speed lo"} 
 
-{Cryo,	Cbox,	Tu2,	Tr078_Cb_SdPrRatioTu2, 1064,	5,	OK, Failure,  NO_ALARM, MAJOR, "tu 2 pressure ratio"}
-{Cryo,	Cbox,	Tu2,	Tr079_Cb_SdBearingGasTu2, 1064,	6,	OK, Missing,  NO_ALARM, MAJOR, "tu 2 bearing gas"}  
-{Cryo,	Cbox,	Tux,	Tr080_Cb_SdHardwireTux, 1064,	7,	OK, Trip,  NO_ALARM, MAJOR, "hrdwire safety turbines"}
-{Cryo,	Cbox,	Tu1,	Tr065_Cb_SdInPrLowTu1,	1065,	0,	OK, Low,  NO_ALARM, MINOR, "inlet pressure tu 1"}
-{Cryo,	Cbox,	Tu1,	Tr066_Cb_SdOutPrLowTu1,	1065,	1,	OK, Low,  NO_ALARM, MINOR, "outlet pressure tu 1"}
-{Cryo,	Cbox,	Tu1,	Tr067_Cb_SdOutTeLowTu1,	1065,	2,	OK, Low,  NO_ALARM, MINOR, "outlet temp tu 1"}
+{Cryo,	CBox,	Tu2,	Tr078_Cb_SdPrRatioTu2, 1064,	5,	OK, Failure,  NO_ALARM, MAJOR, "tu 2 pressure ratio"}
+{Cryo,	CBox,	Tu2,	Tr079_Cb_SdBearingGasTu2, 1064,	6,	OK, Missing,  NO_ALARM, MAJOR, "tu 2 bearing gas"}  
+{Cryo,	CBox,	Tux,	Tr080_Cb_SdHardwireTux, 1064,	7,	OK, Trip,  NO_ALARM, MAJOR, "hrdwire safety turbines"}
+{Cryo,	CBox,	Tu1,	Tr065_Cb_SdInPrLowTu1,	1065,	0,	OK, Low,  NO_ALARM, MINOR, "inlet pressure tu 1"}
+{Cryo,	CBox,	Tu1,	Tr066_Cb_SdOutPrLowTu1,	1065,	1,	OK, Low,  NO_ALARM, MINOR, "outlet pressure tu 1"}
+{Cryo,	CBox,	Tu1,	Tr067_Cb_SdOutTeLowTu1,	1065,	2,	OK, Low,  NO_ALARM, MINOR, "outlet temp tu 1"}
 #mbbi?
-{Cryo,	Cbox,	Tu1,	Tr068_Cb_SdSpeedHighTu1,1065,	3,	"Not too high", "Too high",  NO_ALARM, MAJOR, "tu 1 speed hi"}
-{Cryo,	Cbox,	Tu1,	Tr069_Cb_SdSpeedLowTu1, 1065,	4,	"Not too low", "Too low",  NO_ALARM, MAJOR, "tu 1 speed lo"} 
+{Cryo,	CBox,	Tu1,	Tr068_Cb_SdSpeedHighTu1,1065,	3,	"Not too high", "Too high",  NO_ALARM, MAJOR, "tu 1 speed hi"}
+{Cryo,	CBox,	Tu1,	Tr069_Cb_SdSpeedLowTu1, 1065,	4,	"Not too low", "Too low",  NO_ALARM, MAJOR, "tu 1 speed lo"} 
 
-{Cryo,	Cbox,	Tu1,	Tr070_Cb_SdPrRatioTu1, 1065,	5,	OK, Failure,  NO_ALARM, MAJOR, "tu 1 pressure ratio"}
-{Cryo,	Cbox,	Tu1,	Tr071_Cb_SdBearingGasTu1, 1065,	6,	OK, Missing,  NO_ALARM, MAJOR, "tu 1 bearing gas"}
-{Cryo,	Cbox,	LN2,	Tr082_LN2_TALL3610, 1067,	1,	OK, "Too low",  NO_ALARM, MAJOR, "process temp"}
-{Cryo,	Cbox,	Pur,	Tr105_Pu_SdCbOff, 1068,	0,	On, Off,  NO_ALARM, NO_ALARM, "Cbox On/off"}
+{Cryo,	CBox,	Tu1,	Tr070_Cb_SdPrRatioTu1, 1065,	5,	OK, Failure,  NO_ALARM, MAJOR, "tu 1 pressure ratio"}
+{Cryo,	CBox,	Tu1,	Tr071_Cb_SdBearingGasTu1, 1065,	6,	OK, Missing,  NO_ALARM, MAJOR, "tu 1 bearing gas"}
+{Cryo,	CBox,	LN2,	Tr082_LN2_TALL3610, 1067,	1,	OK, "Too low",  NO_ALARM, MAJOR, "process temp"}
+{Cryo,	CBox,	Pur,	Tr105_Pu_SdCbOff, 1068,	0,	On, Off,  NO_ALARM, NO_ALARM, "CBox On/off"}
 {Cryo,	Pur,	Pur,	Tr107_Pu_SdSupplyPrLow, 1068,	2,	OK,"Too low",  NO_ALARM, NO_ALARM, "impure he supply pressure"}
 {Cryo,	Pur,	Pur,	Tr108_Pu_SdSepLvl, 1068,	3,	OK, "Not achieved",  NO_ALARM, NO_ALARM, "Separator level lo"}
 {Cryo,	Ctrl,	Ctrl,	Reset_Flash, 1100,	0,	Idle, Reset,  NO_ALARM, NO_ALARM, "Rst Flashlight TP and Visu"}
-{Cryo,	Cbox,	Ads80K,	AdsPmsP3117, 1110,	0,	"Not OK", OK,  NO_ALARM, NO_ALARM, "Pressure outlet"}
-{Cryo,	Cbox,	Ads80K,	AdsPmsNoSd, 1110,	1,	False, True,  NO_ALARM, NO_ALARM, "No shutdown adsrptn mode"}
-{Cryo,	Cbox,	Ads80K,	AdsPmsOk, 1110,	7,	False, True,  NO_ALARM, NO_ALARM, "All pms fulfilled"}
-{Cryo,	Cbox,	Ads80K,	RegPmsNoSd, 1111,	1,	False, True,  NO_ALARM, NO_ALARM, "No sd regen mode"}
-{Cryo,	Cbox,	Ads80K,	RegPmsOk, 1111,	7,	False, True,  NO_ALARM, NO_ALARM, "All pms fulfilled"}
-{Cryo,	Cbox,	Ads80K,	AdsSd,  1112,	7,	False, True,  NO_ALARM, NO_ALARM, "Common shutdown"}
-{Cryo,	Cbox,	Ads80K,	RegSd,  1113,	7,	False, True,  NO_ALARM, NO_ALARM, "Common shutdown"}
-{Cryo,	Cbox,	Ads80K,	StaEntry,  1126,	0,	False, True,  NO_ALARM, NO_ALARM, status}
-{Cryo,	Cbox,	Ads80K,	StaCondition,  1126,	1,	False, True,  NO_ALARM, NO_ALARM, status}
-{Cryo,	Cbox,	Ads80K,	SigOprtrRstPls,  1134,	0,	False, True,  NO_ALARM, NO_ALARM, "Op step chain reset pulse"}
-{Cryo,	Cbox,	Ads80K,	SigOprtrStepPls,  1134,	1,	False, True,  NO_ALARM, NO_ALARM, "Op step pulse"}
-{Cryo,	Cbox,	Ads80K,	SigAdsModeOn,  1134,	2,	Off, On,  NO_ALARM, NO_ALARM, "Adsorption mode"}
-{Cryo,	Cbox,	Ads80K,	SigRegModeOn,  1134,	3,	Off, On,  NO_ALARM, NO_ALARM, "Regeneration mode"}
-{Cryo,	Cbox,	Ads80K,	SigRegOkPls,  1134,	4,	False, True,  NO_ALARM, NO_ALARM, "Ads regenerated pulse"}
-{Cryo,	Cbox,	Ads80K,	SigSeqRls,  1134,	5,	Idle, Released,  NO_ALARM, NO_ALARM, Sequence}
-{Cryo,	Cbox,	Ads80K,	ActAdsReset,  1216,	0,	False, True,  NO_ALARM, NO_ALARM, status}
-{Cryo,	Cbox,	Ads80K,	LastAdsReset,  1246,	0,	False, True,  NO_ALARM, NO_ALARM, status}
-{Cryo,	Cbox,	Ads80K,	TotAdsReset,  1276,	0,	False, True,  NO_ALARM, NO_ALARM, status}
-{Cryo,	Cbox,	Ads80K,	ActRegReset,  1306,	0,	False, True,  NO_ALARM, NO_ALARM, status}
-{Cryo,	Cbox,	Ads80K,	LastRegReset,  1336,	0,	False, True,  NO_ALARM, NO_ALARM, status}
-{Cryo,	Cbox,	Ads80K,	TotRegReset,  1366,	0,	False, True,  NO_ALARM, NO_ALARM, status}
-{Cryo,	Cbox,	Ads80K,	INIT,  1430,	0,	False, True,  NO_ALARM, NO_ALARM, INIT}
-{Cryo,	Cbox,	Ads80K,	PRESSURIZE,  1430,	1,	False, True,  NO_ALARM, NO_ALARM, PRESSURIZE}
-{Cryo,	Cbox,	Ads80K,	COOLDOWN,  1430,	2,	False, True,  NO_ALARM, NO_ALARM, COOLDOWN}
-{Cryo,	Cbox,	Ads80K,	ADSORPTION,  1430,	3,	False, True,  NO_ALARM, NO_ALARM, ADSORPTION}
-{Cryo,	Cbox,	Ads80K,	PARALLEL,  1430,	4,	False, True,  NO_ALARM, NO_ALARM, PARALLEL}
-{Cryo,	Cbox,	Ads80K,	ISOLATION,  1430,	5,	False, True,  NO_ALARM, NO_ALARM, ISOLATION}
-{Cryo,	Cbox,	Ads80K,	DEPRESS,  1430,	   6,	      False, True,  NO_ALARM, NO_ALARM, DEPRESS}
-{Cryo,	Cbox,	Ads80K,	MANUAL,  1430,	   7,	    False, True,  NO_ALARM, NO_ALARM, MANUAL}
+{Cryo,	CBox,	Ads80K,	AdsPmsP3117, 1110,	0,	"Not OK", OK,  NO_ALARM, NO_ALARM, "Pressure outlet"}
+{Cryo,	CBox,	Ads80K,	AdsPmsNoSd, 1110,	1,	False, True,  NO_ALARM, NO_ALARM, "No shutdown adsrptn mode"}
+{Cryo,	CBox,	Ads80K,	AdsPmsOk, 1110,	7,	False, True,  NO_ALARM, NO_ALARM, "All pms fulfilled"}
+{Cryo,	CBox,	Ads80K,	RegPmsNoSd, 1111,	1,	False, True,  NO_ALARM, NO_ALARM, "No sd regen mode"}
+{Cryo,	CBox,	Ads80K,	RegPmsOk, 1111,	7,	False, True,  NO_ALARM, NO_ALARM, "All pms fulfilled"}
+{Cryo,	CBox,	Ads80K,	AdsSd,  1112,	7,	False, True,  NO_ALARM, NO_ALARM, "Common shutdown"}
+{Cryo,	CBox,	Ads80K,	RegSd,  1113,	7,	False, True,  NO_ALARM, NO_ALARM, "Common shutdown"}
+{Cryo,	CBox,	Ads80K,	StaEntry,  1126,	0,	False, True,  NO_ALARM, NO_ALARM, status}
+{Cryo,	CBox,	Ads80K,	StaCondition,  1126,	1,	False, True,  NO_ALARM, NO_ALARM, status}
+{Cryo,	CBox,	Ads80K,	SigOprtrRstPls,  1134,	0,	False, True,  NO_ALARM, NO_ALARM, "Op step chain reset pulse"}
+{Cryo,	CBox,	Ads80K,	SigOprtrStepPls,  1134,	1,	False, True,  NO_ALARM, NO_ALARM, "Op step pulse"}
+{Cryo,	CBox,	Ads80K,	SigAdsModeOn,  1134,	2,	Off, On,  NO_ALARM, NO_ALARM, "Adsorption mode"}
+{Cryo,	CBox,	Ads80K,	SigRegModeOn,  1134,	3,	Off, On,  NO_ALARM, NO_ALARM, "Regeneration mode"}
+{Cryo,	CBox,	Ads80K,	SigRegOkPls,  1134,	4,	False, True,  NO_ALARM, NO_ALARM, "Ads regenerated pulse"}
+{Cryo,	CBox,	Ads80K,	SigSeqRls,  1134,	5,	Idle, Released,  NO_ALARM, NO_ALARM, Sequence}
+{Cryo,	CBox,	Ads80K,	ActAdsReset,  1216,	0,	False, True,  NO_ALARM, NO_ALARM, status}
+{Cryo,	CBox,	Ads80K,	LastAdsReset,  1246,	0,	False, True,  NO_ALARM, NO_ALARM, status}
+{Cryo,	CBox,	Ads80K,	TotAdsReset,  1276,	0,	False, True,  NO_ALARM, NO_ALARM, status}
+{Cryo,	CBox,	Ads80K,	ActRegReset,  1306,	0,	False, True,  NO_ALARM, NO_ALARM, status}
+{Cryo,	CBox,	Ads80K,	LastRegReset,  1336,	0,	False, True,  NO_ALARM, NO_ALARM, status}
+{Cryo,	CBox,	Ads80K,	TotRegReset,  1366,	0,	False, True,  NO_ALARM, NO_ALARM, status}
+{Cryo,	CBox,	Ads80K,	INIT,  1430,	0,	False, True,  NO_ALARM, NO_ALARM, INIT}
+{Cryo,	CBox,	Ads80K,	PRESSURIZE,  1430,	1,	False, True,  NO_ALARM, NO_ALARM, PRESSURIZE}
+{Cryo,	CBox,	Ads80K,	COOLDOWN,  1430,	2,	False, True,  NO_ALARM, NO_ALARM, COOLDOWN}
+{Cryo,	CBox,	Ads80K,	ADSORPTION,  1430,	3,	False, True,  NO_ALARM, NO_ALARM, ADSORPTION}
+{Cryo,	CBox,	Ads80K,	PARALLEL,  1430,	4,	False, True,  NO_ALARM, NO_ALARM, PARALLEL}
+{Cryo,	CBox,	Ads80K,	ISOLATION,  1430,	5,	False, True,  NO_ALARM, NO_ALARM, ISOLATION}
+{Cryo,	CBox,	Ads80K,	DEPRESS,  1430,	   6,	      False, True,  NO_ALARM, NO_ALARM, DEPRESS}
+{Cryo,	CBox,	Ads80K,	MANUAL,  1430,	   7,	    False, True,  NO_ALARM, NO_ALARM, MANUAL}
 {Cryo,	ICn,	Dwr,	PmsT5220,  1470,	   0,	    "Not permissive", Permissive,  NO_ALARM, NO_ALARM, status}
 {Cryo,	Dwr,	Dwr,	PmsNoSd,  1470,	   1,	    False, True,  NO_ALARM, NO_ALARM, status}
 {Cryo,	Dwr,	Dwr,	PmsOk,  1470,	   7,	    False, True,  NO_ALARM, NO_ALARM, status}
@@ -524,10 +524,10 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Cmp,	C2,	SwOnStat, 620,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
 {Cryo,	MCD,	MCD,	SwOnStat, 630,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
 {Cryo,	HP,	DisChrgRec,	SwOnStat, 640,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
-{Cryo,	Cbox,	CoolMode,	SwOnStat, 650,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
-{Cryo,	Cbox,	WarmUpMode,	SwOnStat, 660,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
-{Cryo,	Cbox,	LN2,	SwOnStat, 670,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
-{Cryo,	Cbox,	LN2-IlkTu,	SwOnStat, 680,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
+{Cryo,	CBox,	CoolMode,	SwOnStat, 650,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
+{Cryo,	CBox,	WarmUpMode,	SwOnStat, 660,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
+{Cryo,	CBox,	LN2,	SwOnStat, 670,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
+{Cryo,	CBox,	LN2-IlkTu,	SwOnStat, 680,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
 {Cryo,	Dwr,	Htr,	SwOnStat, 690,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
 {Cryo,	VacSys,	VacSys,	SwOnStat, 700,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
 {Cryo,	Pur,	Pur,	SwOnStat, 710,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
@@ -563,21 +563,21 @@ file "visu_state.template" { pattern
 file "lindeAnalogFloatInput.template" { pattern
 {SUBS,	DEV,	SIG,	            OFFS, EGU, DESC}
 {Rec,	LP,	QI7210,	            20, "%", "Impur monitor system quality"}
-{Cbox,	HP,	TI3115,	            24, K, "Ads regen htr temp"}
+{CBox,	HP,	TI3115,	            24, K, "Ads regen htr temp"}
 {Rec,	LP,	QI7220,	            28, "%", "Feed gas impurity"}
 {Rec,	LP,	QI7230,	            32, "%", "Feed gas impurity"}
 {Rec,	LP,	QI7240,	            36, "%", "Feed gas impurity"}
 {Rec,	LP,	QI7250,	            40, "%", "Feed gas impurity"}
-{Cbox,	Pur,	PI3404,	            44, bara, "HP-Bundles outlet pre"}
+{CBox,	Pur,	PI3404,	            44, bara, "HP-Bundles outlet pre"}
 
 {Dwr,	LP,	TI5220,	    52,   "°C", temperature}
 {Rec,	LP,	TI7215,	    56,   "°C",	 temperature}
-{Cbox,	HP,	SI3131,	            100, "m/s", "Speed tu 1"}
-{Cbox,	HP,	SI3151,	            104, "m/s", "Speed tu 2"}
-{Cbox,	HP,	PI3130,	            108, bara, "Inlet pre tu 1"}
-{Cbox,	HP,	PI3150,	            112, bara, "Inlet pre tu 2"}
-{Cbox,	LP,	PI3290,	            116, bara, "Dwr take back pre"}
-{Cbox,	VacSys,	PI3905,	            120, bara, "Insul pre"}
+{CBox,	HP,	SI3131,	            100, "m/s", "Speed tu 1"}
+{CBox,	HP,	SI3151,	            104, "m/s", "Speed tu 2"}
+{CBox,	HP,	PI3130,	            108, bara, "Inlet pre tu 1"}
+{CBox,	HP,	PI3150,	            112, bara, "Inlet pre tu 2"}
+{CBox,	LP,	PI3290,	            116, bara, "Dwr take back pre"}
+{CBox,	VacSys,	PI3905,	            120, bara, "Insul pre"}
 {CBox,	HP,	TI3131,	    124,  K, temperature}
 {CBox,	HP,	TI3151,	    128,  K, temperature}
 {CBox,	HP,	TI3130,	    132,  K, temperature}
@@ -585,14 +585,14 @@ file "lindeAnalogFloatInput.template" { pattern
 {CBox,	LP,	TI3280,	    140,  K, temperature}
 {CBox,	HP,	TI3112,	    144,  K, temperature}
 {CBox,	LN2,	TI3610,	    148,  K, temperature}
-{Cbox,	LN2,	TI3605,	    152,  "°C",	temperature}
+{CBox,	LN2,	TI3605,	    152,  "°C",	temperature}
 {Dwr,	LHe,	LI5200-PercOut,	    160,  "%", percent}
-{Cbox,	Pur,	PI3400,	    164,  bara, "impure he inlet pre"}
-{Cbox,	Pur,	PI3401,	    168,  bara, "impure he pre"}
-{Cbox,	Pur,	PI3445,	    172,  bara, "Purifier pre"}
-{Cbox,	Pur,	LI3470,	    176,  "%", "Purifier level"}
-{Cbox,	HP,	PI3117,	    180,  bara, "Ads80K Outlet pre"}
-{Cbox,	HP,	PI3154,	    184,  bara, "Ads20K pre"}
+{CBox,	Pur,	PI3400,	    164,  bara, "impure he inlet pre"}
+{CBox,	Pur,	PI3401,	    168,  bara, "impure he pre"}
+{CBox,	Pur,	PI3445,	    172,  bara, "Purifier pre"}
+{CBox,	Pur,	LI3470,	    176,  "%", "Purifier level"}
+{CBox,	HP,	PI3117,	    180,  bara, "Ads80K Outlet pre"}
+{CBox,	HP,	PI3154,	    184,  bara, "Ads20K pre"}
 {CBox,	HP,	TI3111,	    188,  K, temperature}
 {CBox,	Pur,	PI3420,	    196,  bara, "outlet pre"}
 {CBox,	Pur,	PI3465,	    200,  bara, "regen pre"}
@@ -607,8 +607,8 @@ file "lindeAnalogFloatInput.template" { pattern
 {Cmp,	LP,	QI2_2160,	    280,  vpm, "N2 vpm"}
 {Cmp,	LP,	QI3_2160,	    284,  vpm, "CxHy vpm"}
 {Cmp,	LP,	QI4_2160,	    288,  ppb, "Oilaerosole ppb"}
-{Cbox,	LP,	PI3290,	    316,  bara, "Dwr take back pre damped"}
-{Cbox,	LP,	PI3905,	    320,  mbar, "Vac sys monitor"}
+{CBox,	LP,	PI3290,	    316,  bara, "Dwr take back pre damped"}
+{CBox,	LP,	PI3905,	    320,  mbar, "Vac sys monitor"}
 {CBox,	Pur,	TI3465,	    324,  K, temperature}
 {CBox,	Pur,	TI3475,	    328,  K, temperature}
 {CBox,	Pur,	TI3460,	    332,  K, temperature}
@@ -653,11 +653,11 @@ file "lindeAnalogFloatInput.template" { pattern
 {Cmp,	Cmp,	MotT,	    832,  "°C", "Motor temperature"}
 {Cmp,	Cmp,	OilT,	    836,  "°C", "Oil temperature"}
 
-{Cbox,	Cbox,	StCx_RemTmCoRun,	    892,  s, "remaining time cmp run"}
-{Cbox,	Cbox,	StCmOffRemTm,	    896,  s, "Remaining Coldmode time"}
-{Cbox,	Cbox,	StRemRcvryTm,	    900,  s, "Remaining recovery time"}
-{Cbox,	Cbox,	StTu2CalcOutletPr,	    904,  bara, "tu 2 outlet pre"}
-{Cbox,	Cbox,	StTuMassFlow,	    908,  "kg/s", "Turbine massflow"}
+{CBox,	CBox,	StCx_RemTmCoRun,	    892,  s, "remaining time cmp run"}
+{CBox,	CBox,	StCmOffRemTm,	    896,  s, "Remaining Coldmode time"}
+{CBox,	CBox,	StRemRcvryTm,	    900,  s, "Remaining recovery time"}
+{CBox,	CBox,	StTu2CalcOutletPr,	    904,  bara, "tu 2 outlet pre"}
+{CBox,	CBox,	StTuMassFlow,	    908,  "kg/s", "Turbine massflow"}
 }
 
 file "lindeAnalogIntInput.template" { pattern
@@ -693,12 +693,12 @@ file "lindeAnalogIntInput.template" { pattern
 
 file "lindeString.template" { pattern
 {SUBS,	DEV,	SIG,	   OFFS, DESC}
-{Cbox,	Ads80K,	ActAdsTm,  1198, "Ads: Actual time"}
-{Cbox,	Ads80K,	LastAdsTm, 1228, "Ads: Last time"}
-{Cbox,	Ads80K,	TotAdsTm, 1258, "Ads: Total time"}
-{Cbox,	Ads80K,	ActRegTm,  1288, "Reg: Actual time"}
-{Cbox,	Ads80K,	LastRegTm, 1318, "Reg: Last time"}
-{Cbox,	Ads80K,	TotRegTm, 1348, "Reg: Total time"}
+{CBox,	Ads80K,	ActAdsTm,  1198, "Ads: Actual time"}
+{CBox,	Ads80K,	LastAdsTm, 1228, "Ads: Last time"}
+{CBox,	Ads80K,	TotAdsTm, 1258, "Ads: Total time"}
+{CBox,	Ads80K,	ActRegTm,  1288, "Reg: Actual time"}
+{CBox,	Ads80K,	LastRegTm, 1318, "Reg: Last time"}
+{CBox,	Ads80K,	TotRegTm, 1348, "Reg: Total time"}
 }
 
 
