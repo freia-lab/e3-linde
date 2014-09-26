@@ -423,4 +423,64 @@ $(pv_value)</tooltip>
 $(pv_value)</tooltip>
     <x>160</x>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>6b93b0ff:148a194f3f9:-7dec</wuid>
+    <scripts />
+    <square_led>false</square_led>
+    <on_color>
+      <color name="IO OK" red="0" green="255" blue="0" />
+    </on_color>
+    <height>20</height>
+    <data_type>0</data_type>
+    <name>LED Template</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="IO PV OFF" red="77" green="77" blue="77" />
+    </off_color>
+    <pv_name>CstatH-Ctrl:$(seq_no):cmdSetParam</pv_name>
+    <background_color>
+      <color name="IO Background" red="255" green="255" blue="205" />
+    </background_color>
+    <foreground_color>
+      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+    </foreground_color>
+    <off_label>Iddle</off_label>
+    <widget_type>LED</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+    </font>
+    <width>20</width>
+    <border_style>0</border_style>
+    <effect_3d>true</effect_3d>
+    <rules>
+      <rule name="BorderRule" prop_id="border_style" out_exp="false">
+        <exp bool_exp="pv0==1">
+          <value>9</value>
+        </exp>
+        <pv trig="true">$(pv_name).SIMM</pv>
+      </rule>
+    </rules>
+    <pv_value />
+    <bit>0</bit>
+    <border_width>2</border_width>
+    <on_label>Set</on_label>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>8</y>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>516</x>
+  </widget>
 </display>

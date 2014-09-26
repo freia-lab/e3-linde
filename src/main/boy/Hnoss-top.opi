@@ -37,7 +37,7 @@
     <visible>true</visible>
     <wuid>-7af67f41:1483b8f1cb4:-7ad2</wuid>
     <scripts />
-    <height>40</height>
+    <height>29</height>
     <style>1</style>
     <name>Action Button Template</name>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -60,7 +60,7 @@
     <font>
       <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
     </font>
-    <width>90</width>
+    <width>120</width>
     <border_style>6</border_style>
     <push_action_index>0</push_action_index>
     <image></image>
@@ -71,7 +71,7 @@
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>91</y>
+    <y>42</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
         <path>Seq0.opi</path>
@@ -92,7 +92,7 @@
     </actions>
     <tooltip>Transfer Line L000
 Conditioning He circuits</tooltip>
-    <x>50</x>
+    <x>20</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.tank" version="1.0.0">
     <level_lo>20.0</level_lo>
@@ -119,7 +119,7 @@ Conditioning He circuits</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>176</width>
+    <width>106</width>
     <show_lolo>true</show_lolo>
     <border_style>5</border_style>
     <effect_3d>true</effect_3d>
@@ -143,7 +143,7 @@ Conditioning He circuits</tooltip>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
-    <pv_name>Cryo-Dwr:LHe:LI5200-PercOut</pv_name>
+    <pv_name>CstatH-Cryo:LHe:LI5200-PercOut</pv_name>
     <color_hi>
       <color name="Minor" red="255" green="255" blue="0" />
     </color_hi>
@@ -160,7 +160,7 @@ Conditioning He circuits</tooltip>
       <color name="Major" red="255" green="0" blue="0" />
     </color_lolo>
     <fill_color>
-      <color name="IO PV ON" red="0" green="0" blue="225" />
+      <color name="IO SHe supply from LHe plant and primary loop supply" red="0" green="0" blue="255" />
     </fill_color>
     <rules>
       <rule name="BorderRule" prop_id="border_style" out_exp="false">
@@ -176,7 +176,7 @@ Conditioning He circuits</tooltip>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <level_lolo>10.0</level_lolo>
-    <y>95</y>
+    <y>70</y>
     <actions hook="false" hook_all="false" />
     <x>180</x>
     <tooltip>$(pv_name)
@@ -209,7 +209,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>86</width>
+    <width>81</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -279,7 +279,7 @@ $(pv_value)</tooltip>
     <visible>true</visible>
     <wuid>6b93b0ff:1486a33577e:-5764</wuid>
     <scripts />
-    <height>40</height>
+    <height>31</height>
     <style>1</style>
     <name>Action Button Template_3</name>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -302,7 +302,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
     </font>
-    <width>90</width>
+    <width>120</width>
     <border_style>6</border_style>
     <push_action_index>0</push_action_index>
     <image></image>
@@ -313,7 +313,7 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>140</y>
+    <y>80</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
         <path>Seq1.opi</path>
@@ -332,16 +332,15 @@ $(pv_value)</tooltip>
         <description></description>
       </action>
     </actions>
-    <tooltip>Transfer Line L000
-Conditioning He circuits</tooltip>
-    <x>50</x>
+    <tooltip>Cryostat, conditioning He circuits</tooltip>
+    <x>20</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
     <visible>true</visible>
     <wuid>6b93b0ff:1487ecc077e:50c5</wuid>
     <scripts />
-    <height>40</height>
+    <height>33</height>
     <style>1</style>
     <name>Action Button Template_4</name>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -364,7 +363,7 @@ Conditioning He circuits</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
     </font>
-    <width>90</width>
+    <width>120</width>
     <border_style>6</border_style>
     <push_action_index>0</push_action_index>
     <image></image>
@@ -375,7 +374,7 @@ Conditioning He circuits</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>190</y>
+    <y>120</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
         <path>Seq2.opi</path>
@@ -394,16 +393,15 @@ Conditioning He circuits</tooltip>
         <description></description>
       </action>
     </actions>
-    <tooltip>Transfer Line L000
-Conditioning He circuits</tooltip>
-    <x>50</x>
+    <tooltip>Couplers, conditioning He circuit</tooltip>
+    <x>20</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
     <visible>true</visible>
     <wuid>6b93b0ff:1487ecc077e:791e</wuid>
     <scripts />
-    <height>40</height>
+    <height>30</height>
     <style>1</style>
     <name>Action Button Template_5</name>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -426,7 +424,7 @@ Conditioning He circuits</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
     </font>
-    <width>90</width>
+    <width>120</width>
     <border_style>6</border_style>
     <push_action_index>0</push_action_index>
     <image></image>
@@ -437,7 +435,7 @@ Conditioning He circuits</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>240</y>
+    <y>160</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
         <path>Seq3A.opi</path>
@@ -456,8 +454,543 @@ Conditioning He circuits</tooltip>
         <description></description>
       </action>
     </actions>
-    <tooltip>Transfer Line L000
-Conditioning He circuits</tooltip>
-    <x>50</x>
+    <tooltip>ICB, thermal shield cooling</tooltip>
+    <x>20</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.tank" version="1.0.0">
+    <level_lo>20.0</level_lo>
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <color_fillbackground>
+      <color name="IO PV OFF" red="77" green="77" blue="77" />
+    </color_fillbackground>
+    <color_hihi>
+      <color name="Major" red="255" green="0" blue="0" />
+    </color_hihi>
+    <fillcolor_alarm_sensitive>false</fillcolor_alarm_sensitive>
+    <show_lo>true</show_lo>
+    <scripts />
+    <height>146</height>
+    <major_tick_step_hint>50</major_tick_step_hint>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <background_color>
+      <color name="IO InputPV Bg" red="255" green="255" blue="255" />
+    </background_color>
+    <enabled>true</enabled>
+    <widget_type>Tank</widget_type>
+    <show_minor_ticks>true</show_minor_ticks>
+    <font>
+      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+    </font>
+    <width>101</width>
+    <show_lolo>true</show_lolo>
+    <border_style>5</border_style>
+    <effect_3d>true</effect_3d>
+    <pv_value />
+    <show_markers>true</show_markers>
+    <show_hi>true</show_hi>
+    <maximum>100.0</maximum>
+    <border_width>2</border_width>
+    <log_scale>false</log_scale>
+    <minimum>0.0</minimum>
+    <wuid>6b93b0ff:1487ecc077e:79d8</wuid>
+    <show_hihi>true</show_hihi>
+    <scale_format></scale_format>
+    <show_scale>true</show_scale>
+    <color_lo>
+      <color name="Minor" red="255" green="255" blue="0" />
+    </color_lo>
+    <name>Tank Template_1</name>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name>CstatH-Cryo:LN2:LI3685-PercOut</pv_name>
+    <color_hi>
+      <color name="Minor" red="255" green="255" blue="0" />
+    </color_hi>
+    <foreground_color>
+      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+    </foreground_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <level_hi>80.0</level_hi>
+    <scale_font>
+      <opifont.name fontName="arial" height="10" style="0">IO Scale 1</opifont.name>
+    </scale_font>
+    <level_hihi>90.0</level_hihi>
+    <color_lolo>
+      <color name="Major" red="255" green="0" blue="0" />
+    </color_lolo>
+    <fill_color>
+      <color name="IO LN2 lines" red="255" green="153" blue="204" />
+    </fill_color>
+    <rules>
+      <rule name="BorderRule" prop_id="border_style" out_exp="false">
+        <exp bool_exp="pv0==1">
+          <value>9</value>
+        </exp>
+        <pv trig="true">$(pv_name).SIMM</pv>
+      </rule>
+    </rules>
+    <transparent_background>true</transparent_background>
+    <limits_from_pv>false</limits_from_pv>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <level_lolo>10.0</level_lolo>
+    <y>70</y>
+    <actions hook="false" hook_all="false" />
+    <x>325</x>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <wuid>6b93b0ff:1487ecc077e:7a08</wuid>
+    <auto_size>true</auto_size>
+    <scripts />
+    <height>18</height>
+    <name>Label Template_1</name>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <transparent>true</transparent>
+    <show_scrollbar>false</show_scrollbar>
+    <background_color>
+      <color name="IO Background" red="255" green="255" blue="205" />
+    </background_color>
+    <foreground_color>
+      <color name="IO Text Fg" red="0" green="32" blue="92" />
+    </foreground_color>
+    <widget_type>Label</widget_type>
+    <enabled>false</enabled>
+    <text>LHe</text>
+    <font>
+      <opifont.name fontName="arial" height="14" style="1">IO Title</opifont.name>
+    </font>
+    <width>29</width>
+    <border_style>0</border_style>
+    <rules />
+    <border_width>2</border_width>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <horizontal_alignment>0</horizontal_alignment>
+    <actions hook="false" hook_all="false" />
+    <y>53</y>
+    <wrap_words>true</wrap_words>
+    <tooltip></tooltip>
+    <x>180</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <wuid>6b93b0ff:1487ecc077e:7a1a</wuid>
+    <auto_size>true</auto_size>
+    <scripts />
+    <height>18</height>
+    <name>Label Template_2</name>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <transparent>true</transparent>
+    <show_scrollbar>false</show_scrollbar>
+    <background_color>
+      <color name="IO Background" red="255" green="255" blue="205" />
+    </background_color>
+    <foreground_color>
+      <color name="IO Text Fg" red="0" green="32" blue="92" />
+    </foreground_color>
+    <widget_type>Label</widget_type>
+    <enabled>false</enabled>
+    <text>LN2</text>
+    <font>
+      <opifont.name fontName="arial" height="14" style="1">IO Title</opifont.name>
+    </font>
+    <width>29</width>
+    <border_style>0</border_style>
+    <rules />
+    <border_width>2</border_width>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <horizontal_alignment>0</horizontal_alignment>
+    <actions hook="false" hook_all="false" />
+    <y>53</y>
+    <wrap_words>true</wrap_words>
+    <tooltip></tooltip>
+    <x>325</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>6b93b0ff:1487ecc077e:7c66</wuid>
+    <scripts />
+    <height>30</height>
+    <style>1</style>
+    <name>Action Button Template_6</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name></pv_name>
+    <background_color>
+      <color name="IO Button" red="178" green="178" blue="178" />
+    </background_color>
+    <foreground_color>
+      <color name="IO Foreground" red="0" green="0" blue="0" />
+    </foreground_color>
+    <widget_type>Action Button</widget_type>
+    <enabled>true</enabled>
+    <text>Sequence 3B</text>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+    </font>
+    <width>120</width>
+    <border_style>6</border_style>
+    <push_action_index>0</push_action_index>
+    <image></image>
+    <rules />
+    <pv_value />
+    <toggle_button>false</toggle_button>
+    <border_width>2</border_width>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <y>200</y>
+    <actions hook="false" hook_all="false">
+      <action type="OPEN_OPI_IN_VIEW">
+        <path>Seq3B.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <seq_no>SQ3B</seq_no>
+          <seq_title>Sequence 3B: Cryostat, thermal shield cooling</seq_title>
+          <step0>Grafcet state 0</step0>
+          <step1>Grafcet state 1</step1>
+          <step2>Grafcet state 2</step2>
+          <step3>Grafcet state 3</step3>
+          <step4>Grafcet state 4</step4>
+          <step5></step5>
+        </macros>
+        <Position>4</Position>
+        <description></description>
+      </action>
+    </actions>
+    <tooltip>Cryostat, thermal shield cooling</tooltip>
+    <x>20</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>6b93b0ff:1487ecc077e:7e00</wuid>
+    <scripts />
+    <height>30</height>
+    <style>1</style>
+    <name>Action Button Template_7</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name></pv_name>
+    <background_color>
+      <color name="IO Button" red="178" green="178" blue="178" />
+    </background_color>
+    <foreground_color>
+      <color name="IO Foreground" red="0" green="0" blue="0" />
+    </foreground_color>
+    <widget_type>Action Button</widget_type>
+    <enabled>true</enabled>
+    <text>Sequence 4</text>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+    </font>
+    <width>120</width>
+    <border_style>6</border_style>
+    <push_action_index>0</push_action_index>
+    <image></image>
+    <rules />
+    <pv_value />
+    <toggle_button>false</toggle_button>
+    <border_width>2</border_width>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <y>240</y>
+    <actions hook="false" hook_all="false">
+      <action type="OPEN_OPI_IN_VIEW">
+        <path>Seq4.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <seq_no>SQ4</seq_no>
+          <seq_title>Sequence 4: Tesla couplers cooling</seq_title>
+          <step0>Grafcet state 0</step0>
+          <step1>Grafcet state 1</step1>
+          <step2>Grafcet state 2</step2>
+          <step3>Grafcet state 3</step3>
+          <step4>Grafcet state 4</step4>
+          <step5></step5>
+        </macros>
+        <Position>4</Position>
+        <description></description>
+      </action>
+    </actions>
+    <tooltip>Tesla couplers cooling</tooltip>
+    <x>20</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-21b2ca35:148a7786110:-7f3c</wuid>
+    <scripts />
+    <height>30</height>
+    <style>1</style>
+    <name>Action Button Template_8</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name></pv_name>
+    <background_color>
+      <color name="IO Button" red="178" green="178" blue="178" />
+    </background_color>
+    <foreground_color>
+      <color name="IO Foreground" red="0" green="0" blue="0" />
+    </foreground_color>
+    <widget_type>Action Button</widget_type>
+    <enabled>true</enabled>
+    <text>Sequence 10</text>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+    </font>
+    <width>120</width>
+    <border_style>6</border_style>
+    <push_action_index>0</push_action_index>
+    <image></image>
+    <rules />
+    <pv_value />
+    <toggle_button>false</toggle_button>
+    <border_width>2</border_width>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <y>340</y>
+    <actions hook="false" hook_all="false">
+      <action type="OPEN_OPI_IN_VIEW">
+        <path>Seq10.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <seq_no>SQ10</seq_no>
+          <seq_title>Sequence 10: Supercritical circuits operation</seq_title>
+          <step0>Grafcet state 0</step0>
+          <step1>Grafcet state 1</step1>
+          <step2>Grafcet state 2</step2>
+          <step3>Grafcet state 3</step3>
+          <step4>Grafcet state 4</step4>
+          <step5></step5>
+        </macros>
+        <Position>4</Position>
+        <description></description>
+      </action>
+    </actions>
+    <tooltip>Supercritical circuits operation</tooltip>
+    <x>20</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-21b2ca35:148a7786110:-79f6</wuid>
+    <scripts />
+    <height>30</height>
+    <style>1</style>
+    <name>Action Button Template_9</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name></pv_name>
+    <background_color>
+      <color name="IO Button" red="178" green="178" blue="178" />
+    </background_color>
+    <foreground_color>
+      <color name="IO Foreground" red="0" green="0" blue="0" />
+    </foreground_color>
+    <widget_type>Action Button</widget_type>
+    <enabled>true</enabled>
+    <text>Sequence 11</text>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+    </font>
+    <width>120</width>
+    <border_style>6</border_style>
+    <push_action_index>0</push_action_index>
+    <image></image>
+    <rules />
+    <pv_value />
+    <toggle_button>false</toggle_button>
+    <border_width>2</border_width>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <y>415</y>
+    <actions hook="false" hook_all="false">
+      <action type="OPEN_OPI_IN_VIEW">
+        <path>Seq11.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <seq_no>SQ11</seq_no>
+          <seq_title>Sequence 11: Standby 40 K</seq_title>
+          <step0>Grafcet state 0</step0>
+          <step1>Grafcet state 1</step1>
+          <step2>Grafcet state 2</step2>
+          <step3>Grafcet state 3</step3>
+          <step4>Grafcet state 4</step4>
+          <step5></step5>
+        </macros>
+        <Position>4</Position>
+        <description></description>
+      </action>
+    </actions>
+    <tooltip>Standby 40 K</tooltip>
+    <x>20</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-21b2ca35:148a7786110:-792f</wuid>
+    <scripts />
+    <height>30</height>
+    <style>1</style>
+    <name>Action Button Template_10</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name></pv_name>
+    <background_color>
+      <color name="IO Button" red="178" green="178" blue="178" />
+    </background_color>
+    <foreground_color>
+      <color name="IO Foreground" red="0" green="0" blue="0" />
+    </foreground_color>
+    <widget_type>Action Button</widget_type>
+    <enabled>true</enabled>
+    <text>Sequence 12A</text>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+    </font>
+    <width>120</width>
+    <border_style>6</border_style>
+    <push_action_index>0</push_action_index>
+    <image></image>
+    <rules />
+    <pv_value />
+    <toggle_button>false</toggle_button>
+    <border_width>2</border_width>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <y>455</y>
+    <actions hook="false" hook_all="false">
+      <action type="OPEN_OPI_IN_VIEW">
+        <path>Seq12A.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <seq_no>SQ12A</seq_no>
+          <seq_title>Sequence 12A: ICB Warm-up</seq_title>
+          <step0>Grafcet state 0</step0>
+          <step1>Grafcet state 1</step1>
+          <step2>Grafcet state 2</step2>
+          <step3>Grafcet state 3</step3>
+          <step4>Grafcet state 4</step4>
+          <step5></step5>
+        </macros>
+        <Position>4</Position>
+        <description></description>
+      </action>
+    </actions>
+    <tooltip>ICB Warm-up</tooltip>
+    <x>20</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-21b2ca35:148a7786110:-78e3</wuid>
+    <scripts />
+    <height>30</height>
+    <style>1</style>
+    <name>Action Button Template_11</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name></pv_name>
+    <background_color>
+      <color name="IO Button" red="178" green="178" blue="178" />
+    </background_color>
+    <foreground_color>
+      <color name="IO Foreground" red="0" green="0" blue="0" />
+    </foreground_color>
+    <widget_type>Action Button</widget_type>
+    <enabled>true</enabled>
+    <text>Sequence 12B</text>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+    </font>
+    <width>120</width>
+    <border_style>6</border_style>
+    <push_action_index>0</push_action_index>
+    <image></image>
+    <rules />
+    <pv_value />
+    <toggle_button>false</toggle_button>
+    <border_width>2</border_width>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <y>495</y>
+    <actions hook="false" hook_all="false">
+      <action type="OPEN_OPI_IN_VIEW">
+        <path>Seq12B.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <seq_no>SQ12B</seq_no>
+          <seq_title>Sequence 12B: Cryostat Warm-up</seq_title>
+          <step0>Grafcet state 0</step0>
+          <step1>Grafcet state 1</step1>
+          <step2>Grafcet state 2</step2>
+          <step3>Grafcet state 3</step3>
+          <step4>Grafcet state 4</step4>
+          <step5></step5>
+        </macros>
+        <Position>4</Position>
+        <description></description>
+      </action>
+    </actions>
+    <tooltip>Cryostat Warm-up</tooltip>
+    <x>20</x>
   </widget>
 </display>
