@@ -375,7 +375,7 @@ file "SQanalog.template" { pattern
 {SQ20,	cP_Op,         4154,  INT16, sP_Op,   	 4856	""}
 }
 
-file "SQcmds.template" { pattern
+file "SQbinPar.template" { pattern
 {SUBS,	 SIG,          OFFS2, BIT2, OFFS, BIT}
 {SQ4,	 P_C1,          3228, 7,    3732, 0}
 {SQ4,	 P_C2,          3229, 0,    3732, 1}
