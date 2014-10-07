@@ -79,7 +79,7 @@
     <wuid>6b93b0ff:1487ecc077e:7a93</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>17</height>
     <name>Label Template_7</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -100,7 +100,7 @@
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
-    <width>91</width>
+    <width>109</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -120,7 +120,7 @@
     <wuid>6b93b0ff:1487ecc077e:7a94</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>17</height>
     <name>Label Template_8</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -141,7 +141,7 @@
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
-    <width>54</width>
+    <width>66</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -213,9 +213,9 @@
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>125</y>
+    <y>127</y>
     <actions hook="false" hook_all="false" />
-    <x>235</x>
+    <x>242</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -277,9 +277,9 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>150</y>
+    <y>152</y>
     <actions hook="false" hook_all="false" />
-    <x>235</x>
+    <x>242</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -335,11 +335,11 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>127</y>
+    <y>129</y>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>295</x>
+    <x>302</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -393,10 +393,10 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>152</y>
+    <y>154</y>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>295</x>
+    <x>302</x>
   </widget>
 </display>

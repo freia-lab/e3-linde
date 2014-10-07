@@ -78,7 +78,7 @@
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ0</seq_no>
-          <seq_title>Sequence 0: Transfer Line L000 - Conditioning He circuits</seq_title>
+          <seq_title>Seq. 0: Transfer Line L000 - Conditioning He circuits</seq_title>
           <step0>Grafcet state 0</step0>
           <step1>Grafcet state 1</step1>
           <step2>Grafcet state 2</step2>
@@ -100,7 +100,7 @@ Conditioning He circuits</tooltip>
     <wuid>6b93b0ff:1486a33577e:-6066</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -121,7 +121,7 @@ Conditioning He circuits</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>81</width>
+    <width>103</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -1168,7 +1168,7 @@ $(pv_value)</tooltip>
     <wuid>-21b2ca35:148a7786110:3657</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>30</height>
+    <height>38</height>
     <name>Label Template_3</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -1190,7 +1190,7 @@ sequences</text>
     <font>
       <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
-    <width>83</width>
+    <width>98</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -1272,7 +1272,7 @@ sequences</text>
       <visible>true</visible>
       <wuid>-21b2ca35:148a7786110:374a</wuid>
       <scripts />
-      <height>689</height>
+      <height>686</height>
       <name>Overview</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -1638,7 +1638,7 @@ $(pv_value)</tooltip>
         <wuid>6b93b0ff:1487ecc077e:7a08</wuid>
         <auto_size>true</auto_size>
         <scripts />
-        <height>18</height>
+        <height>21</height>
         <name>Label Template_1</name>
         <scale_options>
           <width_scalable>true</width_scalable>
@@ -1654,12 +1654,12 @@ $(pv_value)</tooltip>
           <color name="IO Text Fg" red="0" green="32" blue="92" />
         </foreground_color>
         <widget_type>Label</widget_type>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <text>LHe</text>
         <font>
           <opifont.name fontName="arial" height="14" style="1">IO Title</opifont.name>
         </font>
-        <width>29</width>
+        <width>34</width>
         <border_style>0</border_style>
         <rules />
         <border_width>2</border_width>
@@ -1668,7 +1668,7 @@ $(pv_value)</tooltip>
         </border_color>
         <horizontal_alignment>0</horizontal_alignment>
         <actions hook="false" hook_all="false" />
-        <y>8</y>
+        <y>5</y>
         <wrap_words>true</wrap_words>
         <tooltip></tooltip>
         <x>15</x>
@@ -1679,7 +1679,7 @@ $(pv_value)</tooltip>
         <wuid>-21b2ca35:148a7786110:3bdf</wuid>
         <auto_size>true</auto_size>
         <scripts />
-        <height>18</height>
+        <height>21</height>
         <name>Label Template_1</name>
         <scale_options>
           <width_scalable>true</width_scalable>
@@ -1695,12 +1695,12 @@ $(pv_value)</tooltip>
           <color name="IO Text Fg" red="0" green="32" blue="92" />
         </foreground_color>
         <widget_type>Label</widget_type>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <text>LN2</text>
         <font>
           <opifont.name fontName="arial" height="14" style="1">IO Title</opifont.name>
         </font>
-        <width>29</width>
+        <width>34</width>
         <border_style>0</border_style>
         <rules />
         <border_width>2</border_width>
@@ -1709,7 +1709,7 @@ $(pv_value)</tooltip>
         </border_color>
         <horizontal_alignment>0</horizontal_alignment>
         <actions hook="false" hook_all="false" />
-        <y>8</y>
+        <y>5</y>
         <wrap_words>true</wrap_words>
         <tooltip></tooltip>
         <x>160</x>
@@ -1722,7 +1722,7 @@ $(pv_value)</tooltip>
       <visible>false</visible>
       <wuid>-21b2ca35:148a7786110:3c6e</wuid>
       <scripts />
-      <height>689</height>
+      <height>686</height>
       <name>Tab 1</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -1763,7 +1763,7 @@ $(pv_value)</tooltip>
     <wuid>-21b2ca35:148a7786110:3b49</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>23</height>
+    <height>29</height>
     <name>Label Template_4</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -1784,7 +1784,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="Sans" height="18" style="1">Header 1</opifont.name>
     </font>
-    <width>73</width>
+    <width>93</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>

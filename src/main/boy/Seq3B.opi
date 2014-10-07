@@ -79,7 +79,7 @@
     <wuid>6b93b0ff:1487ecc077e:7a93</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>17</height>
     <name>Label Template_7</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -100,7 +100,7 @@
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
-    <width>151</width>
+    <width>180</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -120,7 +120,7 @@
     <wuid>6b93b0ff:1487ecc077e:7a94</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>17</height>
     <name>Label Template_8</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -141,7 +141,7 @@
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
-    <width>180</width>
+    <width>218</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -161,7 +161,7 @@
     <wuid>6b93b0ff:1487ecc077e:7a95</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>17</height>
     <name>Label Template_9</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -182,7 +182,7 @@
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
-    <width>181</width>
+    <width>218</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -254,9 +254,9 @@
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>125</y>
+    <y>127</y>
     <actions hook="false" hook_all="false" />
-    <x>235</x>
+    <x>270</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -318,9 +318,9 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>150</y>
+    <y>152</y>
     <actions hook="false" hook_all="false" />
-    <x>235</x>
+    <x>270</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -382,9 +382,9 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>175</y>
+    <y>177</y>
     <actions hook="false" hook_all="false" />
-    <x>235</x>
+    <x>270</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -440,11 +440,11 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>127</y>
+    <y>129</y>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>295</x>
+    <x>330</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -498,11 +498,11 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>152</y>
+    <y>154</y>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>295</x>
+    <x>330</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -556,11 +556,11 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>177</y>
+    <y>179</y>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>295</x>
+    <x>330</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -568,7 +568,7 @@ $(pv_value)</tooltip>
     <wuid>6b93b0ff:1487ecc077e:7d62</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>17</height>
     <name>Label Template_10</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -589,7 +589,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
-    <width>43</width>
+    <width>50</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -598,10 +598,10 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>131</y>
+    <y>133</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
-    <x>380</x>
+    <x>415</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -609,7 +609,7 @@ $(pv_value)</tooltip>
     <wuid>6b93b0ff:1487ecc077e:7d72</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>17</height>
     <name>Label Template_11</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -630,7 +630,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
-    <width>66</width>
+    <width>79</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -639,10 +639,10 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>156</y>
+    <y>158</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
-    <x>380</x>
+    <x>415</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -650,7 +650,7 @@ $(pv_value)</tooltip>
     <wuid>6b93b0ff:1487ecc077e:7d79</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>17</height>
     <name>Label Template_12</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -671,7 +671,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
-    <width>66</width>
+    <width>79</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -680,9 +680,9 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>181</y>
+    <y>183</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
-    <x>380</x>
+    <x>415</x>
   </widget>
 </display>

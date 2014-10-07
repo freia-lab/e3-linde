@@ -53,7 +53,7 @@
       <color name="IO Foreground" red="0" green="0" blue="0" />
     </foreground_color>
     <background_color>
-      <color red="188" green="188" blue="188" />
+      <color red="215" green="215" blue="215" />
     </background_color>
     <group_name></group_name>
     <enabled>true</enabled>
@@ -79,7 +79,7 @@
     <wuid>6b93b0ff:1486a33577e:-555c</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>18</height>
+    <height>19</height>
     <name>Label Template_5</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -98,9 +98,9 @@
     <enabled>false</enabled>
     <text>Pressure [mbar]: </text>
     <font>
-      <opifont.name fontName="Sans" height="14" style="1">Header 2</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
-    <width>147</width>
+    <width>160</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -120,7 +120,7 @@
     <wuid>6b93b0ff:1486a33577e:-555b</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>18</height>
+    <height>19</height>
     <name>Label Template_6</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -139,9 +139,9 @@
     <enabled>false</enabled>
     <text>Timer [s]:</text>
     <font>
-      <opifont.name fontName="Sans" height="14" style="1">Header 2</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
-    <width>84</width>
+    <width>88</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -161,7 +161,7 @@
     <wuid>6b93b0ff:1486a33577e:-555a</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_7</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -182,7 +182,7 @@
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>67</width>
+    <width>82</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -202,7 +202,7 @@
     <wuid>6b93b0ff:1486a33577e:-5559</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_8</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -223,7 +223,7 @@
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>63</width>
+    <width>79</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -243,7 +243,7 @@
     <wuid>6b93b0ff:1486a33577e:-5558</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_9</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -264,7 +264,7 @@
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>60</width>
+    <width>69</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -284,7 +284,7 @@
     <wuid>6b93b0ff:1486a33577e:-5557</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_10</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -305,7 +305,7 @@
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>56</width>
+    <width>66</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -325,7 +325,7 @@
     <wuid>6b93b0ff:1486a33577e:-5556</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_11</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -346,7 +346,7 @@
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>41</width>
+    <width>51</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -358,7 +358,7 @@
     <y>194</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
-    <x>267</x>
+    <x>275</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -366,7 +366,7 @@
     <wuid>6b93b0ff:1486a33577e:-5555</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_12</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -387,7 +387,7 @@
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>47</width>
+    <width>56</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -399,7 +399,7 @@
     <y>219</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
-    <x>267</x>
+    <x>275</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -407,7 +407,7 @@
     <wuid>6b93b0ff:1486a33577e:-5554</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_13</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -428,7 +428,7 @@
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>73</width>
+    <width>89</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -440,7 +440,7 @@
     <y>244</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
-    <x>267</x>
+    <x>275</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -448,7 +448,7 @@
     <wuid>6b93b0ff:1486a33577e:-5553</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_14</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -469,7 +469,7 @@
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>76</width>
+    <width>90</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -481,7 +481,7 @@
     <y>269</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
-    <x>266</x>
+    <x>274</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -541,9 +541,9 @@
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>188</y>
+    <y>189</y>
     <actions hook="false" hook_all="false" />
-    <x>85</x>
+    <x>95</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -605,9 +605,9 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>213</y>
+    <y>214</y>
     <actions hook="false" hook_all="false" />
-    <x>85</x>
+    <x>95</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -669,9 +669,9 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>238</y>
+    <y>239</y>
     <actions hook="false" hook_all="false" />
-    <x>85</x>
+    <x>95</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -733,9 +733,9 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>263</y>
+    <y>264</y>
     <actions hook="false" hook_all="false" />
-    <x>85</x>
+    <x>95</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -799,7 +799,7 @@ $(pv_value)</tooltip>
     </border_color>
     <y>188</y>
     <actions hook="false" hook_all="false" />
-    <x>348</x>
+    <x>370</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -863,7 +863,7 @@ $(pv_value)</tooltip>
     </border_color>
     <y>213</y>
     <actions hook="false" hook_all="false" />
-    <x>348</x>
+    <x>370</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -927,7 +927,7 @@ $(pv_value)</tooltip>
     </border_color>
     <y>238</y>
     <actions hook="false" hook_all="false" />
-    <x>348</x>
+    <x>370</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -991,7 +991,7 @@ $(pv_value)</tooltip>
     </border_color>
     <y>263</y>
     <actions hook="false" hook_all="false" />
-    <x>348</x>
+    <x>370</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -1047,11 +1047,11 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>190</y>
+    <y>191</y>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>145</x>
+    <x>155</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -1105,11 +1105,11 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>215</y>
+    <y>216</y>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>145</x>
+    <x>155</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -1163,11 +1163,11 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>240</y>
+    <y>241</y>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>145</x>
+    <x>155</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -1221,11 +1221,11 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>265</y>
+    <y>266</y>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>145</x>
+    <x>155</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -1262,7 +1262,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
     </font>
-    <width>71</width>
+    <width>60</width>
     <border_style>5</border_style>
     <rules>
       <rule name="BorderRule" prop_id="border_style" out_exp="false">
@@ -1283,7 +1283,7 @@ $(pv_value)</tooltip>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>455</x>
+    <x>477</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -1320,7 +1320,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
     </font>
-    <width>71</width>
+    <width>60</width>
     <border_style>5</border_style>
     <rules>
       <rule name="BorderRule" prop_id="border_style" out_exp="false">
@@ -1341,7 +1341,7 @@ $(pv_value)</tooltip>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>455</x>
+    <x>477</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -1378,7 +1378,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
     </font>
-    <width>71</width>
+    <width>60</width>
     <border_style>5</border_style>
     <rules>
       <rule name="BorderRule" prop_id="border_style" out_exp="false">
@@ -1399,7 +1399,7 @@ $(pv_value)</tooltip>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>455</x>
+    <x>477</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -1436,7 +1436,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
     </font>
-    <width>71</width>
+    <width>60</width>
     <border_style>5</border_style>
     <rules>
       <rule name="BorderRule" prop_id="border_style" out_exp="false">
@@ -1457,7 +1457,7 @@ $(pv_value)</tooltip>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>455</x>
+    <x>477</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -1465,7 +1465,7 @@ $(pv_value)</tooltip>
     <wuid>6b93b0ff:1486a33577e:-54a2</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_15</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -1486,7 +1486,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>41</width>
+    <width>46</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -1495,10 +1495,10 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>194</y>
+    <y>195</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
-    <x>200</x>
+    <x>210</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -1506,7 +1506,7 @@ $(pv_value)</tooltip>
     <wuid>6b93b0ff:1486a33577e:-5494</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_16</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -1527,7 +1527,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>41</width>
+    <width>46</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -1536,10 +1536,10 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>219</y>
+    <y>220</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
-    <x>200</x>
+    <x>210</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -1547,7 +1547,7 @@ $(pv_value)</tooltip>
     <wuid>6b93b0ff:1486a33577e:-548d</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_17</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -1568,7 +1568,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>40</width>
+    <width>46</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -1577,10 +1577,10 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>244</y>
+    <y>245</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
-    <x>200</x>
+    <x>210</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -1588,7 +1588,7 @@ $(pv_value)</tooltip>
     <wuid>6b93b0ff:1486a33577e:-547f</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_18</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -1609,7 +1609,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>40</width>
+    <width>46</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -1618,10 +1618,10 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>269</y>
+    <y>270</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
-    <x>201</x>
+    <x>211</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -1629,7 +1629,7 @@ $(pv_value)</tooltip>
     <wuid>6b93b0ff:1486a33577e:-5475</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>18</height>
+    <height>19</height>
     <name>Label Template_19</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -1648,9 +1648,9 @@ $(pv_value)</tooltip>
     <enabled>false</enabled>
     <text>Valves [%]</text>
     <font>
-      <opifont.name fontName="Sans" height="14" style="1">Header 2</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
-    <width>88</width>
+    <width>94</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -1670,7 +1670,7 @@ $(pv_value)</tooltip>
     <wuid>6b93b0ff:1486a33577e:-5467</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_20</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -1691,7 +1691,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>30</width>
+    <width>40</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -1763,9 +1763,9 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>324</y>
+    <y>325</y>
     <actions hook="false" hook_all="false" />
-    <x>50</x>
+    <x>66</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -1821,11 +1821,11 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>326</y>
+    <y>327</y>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>110</x>
+    <x>126</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -1833,7 +1833,7 @@ $(pv_value)</tooltip>
     <wuid>6b93b0ff:1487ecc077e:4cf8</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_21</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -1854,7 +1854,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>30</width>
+    <width>40</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -1928,7 +1928,7 @@ $(pv_value)</tooltip>
     </border_color>
     <y>324</y>
     <actions hook="false" hook_all="false" />
-    <x>230</x>
+    <x>246</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -1988,7 +1988,7 @@ $(pv_value)</tooltip>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>290</x>
+    <x>306</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -1996,7 +1996,7 @@ $(pv_value)</tooltip>
     <wuid>6b93b0ff:1487ecc077e:4d07</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_22</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -2017,7 +2017,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>31</width>
+    <width>40</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -2029,7 +2029,7 @@ $(pv_value)</tooltip>
     <y>330</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
-    <x>378</x>
+    <x>370</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -2159,7 +2159,7 @@ $(pv_value)</tooltip>
     <wuid>6b93b0ff:1487ecc077e:4d73</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_23</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -2180,7 +2180,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>30</width>
+    <width>40</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -2252,9 +2252,9 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>348</y>
+    <y>349</y>
     <actions hook="false" hook_all="false" />
-    <x>50</x>
+    <x>66</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -2310,11 +2310,11 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>350</y>
+    <y>351</y>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>110</x>
+    <x>126</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -2322,7 +2322,7 @@ $(pv_value)</tooltip>
     <wuid>6b93b0ff:1487ecc077e:4d76</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_24</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -2343,7 +2343,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>31</width>
+    <width>40</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -2417,7 +2417,7 @@ $(pv_value)</tooltip>
     </border_color>
     <y>348</y>
     <actions hook="false" hook_all="false" />
-    <x>230</x>
+    <x>246</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -2477,7 +2477,7 @@ $(pv_value)</tooltip>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>290</x>
+    <x>306</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -2485,7 +2485,7 @@ $(pv_value)</tooltip>
     <wuid>6b93b0ff:1487ecc077e:4d79</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_25</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -2506,7 +2506,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>31</width>
+    <width>40</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -2518,7 +2518,7 @@ $(pv_value)</tooltip>
     <y>354</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
-    <x>378</x>
+    <x>370</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -2648,7 +2648,7 @@ $(pv_value)</tooltip>
     <wuid>6b93b0ff:1487ecc077e:4d9a</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_26</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -2669,7 +2669,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>32</width>
+    <width>40</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -2741,9 +2741,9 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>372</y>
+    <y>373</y>
     <actions hook="false" hook_all="false" />
-    <x>50</x>
+    <x>66</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -2799,11 +2799,11 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>374</y>
+    <y>375</y>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>110</x>
+    <x>126</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -2811,7 +2811,7 @@ $(pv_value)</tooltip>
     <wuid>6b93b0ff:1487ecc077e:4d9d</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>13</height>
+    <height>16</height>
     <name>Label Template_27</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -2832,7 +2832,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </font>
-    <width>32</width>
+    <width>40</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -2906,7 +2906,7 @@ $(pv_value)</tooltip>
     </border_color>
     <y>372</y>
     <actions hook="false" hook_all="false" />
-    <x>230</x>
+    <x>246</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -2966,6 +2966,6 @@ $(pv_value)</tooltip>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>290</x>
+    <x>306</x>
   </widget>
 </display>
