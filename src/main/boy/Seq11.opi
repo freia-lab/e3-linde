@@ -426,8 +426,8 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
     </font>
-    <width>126</width>
-    <border_style>6</border_style>
+    <width>66</width>
+    <border_style>15</border_style>
     <selected_color>
       <color name="IO OutputPV Bg" red="121" green="123" blue="126" />
     </selected_color>
@@ -441,7 +441,7 @@ $(pv_value)</tooltip>
       </rule>
     </rules>
     <pv_value />
-    <bit>0</bit>
+    <bit>-1</bit>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
@@ -479,8 +479,8 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
     </font>
-    <width>123</width>
-    <border_style>6</border_style>
+    <width>128</width>
+    <border_style>15</border_style>
     <selected_color>
       <color name="IO OutputPV Bg" red="121" green="123" blue="126" />
     </selected_color>
@@ -494,7 +494,7 @@ $(pv_value)</tooltip>
       </rule>
     </rules>
     <pv_value />
-    <bit>0</bit>
+    <bit>-1</bit>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
@@ -563,7 +563,7 @@ $(pv_value)</tooltip>
     <y>123</y>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>202</x>
+    <x>134</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>

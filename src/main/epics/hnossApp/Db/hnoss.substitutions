@@ -298,20 +298,20 @@ file "SQanalog.template" { pattern
 {SQ3A,	cP_Tt,         3080, FLOAT, sP_Tt, 3548	""}
 {SQ3A,	cP_Low_Tt,     3084, FLOAT, sP_Low_Tt, 3552	""}
 {SQ3A,	cP_High_Tt,    3088, FLOAT, sP_High_Tt, 3556	""}
-{SQ3B,	cP_Tt,         3092, FLOAT, sP_Tt, 3560	""}
-{SQ3B,	cP_Low_Tt,     3096, FLOAT, sP_Low_Tt, 3564	""}
-{SQ3B,	cP_High_Tt,    3100, FLOAT, sP_High_Tt, 3568	""}
+{SQ3B,	cP_Tt,         3164, FLOAT, sP_Tt, 3650	""}
+{SQ3B,	cP_Low_Tt,     3168, FLOAT, sP_Low_Tt, 3654	""}
+{SQ3B,	cP_High_Tt,    3172, FLOAT, sP_High_Tt, 3658	""}
 {SQ4,	cP_CV200_Tt,   3248, FLOAT, sP_CV200_Tt, 3752	""}
 {SQ4,	cP_CV200_Ft,   3252, FLOAT, sP_CV200_Ft, 3756	""}
 {SQ4,	cP_CV201_Tt,   3256, FLOAT, sP_CV201_Tt, 3760	""}
 {SQ4,	cP_CV201_Ft,   3260, FLOAT, sP_CV201_Ft, 3764	""}
-{SQ5,	cP_PT,         3332,  FLOAT, sP_PT,      3752	""}
-{SQ5,	cP_FT,         3336,  FLOAT, sP_FT,      3756	""}
-{SQ5,	cP_CV550,      3340,  FLOAT, sP_CV550,   3760	""}
-{SQ5,	cP_LowLt,      3344,  FLOAT, sP_LowLt,   3764	""}
-{SQ5,	cP_CoolD_Tt,   3348,  FLOAT, sP_CoolD_Tt,3768	""}
-{SQ5,	cP_HighLt,     3352,  FLOAT, sP_HighLt,  3772	""}
-{SQ5,	cP_CV100,      3356,  FLOAT, sP_CV100,   3776	""}
+{SQ5,	cP_PT,         3332,  FLOAT, sP_PT,      3854	""}
+{SQ5,	cP_FT,         3336,  FLOAT, sP_FT,      3858	""}
+{SQ5,	cP_CV550,      3340,  FLOAT, sP_CV550,   3862	""}
+{SQ5,	cP_LowLt,      3344,  FLOAT, sP_LowLt,   3866	""}
+{SQ5,	cP_CoolD_Tt,   3348,  FLOAT, sP_CoolD_Tt,3870	""}
+{SQ5,	cP_HighLt,     3352,  FLOAT, sP_HighLt,  3874	""}
+{SQ5,	cP_CV100,      3356,  FLOAT, sP_CV100,   3878	""}
 {SQ6,	cP_Tt,         3416,  FLOAT, sP_Tt,      3956	""}
 {SQ6,	cP_Lt,         3420,  FLOAT, sP_Lt,      3960	""}
 {SQ7,	cP_PT,         3500,  FLOAT, sP_PT,      4058	""}
@@ -342,6 +342,34 @@ file "SQanalog.template" { pattern
 {SQ9,	cP_Pt,         3680,  FLOAT, sP_Pt,      4274	""}
 {SQ9,	cP_SP_Tt,      3684,  FLOAT, sP_SP_Tt,   4278	""}
 {SQ9,	cP_CV105,      3688,  FLOAT, sP_CV105,   4282	""}
+{SQ9,	cP_CV551_Reg,  3692,  FLOAT, sP_CV551_Reg,4286	""}
+{SQ9,	cP_Final_Pt,   3696,  FLOAT, sP_Final_Pt,4290	""}
+{SQ9,	cP_CV551_Pt00, 4740,  FLOAT, sP_CV551_Pt00,5550	""}
+{SQ9,	cP_CV551_Pt01, 4744,  FLOAT, sP_CV551_Pt01,5554	""}
+{SQ9,	cP_CV551_Pt02, 4748,  FLOAT, sP_CV551_Pt02,5558	""}
+{SQ9,	cP_CV551_Pt03, 4752,  FLOAT, sP_CV551_Pt03,5562	""}
+{SQ9,	cP_CV551_Pt04, 4756,  FLOAT, sP_CV551_Pt04,5566	""}
+{SQ9,	cP_CV551_Pt05, 4760,  FLOAT, sP_CV551_Pt05,5570	""}
+{SQ9,	cP_CV551_Pt06, 4764,  FLOAT, sP_CV551_Pt06,5574	""}
+{SQ9,	cP_CV551_Pt07, 4768,  FLOAT, sP_CV551_Pt07,5578	""}
+{SQ9,	cP_CV551_Pt08, 4772,  FLOAT, sP_CV551_Pt08,5582	""}
+{SQ9,	cP_CV551_Pt09, 4776,  FLOAT, sP_CV551_Pt09,5586	""}
+{SQ9,	cP_CV551_Pt10, 4780,  FLOAT, sP_CV551_Pt10,5590	""}
+{SQ9,	cP_CV551_Pt11, 4784,  FLOAT, sP_CV551_Pt11,5594	""}
+{SQ9,	cP_CV551_Pt12, 4788,  FLOAT, sP_CV551_Pt12,5598	""}
+{SQ9,	cP_CV551_Csg00, 4804,  FLOAT, sP_CV551_Csg00,5614	""}
+{SQ9,	cP_CV551_Csg01, 4808,  FLOAT, sP_CV551_Csg01,5618	""}
+{SQ9,	cP_CV551_Csg02, 4812,  FLOAT, sP_CV551_Csg02,5622	""}
+{SQ9,	cP_CV551_Csg03, 4816,  FLOAT, sP_CV551_Csg03,5626	""}
+{SQ9,	cP_CV551_Csg04, 4820,  FLOAT, sP_CV551_Csg04,5630	""}
+{SQ9,	cP_CV551_Csg05, 4824,  FLOAT, sP_CV551_Csg05,5634	""}
+{SQ9,	cP_CV551_Csg06, 4828,  FLOAT, sP_CV551_Csg06,5638	""}
+{SQ9,	cP_CV551_Csg07, 4832,  FLOAT, sP_CV551_Csg07,5642	""}
+{SQ9,	cP_CV551_Csg08, 4836,  FLOAT, sP_CV551_Csg08,5646	""}
+{SQ9,	cP_CV551_Csg09, 4840,  FLOAT, sP_CV551_Csg09,5650	""}
+{SQ9,	cP_CV551_Csg10, 4844,  FLOAT, sP_CV551_Csg10,5654	""}
+{SQ9,	cP_CV551_Csg11, 4848,  FLOAT, sP_CV551_Csg11,5658	""}
+{SQ9,	cP_CV551_Csg12, 4852,  FLOAT, sP_CV551_Csg12,5662	""}
 {SQ10,	cP_CV301_Tt,   3752,  FLOAT, sP_CV301_Tt,4364	""}
 {SQ10,	cP_CV301_Ft,   3756,  FLOAT, sP_CV301_Ft,4368	""}
 {SQ10,	cP_CV302_Tt,   3760,  FLOAT, sP_CV302_Tt,4372	""}
@@ -377,29 +405,32 @@ file "SQanalog.template" { pattern
 
 file "SQbinPar.template" { pattern
 {SUBS,	 SIG,          OFFS2, BIT2, OFFS, BIT}
-{SQ4,	 P_C1,          3228, 7,    3732, 0}
-{SQ4,	 P_C2,          3229, 0,    3732, 1}
-{SQ4,	 P_Tt,          3229, 1,    3732, 2}
-{SQ4,	 P_Ft,          3229, 2,    3732, 3}
-{SQ7,	 P_C1,          3480, 7,    4038, 0}
-{SQ7,	 P_C2,          3481, 0,    4038, 1}
-{SQ7,	 P_Tbl,         3481, 1,    4038, 2}
-{SQ7,	 P_MS,          3481, 2,    4038, 3}
-{SQ8,	 P_MS,          3564, 7,    4140, 0}
-{SQ8,	 P_Tbl,         3565, 0,    4140, 1}
-{SQ9,	 P_MS,          3648, 7,    4242, 0}
-{SQ9,	 P_Tbl,         3649, 0,    4242, 1}
-{SQ10,	 P_C1,          3732, 7,    4344, 0}
-{SQ10,	 P_C2,          3733, 0,    4344, 1}
-{SQ10,	 P_Tt,          3733, 1,    4344, 2}
-{SQ10,	 P_Ft,          3733, 2,    4344, 3}
-{SQ11,	 P_MS,          3816, 7,    4446, 0}
-{SQ11,	 P_Tbl,         3817, 0,    4446, 1}
-{SQ20,	 P_C,           4152, 7,    4854, 0}
-{SQ20,	 P_CryoCD,      4153, 0,    4854, 1}
-{SQ20,	 P_TherShieldCD,4153, 1,    4854, 2}
-{SQ20,	 P_WarmUp,      4153, 2,    4854, 3}
-{SQ20,	 P_Isolated,    4153, 3,    4854, 4}
+{SQ4,	 P_C1,          3229, 0,    3732, 0}
+{SQ4,	 P_C2,          3229, 1,    3732, 1}
+{SQ4,	 P_Tt,          3229, 2,    3732, 2}
+{SQ4,	 P_Ft,          3229, 3,    3732, 3}
+{SQ7,	 P_C1,          3481, 0,    4038, 0}
+{SQ7,	 P_C2,          3481, 1,    4038, 1}
+{SQ7,	 P_Tbl,         3481, 2,    4038, 2}
+{SQ7,	 P_MS,          3481, 3,    4038, 3}
+{SQ8,	 P_MS,          3565, 0,    4140, 0}
+{SQ8,	 P_Tbl,         3565, 1,    4140, 1}
+{SQ9,	 P_MS,          3649, 0,    4242, 0}
+{SQ9,	 P_Tbl,         3649, 1,    4242, 1}
+{SQ10,	 P_C1,          3733, 0,    4344, 0}
+{SQ10,	 P_C2,          3733, 1,    4344, 1}
+{SQ10,	 P_Tt,          3733, 2,    4344, 2}
+{SQ10,	 P_Ft,          3733, 3,    4344, 3}
+{SQ11,	 P_MS,          3817, 0,    4446, 0}
+{SQ11,	 P_Tbl,         3817, 1,    4446, 1}
+{SQ13,	 P_Isolated,    4069, 0,    4752, 0}
+{SQ20,	 P_CondCryo,    4153, 0,    4854, 0}
+{SQ20,	 P_CondCoupl,   4153, 1,    4854, 1}
+{SQ20,	 P_CDCryo,      4153, 2,    4854, 2}
+{SQ20,	 P_SHe,         4153, 3,    4854, 3}
+{SQ20,	 P_WarmUp,      4153, 4,    4854, 4}
+{SQ20,	 P_Isolated,    4153, 5,    4854, 5}
+{SQ20,	 P_StopSeq,     4153, 6,    4854, 6}
 }
 
 file "SQ0_1_2.template" { pattern
