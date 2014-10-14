@@ -51,6 +51,13 @@ record(ai, "CstatH-Ctrl:$(SUBS):sStep") {
   field(SCAN, "I/O Intr")
 }
 
+record(ai, "CstatH-Ctrl:$(SUBS):sInitCond") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:HNOSS/$(OFFS)+36 T=INT16")
+  field(PREC, "6")
+  field(SCAN, "I/O Intr")
+}
+
 record(bi, "CstatH-Ctrl:$(SUBS):sActivate") {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=0")

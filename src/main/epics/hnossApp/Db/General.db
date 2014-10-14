@@ -90,3 +90,14 @@ record(ao, CstatH-Cryo:LN2:LI3685-PercOut) {
   field(PREC, "2")
   field(OMSL, "closed_loop")
 }
+
+record(bo, CstatH-Cryo:Dwr:CV5202_Slctd) {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/1 T=BYTE B=0")
+  field(PINI, "NO")
+  field(SCAN, "10 second")
+  field (ONAM,  "Open")
+  field (ZNAM,  "Closed")
+  field(DOL, "Cryo-Dwr:Dwr:StCV5202_Slctd CA")
+  field(OMSL, "closed_loop")
+}

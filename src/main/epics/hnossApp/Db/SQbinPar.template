@@ -11,8 +11,8 @@ record(bo, "CstatH-Ctrl:$(SUBS):c$(SIG)") {
   field(DTYP, "S7plc")
   field(OUT, "@PLC:HNOSS/$(OFFS2) T=BYTE B=$(BIT2)")
   field(ZNAM, "False")
-  field(ONAM, "c$(SIG)")
-  field(SDIS, "CstatH-Ctrl:opMode:sLocal")
+  field(ONAM, "True")
+#  field(SDIS, "CstatH-Ctrl:opMode:sLocal")
   field(FLNK, "CstatH-Ctrl:$(SUBS):c$(SIG):cmdSetParam-link")
 }
 
