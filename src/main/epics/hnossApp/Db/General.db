@@ -69,6 +69,22 @@ record (calc, "CstatH-Ctrl:s7-disconnect-counter")
    field (CALC, "(A=0&&B=1)?C+1:C")
 }
 
+# Heart-bit to the PLC
+
+record(calc, "CstatH-Ctrl:HeartBeat:counter") {
+  field(INPA, "CstatH-Ctrl:HeartBeat:counter")
+  field(CALC, "A+1")
+#  field(OUT, "CstatH-Ctrl:HeartBeat:HBcounter")
+}
+
+record(ao, CstatH-Ctrl:HeartBeat:HBcounter) {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/2 T=INT16")
+  field(SCAN, "10 second")
+  field(DOL, "CstatH-Ctrl:HeartBeat:counter PP")
+  field(OMSL, "closed_loop")
+}
+
 # Records with data from the Cryosystem
 
 record(ao, CstatH-Cryo:LHe:LI5200-PercOut) {
