@@ -107,6 +107,16 @@ record(ao, CstatH-Cryo:LN2:LI3685-PercOut) {
   field(OMSL, "closed_loop")
 }
 
+record(ao, CstatH-Cryo:Dwr:UY5202-PercOut) {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/28 T=FLOAT")
+  field(PINI, "NO")
+  field(SCAN, "10 second")
+  field(DOL, "Cryo-Dwr:V:UY5202-PercOut CA")
+  field(PREC, "2")
+  field(OMSL, "closed_loop")
+}
+
 record(bo, CstatH-Cryo:Dwr:CV5202_Slctd) {
   field(DTYP, "S7plc")
   field(OUT, "@PLC:HNOSS/1 T=BYTE B=0")
