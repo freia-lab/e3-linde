@@ -160,6 +160,9 @@ file "Valves.template" { pattern
 {IBoxHe,FV502,     1468,    1468}
 {RHtr,  FV550,     1470,    1470}
 {RHtr,  FV551,     1472,    1472}
+{RHtr,  FV552,     1474,    1474}
+{RHtr,  FV553,     1476,    1476}
+{RHtr,  FV554,     1478,    1478}
 }
 
 file "Evalves.template" { pattern
