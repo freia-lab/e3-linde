@@ -85,3 +85,12 @@ record(ai, "CstatH-$(SUBS):$(DEV):sRdV") {
   field(FLNK, "CstatH-$(SUBS):$(DEV):sRdV-cSetV-link")
   field(EGU, "$(EGU)")
 }
+
+record(ai, "CstatH-$(SUBS):$(DEV):sAutoRdV") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:HNOSS/$(OFFS)+2 T=FLOAT")
+  field(PREC, "6")
+  field(SCAN, "I/O Intr")
+  field(PINI, "YES")
+  field(EGU, "$(EGU)")
+}
