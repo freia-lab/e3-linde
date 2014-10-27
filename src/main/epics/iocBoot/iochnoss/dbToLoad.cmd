@@ -8,7 +8,7 @@ cd "$(TOP)/db"
 dbLoadRecords("General.db","user=nicklasbpHost")
 dbLoadTemplate("hnoss.substitutions")
 
-dbLoadRecords("dlinde.db")
+dbLoadRecords("linde.db")
 dbLoadTemplate("lindeCryosystem.substitutions")
 
 # PLC communication 
