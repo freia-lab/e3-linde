@@ -1,0 +1,27 @@
+record(bi, "$(P):s$(SIG)") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:WTRVAC/$(S_OFFS) T=BYTE B=$(S_BIT)")
+  field(ONAM, "$(S_ONAM)")
+  field(ZNAM, "$(S_ZNAM)")
+  field(PINI, "YES")
+  field(FLNK, "$(P):c$(SIG)-rbk")
+  field(SCAN, "I/O Intr")
+}
+
+record(calcout, "$(P):c$(SIG)-rbk") {
+  field(INPA, "$(P):s$(SIG)")
+  field(CALC, "A")
+  field(SCAN, "Event")
+  field(EVNT, "$(INIT_EVNT)")
+  field(OUT, "$(P):c$(SIG) PP")
+}
+
+record(bo, "$(P):c$(SIG)") {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:WTRVAC/$(C_OFFS) T=BYTE B=$(C_BIT)")
+  field(ZNAM, "$(C_ZNAM)")
+  field(ONAM, "$(C_ONAM)")
+  field(PINI, "NO")
+}
+
+

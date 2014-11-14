@@ -1,0 +1,10 @@
+record(ai, "$(P):s$(SIG)") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:WTRVAC/$(OFFS) T=FLOAT")
+  field(PREC, $(PREC))
+  field(PINI, "YES")
+  field(SCAN, "I/O Intr")
+  field(EGU, "$(EGU)")
+  field(LOPR, "$(LOPR)")
+  field(HOPR, "$(HOPR)")
+}

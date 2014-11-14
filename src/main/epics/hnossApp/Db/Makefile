@@ -35,6 +35,18 @@ DB += visu_state.template
 DB += lindeAnalogFloatInput.template  
 DB += lindeAnalogIntInput.template
 DB += lindeCryosystem.substitutions
+DB += 2Kpumps.substitutions
+DB += 2Kpumps.db
+DB += 2K_AI.template
+DB += 2K_DVpump.template
+DB += 2K_WHpump.template
+DB += CtrlBitwRdBack.template
+
+DB += Dwater.db
+DB += Dwtr_AI.template
+DB += Dwtr_AIx4.template
+DB += Dwater.substitutions
+DB += CtrlMbbwRdBack.template
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add

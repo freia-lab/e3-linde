@@ -1,0 +1,46 @@
+record(bi, "CstatH-$(SUBS):$(DEV):sOK") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:WTRVAC/$(OFFS) T=BYTE B=0")
+  field(ZSV, "MAJOR")
+  field(ONAM, "OK")
+  field(ZNAM, "Fault")
+  field(PINI, "YES")
+  field(SCAN, "I/O Intr")
+}
+
+record(bi, "CstatH-$(SUBS):$(DEV):sMotProtOK") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:WTRVAC/$(OFFS) T=BYTE B=1")
+  field(ZSV, "MAJOR")
+  field(ONAM, "MotorProtOK")
+  field(ZNAM, "Fault")
+  field(PINI, "YES")
+  field(SCAN, "I/O Intr")
+}
+
+record(bi, "CstatH-$(SUBS):$(DEV):sOn") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:WTRVAC/$(OFFS) T=BYTE B=2")
+  field(ONAM, "ON")
+  field(ZNAM, "OFF")
+  field(PINI, "YES")
+  field(SCAN, "I/O Intr")
+}
+
+record(mbbi, "CstatH-$(SUBS):$(DEV):sStatus") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:WTRVAC/$(OFFS) T=BYTE")
+  field(NOBT, "3")
+  field(PINI, "YES")
+  field(SCAN, "I/O Intr")
+}
+
+record(ai, "CstatH-$(SUBS):$(DEV):sFreq") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:WTRVAC/$(OFFS)+2 T=FLOAT")
+  field(PREC, "1")
+  field(SCAN, "I/O Intr")
+  field(PINI, "YES")
+  field(EGU, "$(EGU)")
+  field(HOPR, "120.0")
+}

@@ -5,11 +5,14 @@
 cd "$(TOP)/db"
 #dbLoadRecords("xxx.db","user=konradHost")
 #dbLoadTemplate(xxx.substitutions)
-dbLoadRecords("General.db","user=nicklasbpHost")
-dbLoadTemplate("hnoss.substitutions")
+#dbLoadRecords("General.db","user=nicklasbpHost")
+#dbLoadTemplate("hnoss.substitutions")
 
-dbLoadRecords("linde.db")
-dbLoadTemplate("lindeCryosystem.substitutions")
+dbLoadRecords("2Kpumps.db", "SUBS=2Kpumps, DEV=Ctrl, OFFS=0, OFFS2=0")
+dbLoadTemplate("2Kpumps.substitutions")
+
+dbLoadRecords("Dwater.db", "INIT_EVNT=7")
+dbLoadTemplate("Dwater.substitutions")
 
 # PLC communication 
 #cd "$(EPICS_MODULES)/s7plc/db"

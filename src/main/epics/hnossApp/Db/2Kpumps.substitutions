@@ -1,0 +1,42 @@
+# 2K pumps
+
+file "2K_DVpump.template" { pattern
+
+{SUBS,	  DEV,      OFFS,     EGU}
+{2KPumps,  P1A,	    4,	      Hz}
+{2KPumps,  P1B,	    10,	      Hz}
+{2KPumps,  P1C,	    16,	      Hz}
+{2KPumps,  P1D,	    22,	      Hz}
+}
+
+file "2K_WHpump.template" { pattern
+
+{SUBS,	  DEV,      OFFS,     EGU}
+{2KPumps,  P2,	    28,	      Hz}
+{2KPumps,  P3A,	    34,	      Hz}
+{2KPumps,  P3B,	    40,	      Hz}
+}
+
+file "2K_AI.template" { pattern
+
+{SUBS,	  DEV,      OFFS,     EGU,	LOPR	HOPR}
+{2KPumps,  PT552,   46,	      mbar,	0,	1200}
+{2KPumps,  PT553,   50,	      mbar,	0,	133.3}
+{2KPumps,  PT554,   54,	      mbar,	0,	200}
+{2KPumps,  PT555,   58,	      mbar,	0,	200}
+{2KPumps,  PT556,   62,	      mbar,	0,	1300}
+{2KPumps,  PT557,   66,	      mbar,	0,	1200}
+{2KPumps,  TT552,   94,	      "ᵒC",	-20,	100}
+{2KPumps,  TT553,   98,	      "ᵒC",	-20,	100}
+{2KPumps,  TT554,   102,      "ᵒC",	-20,	100}
+{2KPumps,  TT555,   106,      "ᵒC",	-20,	100}
+{2KPumps,  TT556,   110,      "ᵒC",	-20,	100}
+{2KPumps,  TT557,   114,      "ᵒC",	-20,	100}
+}
+
+file "CtrlBitwRdBack.template" { pattern
+
+{P,                   SIG,	S_OFFS, S_BIT, S_ZNAM, S_ONAM, C_OFFS, C_BIT, C_ZNAM,   C_ONAM,	INIT_EVNT}
+{CstatH-2Kpumps:Ctrl, Remote,	0,	 3     Local,  Remote, 0,	  1,	 Local, Remote,	7}	    
+{CstatH-2Kpumps:Ctrl, On,	0,	 0     OFF,    ON,     0,	  0,	 Stop,  Start,	7}	    
+}

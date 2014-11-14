@@ -1,3 +1,7 @@
+CstatH-2Kpumps:Ctrl-DV:cSetV
+CstatH-2Kpumps:Ctrl-WH:cSetV
+CstatH-2Kpumps:Ctrl-Pressure:cSetV
+CstatH-2Kpumps:Ctrl:cAuto
 #4511RT-TST-1:AOU8-JZ-CRC
 #4511RT-TST-1:AOU16-JZ-CRC
 #4511RT-TST-1:AOU32-JZ-CRC

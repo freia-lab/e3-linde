@@ -1,0 +1,25 @@
+record(mbbi, "$(P):s$(SIG)") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:WTRVAC/$(S_OFFS) T=BYTE")
+  field(NOBT, "8")
+  field(PINI, "YES")
+  field(FLNK, "$(P):c$(SIG)-rbk")
+  field(SCAN, "I/O Intr")
+}
+
+record(calcout, "$(P):c$(SIG)-rbk") {
+  field(INPA, "$(P):s$(SIG)")
+  field(CALC, "A")
+  field(SCAN, "Event")
+  field(EVNT, "$(INIT_EVNT)")
+  field(OUT, "$(P):c$(SIG) PP")
+}
+
+record(mbbo, "$(P):c$(SIG)") {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:WTRVAC/$(C_OFFS) T=BYTE")
+  field(NOBT, "8")
+  field(PINI, "NO")
+}
+
+
