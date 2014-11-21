@@ -11,7 +11,7 @@ record(ai, "$(P):s$(SIG)") {
 
 record(mbbi, "$(P):s$(SIG)-stat") {
   field(DTYP, "S7plc")
-  field(INP, "@PLC:WTRVAC/$(STAT_OFFS) T=UINT16")
+  field(INP, "@PLC:WTRVAC/$(STAT_OFFS) T=BYTE")
   field(NOBT, 4)
   field(SHFT, $(SHFT))
   field(ZRVL, "0")

@@ -43,8 +43,10 @@ record(bi, "WtrC-Dwtr:P1:sRotating")  {
   field(DTYP, "S7plc")
   field(INP, "@PLC:WTRVAC/151 T=BYTE B=6")
   field(ONAM, "Rotating")
+  field(ZNAM, "Not_Rotating")
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
+  alias("Rotating")
 }
 
 record(ai, "WtrC-Dwtr:P1:sWarnCode")  {

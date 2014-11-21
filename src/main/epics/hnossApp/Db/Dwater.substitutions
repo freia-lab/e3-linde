@@ -20,10 +20,10 @@ file "Dwtr_AI.template" { pattern
 
 file "Dwtr_AIx4.template" { pattern
 {P,  	 	    SIG,	OFFS,  STAT_OFFS, SHFT, LOPR,  HOPR EGU,  PREC}
-{"WtrC-Dwtr:TT001", RdV,	232,   230        8,   	 0,	50,  "ᵒC", 1}
-{"WtrC-Dwtr:CT001", RdV,	236,   230        12, 	 0,	20,  "μS/cm²",1}
-{"WtrC-Dwtr:CT002", RdV,	240,   230        0, 	 0	2,   "μS/cm²",2}
-{"WtrC-Dwtr:PT001", RdV,	244,   230        4,    0	8,   "bar",1}
+{"WtrC-Dwtr:TT001", RdV,	232,   230        0,   	 0,	50,  "ᵒC", 1}
+{"WtrC-Dwtr:CT001", RdV,	236,   230        4, 	 0,	20,  "μS/cm²",1}
+{"WtrC-Dwtr:CT002", RdV,	240,   231        0, 	 0	2,   "μS/cm²",2}
+{"WtrC-Dwtr:PT001", RdV,	244,   231        4,     0	8,   "bar",1}
 }
 
 file "CtrlBitwRdBack.template" { pattern

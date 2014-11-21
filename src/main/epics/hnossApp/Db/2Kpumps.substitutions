@@ -3,35 +3,35 @@
 file "2K_DVpump.template" { pattern
 
 {SUBS,	  DEV,      OFFS,     EGU}
-{2KPumps,  P1A,	    4,	      Hz}
-{2KPumps,  P1B,	    10,	      Hz}
-{2KPumps,  P1C,	    16,	      Hz}
-{2KPumps,  P1D,	    22,	      Hz}
+{2Kpumps,  P1A,	    4,	      Hz}
+{2Kpumps,  P1B,	    10,	      Hz}
+{2Kpumps,  P1C,	    16,	      Hz}
+{2Kpumps,  P1D,	    22,	      Hz}
 }
 
 file "2K_WHpump.template" { pattern
 
 {SUBS,	  DEV,      OFFS,     EGU}
-{2KPumps,  P2,	    28,	      Hz}
-{2KPumps,  P3A,	    34,	      Hz}
-{2KPumps,  P3B,	    40,	      Hz}
+{2Kpumps,  P2,	    28,	      Hz}
+{2Kpumps,  P3A,	    34,	      Hz}
+{2Kpumps,  P3B,	    40,	      Hz}
 }
 
 file "2K_AI.template" { pattern
 
 {SUBS,	  DEV,      OFFS,     EGU,	LOPR	HOPR}
-{2KPumps,  PT552,   46,	      mbar,	0,	1200}
-{2KPumps,  PT553,   50,	      mbar,	0,	133.3}
-{2KPumps,  PT554,   54,	      mbar,	0,	200}
-{2KPumps,  PT555,   58,	      mbar,	0,	200}
-{2KPumps,  PT556,   62,	      mbar,	0,	1300}
-{2KPumps,  PT557,   66,	      mbar,	0,	1200}
-{2KPumps,  TT552,   94,	      "ᵒC",	-20,	100}
-{2KPumps,  TT553,   98,	      "ᵒC",	-20,	100}
-{2KPumps,  TT554,   102,      "ᵒC",	-20,	100}
-{2KPumps,  TT555,   106,      "ᵒC",	-20,	100}
-{2KPumps,  TT556,   110,      "ᵒC",	-20,	100}
-{2KPumps,  TT557,   114,      "ᵒC",	-20,	100}
+{2Kpumps,  PT552,   46,	      mbar,	0,	1200}
+{2Kpumps,  PT553,   50,	      mbar,	0,	133.3}
+{2Kpumps,  PT554,   54,	      mbar,	0,	200}
+{2Kpumps,  PT555,   58,	      mbar,	0,	200}
+{2Kpumps,  PT556,   62,	      mbar,	0,	1300}
+{2Kpumps,  PT557,   66,	      mbar,	0,	1200}
+{2Kpumps,  TT552,   94,	      "ᵒC",	-20,	100}
+{2Kpumps,  TT553,   98,	      "ᵒC",	-20,	100}
+{2Kpumps,  TT554,   102,      "ᵒC",	-20,	100}
+{2Kpumps,  TT555,   106,      "ᵒC",	-20,	100}
+{2Kpumps,  TT556,   110,      "ᵒC",	-20,	100}
+{2Kpumps,  TT557,   114,      "ᵒC",	-20,	100}
 }
 
 file "CtrlBitwRdBack.template" { pattern
