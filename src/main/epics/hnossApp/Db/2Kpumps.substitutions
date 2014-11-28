@@ -37,6 +37,6 @@ file "2K_AI.template" { pattern
 file "CtrlBitwRdBack.template" { pattern
 
 {P,                   SIG,	S_OFFS, S_BIT, S_ZNAM, S_ONAM, C_OFFS, C_BIT, C_ZNAM,   C_ONAM,	INIT_EVNT}
-{CstatH-2Kpumps:Ctrl, Remote,	0,	 3     Local,  Remote, 0,	  1,	 Local, Remote,	7}	    
-{CstatH-2Kpumps:Ctrl, On,	0,	 0     OFF,    ON,     0,	  0,	 Stop,  Start,	7}	    
+{CstatH-2Kpumps:Ctrl, Remote,  0,       3     Local,  Remote, 0,         1,     Local, Remote, 7}          
+{CstatH-2Kpumps:Ctrl, On,      0,       0     OFF,    ON,     0,         0,     Stop,  Start,  7}          
 }

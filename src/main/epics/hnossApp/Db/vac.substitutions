@@ -1,0 +1,24 @@
+file "TP_AI.template" { pattern
+{P,  		    SIG,	OFFS, TYP,    PREC,   EGU,   LOPR,  HOPR, H,	MAXVAL}
+{CstatH-Vac:TP001,   MotV,	248,  BYTE,   0,      "V",   0,	100,	100,	100}
+{CstatH-Vac:TP001,   BearingT,	249,  BYTE,   0,      "°C",  0,	100,	100,	100}
+{CstatH-Vac:TP001,   PSupplyT,	250,  BYTE,   0,      "°C",  0,	100,	100,	100}
+{CstatH-Vac:TP001,   CPU_T,	251,  BYTE,   0,      "°C",  0,	100,	100,	100}
+{CstatH-Vac:TP001,   MotI,	256,  UINT16, 3,      "A",   0,	10,	10000,	10}
+{CstatH-Vac:TP001,   MotP,	258,  UINT16, 0,      "W",   0,	200,	200,	200}
+{CstatH-Vac:TP001,   MotPLimit,	260,  UINT16, 0,      "W",   0,	200,	200,	200}
+{CstatH-Vac:TP001,   Freq,	262,  UINT16, 0,      "Hz",  0,	1500,	1500,	1500}
+{CstatH-Vac:TP001,   FreqSP,	264,  UINT16, 0,      "Hz",  0,	1500,	1500,	1500}
+{CstatH-Vac:TP001,   NoOfStarts,266,  UINT16, 0,      "",    0,	65535,	65535,	65535}
+{CstatH-Vac:TP001,   LastOnTime,268,  UINT16, 0,      "min.",0,	65535,	65535,	65535}
+{CstatH-Vac:TP001,   OpTime,	270,  UINT16, 0,      "h",   0,	65535,	65535,	65535}
+{CstatH-Vac:TP002,   Freq,	278,  UINT16, 0,      "Hz",  0,	1000,	1000,	1000}
+}
+
+
+file "CtrlBitwRdBack.template" { pattern
+
+{P,                   SIG,	S_OFFS, S_BIT, S_ZNAM, S_ONAM, C_OFFS, C_BIT, C_ZNAM,   C_ONAM,	INIT_EVNT}
+{CstatH-Vac:TP002,    Remote,	276,	 7     Local,  Remote, 46,	  2,	 Local, Remote,	7}	    
+#{CstatH-Vac:TP002,    On,	276,	 2     OFF,    ON,     47,	  0,	 Stop,  Start,	7}	    
+}

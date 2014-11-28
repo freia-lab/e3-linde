@@ -47,6 +47,9 @@ DB += Dwtr_AI.template
 DB += Dwtr_AIx4.template
 DB += Dwater.substitutions
 DB += CtrlMbbwRdBack.template
+DB += TP_AI.template
+DB += vac.substitutions
+DB += vac.db
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add

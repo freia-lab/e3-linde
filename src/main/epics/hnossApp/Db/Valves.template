@@ -1,7 +1,7 @@
 record(bi, "CstatH-$(SUBS):$(DEV):sAuto")  {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=0")
-  field(OSV, "MAJOR")
+  field(ZSV, "MINOR")
   field(ONAM, "Auto")
   field(ZNAM, "Manual")
   field(PINI, "YES")
@@ -11,7 +11,7 @@ record(bi, "CstatH-$(SUBS):$(DEV):sAuto")  {
 record(bi, "CstatH-$(SUBS):$(DEV):sSim")  {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=1")
-  field(OSV, "MAJOR")
+  field(OSV, "MINOR")
   field(ONAM, "True")
   field(ZNAM, "False")
   field(PINI, "YES")
@@ -21,9 +21,8 @@ record(bi, "CstatH-$(SUBS):$(DEV):sSim")  {
 record(bi, "CstatH-$(SUBS):$(DEV):sCmd")  {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=2")
-  field(OSV, "MAJOR")
-  field(ONAM, "True")
-  field(ZNAM, "False")
+  field(ONAM, "CmdOpen")
+  field(ZNAM, "CmdClose")
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
 }
@@ -31,7 +30,6 @@ record(bi, "CstatH-$(SUBS):$(DEV):sCmd")  {
 record(bi, "CstatH-$(SUBS):$(DEV):sOn")  {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=3")
-  field(OSV, "MAJOR")
   field(ONAM, "True")
   field(ZNAM, "False")
   field(PINI, "YES")
@@ -41,7 +39,6 @@ record(bi, "CstatH-$(SUBS):$(DEV):sOn")  {
 record(bi, "CstatH-$(SUBS):$(DEV):sOff")  {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=4")
-  field(OSV, "MAJOR")
   field(ONAM, "True")
   field(ZNAM, "False")
   field(PINI, "YES")
@@ -51,7 +48,6 @@ record(bi, "CstatH-$(SUBS):$(DEV):sOff")  {
 record(bi, "CstatH-$(SUBS):$(DEV):sNO")  {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=5")
-  field(OSV, "MAJOR")
   field(ONAM, "Normally Open")
   field(ZNAM, "Normally Closed")
   field(PINI, "YES")
@@ -102,7 +98,7 @@ record(bo, "CstatH-$(SUBS):$(DEV):cmdSet") {
   field(DTYP, "S7plc")
   field(OUT, "@PLC:HNOSS/$(OFFS2) T=BYTE B=2")
   field(ZNAM, "Iddle")
-  field(ONAM, "CmdSet")
+  field(ONAM, "CmdOpen")
   field(PINI, "NO")
   field(HIGH, "0.5")
   field(SDIS, "CstatH-Ctrl:opMode:sLocal")
@@ -112,7 +108,7 @@ record(bo, "CstatH-$(SUBS):$(DEV):cmdRst") {
   field(DTYP, "S7plc")
   field(OUT, "@PLC:HNOSS/$(OFFS2) T=BYTE B=3")
   field(ZNAM, "Iddle")
-  field(ONAM, "CmdRst")
+  field(ONAM, "CmdClose")
   field(PINI, "NO")
   field(HIGH, "0.5")
   field(SDIS, "CstatH-Ctrl:opMode:sLocal")

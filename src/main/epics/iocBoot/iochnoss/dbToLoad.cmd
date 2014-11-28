@@ -13,6 +13,8 @@ dbLoadTemplate("2Kpumps.substitutions")
 
 dbLoadRecords("Dwater.db", "INIT_EVNT=7")
 dbLoadTemplate("Dwater.substitutions")
+dbLoadTemplate("vac.substitutions")
+dbLoadRecords("vac.db", "INIT_EVNT=7")
 
 # PLC communication 
 #cd "$(EPICS_MODULES)/s7plc/db"
