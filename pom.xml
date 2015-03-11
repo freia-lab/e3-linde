@@ -26,11 +26,12 @@
     <version>0.1a1</version>
     <name>CODAC Core System epics-hnoss module</name>
     <description>CODAC Core System epics-hnoss module</description>
-    <url>http://www.iter.org/</url>
+    <url>http://www.ess.org/</url>
  
     <!-- project properties -->
     <properties>
         <unit.type>module</unit.type>
+        <module.name>hnoss</module.name>
     </properties>
 
     <!-- parent pom.xml -->
@@ -64,13 +65,17 @@
                     <packaging>
                         <package name="opi">
                             <include type="boy" file="*" />
-                            <include type="databrowser" file="*" />
-                            <include type="boy" file="*-SDDMain.opi" topopi="true" />
+                            <include file="Hnoss-top.opi" topopi="true" type="boy"/>
+ #                           <include type="databrowser" file="*" />
+ #                           <include type="boy" file="*-SDDMain.opi" topopi="true" />
                         </package>
-                        <package name="hnoss-ioc">
+                        <package name="ioc">
                             <include type="ioc" name="hnoss" runlevels="345" />
                         </package>
-                    </packaging>
+                        <package name="src">
+                       	    <include type="source" source="./src/main/epics" target="epics/apps/${module.name}/src"/>
+                       	</package>
+                     </packaging>
                 </configuration>
             </plugin>
         </plugins>

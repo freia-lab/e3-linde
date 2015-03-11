@@ -103,98 +103,6 @@
 Conditioning He circuits</tooltip>
     <x>20</x>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <visible>true</visible>
-    <vertical_alignment>1</vertical_alignment>
-    <wuid>6b93b0ff:1486a33577e:-6066</wuid>
-    <auto_size>true</auto_size>
-    <scripts />
-    <height>16</height>
-    <name>Label Template</name>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <transparent>true</transparent>
-    <show_scrollbar>false</show_scrollbar>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205" />
-    </background_color>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92" />
-    </foreground_color>
-    <widget_type>Label</widget_type>
-    <enabled>false</enabled>
-    <text># od disconnects:</text>
-    <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
-    </font>
-    <width>103</width>
-    <border_style>0</border_style>
-    <rules />
-    <border_width>2</border_width>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215" />
-    </border_color>
-    <horizontal_alignment>0</horizontal_alignment>
-    <actions hook="false" hook_all="false" />
-    <y>1045</y>
-    <wrap_words>true</wrap_words>
-    <tooltip></tooltip>
-    <x>212</x>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <visible>true</visible>
-    <vertical_alignment>0</vertical_alignment>
-    <show_units>true</show_units>
-    <wuid>6b93b0ff:1486a33577e:-6041</wuid>
-    <auto_size>false</auto_size>
-    <rotation_angle>0.0</rotation_angle>
-    <scripts />
-    <height>21</height>
-    <name>Text Update Template</name>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <format_type>0</format_type>
-    <precision_from_pv>true</precision_from_pv>
-    <transparent>false</transparent>
-    <pv_name>CstatH-Ctrl:s7-disconnect-counter</pv_name>
-    <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255" />
-    </background_color>
-    <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
-    </foreground_color>
-    <widget_type>Text Update</widget_type>
-    <enabled>true</enabled>
-    <text>######</text>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <precision>0</precision>
-    <font>
-      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
-    </font>
-    <width>100</width>
-    <border_style>5</border_style>
-    <rules />
-    <pv_value />
-    <border_width>2</border_width>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215" />
-    </border_color>
-    <horizontal_alignment>0</horizontal_alignment>
-    <actions hook="false" hook_all="false" />
-    <y>1041</y>
-    <wrap_words>true</wrap_words>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <x>301</x>
-  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
     <visible>true</visible>
@@ -1294,7 +1202,7 @@ sequences</text>
       <color name="IO Foreground" red="0" green="0" blue="0" />
     </tab_2_foreground_color>
     <tab_count>3</tab_count>
-    <tooltip>2K Pumps</tooltip>
+    <tooltip>Overview</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -1335,63 +1243,6 @@ sequences</text>
       <actions hook="false" hook_all="false" />
       <x>1</x>
       <tooltip></tooltip>
-      <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0.0">
-        <border_alarm_sensitive>true</border_alarm_sensitive>
-        <visible>true</visible>
-        <wuid>-21b2ca35:148a7786110:-7431</wuid>
-        <auto_size>true</auto_size>
-        <boolean_label_position>5</boolean_label_position>
-        <scripts />
-        <height>40</height>
-        <data_type>0</data_type>
-        <name>Image Boolean Indicator Template</name>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <show_boolean_label>true</show_boolean_label>
-        <stretch_to_fit>false</stretch_to_fit>
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <pv_name>sim://ramp(0,1,-1,2)</pv_name>
-        <background_color>
-          <color name="IO Background" red="255" green="255" blue="205" />
-        </background_color>
-        <foreground_color>
-          <color name="IO InputPV Fg" red="0" green="32" blue="92" />
-        </foreground_color>
-        <off_label>OFF</off_label>
-        <widget_type>Image Boolean Indicator</widget_type>
-        <enabled>true</enabled>
-        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-        <font>
-          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
-        </font>
-        <width>40</width>
-        <border_style>0</border_style>
-        <rules>
-          <rule name="BorderRule" prop_id="border_style" out_exp="false">
-            <exp bool_exp="pv0==1">
-              <value>9</value>
-            </exp>
-            <pv trig="true">$(pv_name).SIMM</pv>
-          </rule>
-        </rules>
-        <pv_value />
-        <bit>-1</bit>
-        <border_width>2</border_width>
-        <on_label>ON</on_label>
-        <off_image>../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off Off.png</off_image>
-        <border_color>
-          <color name="IO Border" red="215" green="215" blue="215" />
-        </border_color>
-        <actions hook="false" hook_all="false" />
-        <y>411</y>
-        <on_image>../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off Off.png</on_image>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-        <x>805</x>
-      </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
         <macros>
           <include_parent_macros>true</include_parent_macros>
@@ -2111,374 +1962,6 @@ $(pv_value)</tooltip>
         <tooltip></tooltip>
         <x>304</x>
       </widget>
-      <widget typeId="org.csstudio.opibuilder.widgets.gauge" version="1.0.0">
-        <level_lo>0.0</level_lo>
-        <border_alarm_sensitive>true</border_alarm_sensitive>
-        <visible>true</visible>
-        <color_hihi>
-          <color name="Major" red="255" green="0" blue="0" />
-        </color_hihi>
-        <show_lo>true</show_lo>
-        <scripts />
-        <height>136</height>
-        <major_tick_step_hint>50</major_tick_step_hint>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <background_color>
-          <color name="IO InputPV Bg" red="255" green="255" blue="255" />
-        </background_color>
-        <enabled>true</enabled>
-        <widget_type>Gauge</widget_type>
-        <show_minor_ticks>true</show_minor_ticks>
-        <font>
-          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
-        </font>
-        <width>136</width>
-        <show_lolo>true</show_lolo>
-        <border_style>12</border_style>
-        <effect_3d>true</effect_3d>
-        <pv_value />
-        <show_markers>true</show_markers>
-        <show_hi>true</show_hi>
-        <maximum>2.0</maximum>
-        <border_width>2</border_width>
-        <log_scale>false</log_scale>
-        <minimum>0.0</minimum>
-        <wuid>-262d394c:148ffbdd3df:-3c04</wuid>
-        <show_hihi>true</show_hihi>
-        <scale_format></scale_format>
-        <show_scale>true</show_scale>
-        <color_lo>
-          <color name="Minor" red="255" green="255" blue="0" />
-        </color_lo>
-        <name>LP:PI2240</name>
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>true</keep_wh_ratio>
-        </scale_options>
-        <pv_name>Cryo-Cmp:LP:PI2240</pv_name>
-        <color_hi>
-          <color name="Minor" red="255" green="255" blue="0" />
-        </color_hi>
-        <foreground_color>
-          <color name="IO InputPV Fg" red="0" green="32" blue="92" />
-        </foreground_color>
-        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-        <level_hi>1.5</level_hi>
-        <scale_font>
-          <opifont.name fontName="arial" height="10" style="0">IO Scale 1</opifont.name>
-        </scale_font>
-        <level_hihi>1.8</level_hihi>
-        <ramp_gradient>true</ramp_gradient>
-        <color_lolo>
-          <color name="Major" red="255" green="0" blue="0" />
-        </color_lolo>
-        <rules>
-          <rule name="BorderRule" prop_id="border_style" out_exp="false">
-            <exp bool_exp="pv0==1">
-              <value>9</value>
-            </exp>
-            <pv trig="true">$(pv_name).SIMM</pv>
-          </rule>
-        </rules>
-        <value_label_format></value_label_format>
-        <transparent_background>true</transparent_background>
-        <needle_color>
-          <color name="IO Stick" red="0" green="32" blue="92" />
-        </needle_color>
-        <limits_from_pv>false</limits_from_pv>
-        <border_color>
-          <color name="IO Shape Fill" red="188" green="188" blue="188" />
-        </border_color>
-        <level_lolo>0.0</level_lolo>
-        <y>319</y>
-        <actions hook="false" hook_all="false" />
-        <x>30</x>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      </widget>
-      <widget typeId="org.csstudio.opibuilder.widgets.progressbar" version="1.0.0">
-        <level_lo>20.0</level_lo>
-        <border_alarm_sensitive>true</border_alarm_sensitive>
-        <visible>true</visible>
-        <color_fillbackground>
-          <color name="IO PV OFF" red="77" green="77" blue="77" />
-        </color_fillbackground>
-        <color_hihi>
-          <color name="Major" red="255" green="0" blue="0" />
-        </color_hihi>
-        <fillcolor_alarm_sensitive>false</fillcolor_alarm_sensitive>
-        <show_lo>false</show_lo>
-        <scripts />
-        <height>82</height>
-        <major_tick_step_hint>50</major_tick_step_hint>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <background_color>
-          <color name="IO InputPV Bg" red="255" green="255" blue="255" />
-        </background_color>
-        <enabled>true</enabled>
-        <widget_type>Progress Bar</widget_type>
-        <show_minor_ticks>true</show_minor_ticks>
-        <font>
-          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
-        </font>
-        <width>200</width>
-        <show_lolo>false</show_lolo>
-        <border_style>12</border_style>
-        <effect_3d>true</effect_3d>
-        <pv_value />
-        <show_markers>true</show_markers>
-        <show_hi>false</show_hi>
-        <maximum>100.0</maximum>
-        <border_width>2</border_width>
-        <horizontal>true</horizontal>
-        <log_scale>false</log_scale>
-        <minimum>0.0</minimum>
-        <wuid>-262d394c:148ffbdd3df:-356d</wuid>
-        <show_hihi>false</show_hihi>
-        <scale_format></scale_format>
-        <show_scale>true</show_scale>
-        <color_lo>
-          <color name="Minor" red="255" green="255" blue="0" />
-        </color_lo>
-        <name>HP:UY2160</name>
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <pv_name>Cryo-Cmp:HP:UY2160-PercOut</pv_name>
-        <color_hi>
-          <color name="Minor" red="255" green="255" blue="0" />
-        </color_hi>
-        <origin_ignored>true</origin_ignored>
-        <foreground_color>
-          <color name="IO InputPV Fg" red="0" green="32" blue="92" />
-        </foreground_color>
-        <show_label>false</show_label>
-        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-        <level_hi>80.0</level_hi>
-        <scale_font>
-          <opifont.name fontName="arial" height="10" style="0">IO Scale 1</opifont.name>
-        </scale_font>
-        <level_hihi>90.0</level_hihi>
-        <origin>0.0</origin>
-        <color_lolo>
-          <color name="Major" red="255" green="0" blue="0" />
-        </color_lolo>
-        <fill_color>
-          <color name="IO PV ON" red="0" green="0" blue="225" />
-        </fill_color>
-        <rules>
-          <rule name="BorderRule" prop_id="border_style" out_exp="false">
-            <exp bool_exp="pv0==1">
-              <value>9</value>
-            </exp>
-            <pv trig="true">$(pv_name).SIMM</pv>
-          </rule>
-        </rules>
-        <value_label_format></value_label_format>
-        <transparent_background>false</transparent_background>
-        <limits_from_pv>false</limits_from_pv>
-        <border_color>
-          <color name="IO Shape Fill" red="188" green="188" blue="188" />
-        </border_color>
-        <level_lolo>10.0</level_lolo>
-        <y>320</y>
-        <actions hook="false" hook_all="false" />
-        <x>430</x>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-        <indicator_mode>false</indicator_mode>
-      </widget>
-      <widget typeId="org.csstudio.opibuilder.widgets.progressbar" version="1.0.0">
-        <level_lo>20.0</level_lo>
-        <border_alarm_sensitive>true</border_alarm_sensitive>
-        <visible>true</visible>
-        <color_fillbackground>
-          <color name="IO PV OFF" red="77" green="77" blue="77" />
-        </color_fillbackground>
-        <color_hihi>
-          <color name="Major" red="255" green="0" blue="0" />
-        </color_hihi>
-        <fillcolor_alarm_sensitive>false</fillcolor_alarm_sensitive>
-        <show_lo>false</show_lo>
-        <scripts />
-        <height>82</height>
-        <major_tick_step_hint>50</major_tick_step_hint>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <background_color>
-          <color name="IO InputPV Bg" red="255" green="255" blue="255" />
-        </background_color>
-        <enabled>true</enabled>
-        <widget_type>Progress Bar</widget_type>
-        <show_minor_ticks>true</show_minor_ticks>
-        <font>
-          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
-        </font>
-        <width>200</width>
-        <show_lolo>false</show_lolo>
-        <border_style>12</border_style>
-        <effect_3d>true</effect_3d>
-        <pv_value />
-        <show_markers>true</show_markers>
-        <show_hi>false</show_hi>
-        <maximum>100.0</maximum>
-        <border_width>2</border_width>
-        <horizontal>true</horizontal>
-        <log_scale>false</log_scale>
-        <minimum>0.0</minimum>
-        <wuid>-262d394c:148ffbdd3df:-3551</wuid>
-        <show_hihi>false</show_hihi>
-        <scale_format></scale_format>
-        <show_scale>true</show_scale>
-        <color_lo>
-          <color name="Minor" red="255" green="255" blue="0" />
-        </color_lo>
-        <name>HP:UY2150</name>
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <pv_name>Cryo-Cmp:HP:UY2150-PercOut</pv_name>
-        <color_hi>
-          <color name="Minor" red="255" green="255" blue="0" />
-        </color_hi>
-        <origin_ignored>true</origin_ignored>
-        <foreground_color>
-          <color name="IO InputPV Fg" red="0" green="32" blue="92" />
-        </foreground_color>
-        <show_label>false</show_label>
-        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-        <level_hi>80.0</level_hi>
-        <scale_font>
-          <opifont.name fontName="arial" height="10" style="0">IO Scale 1</opifont.name>
-        </scale_font>
-        <level_hihi>90.0</level_hihi>
-        <origin>0.0</origin>
-        <color_lolo>
-          <color name="Major" red="255" green="0" blue="0" />
-        </color_lolo>
-        <fill_color>
-          <color name="IO PV ON" red="0" green="0" blue="225" />
-        </fill_color>
-        <rules>
-          <rule name="BorderRule" prop_id="border_style" out_exp="false">
-            <exp bool_exp="pv0==1">
-              <value>9</value>
-            </exp>
-            <pv trig="true">$(pv_name).SIMM</pv>
-          </rule>
-        </rules>
-        <value_label_format></value_label_format>
-        <transparent_background>false</transparent_background>
-        <limits_from_pv>false</limits_from_pv>
-        <border_color>
-          <color name="IO Shape Fill" red="188" green="188" blue="188" />
-        </border_color>
-        <level_lolo>10.0</level_lolo>
-        <y>320</y>
-        <actions hook="false" hook_all="false" />
-        <x>230</x>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-        <indicator_mode>false</indicator_mode>
-      </widget>
-      <widget typeId="org.csstudio.opibuilder.widgets.progressbar" version="1.0.0">
-        <level_lo>20.0</level_lo>
-        <border_alarm_sensitive>true</border_alarm_sensitive>
-        <visible>true</visible>
-        <color_fillbackground>
-          <color name="IO PV OFF" red="77" green="77" blue="77" />
-        </color_fillbackground>
-        <color_hihi>
-          <color name="Major" red="255" green="0" blue="0" />
-        </color_hihi>
-        <fillcolor_alarm_sensitive>false</fillcolor_alarm_sensitive>
-        <show_lo>false</show_lo>
-        <scripts />
-        <height>82</height>
-        <major_tick_step_hint>50</major_tick_step_hint>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <background_color>
-          <color name="IO InputPV Bg" red="255" green="255" blue="255" />
-        </background_color>
-        <enabled>true</enabled>
-        <widget_type>Progress Bar</widget_type>
-        <show_minor_ticks>true</show_minor_ticks>
-        <font>
-          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
-        </font>
-        <width>200</width>
-        <show_lolo>false</show_lolo>
-        <border_style>12</border_style>
-        <effect_3d>true</effect_3d>
-        <pv_value />
-        <show_markers>true</show_markers>
-        <show_hi>false</show_hi>
-        <maximum>100.0</maximum>
-        <border_width>2</border_width>
-        <horizontal>true</horizontal>
-        <log_scale>false</log_scale>
-        <minimum>0.0</minimum>
-        <wuid>-262d394c:148ffbdd3df:-352b</wuid>
-        <show_hihi>false</show_hihi>
-        <scale_format></scale_format>
-        <show_scale>true</show_scale>
-        <color_lo>
-          <color name="Minor" red="255" green="255" blue="0" />
-        </color_lo>
-        <name>LP:UY2250</name>
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <pv_name>Cryo-Cmp:LP:UY2250-PercOut</pv_name>
-        <color_hi>
-          <color name="Minor" red="255" green="255" blue="0" />
-        </color_hi>
-        <origin_ignored>true</origin_ignored>
-        <foreground_color>
-          <color name="IO InputPV Fg" red="0" green="32" blue="92" />
-        </foreground_color>
-        <show_label>false</show_label>
-        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-        <level_hi>80.0</level_hi>
-        <scale_font>
-          <opifont.name fontName="arial" height="10" style="0">IO Scale 1</opifont.name>
-        </scale_font>
-        <level_hihi>90.0</level_hihi>
-        <origin>0.0</origin>
-        <color_lolo>
-          <color name="Major" red="255" green="0" blue="0" />
-        </color_lolo>
-        <fill_color>
-          <color name="IO PV ON" red="0" green="0" blue="225" />
-        </fill_color>
-        <rules>
-          <rule name="BorderRule" prop_id="border_style" out_exp="false">
-            <exp bool_exp="pv0==1">
-              <value>9</value>
-            </exp>
-            <pv trig="true">$(pv_name).SIMM</pv>
-          </rule>
-        </rules>
-        <value_label_format></value_label_format>
-        <transparent_background>false</transparent_background>
-        <limits_from_pv>false</limits_from_pv>
-        <border_color>
-          <color name="IO Shape Fill" red="188" green="188" blue="188" />
-        </border_color>
-        <level_lolo>10.0</level_lolo>
-        <y>401</y>
-        <actions hook="false" hook_all="false" />
-        <x>230</x>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-        <indicator_mode>false</indicator_mode>
-      </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
         <macros>
           <include_parent_macros>true</include_parent_macros>
@@ -2518,7 +2001,7 @@ $(pv_value)</tooltip>
         <y>120</y>
         <actions hook="false" hook_all="false" />
         <x>905</x>
-        <tooltip></tooltip>
+        <tooltip>Click for details</tooltip>
         <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
           <visible>true</visible>
           <vertical_alignment>1</vertical_alignment>
@@ -2765,6 +2248,1092 @@ $(pv_value)</tooltip>
           <tooltip>$(pv_name)
 $(pv_value)</tooltip>
         </widget>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <fill_arrow>true</fill_arrow>
+        <arrow_length>20</arrow_length>
+        <visible>true</visible>
+        <fill_level>100.0</fill_level>
+        <wuid>-262d394c:149bd45c177:-43d6</wuid>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <arrows>0</arrows>
+        <height>1</height>
+        <anti_alias>true</anti_alias>
+        <name>Polyline Template_1</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alpha>255</alpha>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>true</keep_wh_ratio>
+        </scale_options>
+        <points>
+          <point x="467" y="215" />
+          <point x="562" y="215" />
+        </points>
+        <transparent>false</transparent>
+        <pv_name></pv_name>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205" />
+        </background_color>
+        <foreground_color>
+          <color name="IO Link" red="0" green="32" blue="92" />
+        </foreground_color>
+        <widget_type>Polyline</widget_type>
+        <enabled>true</enabled>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        </font>
+        <width>96</width>
+        <line_style>0</line_style>
+        <border_style>0</border_style>
+        <rules />
+        <pv_value />
+        <border_width>2</border_width>
+        <line_width>2</line_width>
+        <horizontal_fill>true</horizontal_fill>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <actions hook="false" hook_all="false" />
+        <y>215</y>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>467</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.symbol.bool.BoolMonitorWidget" version="1.0.0">
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <visible>true</visible>
+        <auto_size>true</auto_size>
+        <scripts />
+        <height>63</height>
+        <data_type>1</data_type>
+        <show_boolean_label>true</show_boolean_label>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <off_label>OFF</off_label>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205" />
+        </background_color>
+        <enabled>true</enabled>
+        <widget_type>Boolean Symbol Monitor</widget_type>
+        <font>
+          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        </font>
+        <permutation_matrix>
+          <row>
+            <col>1.0</col>
+            <col>0.0</col>
+          </row>
+          <row>
+            <col>0.0</col>
+            <col>1.0</col>
+          </row>
+        </permutation_matrix>
+        <width>52</width>
+        <border_style>0</border_style>
+        <flip_vertical>false</flip_vertical>
+        <pv_value />
+        <crop_bottom>0</crop_bottom>
+        <on_state>OK</on_state>
+        <on_label>ON</on_label>
+        <border_width>2</border_width>
+        <image_file>../SymbolLibrary/SVG/Fluid/Pumps/PV Vacuum Pump.svg</image_file>
+        <crop_right>0</crop_right>
+        <crop_left>0</crop_left>
+        <wuid>-262d394c:149bd45c177:-4aa1</wuid>
+        <boolean_label_position>0</boolean_label_position>
+        <on_color>
+          <color name="IO OK" red="0" green="255" blue="0" />
+        </on_color>
+        <stretch_to_fit>true</stretch_to_fit>
+        <name>Boolean Symbol Image Control Template</name>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>true</keep_wh_ratio>
+        </scale_options>
+        <off_color>
+          <color name="IO Default" red="255" green="0" blue="0" />
+        </off_color>
+        <pv_name>CstatH-Vac:TP001:sStatus</pv_name>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+        </foreground_color>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <flip_horizontal>false</flip_horizontal>
+        <crop_top>0</crop_top>
+        <rules>
+          <rule name="BorderRule" prop_id="border_style" out_exp="false">
+            <exp bool_exp="pv0==1">
+              <value>9</value>
+            </exp>
+            <pv trig="true">$(pv_name).SIMM</pv>
+          </rule>
+        </rules>
+        <degree>90</degree>
+        <off_state>Stopped</off_state>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <y>184</y>
+        <actions hook="true" hook_all="true">
+          <action type="OPEN_OPI_IN_VIEW">
+            <path>TP001.opi</path>
+            <macros>
+              <include_parent_macros>true</include_parent_macros>
+              <P>CstatH-Vac:TP001</P>
+            </macros>
+            <Position>4</Position>
+            <description></description>
+          </action>
+        </actions>
+        <x>540</x>
+        <tooltip>$(pv_name)
+Click for details</tooltip>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <visible>true</visible>
+        <fill_level>100.0</fill_level>
+        <line_color>
+          <color name="IO Line" red="0" green="32" blue="92" />
+        </line_color>
+        <wuid>-262d394c:149bd45c177:-2f47</wuid>
+        <bg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </bg_gradient_color>
+        <scripts />
+        <height>151</height>
+        <anti_alias>true</anti_alias>
+        <corner_height>16</corner_height>
+        <name>Rounded Rectangle Template</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alpha>255</alpha>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <transparent>false</transparent>
+        <pv_name></pv_name>
+        <corner_width>16</corner_width>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205" />
+        </background_color>
+        <foreground_color>
+          <color name="IO Shape Fill" red="188" green="188" blue="188" />
+        </foreground_color>
+        <widget_type>Rounded Rectangle</widget_type>
+        <enabled>true</enabled>
+        <fg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </fg_gradient_color>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        </font>
+        <width>286</width>
+        <line_style>0</line_style>
+        <border_style>0</border_style>
+        <rules />
+        <pv_value />
+        <border_width>2</border_width>
+        <line_width>1</line_width>
+        <horizontal_fill>true</horizontal_fill>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <actions hook="false" hook_all="false" />
+        <y>391</y>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>458</x>
+        <gradient>false</gradient>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <wuid>-262d394c:149bd45c177:-2f3d</wuid>
+        <auto_size>true</auto_size>
+        <scripts />
+        <height>19</height>
+        <name>Label Template_5</name>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <transparent>true</transparent>
+        <show_scrollbar>false</show_scrollbar>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205" />
+        </background_color>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="32" blue="92" />
+        </foreground_color>
+        <widget_type>Label</widget_type>
+        <enabled>true</enabled>
+        <text>HNOSS</text>
+        <font>
+          <opifont.name fontName="arial" height="12" style="1">IO SubTitle</opifont.name>
+        </font>
+        <width>58</width>
+        <border_style>0</border_style>
+        <rules />
+        <border_width>2</border_width>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <horizontal_alignment>1</horizontal_alignment>
+        <actions hook="false" hook_all="false" />
+        <y>403</y>
+        <wrap_words>true</wrap_words>
+        <tooltip></tooltip>
+        <x>572</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <fill_arrow>true</fill_arrow>
+        <arrow_length>20</arrow_length>
+        <visible>true</visible>
+        <fill_level>100.0</fill_level>
+        <wuid>-262d394c:149bd45c177:-2f23</wuid>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <arrows>0</arrows>
+        <height>1</height>
+        <anti_alias>true</anti_alias>
+        <name>Polyline Template_1</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alpha>255</alpha>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>true</keep_wh_ratio>
+        </scale_options>
+        <points>
+          <point x="743" y="525" />
+          <point x="815" y="525" />
+        </points>
+        <transparent>false</transparent>
+        <pv_name></pv_name>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205" />
+        </background_color>
+        <foreground_color>
+          <color name="IO Link" red="0" green="32" blue="92" />
+        </foreground_color>
+        <widget_type>Polyline</widget_type>
+        <enabled>true</enabled>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        </font>
+        <width>73</width>
+        <line_style>0</line_style>
+        <border_style>0</border_style>
+        <rules />
+        <pv_value />
+        <border_width>2</border_width>
+        <line_width>2</line_width>
+        <horizontal_fill>true</horizontal_fill>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <actions hook="false" hook_all="false" />
+        <y>525</y>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>743</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <visible>true</visible>
+        <wuid>-262d394c:149bd45c177:-2f22</wuid>
+        <auto_size>true</auto_size>
+        <boolean_label_position>5</boolean_label_position>
+        <scripts />
+        <height>36</height>
+        <data_type>0</data_type>
+        <name>Image Boolean Indicator Template</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <show_boolean_label>true</show_boolean_label>
+        <stretch_to_fit>false</stretch_to_fit>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <pv_name>CstatH-Vac:FV001:sOn</pv_name>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205" />
+        </background_color>
+        <foreground_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </foreground_color>
+        <off_label>Closed</off_label>
+        <widget_type>Image Boolean Indicator</widget_type>
+        <enabled>true</enabled>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name fontName="arial" height="8" style="0">IO Label 3</opifont.name>
+        </font>
+        <width>36</width>
+        <border_style>0</border_style>
+        <rules>
+          <rule name="BorderRule" prop_id="border_color" out_exp="false">
+            <exp bool_exp="pv0==1">
+              <value>
+                <color red="0" green="128" blue="255" />
+              </value>
+            </exp>
+            <exp bool_exp="pv1==0">
+              <value>
+                <color name="Minor" red="255" green="255" blue="0" />
+              </value>
+            </exp>
+            <pv trig="true">$(pv_name).SIMM</pv>
+            <pv trig="true">CstatH-Vac:FV001:sAuto</pv>
+          </rule>
+          <rule name="BorderRule2" prop_id="border_style" out_exp="false">
+            <exp bool_exp="pv0==0">
+              <value>1</value>
+            </exp>
+            <pv trig="true">CstatH-Vac:FV001:sAuto</pv>
+          </rule>
+        </rules>
+        <pv_value />
+        <bit>-1</bit>
+        <border_width>2</border_width>
+        <on_label>Open</on_label>
+        <off_image>../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off Off.png</off_image>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <actions hook="true" hook_all="false">
+          <action type="OPEN_OPI_IN_VIEW">
+            <path>CstatH-Valve.opi</path>
+            <macros>
+              <include_parent_macros>true</include_parent_macros>
+              <v_name>CstatH-Vac:FV001</v_name>
+            </macros>
+            <Position>4</Position>
+            <description>Valve control</description>
+          </action>
+        </actions>
+        <y>506</y>
+        <on_image>../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</on_image>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>755</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.symbol.bool.BoolMonitorWidget" version="1.0.0">
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <visible>true</visible>
+        <auto_size>true</auto_size>
+        <scripts />
+        <height>63</height>
+        <data_type>0</data_type>
+        <show_boolean_label>true</show_boolean_label>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <off_label>OFF</off_label>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205" />
+        </background_color>
+        <enabled>true</enabled>
+        <widget_type>Boolean Symbol Monitor</widget_type>
+        <font>
+          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        </font>
+        <permutation_matrix>
+          <row>
+            <col>1.0</col>
+            <col>-2.465190328815662E-32</col>
+          </row>
+          <row>
+            <col>2.465190328815662E-32</col>
+            <col>1.0</col>
+          </row>
+        </permutation_matrix>
+        <width>52</width>
+        <border_style>0</border_style>
+        <flip_vertical>false</flip_vertical>
+        <pv_value />
+        <crop_bottom>0</crop_bottom>
+        <bit>-1</bit>
+        <on_label>ON</on_label>
+        <border_width>2</border_width>
+        <image_file>../SymbolLibrary/SVG/Fluid/Pumps/PV Vacuum Pump.svg</image_file>
+        <crop_right>0</crop_right>
+        <crop_left>0</crop_left>
+        <wuid>-262d394c:149bd45c177:-2f21</wuid>
+        <boolean_label_position>0</boolean_label_position>
+        <on_color>
+          <color name="IO OK" red="0" green="255" blue="0" />
+        </on_color>
+        <stretch_to_fit>true</stretch_to_fit>
+        <name>Boolean Symbol Image Control Template</name>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>true</keep_wh_ratio>
+        </scale_options>
+        <off_color>
+          <color name="IO Default" red="255" green="0" blue="0" />
+        </off_color>
+        <pv_name>CstatH-Vac:TP002:sOn</pv_name>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+        </foreground_color>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <flip_horizontal>false</flip_horizontal>
+        <crop_top>0</crop_top>
+        <rules />
+        <degree>90</degree>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <y>492</y>
+        <actions hook="true" hook_all="true">
+          <action type="OPEN_OPI_IN_VIEW">
+            <path>TP002.opi</path>
+            <macros>
+              <include_parent_macros>true</include_parent_macros>
+              <P>CstatH-Vac:TP002</P>
+            </macros>
+            <Position>4</Position>
+            <description></description>
+          </action>
+        </actions>
+        <x>800</x>
+        <tooltip>$(pv_name)
+Click for details</tooltip>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <visible>true</visible>
+        <wuid>-262d394c:149bd45c177:-1145</wuid>
+        <auto_size>true</auto_size>
+        <boolean_label_position>5</boolean_label_position>
+        <scripts />
+        <height>36</height>
+        <data_type>0</data_type>
+        <name>Image Boolean Indicator Template</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <show_boolean_label>true</show_boolean_label>
+        <stretch_to_fit>false</stretch_to_fit>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <pv_name>CstatH-Vac:FV000:sOn</pv_name>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205" />
+        </background_color>
+        <foreground_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </foreground_color>
+        <off_label>Closed</off_label>
+        <widget_type>Image Boolean Indicator</widget_type>
+        <enabled>true</enabled>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name fontName="arial" height="8" style="0">IO Label 3</opifont.name>
+        </font>
+        <width>36</width>
+        <border_style>0</border_style>
+        <rules>
+          <rule name="BorderRule" prop_id="border_color" out_exp="false">
+            <exp bool_exp="pv0==1">
+              <value>
+                <color red="0" green="128" blue="255" />
+              </value>
+            </exp>
+            <exp bool_exp="pv1==0">
+              <value>
+                <color name="Minor" red="255" green="255" blue="0" />
+              </value>
+            </exp>
+            <pv trig="true">$(pv_name).SIMM</pv>
+            <pv trig="true">CstatH-Vac:FV000:sAuto</pv>
+          </rule>
+          <rule name="BorderRule2" prop_id="border_style" out_exp="false">
+            <exp bool_exp="pv0==0">
+              <value>1</value>
+            </exp>
+            <pv trig="true">CstatH-Vac:FV000:sAuto</pv>
+          </rule>
+        </rules>
+        <pv_value />
+        <bit>-1</bit>
+        <border_width>2</border_width>
+        <on_label>Open</on_label>
+        <off_image>../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off Off.png</off_image>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <actions hook="true" hook_all="false">
+          <action type="OPEN_OPI_IN_VIEW">
+            <path>CstatH-Valve.opi</path>
+            <macros>
+              <include_parent_macros>true</include_parent_macros>
+              <v_name>CstatH-Vac:FV000</v_name>
+            </macros>
+            <Position>4</Position>
+            <description>Valve control</description>
+          </action>
+        </actions>
+        <y>198</y>
+        <on_image>../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</on_image>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>490</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <fill_arrow>true</fill_arrow>
+        <arrow_length>20</arrow_length>
+        <visible>true</visible>
+        <fill_level>100.0</fill_level>
+        <wuid>-179111a6:14a3f083886:-5744</wuid>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <arrows>0</arrows>
+        <height>32</height>
+        <anti_alias>true</anti_alias>
+        <name>Polyline Template_3</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alpha>255</alpha>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>true</keep_wh_ratio>
+        </scale_options>
+        <points>
+          <point x="530" y="215" />
+          <point x="530" y="184" />
+        </points>
+        <transparent>false</transparent>
+        <pv_name></pv_name>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205" />
+        </background_color>
+        <foreground_color>
+          <color name="IO Link" red="0" green="32" blue="92" />
+        </foreground_color>
+        <widget_type>Polyline</widget_type>
+        <enabled>true</enabled>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        </font>
+        <width>1</width>
+        <line_style>0</line_style>
+        <border_style>0</border_style>
+        <rules />
+        <pv_value />
+        <border_width>2</border_width>
+        <line_width>1</line_width>
+        <horizontal_fill>true</horizontal_fill>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <actions hook="false" hook_all="false" />
+        <y>184</y>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>530</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <wuid>-179111a6:14a3f083886:-56e8</wuid>
+        <auto_size>true</auto_size>
+        <scripts />
+        <height>32</height>
+        <name>Label Template_6</name>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <transparent>true</transparent>
+        <show_scrollbar>false</show_scrollbar>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205" />
+        </background_color>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="32" blue="92" />
+        </foreground_color>
+        <widget_type>Label</widget_type>
+        <enabled>false</enabled>
+        <text>Pi
+Pe</text>
+        <font>
+          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        </font>
+        <width>20</width>
+        <border_style>0</border_style>
+        <rules />
+        <border_width>2</border_width>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <horizontal_alignment>0</horizontal_alignment>
+        <actions hook="false" hook_all="false" />
+        <y>148</y>
+        <wrap_words>true</wrap_words>
+        <tooltip></tooltip>
+        <x>572</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <visible>true</visible>
+        <vertical_alignment>0</vertical_alignment>
+        <show_units>false</show_units>
+        <wuid>-179111a6:14a3f083886:-57cf</wuid>
+        <auto_size>false</auto_size>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <height>20</height>
+        <name>Text Update Template</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <format_type>2</format_type>
+        <precision_from_pv>false</precision_from_pv>
+        <transparent>false</transparent>
+        <pv_name>CstatH-Vac:PT014:sRdV</pv_name>
+        <background_color>
+          <color name="IO InputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+        </foreground_color>
+        <widget_type>Text Update</widget_type>
+        <enabled>true</enabled>
+        <text>###</text>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <precision>1</precision>
+        <font>
+          <opifont.name fontName="Sans" height="8" style="0">Fine Print</opifont.name>
+        </font>
+        <width>53</width>
+        <border_style>5</border_style>
+        <rules>
+          <rule name="BorderRule" prop_id="border_style" out_exp="false">
+            <exp bool_exp="pv0==1">
+              <value>9</value>
+            </exp>
+            <pv trig="true">$(pv_name).SIMM</pv>
+          </rule>
+        </rules>
+        <pv_value />
+        <border_width>2</border_width>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <horizontal_alignment>0</horizontal_alignment>
+        <actions hook="false" hook_all="false" />
+        <y>144</y>
+        <wrap_words>false</wrap_words>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>510</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <visible>true</visible>
+        <vertical_alignment>0</vertical_alignment>
+        <show_units>false</show_units>
+        <wuid>-179111a6:14a3f083886:-57c8</wuid>
+        <auto_size>false</auto_size>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <height>20</height>
+        <name>Text Update Template</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <format_type>2</format_type>
+        <precision_from_pv>false</precision_from_pv>
+        <transparent>false</transparent>
+        <pv_name>CstatH-Vac:PT016:sRdV</pv_name>
+        <background_color>
+          <color name="IO InputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+        </foreground_color>
+        <widget_type>Text Update</widget_type>
+        <enabled>true</enabled>
+        <text>###</text>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <precision>1</precision>
+        <font>
+          <opifont.name fontName="Sans" height="8" style="0">Fine Print</opifont.name>
+        </font>
+        <width>53</width>
+        <border_style>5</border_style>
+        <rules>
+          <rule name="BorderRule" prop_id="border_style" out_exp="false">
+            <exp bool_exp="pv0==1">
+              <value>9</value>
+            </exp>
+            <pv trig="true">$(pv_name).SIMM</pv>
+          </rule>
+        </rules>
+        <pv_value />
+        <border_width>2</border_width>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <horizontal_alignment>0</horizontal_alignment>
+        <actions hook="false" hook_all="false" />
+        <y>165</y>
+        <wrap_words>false</wrap_words>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>510</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <visible>true</visible>
+        <vertical_alignment>0</vertical_alignment>
+        <show_units>false</show_units>
+        <wuid>-179111a6:14a3f083886:-5bdb</wuid>
+        <auto_size>false</auto_size>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <height>20</height>
+        <name>Text Update Template</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <format_type>2</format_type>
+        <precision_from_pv>false</precision_from_pv>
+        <transparent>false</transparent>
+        <pv_name>CstatH-Vac:PT010:sRdV</pv_name>
+        <background_color>
+          <color name="IO InputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+        </foreground_color>
+        <widget_type>Text Update</widget_type>
+        <enabled>true</enabled>
+        <text>###</text>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <precision>1</precision>
+        <font>
+          <opifont.name fontName="Sans" height="8" style="0">Fine Print</opifont.name>
+        </font>
+        <width>53</width>
+        <border_style>5</border_style>
+        <rules>
+          <rule name="BorderRule" prop_id="border_style" out_exp="false">
+            <exp bool_exp="pv0==1">
+              <value>9</value>
+            </exp>
+            <pv trig="true">$(pv_name).SIMM</pv>
+          </rule>
+        </rules>
+        <pv_value />
+        <border_width>2</border_width>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <horizontal_alignment>0</horizontal_alignment>
+        <actions hook="false" hook_all="false" />
+        <y>227</y>
+        <wrap_words>false</wrap_words>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>591</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <fill_arrow>true</fill_arrow>
+        <arrow_length>20</arrow_length>
+        <visible>true</visible>
+        <fill_level>100.0</fill_level>
+        <wuid>-179111a6:14a3f083886:-54c7</wuid>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <arrows>0</arrows>
+        <height>32</height>
+        <anti_alias>true</anti_alias>
+        <name>Polyline Template_3</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alpha>255</alpha>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>true</keep_wh_ratio>
+        </scale_options>
+        <points>
+          <point x="795" y="523" />
+          <point x="795" y="492" />
+        </points>
+        <transparent>false</transparent>
+        <pv_name></pv_name>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205" />
+        </background_color>
+        <foreground_color>
+          <color name="IO Link" red="0" green="32" blue="92" />
+        </foreground_color>
+        <widget_type>Polyline</widget_type>
+        <enabled>true</enabled>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        </font>
+        <width>1</width>
+        <line_style>0</line_style>
+        <border_style>0</border_style>
+        <rules />
+        <pv_value />
+        <border_width>2</border_width>
+        <line_width>1</line_width>
+        <horizontal_fill>true</horizontal_fill>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <actions hook="false" hook_all="false" />
+        <y>492</y>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>795</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <visible>true</visible>
+        <vertical_alignment>0</vertical_alignment>
+        <show_units>false</show_units>
+        <wuid>-179111a6:14a3f083886:-54c6</wuid>
+        <auto_size>false</auto_size>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <height>20</height>
+        <name>Text Update Template</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <format_type>2</format_type>
+        <precision_from_pv>false</precision_from_pv>
+        <transparent>false</transparent>
+        <pv_name>CstatH-Vac:PT015:sRdV</pv_name>
+        <background_color>
+          <color name="IO InputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+        </foreground_color>
+        <widget_type>Text Update</widget_type>
+        <enabled>true</enabled>
+        <text>###</text>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <precision>1</precision>
+        <font>
+          <opifont.name fontName="Sans" height="8" style="0">Fine Print</opifont.name>
+        </font>
+        <width>53</width>
+        <border_style>5</border_style>
+        <rules>
+          <rule name="BorderRule" prop_id="border_style" out_exp="false">
+            <exp bool_exp="pv0==1">
+              <value>9</value>
+            </exp>
+            <pv trig="true">$(pv_name).SIMM</pv>
+          </rule>
+        </rules>
+        <pv_value />
+        <border_width>2</border_width>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <horizontal_alignment>0</horizontal_alignment>
+        <actions hook="false" hook_all="false" />
+        <y>452</y>
+        <wrap_words>false</wrap_words>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>775</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <visible>true</visible>
+        <vertical_alignment>0</vertical_alignment>
+        <show_units>false</show_units>
+        <wuid>-179111a6:14a3f083886:-54c5</wuid>
+        <auto_size>false</auto_size>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <height>20</height>
+        <name>Text Update Template_1</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <format_type>2</format_type>
+        <precision_from_pv>false</precision_from_pv>
+        <transparent>false</transparent>
+        <pv_name>CstatH-Vac:PT017:sRdV</pv_name>
+        <background_color>
+          <color name="IO InputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+        </foreground_color>
+        <widget_type>Text Update</widget_type>
+        <enabled>true</enabled>
+        <text>###</text>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <precision>1</precision>
+        <font>
+          <opifont.name fontName="Sans" height="8" style="0">Fine Print</opifont.name>
+        </font>
+        <width>53</width>
+        <border_style>5</border_style>
+        <rules>
+          <rule name="BorderRule" prop_id="border_style" out_exp="false">
+            <exp bool_exp="pv0==1">
+              <value>9</value>
+            </exp>
+            <pv trig="true">$(pv_name).SIMM</pv>
+          </rule>
+        </rules>
+        <pv_value />
+        <border_width>2</border_width>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <horizontal_alignment>0</horizontal_alignment>
+        <actions hook="false" hook_all="false" />
+        <y>473</y>
+        <wrap_words>false</wrap_words>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>775</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <wuid>-179111a6:14a3f083886:-54b3</wuid>
+        <auto_size>true</auto_size>
+        <scripts />
+        <height>32</height>
+        <name>Label Template_6</name>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <transparent>true</transparent>
+        <show_scrollbar>false</show_scrollbar>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205" />
+        </background_color>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="32" blue="92" />
+        </foreground_color>
+        <widget_type>Label</widget_type>
+        <enabled>false</enabled>
+        <text>Pi
+Pe</text>
+        <font>
+          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        </font>
+        <width>16</width>
+        <border_style>0</border_style>
+        <rules />
+        <border_width>2</border_width>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <horizontal_alignment>0</horizontal_alignment>
+        <actions hook="false" hook_all="false" />
+        <y>461</y>
+        <wrap_words>true</wrap_words>
+        <tooltip></tooltip>
+        <x>836</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <visible>true</visible>
+        <vertical_alignment>0</vertical_alignment>
+        <show_units>false</show_units>
+        <wuid>-179111a6:14a3f083886:-54a5</wuid>
+        <auto_size>false</auto_size>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <height>20</height>
+        <name>Text Update Template</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <format_type>2</format_type>
+        <precision_from_pv>false</precision_from_pv>
+        <transparent>false</transparent>
+        <pv_name>CstatH-Vac:PT011:sRdV</pv_name>
+        <background_color>
+          <color name="IO InputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+        </foreground_color>
+        <widget_type>Text Update</widget_type>
+        <enabled>true</enabled>
+        <text>###</text>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <precision>1</precision>
+        <font>
+          <opifont.name fontName="Sans" height="8" style="0">Fine Print</opifont.name>
+        </font>
+        <width>53</width>
+        <border_style>5</border_style>
+        <rules>
+          <rule name="BorderRule" prop_id="border_style" out_exp="false">
+            <exp bool_exp="pv0==1">
+              <value>9</value>
+            </exp>
+            <pv trig="true">$(pv_name).SIMM</pv>
+          </rule>
+        </rules>
+        <pv_value />
+        <border_width>2</border_width>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <horizontal_alignment>0</horizontal_alignment>
+        <actions hook="false" hook_all="false" />
+        <y>535</y>
+        <wrap_words>false</wrap_words>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>851</x>
       </widget>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -3480,7 +4049,7 @@ $(pv_value)</tooltip>
           <foreground_color>
             <color name="IO InputPV Fg" red="0" green="32" blue="92" />
           </foreground_color>
-          <off_label>Local  </off_label>
+          <off_label>Remote   </off_label>
           <released_action_index>0</released_action_index>
           <widget_type>Boolean Button</widget_type>
           <enabled>true</enabled>
@@ -3547,7 +4116,7 @@ $(pv_value)</tooltip>
           <foreground_color>
             <color name="IO InputPV Fg" red="0" green="32" blue="92" />
           </foreground_color>
-          <off_label>OFF</off_label>
+          <off_label>ON</off_label>
           <released_action_index>0</released_action_index>
           <widget_type>Boolean Button</widget_type>
           <enabled>true</enabled>
@@ -3614,7 +4183,7 @@ $(pv_value)</tooltip>
           <foreground_color>
             <color name="IO InputPV Fg" red="0" green="32" blue="92" />
           </foreground_color>
-          <off_label>NoWrite    </off_label>
+          <off_label>Write  </off_label>
           <released_action_index>0</released_action_index>
           <widget_type>Boolean Button</widget_type>
           <enabled>true</enabled>
@@ -3681,7 +4250,7 @@ $(pv_value)</tooltip>
           <foreground_color>
             <color name="IO InputPV Fg" red="0" green="32" blue="92" />
           </foreground_color>
-          <off_label>Manual   </off_label>
+          <off_label>Auto   </off_label>
           <released_action_index>0</released_action_index>
           <widget_type>Boolean Button</widget_type>
           <enabled>true</enabled>
@@ -3747,7 +4316,16 @@ $(pv_value)</tooltip>
           </font>
           <width>236</width>
           <border_style>13</border_style>
-          <rules />
+          <rules>
+            <rule name="BorderRule" prop_id="border_color" out_exp="false">
+              <exp bool_exp="pv0==0">
+                <value>
+                  <color name="IO PV ON" red="0" green="0" blue="225" />
+                </value>
+              </exp>
+              <pv trig="true">CstatH-2Kpumps:Ctrl:cAuto</pv>
+            </rule>
+          </rules>
           <fc>false</fc>
           <lock_children>false</lock_children>
           <border_width>1</border_width>
@@ -3774,7 +4352,7 @@ $(pv_value)</tooltip>
             <transparent>true</transparent>
             <show_scrollbar>false</show_scrollbar>
             <background_color>
-              <color name="IO Background" red="255" green="255" blue="205" />
+              <color red="240" green="240" blue="240" />
             </background_color>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="32" blue="92" />
@@ -3812,7 +4390,7 @@ $(pv_value)</tooltip>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <precision_from_pv>true</precision_from_pv>
             <background_color>
-              <color name="IO OutputPV Bg" red="121" green="123" blue="126" />
+              <color red="240" green="240" blue="240" />
             </background_color>
             <enabled>true</enabled>
             <widget_type>Text Input</widget_type>
@@ -3837,7 +4415,7 @@ $(pv_value)</tooltip>
             </scale_options>
             <pv_name>CstatH-2Kpumps:Ctrl-DV:cSetV</pv_name>
             <foreground_color>
-              <color name="IO OutputPV Fg" red="255" green="255" blue="255" />
+              <color red="192" green="192" blue="192" />
             </foreground_color>
             <precision>0</precision>
             <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
@@ -3861,47 +4439,6 @@ $(pv_value)</tooltip>
             <tooltip>$(pv_name)
 $(pv_value)</tooltip>
           </widget>
-          <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-            <visible>true</visible>
-            <vertical_alignment>1</vertical_alignment>
-            <wuid>-262d394c:148ffbdd3df:-251</wuid>
-            <auto_size>true</auto_size>
-            <scripts />
-            <height>16</height>
-            <name>Label Template_5</name>
-            <scale_options>
-              <width_scalable>true</width_scalable>
-              <height_scalable>true</height_scalable>
-              <keep_wh_ratio>false</keep_wh_ratio>
-            </scale_options>
-            <transparent>true</transparent>
-            <show_scrollbar>false</show_scrollbar>
-            <background_color>
-              <color name="IO Background" red="255" green="255" blue="205" />
-            </background_color>
-            <foreground_color>
-              <color name="IO Text Fg" red="0" green="32" blue="92" />
-            </foreground_color>
-            <widget_type>Label</widget_type>
-            <enabled>true</enabled>
-            <text>WH frequency [%]</text>
-            <font>
-              <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
-            </font>
-            <width>108</width>
-            <border_style>0</border_style>
-            <rules />
-            <border_width>2</border_width>
-            <border_color>
-              <color name="IO Border" red="215" green="215" blue="215" />
-            </border_color>
-            <horizontal_alignment>0</horizontal_alignment>
-            <actions hook="false" hook_all="false" />
-            <y>45</y>
-            <wrap_words>true</wrap_words>
-            <tooltip></tooltip>
-            <x>10</x>
-          </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
             <border_alarm_sensitive>true</border_alarm_sensitive>
             <read_only>false</read_only>
@@ -3915,7 +4452,7 @@ $(pv_value)</tooltip>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <precision_from_pv>true</precision_from_pv>
             <background_color>
-              <color name="IO OutputPV Bg" red="121" green="123" blue="126" />
+              <color red="240" green="240" blue="240" />
             </background_color>
             <enabled>true</enabled>
             <widget_type>Text Input</widget_type>
@@ -3940,7 +4477,7 @@ $(pv_value)</tooltip>
             </scale_options>
             <pv_name>CstatH-2Kpumps:Ctrl-WH:cSetV</pv_name>
             <foreground_color>
-              <color name="IO OutputPV Fg" red="255" green="255" blue="255" />
+              <color red="192" green="192" blue="192" />
             </foreground_color>
             <precision>0</precision>
             <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
@@ -3963,6 +4500,47 @@ $(pv_value)</tooltip>
             <x>125</x>
             <tooltip>$(pv_name)
 $(pv_value)</tooltip>
+          </widget>
+          <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+            <visible>true</visible>
+            <vertical_alignment>1</vertical_alignment>
+            <wuid>-262d394c:148ffbdd3df:-251</wuid>
+            <auto_size>true</auto_size>
+            <scripts />
+            <height>16</height>
+            <name>Label Template_5</name>
+            <scale_options>
+              <width_scalable>true</width_scalable>
+              <height_scalable>true</height_scalable>
+              <keep_wh_ratio>false</keep_wh_ratio>
+            </scale_options>
+            <transparent>true</transparent>
+            <show_scrollbar>false</show_scrollbar>
+            <background_color>
+              <color red="240" green="240" blue="240" />
+            </background_color>
+            <foreground_color>
+              <color name="IO Text Fg" red="0" green="32" blue="92" />
+            </foreground_color>
+            <widget_type>Label</widget_type>
+            <enabled>true</enabled>
+            <text>WH frequency [%]</text>
+            <font>
+              <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+            </font>
+            <width>108</width>
+            <border_style>0</border_style>
+            <rules />
+            <border_width>2</border_width>
+            <border_color>
+              <color name="IO Border" red="215" green="215" blue="215" />
+            </border_color>
+            <horizontal_alignment>0</horizontal_alignment>
+            <actions hook="false" hook_all="false" />
+            <y>45</y>
+            <wrap_words>true</wrap_words>
+            <tooltip></tooltip>
+            <x>10</x>
           </widget>
         </widget>
         <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -3994,7 +4572,16 @@ $(pv_value)</tooltip>
           </font>
           <width>236</width>
           <border_style>13</border_style>
-          <rules />
+          <rules>
+            <rule name="BorderRule" prop_id="border_color" out_exp="false">
+              <exp bool_exp="pv0==1">
+                <value>
+                  <color name="IO PV ON" red="0" green="0" blue="225" />
+                </value>
+              </exp>
+              <pv trig="true">CstatH-2Kpumps:Ctrl:cAuto</pv>
+            </rule>
+          </rules>
           <fc>false</fc>
           <lock_children>false</lock_children>
           <border_width>1</border_width>
@@ -4308,8 +4895,8 @@ $(pv_value)</tooltip>
               <pv trig="true">$(pv_name).SIMM</pv>
             </rule>
             <rule name="Overrange" prop_id="pv_value" out_exp="true">
-              <exp bool_exp="pv0&gt;=133.3">
-                <value>"&gt; 133.3 mbar"</value>
+              <exp bool_exp="pv0&gt;133.0">
+                <value>"&gt; 133.0 mbar"</value>
               </exp>
               <pv trig="true">$(pv_name)</pv>
             </rule>
@@ -4372,7 +4959,7 @@ $(pv_value)</tooltip>
               <pv trig="true">$(pv_name).SIMM</pv>
             </rule>
             <rule name="Overrange" prop_id="pv_value" out_exp="true">
-              <exp bool_exp="pv0 == 200.0">
+              <exp bool_exp="pv0 &gt; 199.9">
                 <value>"&gt; 200.0 mbar"</value>
               </exp>
               <pv trig="true">$(pv_name)</pv>
@@ -4436,7 +5023,7 @@ $(pv_value)</tooltip>
               <pv trig="true">$(pv_name).SIMM</pv>
             </rule>
             <rule name="Overrange" prop_id="pv_value" out_exp="true">
-              <exp bool_exp="pv0&gt;=200">
+              <exp bool_exp="pv0&gt;199.9">
                 <value>"&gt; 200.0 mbar"</value>
               </exp>
               <pv trig="true">$(pv_name)</pv>
@@ -5147,7 +5734,7 @@ $(pv_value)</tooltip>
           <font>
             <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
           </font>
-          <width>56</width>
+          <width>60</width>
           <border_style>0</border_style>
           <rules />
           <border_width>2</border_width>
@@ -5792,6 +6379,48 @@ $(pv_value)</tooltip>
 $(pv_value)</tooltip>
           <x>174</x>
         </widget>
+        <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+          <visible>true</visible>
+          <vertical_alignment>1</vertical_alignment>
+          <wuid>45e89b53:14a2a7d2c49:-5f6d</wuid>
+          <auto_size>true</auto_size>
+          <scripts />
+          <height>26</height>
+          <name>Label Template</name>
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <transparent>true</transparent>
+          <show_scrollbar>false</show_scrollbar>
+          <background_color>
+            <color name="IO Background" red="255" green="255" blue="205" />
+          </background_color>
+          <foreground_color>
+            <color name="IO Text Fg" red="0" green="32" blue="92" />
+          </foreground_color>
+          <widget_type>Label</widget_type>
+          <enabled>true</enabled>
+          <text>Range:
+ 0.1 - 133 mbar</text>
+          <font>
+            <opifont.name fontName="arial" height="8" style="0">IO Label 3</opifont.name>
+          </font>
+          <width>74</width>
+          <border_style>0</border_style>
+          <rules />
+          <border_width>2</border_width>
+          <border_color>
+            <color name="IO Border" red="215" green="215" blue="215" />
+          </border_color>
+          <horizontal_alignment>0</horizontal_alignment>
+          <actions hook="false" hook_all="false" />
+          <y>50</y>
+          <wrap_words>true</wrap_words>
+          <tooltip></tooltip>
+          <x>385</x>
+        </widget>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
         <macros>
@@ -6433,246 +7062,6 @@ $(pv_value)</tooltip>
 $(pv_value)</tooltip>
           <x>196</x>
         </widget>
-        <widget typeId="org.csstudio.opibuilder.widgets.bytemonitor" version="1.0.0">
-          <border_alarm_sensitive>true</border_alarm_sensitive>
-          <visible>true</visible>
-          <wuid>-262d394c:148ffbdd3df:4e7b</wuid>
-          <bitReverse>false</bitReverse>
-          <scripts />
-          <square_led>true</square_led>
-          <startBit>3</startBit>
-          <on_color>
-            <color name="Major" red="255" green="0" blue="0" />
-          </on_color>
-          <height>32</height>
-          <name>Byte Monitor Template</name>
-          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-          <scale_options>
-            <width_scalable>true</width_scalable>
-            <height_scalable>true</height_scalable>
-            <keep_wh_ratio>false</keep_wh_ratio>
-          </scale_options>
-          <off_color>
-            <color name="IO OK" red="0" green="255" blue="0" />
-          </off_color>
-          <pv_name>CstatH-2Kpumps:P1D:sStatus</pv_name>
-          <background_color>
-            <color name="IO Background" red="255" green="255" blue="205" />
-          </background_color>
-          <foreground_color>
-            <color name="IO InputPV Fg" red="0" green="32" blue="92" />
-          </foreground_color>
-          <widget_type>Byte Monitor</widget_type>
-          <enabled>true</enabled>
-          <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-          <numBits>2</numBits>
-          <font>
-            <opifont.name fontName="arial" height="8" style="0">IO Label 3</opifont.name>
-          </font>
-          <width>20</width>
-          <border_style>0</border_style>
-          <effect_3d>false</effect_3d>
-          <label />
-          <rules>
-            <rule name="BorderRule" prop_id="border_style" out_exp="false">
-              <exp bool_exp="pv0==1">
-                <value>9</value>
-              </exp>
-              <pv trig="true">$(pv_name).SIMM</pv>
-            </rule>
-          </rules>
-          <pv_value />
-          <border_width>2</border_width>
-          <horizontal>false</horizontal>
-          <border_color>
-            <color name="IO Border" red="215" green="215" blue="215" />
-          </border_color>
-          <actions hook="false" hook_all="false" />
-          <y>63</y>
-          <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-          <x>171</x>
-        </widget>
-        <widget typeId="org.csstudio.opibuilder.widgets.bytemonitor" version="1.0.0">
-          <border_alarm_sensitive>true</border_alarm_sensitive>
-          <visible>true</visible>
-          <wuid>-262d394c:148ffbdd3df:4e94</wuid>
-          <bitReverse>false</bitReverse>
-          <scripts />
-          <square_led>true</square_led>
-          <startBit>3</startBit>
-          <on_color>
-            <color name="Major" red="255" green="0" blue="0" />
-          </on_color>
-          <height>32</height>
-          <name>Byte Monitor Template</name>
-          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-          <scale_options>
-            <width_scalable>true</width_scalable>
-            <height_scalable>true</height_scalable>
-            <keep_wh_ratio>false</keep_wh_ratio>
-          </scale_options>
-          <off_color>
-            <color name="IO OK" red="0" green="255" blue="0" />
-          </off_color>
-          <pv_name>CstatH-2Kpumps:P1C:sStatus</pv_name>
-          <background_color>
-            <color name="IO Background" red="255" green="255" blue="205" />
-          </background_color>
-          <foreground_color>
-            <color name="IO InputPV Fg" red="0" green="32" blue="92" />
-          </foreground_color>
-          <widget_type>Byte Monitor</widget_type>
-          <enabled>true</enabled>
-          <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-          <numBits>2</numBits>
-          <font>
-            <opifont.name fontName="arial" height="8" style="0">IO Label 3</opifont.name>
-          </font>
-          <width>20</width>
-          <border_style>0</border_style>
-          <effect_3d>false</effect_3d>
-          <label />
-          <rules>
-            <rule name="BorderRule" prop_id="border_style" out_exp="false">
-              <exp bool_exp="pv0==1">
-                <value>9</value>
-              </exp>
-              <pv trig="true">$(pv_name).SIMM</pv>
-            </rule>
-          </rules>
-          <pv_value />
-          <border_width>2</border_width>
-          <horizontal>false</horizontal>
-          <border_color>
-            <color name="IO Border" red="215" green="215" blue="215" />
-          </border_color>
-          <actions hook="false" hook_all="false" />
-          <y>63</y>
-          <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-          <x>146</x>
-        </widget>
-        <widget typeId="org.csstudio.opibuilder.widgets.bytemonitor" version="1.0.0">
-          <border_alarm_sensitive>true</border_alarm_sensitive>
-          <visible>true</visible>
-          <wuid>-262d394c:148ffbdd3df:4e95</wuid>
-          <bitReverse>false</bitReverse>
-          <scripts />
-          <square_led>true</square_led>
-          <startBit>3</startBit>
-          <on_color>
-            <color name="Major" red="255" green="0" blue="0" />
-          </on_color>
-          <height>32</height>
-          <name>Byte Monitor Template_1</name>
-          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-          <scale_options>
-            <width_scalable>true</width_scalable>
-            <height_scalable>true</height_scalable>
-            <keep_wh_ratio>false</keep_wh_ratio>
-          </scale_options>
-          <off_color>
-            <color name="IO OK" red="0" green="255" blue="0" />
-          </off_color>
-          <pv_name>CstatH-2Kpumps:P1B:sStatus</pv_name>
-          <background_color>
-            <color name="IO Background" red="255" green="255" blue="205" />
-          </background_color>
-          <foreground_color>
-            <color name="IO InputPV Fg" red="0" green="32" blue="92" />
-          </foreground_color>
-          <widget_type>Byte Monitor</widget_type>
-          <enabled>true</enabled>
-          <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-          <numBits>2</numBits>
-          <font>
-            <opifont.name fontName="arial" height="8" style="0">IO Label 3</opifont.name>
-          </font>
-          <width>20</width>
-          <border_style>0</border_style>
-          <effect_3d>false</effect_3d>
-          <label />
-          <rules>
-            <rule name="BorderRule" prop_id="border_style" out_exp="false">
-              <exp bool_exp="pv0==1">
-                <value>9</value>
-              </exp>
-              <pv trig="true">$(pv_name).SIMM</pv>
-            </rule>
-          </rules>
-          <pv_value />
-          <border_width>2</border_width>
-          <horizontal>false</horizontal>
-          <border_color>
-            <color name="IO Border" red="215" green="215" blue="215" />
-          </border_color>
-          <actions hook="false" hook_all="false" />
-          <y>63</y>
-          <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-          <x>121</x>
-        </widget>
-        <widget typeId="org.csstudio.opibuilder.widgets.bytemonitor" version="1.0.0">
-          <border_alarm_sensitive>true</border_alarm_sensitive>
-          <visible>true</visible>
-          <wuid>-262d394c:148ffbdd3df:4e96</wuid>
-          <bitReverse>false</bitReverse>
-          <scripts />
-          <square_led>true</square_led>
-          <startBit>3</startBit>
-          <on_color>
-            <color name="Major" red="255" green="0" blue="0" />
-          </on_color>
-          <height>32</height>
-          <name>Byte Monitor Template_2</name>
-          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-          <scale_options>
-            <width_scalable>true</width_scalable>
-            <height_scalable>true</height_scalable>
-            <keep_wh_ratio>false</keep_wh_ratio>
-          </scale_options>
-          <off_color>
-            <color name="IO OK" red="0" green="255" blue="0" />
-          </off_color>
-          <pv_name>CstatH-2Kpumps:P1A:sStatus</pv_name>
-          <background_color>
-            <color name="IO Background" red="255" green="255" blue="205" />
-          </background_color>
-          <foreground_color>
-            <color name="IO InputPV Fg" red="0" green="32" blue="92" />
-          </foreground_color>
-          <widget_type>Byte Monitor</widget_type>
-          <enabled>true</enabled>
-          <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-          <numBits>2</numBits>
-          <font>
-            <opifont.name fontName="arial" height="8" style="0">IO Label 3</opifont.name>
-          </font>
-          <width>20</width>
-          <border_style>0</border_style>
-          <effect_3d>false</effect_3d>
-          <label />
-          <rules>
-            <rule name="BorderRule" prop_id="border_style" out_exp="false">
-              <exp bool_exp="pv0==1">
-                <value>9</value>
-              </exp>
-              <pv trig="true">$(pv_name).SIMM</pv>
-            </rule>
-          </rules>
-          <pv_value />
-          <border_width>2</border_width>
-          <horizontal>false</horizontal>
-          <border_color>
-            <color name="IO Border" red="215" green="215" blue="215" />
-          </border_color>
-          <actions hook="false" hook_all="false" />
-          <y>63</y>
-          <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-          <x>95</x>
-        </widget>
         <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
           <visible>true</visible>
           <vertical_alignment>1</vertical_alignment>
@@ -6801,6 +7190,466 @@ Temp. Reg.</text>
       <actions hook="false" hook_all="false" />
       <x>1</x>
       <tooltip></tooltip>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <wuid>-262d394c:149bd45c177:-1bea</wuid>
+        <auto_size>true</auto_size>
+        <scripts />
+        <height>16</height>
+        <name>Label Template</name>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <transparent>true</transparent>
+        <show_scrollbar>false</show_scrollbar>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205" />
+        </background_color>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="32" blue="92" />
+        </foreground_color>
+        <widget_type>Label</widget_type>
+        <enabled>true</enabled>
+        <text># od disconnects:</text>
+        <font>
+          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        </font>
+        <width>103</width>
+        <border_style>0</border_style>
+        <rules />
+        <border_width>2</border_width>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <horizontal_alignment>0</horizontal_alignment>
+        <actions hook="false" hook_all="false" />
+        <y>30</y>
+        <wrap_words>true</wrap_words>
+        <tooltip></tooltip>
+        <x>40</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <visible>true</visible>
+        <vertical_alignment>0</vertical_alignment>
+        <show_units>true</show_units>
+        <wuid>-262d394c:149bd45c177:-1be9</wuid>
+        <auto_size>false</auto_size>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <height>21</height>
+        <name>Text Update Template</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <format_type>0</format_type>
+        <precision_from_pv>true</precision_from_pv>
+        <transparent>false</transparent>
+        <pv_name>CstatH-Ctrl:s7-disconnect-counter</pv_name>
+        <background_color>
+          <color name="IO InputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+        </foreground_color>
+        <widget_type>Text Update</widget_type>
+        <enabled>true</enabled>
+        <text>######</text>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <precision>0</precision>
+        <font>
+          <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+        </font>
+        <width>100</width>
+        <border_style>5</border_style>
+        <rules />
+        <pv_value />
+        <border_width>2</border_width>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <horizontal_alignment>0</horizontal_alignment>
+        <actions hook="false" hook_all="false" />
+        <y>26</y>
+        <wrap_words>true</wrap_words>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>129</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.gauge" version="1.0.0">
+        <level_lo>0.0</level_lo>
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <visible>true</visible>
+        <color_hihi>
+          <color name="Major" red="255" green="0" blue="0" />
+        </color_hihi>
+        <show_lo>true</show_lo>
+        <scripts />
+        <height>136</height>
+        <major_tick_step_hint>50</major_tick_step_hint>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <background_color>
+          <color name="IO InputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <enabled>true</enabled>
+        <widget_type>Gauge</widget_type>
+        <show_minor_ticks>true</show_minor_ticks>
+        <font>
+          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        </font>
+        <width>136</width>
+        <show_lolo>true</show_lolo>
+        <border_style>12</border_style>
+        <effect_3d>true</effect_3d>
+        <pv_value />
+        <show_markers>true</show_markers>
+        <show_hi>true</show_hi>
+        <maximum>2.0</maximum>
+        <border_width>2</border_width>
+        <log_scale>false</log_scale>
+        <minimum>0.0</minimum>
+        <wuid>-262d394c:149bd45c177:-1b08</wuid>
+        <show_hihi>true</show_hihi>
+        <scale_format></scale_format>
+        <show_scale>true</show_scale>
+        <color_lo>
+          <color name="Minor" red="255" green="255" blue="0" />
+        </color_lo>
+        <name>LP:PI2240</name>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>true</keep_wh_ratio>
+        </scale_options>
+        <pv_name>Cryo-Cmp:LP:PI2240</pv_name>
+        <color_hi>
+          <color name="Minor" red="255" green="255" blue="0" />
+        </color_hi>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+        </foreground_color>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <level_hi>1.5</level_hi>
+        <scale_font>
+          <opifont.name fontName="arial" height="10" style="0">IO Scale 1</opifont.name>
+        </scale_font>
+        <level_hihi>1.8</level_hihi>
+        <ramp_gradient>true</ramp_gradient>
+        <color_lolo>
+          <color name="Major" red="255" green="0" blue="0" />
+        </color_lolo>
+        <rules>
+          <rule name="BorderRule" prop_id="border_style" out_exp="false">
+            <exp bool_exp="pv0==1">
+              <value>9</value>
+            </exp>
+            <pv trig="true">$(pv_name).SIMM</pv>
+          </rule>
+        </rules>
+        <value_label_format></value_label_format>
+        <transparent_background>true</transparent_background>
+        <needle_color>
+          <color name="IO Stick" red="0" green="32" blue="92" />
+        </needle_color>
+        <limits_from_pv>false</limits_from_pv>
+        <border_color>
+          <color name="IO Shape Fill" red="188" green="188" blue="188" />
+        </border_color>
+        <level_lolo>0.0</level_lolo>
+        <y>70</y>
+        <actions hook="false" hook_all="false" />
+        <x>24</x>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.progressbar" version="1.0.0">
+        <level_lo>20.0</level_lo>
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <visible>true</visible>
+        <color_fillbackground>
+          <color name="IO PV OFF" red="77" green="77" blue="77" />
+        </color_fillbackground>
+        <color_hihi>
+          <color name="Major" red="255" green="0" blue="0" />
+        </color_hihi>
+        <fillcolor_alarm_sensitive>false</fillcolor_alarm_sensitive>
+        <show_lo>false</show_lo>
+        <scripts />
+        <height>82</height>
+        <major_tick_step_hint>50</major_tick_step_hint>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <background_color>
+          <color name="IO InputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <enabled>true</enabled>
+        <widget_type>Progress Bar</widget_type>
+        <show_minor_ticks>true</show_minor_ticks>
+        <font>
+          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        </font>
+        <width>200</width>
+        <show_lolo>false</show_lolo>
+        <border_style>12</border_style>
+        <effect_3d>true</effect_3d>
+        <pv_value />
+        <show_markers>true</show_markers>
+        <show_hi>false</show_hi>
+        <maximum>100.0</maximum>
+        <border_width>2</border_width>
+        <horizontal>true</horizontal>
+        <log_scale>false</log_scale>
+        <minimum>0.0</minimum>
+        <wuid>-262d394c:149bd45c177:-1b07</wuid>
+        <show_hihi>false</show_hihi>
+        <scale_format></scale_format>
+        <show_scale>true</show_scale>
+        <color_lo>
+          <color name="Minor" red="255" green="255" blue="0" />
+        </color_lo>
+        <name>HP:UY2160</name>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <pv_name>Cryo-Cmp:HP:UY2160-PercOut</pv_name>
+        <color_hi>
+          <color name="Minor" red="255" green="255" blue="0" />
+        </color_hi>
+        <origin_ignored>true</origin_ignored>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+        </foreground_color>
+        <show_label>false</show_label>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <level_hi>80.0</level_hi>
+        <scale_font>
+          <opifont.name fontName="arial" height="10" style="0">IO Scale 1</opifont.name>
+        </scale_font>
+        <level_hihi>90.0</level_hihi>
+        <origin>0.0</origin>
+        <color_lolo>
+          <color name="Major" red="255" green="0" blue="0" />
+        </color_lolo>
+        <fill_color>
+          <color name="IO PV ON" red="0" green="0" blue="225" />
+        </fill_color>
+        <rules>
+          <rule name="BorderRule" prop_id="border_style" out_exp="false">
+            <exp bool_exp="pv0==1">
+              <value>9</value>
+            </exp>
+            <pv trig="true">$(pv_name).SIMM</pv>
+          </rule>
+        </rules>
+        <value_label_format></value_label_format>
+        <transparent_background>false</transparent_background>
+        <limits_from_pv>false</limits_from_pv>
+        <border_color>
+          <color name="IO Shape Fill" red="188" green="188" blue="188" />
+        </border_color>
+        <level_lolo>10.0</level_lolo>
+        <y>211</y>
+        <actions hook="false" hook_all="false" />
+        <x>223</x>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <indicator_mode>false</indicator_mode>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.progressbar" version="1.0.0">
+        <level_lo>20.0</level_lo>
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <visible>true</visible>
+        <color_fillbackground>
+          <color name="IO PV OFF" red="77" green="77" blue="77" />
+        </color_fillbackground>
+        <color_hihi>
+          <color name="Major" red="255" green="0" blue="0" />
+        </color_hihi>
+        <fillcolor_alarm_sensitive>false</fillcolor_alarm_sensitive>
+        <show_lo>false</show_lo>
+        <scripts />
+        <height>82</height>
+        <major_tick_step_hint>50</major_tick_step_hint>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <background_color>
+          <color name="IO InputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <enabled>true</enabled>
+        <widget_type>Progress Bar</widget_type>
+        <show_minor_ticks>true</show_minor_ticks>
+        <font>
+          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        </font>
+        <width>200</width>
+        <show_lolo>false</show_lolo>
+        <border_style>12</border_style>
+        <effect_3d>true</effect_3d>
+        <pv_value />
+        <show_markers>true</show_markers>
+        <show_hi>false</show_hi>
+        <maximum>100.0</maximum>
+        <border_width>2</border_width>
+        <horizontal>true</horizontal>
+        <log_scale>false</log_scale>
+        <minimum>0.0</minimum>
+        <wuid>-262d394c:149bd45c177:-1b06</wuid>
+        <show_hihi>false</show_hihi>
+        <scale_format></scale_format>
+        <show_scale>true</show_scale>
+        <color_lo>
+          <color name="Minor" red="255" green="255" blue="0" />
+        </color_lo>
+        <name>HP:UY2150</name>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <pv_name>Cryo-Cmp:HP:UY2150-PercOut</pv_name>
+        <color_hi>
+          <color name="Minor" red="255" green="255" blue="0" />
+        </color_hi>
+        <origin_ignored>true</origin_ignored>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+        </foreground_color>
+        <show_label>false</show_label>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <level_hi>80.0</level_hi>
+        <scale_font>
+          <opifont.name fontName="arial" height="10" style="0">IO Scale 1</opifont.name>
+        </scale_font>
+        <level_hihi>90.0</level_hihi>
+        <origin>0.0</origin>
+        <color_lolo>
+          <color name="Major" red="255" green="0" blue="0" />
+        </color_lolo>
+        <fill_color>
+          <color name="IO PV ON" red="0" green="0" blue="225" />
+        </fill_color>
+        <rules>
+          <rule name="BorderRule" prop_id="border_style" out_exp="false">
+            <exp bool_exp="pv0==1">
+              <value>9</value>
+            </exp>
+            <pv trig="true">$(pv_name).SIMM</pv>
+          </rule>
+        </rules>
+        <value_label_format></value_label_format>
+        <transparent_background>false</transparent_background>
+        <limits_from_pv>false</limits_from_pv>
+        <border_color>
+          <color name="IO Shape Fill" red="188" green="188" blue="188" />
+        </border_color>
+        <level_lolo>10.0</level_lolo>
+        <y>211</y>
+        <actions hook="false" hook_all="false" />
+        <x>23</x>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <indicator_mode>false</indicator_mode>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.progressbar" version="1.0.0">
+        <level_lo>20.0</level_lo>
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <visible>true</visible>
+        <color_fillbackground>
+          <color name="IO PV OFF" red="77" green="77" blue="77" />
+        </color_fillbackground>
+        <color_hihi>
+          <color name="Major" red="255" green="0" blue="0" />
+        </color_hihi>
+        <fillcolor_alarm_sensitive>false</fillcolor_alarm_sensitive>
+        <show_lo>false</show_lo>
+        <scripts />
+        <height>82</height>
+        <major_tick_step_hint>50</major_tick_step_hint>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <background_color>
+          <color name="IO InputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <enabled>true</enabled>
+        <widget_type>Progress Bar</widget_type>
+        <show_minor_ticks>true</show_minor_ticks>
+        <font>
+          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        </font>
+        <width>200</width>
+        <show_lolo>false</show_lolo>
+        <border_style>12</border_style>
+        <effect_3d>true</effect_3d>
+        <pv_value />
+        <show_markers>true</show_markers>
+        <show_hi>false</show_hi>
+        <maximum>100.0</maximum>
+        <border_width>2</border_width>
+        <horizontal>true</horizontal>
+        <log_scale>false</log_scale>
+        <minimum>0.0</minimum>
+        <wuid>-262d394c:149bd45c177:-1b05</wuid>
+        <show_hihi>false</show_hihi>
+        <scale_format></scale_format>
+        <show_scale>true</show_scale>
+        <color_lo>
+          <color name="Minor" red="255" green="255" blue="0" />
+        </color_lo>
+        <name>LP:UY2250</name>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <pv_name>Cryo-Cmp:LP:UY2250-PercOut</pv_name>
+        <color_hi>
+          <color name="Minor" red="255" green="255" blue="0" />
+        </color_hi>
+        <origin_ignored>true</origin_ignored>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+        </foreground_color>
+        <show_label>false</show_label>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <level_hi>80.0</level_hi>
+        <scale_font>
+          <opifont.name fontName="arial" height="10" style="0">IO Scale 1</opifont.name>
+        </scale_font>
+        <level_hihi>90.0</level_hihi>
+        <origin>0.0</origin>
+        <color_lolo>
+          <color name="Major" red="255" green="0" blue="0" />
+        </color_lolo>
+        <fill_color>
+          <color name="IO PV ON" red="0" green="0" blue="225" />
+        </fill_color>
+        <rules>
+          <rule name="BorderRule" prop_id="border_style" out_exp="false">
+            <exp bool_exp="pv0==1">
+              <value>9</value>
+            </exp>
+            <pv trig="true">$(pv_name).SIMM</pv>
+          </rule>
+        </rules>
+        <value_label_format></value_label_format>
+        <transparent_background>false</transparent_background>
+        <limits_from_pv>false</limits_from_pv>
+        <border_color>
+          <color name="IO Shape Fill" red="188" green="188" blue="188" />
+        </border_color>
+        <level_lolo>10.0</level_lolo>
+        <y>292</y>
+        <actions hook="false" hook_all="false" />
+        <x>23</x>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <indicator_mode>false</indicator_mode>
+      </widget>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">

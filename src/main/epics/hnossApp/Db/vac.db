@@ -22,10 +22,11 @@ record(mbbi, "CstatH-Vac:TP001:sStatus") {
   field(SCAN, "I/O Intr")
 }
 
-record(mbbi, "CstatH-Vac:TP002:sStatus") {
+record(longin, "CstatH-Vac:TP002:sStatus") {
   field(DTYP, "S7plc")
   field(INP, "@PLC:WTRVAC/276 T=WORD")
   field(NOBT, "16")
+  field(PINI, "YES")
   field(FLNK, "CstatH-Vac:TP002:cOn-rbk")
   field(SCAN, "I/O Intr")
 }
@@ -45,6 +46,14 @@ record(mbbi, "CstatH-Vac:TP001:sRelays") {
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
 }
+
+record(calc, "CstatH-Vac:TP002:sOn") {
+  field(INPA, "CstatH-Vac:TP002:sStatus")
+  field(CALC, "(A&0x400)||(A&0x10)?1:0")
+  field(EVNT, "$(INIT_EVNT)")
+  field(SCAN, ".5 second")
+}
+
 
 
 # Input/output records
