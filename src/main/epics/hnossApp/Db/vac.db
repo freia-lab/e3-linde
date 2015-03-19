@@ -185,3 +185,20 @@ record(bo, "CstatH-Vac:TP002:cmdReset") {
   field(PINI, "NO")
   field(HIGH, "0.5")
 }
+
+# Super critical Helium valve
+
+record(bo, "CstatH-SHe:FV309:cOn") {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:WTRVAC/96 T=BYTE B=0")
+  field(ZNAM, "Close")
+  field(ONAM, "Open")
+  field(PINI, "NO")
+}
+record(bo, "CstatH-SHe:FV309:cOn-proc") {
+  field(DTYP, "Soft Channel")
+  field(SCAN, "Event")
+  field(EVNT, "$(INIT_EVNT)")
+  field(PINI, "NO")
+  field(FLNK, "CstatH-SHe:FV309:cOn")
+}

@@ -208,10 +208,26 @@ record(bo, "CstatH-$(SUBS):$(DEV)-Pressure:cSetV-proc") {
   field(FLNK, "CstatH-$(SUBS):$(DEV)-Pressure:cSetV")
 }
 
-# Evenrt recoed for triggering processing the records keeping the last saved values
+# Evenrt record for triggering processing the records keeping the last saved values
 # or readback values
 record(event, "CstatH-$(SUBS):$(DEV):cCp2Local-evnt") {
   field(DTYP, "Soft Channel")
   field(VAL, "7")
 #  field(SDIS, "CstatH-Ctrl:opMode:sLocal")
+}
+
+# Record to be sent to the HNOSS' PLC
+
+record (calc, "CstatH-$(SUBS):AllPumps:sFreq-calc") {
+  field(DESC,"Mean Value of all 2K pumps")
+  field(INPA, "CstatH-$(SUBS):P1A:sFreq")
+  field(INPB, "CstatH-$(SUBS):P1B:sFreq")
+  field(INPC, "CstatH-$(SUBS):P1C:sFreq")
+  field(INPD, "CstatH-$(SUBS):P1D:sFreq")
+  field(INPE, "CstatH-$(SUBS):P2:sFreq")
+  field(INPF, "CstatH-$(SUBS):P3A:sFreq")
+  field(INPG, "CstatH-$(SUBS):P3B:sFreq")
+  field(CALC, "(A+B+C+D+E+F+G)/7")
+  field(SCAN, "1 second")
+  field(EGU, "Hz")
 }
