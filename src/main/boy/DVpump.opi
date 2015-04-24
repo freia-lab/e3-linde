@@ -20,7 +20,7 @@
   </foreground_color>
   <widget_type>Display</widget_type>
   <show_close_button>true</show_close_button>
-  <width>50</width>
+  <width>40</width>
   <rules />
   <show_edit_range>true</show_edit_range>
   <grid_space>5</grid_space>
