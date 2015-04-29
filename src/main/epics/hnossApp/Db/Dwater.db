@@ -75,7 +75,7 @@ record(mbbi, "WtrC-Dwtr:P1:sOpMode") {
   field(TWVL, "6")
   field(TWST, "OpenLoopMax")
   field(PINI, "YES")
-  field(FLNK, "WtrC-Dwtr:cOpMode-rbk")
+  field(FLNK, "WtrC-Dwtr:P1:cOpMode-rbk")
   field(SCAN, "I/O Intr")
 }
 

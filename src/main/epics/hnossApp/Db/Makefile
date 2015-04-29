@@ -50,6 +50,8 @@ DB += CtrlMbbwRdBack.template
 DB += TP_AI.template
 DB += vac.substitutions
 DB += vac.db
+DB += ArcDet.template
+DB += ArcDet.substitutions
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add

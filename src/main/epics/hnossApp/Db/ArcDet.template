@@ -1,0 +1,12 @@
+
+record (bo, "$(SYS)-$(SUBS):$(DEV):$(SIG)") {
+  field (DESC, "$(SUBS):$(DEV) $(DESC)")
+  field (DTYP, "S7plc")
+  field (OUT,  "@PLC:WTRVAC/$(OFFS) T=BYTE B=$(BIT)")
+  field (ZNAM, "$(ZNAM)")
+  field (HIGH, "0.5")
+  field (DOL,  "0")
+  field (ONAM, "$(ONAM)")
+  field (PINI, "YES")
+}
+

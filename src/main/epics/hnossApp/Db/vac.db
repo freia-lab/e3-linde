@@ -25,7 +25,6 @@ record(mbbi, "CstatH-Vac:TP001:sStatus") {
 record(longin, "CstatH-Vac:TP002:sStatus") {
   field(DTYP, "S7plc")
   field(INP, "@PLC:WTRVAC/276 T=WORD")
-  field(NOBT, "16")
   field(PINI, "YES")
   field(FLNK, "CstatH-Vac:TP002:cOn-rbk")
   field(SCAN, "I/O Intr")
