@@ -165,6 +165,8 @@ file "Valves.template" { pattern
 {RHtr,  FV554,     2318,    1478}
 {RHtr,  FV555,     2320,    1480}
 {RHtr,  FV556,     2322,    1482}
+{RHtr,  FV557,     2324,    1484}
+{RHtr,  FV558,     2326,    1486}
 }
 
 file "Evalves.template" { pattern
