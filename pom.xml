@@ -23,7 +23,7 @@
     <groupId>org.iter.codac.units</groupId>
     <artifactId>epics-hnoss</artifactId>
     <packaging>codac</packaging>
-    <version>0.1a1</version>
+    <version>0.1a2</version>
     <name>CODAC Core System epics-hnoss module</name>
     <description>CODAC Core System epics-hnoss module</description>
     <url>http://www.ess.org/</url>
