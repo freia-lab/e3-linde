@@ -83,7 +83,7 @@
     <y>135</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
-        <path>Seq0.opi</path>
+        <path>helper-opi-files/Seq0.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ0</seq_no>
@@ -145,7 +145,7 @@ Conditioning He circuits</tooltip>
     <y>170</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
-        <path>Seq1.opi</path>
+        <path>helper-opi-files/Seq1.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ1</seq_no>
@@ -206,7 +206,7 @@ Conditioning He circuits</tooltip>
     <y>205</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
-        <path>Seq2.opi</path>
+        <path>helper-opi-files/Seq2.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ2</seq_no>
@@ -267,7 +267,7 @@ Conditioning He circuits</tooltip>
     <y>240</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
-        <path>Seq3A.opi</path>
+        <path>helper-opi-files/Seq3A.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ3A</seq_no>
@@ -328,7 +328,7 @@ Conditioning He circuits</tooltip>
     <y>275</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
-        <path>Seq3B.opi</path>
+        <path>helper-opi-files/Seq3B.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ3B</seq_no>
@@ -389,7 +389,7 @@ Conditioning He circuits</tooltip>
     <y>310</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
-        <path>Seq4.opi</path>
+        <path>helper-opi-files/Seq4.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ4</seq_no>
@@ -450,7 +450,7 @@ Conditioning He circuits</tooltip>
     <y>520</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
-        <path>Seq10.opi</path>
+        <path>helper-opi-files/Seq10.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ10</seq_no>
@@ -511,7 +511,7 @@ Conditioning He circuits</tooltip>
     <y>555</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
-        <path>Seq11.opi</path>
+        <path>helper-opi-files/Seq11.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ11</seq_no>
@@ -572,7 +572,7 @@ Conditioning He circuits</tooltip>
     <y>590</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
-        <path>Seq12A.opi</path>
+        <path>helper-opi-files/Seq12A.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ12A</seq_no>
@@ -633,7 +633,7 @@ Conditioning He circuits</tooltip>
     <y>625</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
-        <path>Seq12B.opi</path>
+        <path>helper-opi-files/Seq12B.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ12B</seq_no>
@@ -703,7 +703,7 @@ Conditioning He circuits</tooltip>
     <y>345</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
-        <path>Seq5.opi</path>
+        <path>helper-opi-files/Seq5.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ5</seq_no>
@@ -764,7 +764,7 @@ Conditioning He circuits</tooltip>
     <y>380</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
-        <path>Seq6.opi</path>
+        <path>helper-opi-files/Seq6.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ6</seq_no>
@@ -825,7 +825,7 @@ Conditioning He circuits</tooltip>
     <y>415</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
-        <path>Seq7.opi</path>
+        <path>helper-opi-files/Seq7.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ7</seq_no>
@@ -886,7 +886,7 @@ Conditioning He circuits</tooltip>
     <y>450</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
-        <path>Seq8.opi</path>
+        <path>helper-opi-files/Seq8.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ8</seq_no>
@@ -947,7 +947,7 @@ Conditioning He circuits</tooltip>
     <y>660</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
-        <path>Seq13.opi</path>
+        <path>helper-opi-files/Seq13.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ13</seq_no>
@@ -1008,7 +1008,7 @@ Conditioning He circuits</tooltip>
     <y>695</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
-        <path>Seq20.opi</path>
+        <path>helper-opi-files/Seq20.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ20</seq_no>
@@ -1069,7 +1069,7 @@ Conditioning He circuits</tooltip>
     <y>485</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
-        <path>Seq9.opi</path>
+        <path>helper-opi-files/Seq9.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ9</seq_no>
@@ -1116,7 +1116,7 @@ sequences</text>
     <font>
       <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
-    <width>98</width>
+    <width>99</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -1207,7 +1207,7 @@ sequences</text>
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
-      <visible>false</visible>
+      <visible>true</visible>
       <wuid>-21b2ca35:148a7786110:374a</wuid>
       <scripts />
       <height>668</height>
@@ -1310,7 +1310,7 @@ sequences</text>
           <font>
             <opifont.name fontName="arial" height="14" style="1">IO Title</opifont.name>
           </font>
-          <width>34</width>
+          <width>35</width>
           <border_style>0</border_style>
           <rules />
           <border_width>2</border_width>
@@ -1439,7 +1439,7 @@ $(pv_value)</tooltip>
           <font>
             <opifont.name fontName="arial" height="14" style="1">IO Title</opifont.name>
           </font>
-          <width>34</width>
+          <width>35</width>
           <border_style>0</border_style>
           <rules />
           <border_width>2</border_width>
@@ -2381,7 +2381,7 @@ $(pv_value)</tooltip>
         <y>184</y>
         <actions hook="true" hook_all="true">
           <action type="OPEN_OPI_IN_VIEW">
-            <path>TP001.opi</path>
+            <path>helper-opi-files/TP001.opi</path>
             <macros>
               <include_parent_macros>true</include_parent_macros>
               <P>CstatH-Vac:TP001</P>
@@ -2618,7 +2618,7 @@ $(pv_value)</tooltip>
         <y>492</y>
         <actions hook="true" hook_all="true">
           <action type="OPEN_OPI_IN_VIEW">
-            <path>TP002.opi</path>
+            <path>helper-opi-files/TP002.opi</path>
             <macros>
               <include_parent_macros>true</include_parent_macros>
               <P>CstatH-Vac:TP002</P>
@@ -3675,7 +3675,7 @@ $(pv_value)</tooltip>
         <y>419</y>
         <actions hook="true" hook_all="false">
           <action type="OPEN_OPI_IN_VIEW">
-            <path>CstatH-Valve.opi</path>
+            <path>helper-opi-files/CstatH-Valve.opi</path>
             <macros>
               <include_parent_macros>true</include_parent_macros>
               <v_name>CstatH-SHe:FV301</v_name>
@@ -3778,7 +3778,7 @@ $(pv_value)</tooltip>
         <y>446</y>
         <actions hook="true" hook_all="false">
           <action type="OPEN_OPI_IN_VIEW">
-            <path>CstatH-Valve.opi</path>
+            <path>helper-opi-files/CstatH-Valve.opi</path>
             <macros>
               <include_parent_macros>true</include_parent_macros>
               <v_name>CstatH-SHe:FV302</v_name>
@@ -4084,7 +4084,7 @@ $(pv_value)</tooltip>
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
-      <visible>true</visible>
+      <visible>false</visible>
       <wuid>-21b2ca35:148a7786110:3c6e</wuid>
       <scripts />
       <height>668</height>
