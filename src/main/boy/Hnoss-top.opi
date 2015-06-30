@@ -3823,7 +3823,7 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <rules />
         <fc>false</fc>
-        <lock_children>true</lock_children>
+        <lock_children>false</lock_children>
         <border_width>1</border_width>
         <border_color>
           <color red="0" green="128" blue="255" />
@@ -3922,7 +3922,7 @@ $(pv_value)</tooltip>
           <y>0</y>
           <actions hook="true" hook_all="false">
             <action type="OPEN_OPI_IN_VIEW">
-              <path>CstatH-Valve.opi</path>
+              <path>helper-opi-files/CstatH-Valve.opi</path>
               <macros>
                 <include_parent_macros>true</include_parent_macros>
               </macros>
@@ -3981,7 +3981,7 @@ $(pv_value)</tooltip>
           <visible>true</visible>
           <auto_size>true</auto_size>
           <scripts />
-          <height>35</height>
+          <height>36</height>
           <data_type>0</data_type>
           <show_boolean_label>true</show_boolean_label>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -4004,7 +4004,7 @@ $(pv_value)</tooltip>
               <col>1.0</col>
             </row>
           </permutation_matrix>
-          <width>35</width>
+          <width>36</width>
           <border_style>0</border_style>
           <flip_vertical>false</flip_vertical>
           <pv_value />
