@@ -158,7 +158,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
-    <width>219</width>
+    <width>218</width>
     <border_style>0</border_style>
     <rules>
       <rule name="VisibilityRule" prop_id="visible" out_exp="false">
@@ -373,6 +373,12 @@ $(pv_value)</tooltip>
         </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
       </rule>
+      <rule name="Visibility Rule" prop_id="visible" out_exp="false">
+        <exp bool_exp="pv0">
+          <value>false</value>
+        </exp>
+        <pv trig="true">$(Heater1):sAuto</pv>
+      </rule>
     </rules>
     <limits_from_pv>false</limits_from_pv>
     <horizontal_alignment>0</horizontal_alignment>
@@ -437,6 +443,12 @@ $(pv_value)</tooltip>
         </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
       </rule>
+      <rule name="VisibilityRule" prop_id="visible" out_exp="false">
+        <exp bool_exp="pv0">
+          <value>false</value>
+        </exp>
+        <pv trig="true">$(Heater1):sAuto</pv>
+      </rule>
     </rules>
     <limits_from_pv>false</limits_from_pv>
     <horizontal_alignment>0</horizontal_alignment>
@@ -481,7 +493,14 @@ $(pv_value)</tooltip>
     <border_style>6</border_style>
     <push_action_index>0</push_action_index>
     <image></image>
-    <rules />
+    <rules>
+      <rule name="Visibility Rule" prop_id="visible" out_exp="false">
+        <exp bool_exp="pv0">
+          <value>false</value>
+        </exp>
+        <pv trig="true">$(Heater1):sAuto</pv>
+      </rule>
+    </rules>
     <pv_value />
     <toggle_button>false</toggle_button>
     <border_width>2</border_width>
@@ -534,7 +553,14 @@ $(pv_value)</tooltip>
     <border_style>6</border_style>
     <push_action_index>0</push_action_index>
     <image></image>
-    <rules />
+    <rules>
+      <rule name="Visibility Rule" prop_id="visible" out_exp="false">
+        <exp bool_exp="pv0">
+          <value>false</value>
+        </exp>
+        <pv trig="true">$(Heater1):sAuto</pv>
+      </rule>
+    </rules>
     <pv_value />
     <toggle_button>false</toggle_button>
     <border_width>2</border_width>

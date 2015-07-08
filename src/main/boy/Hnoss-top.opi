@@ -20,7 +20,7 @@
   </foreground_color>
   <widget_type>Display</widget_type>
   <show_close_button>true</show_close_button>
-  <width>1280</width>
+  <width>1600</width>
   <rules />
   <show_edit_range>true</show_edit_range>
   <grid_space>5</grid_space>
@@ -1135,18 +1135,26 @@ sequences</text>
       <include_parent_macros>true</include_parent_macros>
     </macros>
     <tab_2_enabled>true</tab_2_enabled>
+    <tab_3_background_color>
+      <color name="IO Shape Fill" red="188" green="188" blue="188" />
+    </tab_3_background_color>
     <minimum_tab_height>10</minimum_tab_height>
     <active_tab>0</active_tab>
     <tab_1_title>2K Pumps</tab_1_title>
     <border_style>12</border_style>
+    <tab_3_icon_path></tab_3_icon_path>
     <wuid>-21b2ca35:148a7786110:3749</wuid>
     <tab_1_icon_path></tab_1_icon_path>
     <tab_2_font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </tab_2_font>
+    <tab_3_enabled>true</tab_3_enabled>
     <tab_0_background_color>
       <color name="IO Shape Fill" red="188" green="188" blue="188" />
     </tab_0_background_color>
+    <tab_3_foreground_color>
+      <color name="IO Foreground" red="0" green="0" blue="0" />
+    </tab_3_foreground_color>
     <foreground_color>
       <color name="IO Foreground" red="0" green="0" blue="0" />
     </foreground_color>
@@ -1159,12 +1167,12 @@ sequences</text>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <actions hook="false" hook_all="false" />
-    <y>98</y>
+    <y>13</y>
     <x>160</x>
     <visible>true</visible>
     <scripts />
     <tab_1_enabled>true</tab_1_enabled>
-    <height>720</height>
+    <height>883</height>
     <horizontal_tabs>true</horizontal_tabs>
     <tab_1_font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
@@ -1178,7 +1186,7 @@ sequences</text>
     </background_color>
     <widget_type>Tabbed Container</widget_type>
     <enabled>true</enabled>
-    <width>1110</width>
+    <width>1441</width>
     <tab_1_background_color>
       <color name="IO Shape Fill" red="188" green="188" blue="188" />
     </tab_1_background_color>
@@ -1189,28 +1197,32 @@ sequences</text>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
+    <tab_3_title>Tab 2</tab_3_title>
     <tab_0_icon_path></tab_0_icon_path>
     <tab_0_font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </tab_0_font>
     <rules />
-    <tab_2_title>Tab 2</tab_2_title>
+    <tab_2_title>Global Operation View</tab_2_title>
     <tab_2_background_color>
       <color name="IO Shape Fill" red="188" green="188" blue="188" />
     </tab_2_background_color>
     <tab_2_foreground_color>
       <color name="IO Foreground" red="0" green="0" blue="0" />
     </tab_2_foreground_color>
-    <tab_count>3</tab_count>
+    <tab_3_font>
+      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+    </tab_3_font>
+    <tab_count>4</tab_count>
     <tooltip>Overview</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
-      <visible>true</visible>
+      <visible>false</visible>
       <wuid>-21b2ca35:148a7786110:374a</wuid>
       <scripts />
-      <height>668</height>
+      <height>831</height>
       <name>Overview</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -1230,7 +1242,7 @@ sequences</text>
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>1106</width>
+      <width>1437</width>
       <border_style>0</border_style>
       <rules />
       <fc>false</fc>
@@ -3981,7 +3993,7 @@ $(pv_value)</tooltip>
           <visible>true</visible>
           <auto_size>true</auto_size>
           <scripts />
-          <height>36</height>
+          <height>35</height>
           <data_type>0</data_type>
           <show_boolean_label>true</show_boolean_label>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -4004,7 +4016,7 @@ $(pv_value)</tooltip>
               <col>1.0</col>
             </row>
           </permutation_matrix>
-          <width>36</width>
+          <width>35</width>
           <border_style>0</border_style>
           <flip_vertical>false</flip_vertical>
           <pv_value />
@@ -4087,7 +4099,7 @@ $(pv_value)</tooltip>
       <visible>false</visible>
       <wuid>-21b2ca35:148a7786110:3c6e</wuid>
       <scripts />
-      <height>668</height>
+      <height>831</height>
       <name>2K Pumps</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -4107,7 +4119,7 @@ $(pv_value)</tooltip>
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>1106</width>
+      <width>1437</width>
       <border_style>0</border_style>
       <rules />
       <fc>false</fc>
@@ -7941,10 +7953,92 @@ Normally DV freq is set to 100% and the pressure is adjusted by setting WH pumps
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
+      <visible>true</visible>
+      <wuid>-2e82a095:14e62aaf961:-df5</wuid>
+      <scripts />
+      <height>831</height>
+      <name>Global Operation View</name>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <transparent>true</transparent>
+      <show_scrollbar>true</show_scrollbar>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Grouping Container</widget_type>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>1437</width>
+      <border_style>0</border_style>
+      <rules />
+      <fc>false</fc>
+      <lock_children>false</lock_children>
+      <border_width>1</border_width>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <y>1</y>
+      <actions hook="false" hook_all="false" />
+      <x>1</x>
+      <tooltip></tooltip>
+      <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <visible>true</visible>
+        <wuid>-2e82a095:14e62aaf961:-83d</wuid>
+        <auto_size>false</auto_size>
+        <scripts />
+        <zoom_to_fit>true</zoom_to_fit>
+        <height>831</height>
+        <name>Linking Container Template</name>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <opi_file>helper-opi-files/GlobOpView.opi</opi_file>
+        <foreground_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </foreground_color>
+        <background_color>
+          <color red="188" green="188" blue="188" />
+        </background_color>
+        <group_name></group_name>
+        <enabled>true</enabled>
+        <widget_type>Linking Container</widget_type>
+        <font>
+          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        </font>
+        <width>1436</width>
+        <border_style>0</border_style>
+        <rules />
+        <border_width>2</border_width>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <y>0</y>
+        <actions hook="false" hook_all="false" />
+        <x>0</x>
+        <tooltip></tooltip>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
       <visible>false</visible>
       <wuid>-262d394c:148ffbdd3df:-d5a</wuid>
       <scripts />
-      <height>668</height>
+      <height>831</height>
       <name>Tab 2</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -7964,7 +8058,7 @@ Normally DV freq is set to 100% and the pressure is adjusted by setting WH pumps
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>1106</width>
+      <width>1437</width>
       <border_style>0</border_style>
       <rules />
       <fc>false</fc>
@@ -8545,7 +8639,7 @@ $(pv_value)</tooltip>
     <visible>true</visible>
     <wuid>-262d394c:148ffbdd3df:-20b8</wuid>
     <scripts />
-    <height>55</height>
+    <height>36</height>
     <style>1</style>
     <name>Action Button Template_19</name>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -8563,13 +8657,12 @@ $(pv_value)</tooltip>
     </foreground_color>
     <widget_type>Action Button</widget_type>
     <enabled>true</enabled>
-    <text>Acknowledge
-Alarms</text>
+    <text>Acknowledge Alarms</text>
     <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <font>
       <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
     </font>
-    <width>122</width>
+    <width>202</width>
     <border_style>6</border_style>
     <push_action_index>0</push_action_index>
     <image></image>
@@ -8592,7 +8685,7 @@ Alarms</text>
     </actions>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>1143</x>
+    <x>1060</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
