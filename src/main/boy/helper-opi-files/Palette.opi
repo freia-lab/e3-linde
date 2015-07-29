@@ -8,12 +8,12 @@
   <boy_version>3.2.0.codac_core_4_1_0</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
-  <height>450</height>
+  <height>300</height>
   <name></name>
   <snap_to_geometry>true</snap_to_geometry>
   <show_grid>true</show_grid>
   <background_color>
-    <color name="IO Background" red="255" green="255" blue="205" />
+    <color name="IO Shape Fill" red="188" green="188" blue="188" />
   </background_color>
   <foreground_color>
     <color name="IO Grid" red="215" green="215" blue="215" />
@@ -165,7 +165,7 @@
           <path>CstatH-Evalve.opi</path>
           <macros>
             <include_parent_macros>true</include_parent_macros>
-            <Evalve>CstatH-LN2:EV200</Evalve>
+            <Evalve>$(name)</Evalve>
           </macros>
           <Position>4</Position>
           <description>Valve control</description>
@@ -248,7 +248,7 @@ $(pv_value)</tooltip>
     <border_style>0</border_style>
     <rules />
     <fc>false</fc>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
@@ -340,7 +340,7 @@ $(pv_value)</tooltip>
       <wuid>-644c3022:14e1b80341b:-136d</wuid>
       <boolean_label_position>5</boolean_label_position>
       <on_color>
-        <color name="IO PV ON" red="0" green="0" blue="225" />
+        <color red="0" green="255" blue="0" />
       </on_color>
       <stretch_to_fit>false</stretch_to_fit>
       <name>CstatH-LHe:EH100</name>
@@ -391,7 +391,7 @@ $(pv_value)</tooltip>
           <path>CstatH-Heater1.opi</path>
           <macros>
             <include_parent_macros>true</include_parent_macros>
-            <Heater1>CstatH-LHe:EH100</Heater1>
+            <Heater1>$(name)</Heater1>
           </macros>
           <Position>4</Position>
           <description></description>
@@ -448,7 +448,7 @@ $(pv_value)</tooltip>
       <wuid>2f7ab43a:14e488b780c:-508e</wuid>
       <auto_size>true</auto_size>
       <scripts />
-      <height>16</height>
+      <height>13</height>
       <name>Label Template_4</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -467,21 +467,36 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>CV100</text>
       <font>
-        <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        <fontdata fontName="Sans" height="8" style="0" />
       </font>
-      <width>40</width>
+      <width>35</width>
       <border_style>0</border_style>
-      <rules />
+      <rules>
+        <rule name="Background color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Minor" red="255" green="255" blue="0" />
+            </value>
+          </exp>
+          <pv trig="true">CstatH-LHe:$(text):sAuto</pv>
+        </rule>
+        <rule name="Transparency" prop_id="transparent" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>false</value>
+          </exp>
+          <pv trig="true">CstatH-LHe:$(text):sAuto</pv>
+        </rule>
+      </rules>
       <border_width>2</border_width>
       <border_color>
         <color name="IO Border" red="215" green="215" blue="215" />
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>6</y>
+      <y>15</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
-      <x>21</x>
+      <x>23</x>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.symbol.bool.BoolMonitorWidget" version="1.0.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -525,7 +540,7 @@ $(pv_value)</tooltip>
       <wuid>-644c3022:14e1b80341b:-13ce</wuid>
       <boolean_label_position>5</boolean_label_position>
       <on_color>
-        <color name="IO Liquid Helium" red="51" green="102" blue="255" />
+        <color red="0" green="255" blue="0" />
       </on_color>
       <stretch_to_fit>false</stretch_to_fit>
       <name>CstatH-LHe:CV100</name>
@@ -535,7 +550,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <off_color>
-        <color name="IO PV OFF" red="77" green="77" blue="77" />
+        <color name="IO Default" red="255" green="0" blue="0" />
       </off_color>
       <pv_name>$(name):sRdV</pv_name>
       <foreground_color>
@@ -574,7 +589,7 @@ $(pv_value)</tooltip>
           <path>CstatH-Cvalve.opi</path>
           <macros>
             <include_parent_macros>true</include_parent_macros>
-            <Cvalve>CstatH-LHe:CV100</Cvalve>
+            <Cvalve>$(name)</Cvalve>
           </macros>
           <Position>4</Position>
           <description></description>
@@ -688,7 +703,7 @@ $(pv_value)</tooltip>
       <visible>true</visible>
       <auto_size>true</auto_size>
       <scripts>
-        <path pathString="scripts/bordercolor.js" checkConnect="true" sfe="false" seoe="false">
+        <path pathString="../scripts/bordercolor.js" checkConnect="true" sfe="false" seoe="false">
           <pv trig="true">$(name):sAuto</pv>
         </path>
       </scripts>
@@ -729,7 +744,7 @@ $(pv_value)</tooltip>
       <wuid>64689743:14e3f78f0c2:-7f9b</wuid>
       <boolean_label_position>5</boolean_label_position>
       <on_color>
-        <color name="IO PV ON" red="0" green="0" blue="225" />
+        <color red="0" green="255" blue="0" />
       </on_color>
       <stretch_to_fit>false</stretch_to_fit>
       <name>CstatH-Rhtr:EH550</name>
@@ -763,7 +778,7 @@ $(pv_value)</tooltip>
       <y>19</y>
       <actions hook="true" hook_all="false">
         <action type="EXECUTE_JAVASCRIPT">
-          <path>scripts/openHeater2.js</path>
+          <path>../scripts/openHeater2.js</path>
           <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil);
 ]]></scriptText>
           <embedded>false</embedded>
@@ -876,7 +891,7 @@ $(pv_value)</tooltip>
         <path>CstatH-PID.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
-          <PID>CstatH-LHe:TIC101</PID>
+          <PID>$(name)</PID>
         </macros>
         <Position>4</Position>
         <description></description>
@@ -1495,7 +1510,7 @@ $(pv_value)</tooltip>
       <wuid>47121fc1:14e249a9d43:-75b7</wuid>
       <boolean_label_position>5</boolean_label_position>
       <on_color>
-        <color name="IO PV ON" red="0" green="0" blue="225" />
+        <color red="0" green="255" blue="0" />
       </on_color>
       <stretch_to_fit>false</stretch_to_fit>
       <name>CstatH-Rhtr:EH550</name>
@@ -1546,7 +1561,7 @@ $(pv_value)</tooltip>
           <path>CstatH-Heater2.opi</path>
           <macros>
             <include_parent_macros>true</include_parent_macros>
-            <Heater2>CstatH-Rhtr:EH550</Heater2>
+            <Heater2>$(name)</Heater2>
           </macros>
           <Position>4</Position>
           <description></description>
