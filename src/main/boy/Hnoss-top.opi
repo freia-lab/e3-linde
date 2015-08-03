@@ -1291,7 +1291,7 @@ sequences</text>
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
-      <visible>false</visible>
+      <visible>true</visible>
       <wuid>-21b2ca35:148a7786110:374a</wuid>
       <scripts />
       <height>876</height>
@@ -3759,7 +3759,7 @@ $(pv_value)</tooltip>
         <y>419</y>
         <actions hook="true" hook_all="false">
           <action type="OPEN_OPI_IN_VIEW">
-            <path>helper-opi-files/CstatH-Valve.opi</path>
+            <path>CmdPanels/CstatH-Valve.opi</path>
             <macros>
               <include_parent_macros>true</include_parent_macros>
               <v_name>CstatH-SHe:FV301</v_name>
@@ -3862,7 +3862,7 @@ $(pv_value)</tooltip>
         <y>446</y>
         <actions hook="true" hook_all="false">
           <action type="OPEN_OPI_IN_VIEW">
-            <path>helper-opi-files/CstatH-Valve.opi</path>
+            <path>CmdPanels/CstatH-Valve.opi</path>
             <macros>
               <include_parent_macros>true</include_parent_macros>
               <v_name>CstatH-SHe:FV302</v_name>
@@ -8333,7 +8333,7 @@ System</text>
         <border_color>
           <color name="IO Border" red="215" green="215" blue="215" />
         </border_color>
-        <y>85</y>
+        <y>110</y>
         <actions hook="false" hook_all="false">
           <action type="EXECUTE_JAVASCRIPT">
             <path></path>
@@ -8346,7 +8346,7 @@ display.getWidget("tabcontainer").setActiveTabIndex(4);]]></scriptText>
         </actions>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <x>1268</x>
+        <x>1270</x>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
         <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -8387,7 +8387,7 @@ $(pv_value)</tooltip>
         <border_color>
           <color name="IO Border" red="215" green="215" blue="215" />
         </border_color>
-        <y>40</y>
+        <y>70</y>
         <actions hook="false" hook_all="false">
           <action type="EXECUTE_JAVASCRIPT">
             <path></path>
@@ -8400,7 +8400,7 @@ display.getWidget("tabcontainer").setActiveTabIndex(4);]]></scriptText>
         </actions>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <x>828</x>
+        <x>825</x>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
         <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -9249,7 +9249,7 @@ $(pv_value)</tooltip>
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
-      <visible>true</visible>
+      <visible>false</visible>
       <wuid>65090fd1:14ed4c84976:-79ed</wuid>
       <scripts />
       <height>876</height>
@@ -9355,7 +9355,7 @@ $(pv_value)</tooltip>
         <font>
           <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
         </font>
-        <width>1401</width>
+        <width>1399</width>
         <border_style>0</border_style>
         <rules />
         <border_width>2</border_width>
