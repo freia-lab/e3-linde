@@ -380,7 +380,7 @@ $(pv_value)</tooltip>
       <visible>true</visible>
       <auto_size>true</auto_size>
       <scripts />
-      <height>119</height>
+      <height>125</height>
       <data_type>0</data_type>
       <show_boolean_label>false</show_boolean_label>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -403,14 +403,14 @@ $(pv_value)</tooltip>
           <col>-1.8369701987210297E-16</col>
         </row>
       </permutation_matrix>
-      <width>97</width>
-      <border_style>0</border_style>
+      <width>103</width>
+      <border_style>15</border_style>
       <flip_vertical>false</flip_vertical>
       <pv_value />
       <crop_bottom>0</crop_bottom>
       <bit>0</bit>
       <on_label>ON</on_label>
-      <border_width>2</border_width>
+      <border_width>5</border_width>
       <image_file>../../SymbolLibrary/SVG/Fluid/Heat_Exchangers/HX General A.svg</image_file>
       <crop_right>0</crop_right>
       <crop_left>0</crop_left>
@@ -474,7 +474,7 @@ $(pv_value)</tooltip>
           <description></description>
         </action>
       </actions>
-      <x>44</x>
+      <x>39</x>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     </widget>
@@ -806,7 +806,7 @@ $(pv_value)</tooltip>
     <visible>true</visible>
     <auto_size>true</auto_size>
     <scripts />
-    <height>40</height>
+    <height>46</height>
     <data_type>0</data_type>
     <show_boolean_label>false</show_boolean_label>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -829,8 +829,8 @@ $(pv_value)</tooltip>
         <col>1.0</col>
       </row>
     </permutation_matrix>
-    <width>51</width>
-    <border_style>0</border_style>
+    <width>57</width>
+    <border_style>15</border_style>
     <flip_vertical>false</flip_vertical>
     <pv_value />
     <crop_bottom>0</crop_bottom>
@@ -886,7 +886,7 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>246</y>
+    <y>242</y>
     <actions hook="true" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
         <path>../CmdPanels/CstatH-Cvalve.opi</path>
@@ -907,7 +907,7 @@ $(pv_value)</tooltip>
     <visible>true</visible>
     <auto_size>true</auto_size>
     <scripts />
-    <height>40</height>
+    <height>46</height>
     <data_type>0</data_type>
     <show_boolean_label>false</show_boolean_label>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -930,8 +930,8 @@ $(pv_value)</tooltip>
         <col>1.0</col>
       </row>
     </permutation_matrix>
-    <width>51</width>
-    <border_style>0</border_style>
+    <width>57</width>
+    <border_style>15</border_style>
     <flip_vertical>false</flip_vertical>
     <pv_value />
     <crop_bottom>0</crop_bottom>
@@ -987,7 +987,7 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>386</y>
+    <y>383</y>
     <actions hook="true" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
         <path>../CmdPanels/CstatH-Cvalve.opi</path>
@@ -1008,7 +1008,7 @@ $(pv_value)</tooltip>
     <visible>true</visible>
     <auto_size>true</auto_size>
     <scripts />
-    <height>40</height>
+    <height>46</height>
     <data_type>0</data_type>
     <show_boolean_label>false</show_boolean_label>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -1031,8 +1031,8 @@ $(pv_value)</tooltip>
         <col>1.0</col>
       </row>
     </permutation_matrix>
-    <width>51</width>
-    <border_style>0</border_style>
+    <width>57</width>
+    <border_style>15</border_style>
     <flip_vertical>false</flip_vertical>
     <pv_value />
     <crop_bottom>0</crop_bottom>
@@ -1088,7 +1088,7 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>506</y>
+    <y>502</y>
     <actions hook="true" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
         <path>../CmdPanels/CstatH-Cvalve.opi</path>
@@ -1100,7 +1100,7 @@ $(pv_value)</tooltip>
         <description></description>
       </action>
     </actions>
-    <x>527</x>
+    <x>530</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -1181,7 +1181,7 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>386</y>
+    <y>387</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
     <x>535</x>
@@ -2096,7 +2096,7 @@ $(pv_value)</tooltip>
     <visible>true</visible>
     <auto_size>true</auto_size>
     <scripts />
-    <height>35</height>
+    <height>45</height>
     <data_type>0</data_type>
     <show_boolean_label>false</show_boolean_label>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -2119,8 +2119,8 @@ $(pv_value)</tooltip>
         <col>6.123233995736766E-17</col>
       </row>
     </permutation_matrix>
-    <width>35</width>
-    <border_style>0</border_style>
+    <width>45</width>
+    <border_style>15</border_style>
     <flip_vertical>false</flip_vertical>
     <pv_value />
     <crop_bottom>0</crop_bottom>
@@ -2178,7 +2178,7 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>315</y>
+    <y>310</y>
     <actions hook="true" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
         <path>../CmdPanels/CstatH-Valve.opi</path>
@@ -2190,7 +2190,7 @@ $(pv_value)</tooltip>
         <description>Valve control</description>
       </action>
     </actions>
-    <x>746</x>
+    <x>741</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -2240,7 +2240,7 @@ $(pv_value)</tooltip>
     <visible>true</visible>
     <auto_size>true</auto_size>
     <scripts />
-    <height>35</height>
+    <height>45</height>
     <data_type>0</data_type>
     <show_boolean_label>false</show_boolean_label>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -2263,8 +2263,8 @@ $(pv_value)</tooltip>
         <col>6.123233995736766E-17</col>
       </row>
     </permutation_matrix>
-    <width>35</width>
-    <border_style>0</border_style>
+    <width>45</width>
+    <border_style>15</border_style>
     <flip_vertical>false</flip_vertical>
     <pv_value />
     <crop_bottom>0</crop_bottom>
@@ -2322,7 +2322,7 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>424</y>
+    <y>419</y>
     <actions hook="true" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
         <path>../CmdPanels/CstatH-Valve.opi</path>
@@ -2334,7 +2334,7 @@ $(pv_value)</tooltip>
         <description>Valve control</description>
       </action>
     </actions>
-    <x>746</x>
+    <x>741</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -2384,7 +2384,7 @@ $(pv_value)</tooltip>
     <visible>true</visible>
     <auto_size>true</auto_size>
     <scripts />
-    <height>35</height>
+    <height>45</height>
     <data_type>0</data_type>
     <show_boolean_label>false</show_boolean_label>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -2407,8 +2407,8 @@ $(pv_value)</tooltip>
         <col>1.0</col>
       </row>
     </permutation_matrix>
-    <width>35</width>
-    <border_style>0</border_style>
+    <width>45</width>
+    <border_style>15</border_style>
     <flip_vertical>false</flip_vertical>
     <pv_value />
     <crop_bottom>0</crop_bottom>
@@ -2466,7 +2466,7 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>246</y>
+    <y>242</y>
     <actions hook="true" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
         <path>../CmdPanels/CstatH-Valve.opi</path>
@@ -2478,7 +2478,7 @@ $(pv_value)</tooltip>
         <description>Valve control</description>
       </action>
     </actions>
-    <x>700</x>
+    <x>695</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -2569,7 +2569,7 @@ $(pv_value)</tooltip>
     <visible>true</visible>
     <auto_size>true</auto_size>
     <scripts />
-    <height>35</height>
+    <height>45</height>
     <data_type>0</data_type>
     <show_boolean_label>false</show_boolean_label>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -2592,8 +2592,8 @@ $(pv_value)</tooltip>
         <col>6.123233995736766E-17</col>
       </row>
     </permutation_matrix>
-    <width>35</width>
-    <border_style>0</border_style>
+    <width>45</width>
+    <border_style>15</border_style>
     <flip_vertical>false</flip_vertical>
     <pv_value />
     <crop_bottom>0</crop_bottom>
@@ -2651,7 +2651,7 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>257</y>
+    <y>229</y>
     <actions hook="true" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
         <path>../CmdPanels/CstatH-Valve.opi</path>
@@ -2663,7 +2663,7 @@ $(pv_value)</tooltip>
         <description>Valve control</description>
       </action>
     </actions>
-    <x>822</x>
+    <x>818</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -2856,7 +2856,7 @@ System</text>
     <visible>true</visible>
     <auto_size>true</auto_size>
     <scripts />
-    <height>35</height>
+    <height>45</height>
     <data_type>0</data_type>
     <show_boolean_label>false</show_boolean_label>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -2879,8 +2879,8 @@ System</text>
         <col>6.123233995736766E-17</col>
       </row>
     </permutation_matrix>
-    <width>35</width>
-    <border_style>0</border_style>
+    <width>45</width>
+    <border_style>15</border_style>
     <flip_vertical>false</flip_vertical>
     <pv_value />
     <crop_bottom>0</crop_bottom>
@@ -2938,7 +2938,7 @@ System</text>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>345</y>
+    <y>340</y>
     <actions hook="true" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
         <path>../CmdPanels/CstatH-Valve.opi</path>
@@ -2950,7 +2950,7 @@ System</text>
         <description>Valve control</description>
       </action>
     </actions>
-    <x>903</x>
+    <x>897</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -3000,7 +3000,7 @@ $(pv_value)</tooltip>
     <visible>true</visible>
     <auto_size>true</auto_size>
     <scripts />
-    <height>35</height>
+    <height>45</height>
     <data_type>0</data_type>
     <show_boolean_label>false</show_boolean_label>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -3023,8 +3023,8 @@ $(pv_value)</tooltip>
         <col>6.123233995736766E-17</col>
       </row>
     </permutation_matrix>
-    <width>35</width>
-    <border_style>0</border_style>
+    <width>45</width>
+    <border_style>15</border_style>
     <flip_vertical>false</flip_vertical>
     <pv_value />
     <crop_bottom>0</crop_bottom>
@@ -3082,7 +3082,7 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>333</y>
+    <y>328</y>
     <actions hook="true" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
         <path>../CmdPanels/CstatH-Valve.opi</path>
@@ -3094,7 +3094,7 @@ $(pv_value)</tooltip>
         <description>Valve control</description>
       </action>
     </actions>
-    <x>1047</x>
+    <x>1042</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -3175,7 +3175,7 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>179</y>
+    <y>177</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
     <x>951</x>
@@ -3185,7 +3185,7 @@ $(pv_value)</tooltip>
     <visible>true</visible>
     <auto_size>true</auto_size>
     <scripts />
-    <height>35</height>
+    <height>45</height>
     <data_type>0</data_type>
     <show_boolean_label>false</show_boolean_label>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -3208,8 +3208,8 @@ $(pv_value)</tooltip>
         <col>1.0</col>
       </row>
     </permutation_matrix>
-    <width>35</width>
-    <border_style>0</border_style>
+    <width>45</width>
+    <border_style>15</border_style>
     <flip_vertical>false</flip_vertical>
     <pv_value />
     <crop_bottom>0</crop_bottom>
@@ -3267,7 +3267,7 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>182</y>
+    <y>178</y>
     <actions hook="true" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
         <path>../CmdPanels/CstatH-Valve.opi</path>
@@ -3279,7 +3279,7 @@ $(pv_value)</tooltip>
         <description>Valve control</description>
       </action>
     </actions>
-    <x>1024</x>
+    <x>1019</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -3329,7 +3329,7 @@ $(pv_value)</tooltip>
     <visible>true</visible>
     <auto_size>true</auto_size>
     <scripts />
-    <height>35</height>
+    <height>45</height>
     <data_type>0</data_type>
     <show_boolean_label>false</show_boolean_label>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -3352,8 +3352,8 @@ $(pv_value)</tooltip>
         <col>1.0</col>
       </row>
     </permutation_matrix>
-    <width>35</width>
-    <border_style>0</border_style>
+    <width>45</width>
+    <border_style>15</border_style>
     <flip_vertical>false</flip_vertical>
     <pv_value />
     <crop_bottom>0</crop_bottom>
@@ -3411,7 +3411,7 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>122</y>
+    <y>117</y>
     <actions hook="true" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
         <path>../CmdPanels/CstatH-Valve.opi</path>
@@ -3423,7 +3423,7 @@ $(pv_value)</tooltip>
         <description>Valve control</description>
       </action>
     </actions>
-    <x>856</x>
+    <x>851</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
