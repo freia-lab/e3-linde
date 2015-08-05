@@ -901,17 +901,15 @@ $(pv_value)</tooltip>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
       </rule>
-      <rule name="borderstylr" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>1</value>
-        </exp>
-        <pv trig="true">$(name):sAuto</pv>
-      </rule>
       <rule name="BorderRule" prop_id="border_style" out_exp="false">
         <exp bool_exp="pv0">
           <value>9</value>
         </exp>
+        <exp bool_exp="pv1==0">
+          <value>1</value>
+        </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
+        <pv trig="true">$(name):sAuto</pv>
       </rule>
     </rules>
     <degree>0</degree>
@@ -1086,17 +1084,15 @@ $(pv_value)</tooltip>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
       </rule>
-      <rule name="borderstylr" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>1</value>
-        </exp>
-        <pv trig="true">$(name):sAuto</pv>
-      </rule>
       <rule name="BorderRule" prop_id="border_style" out_exp="false">
         <exp bool_exp="pv0">
           <value>9</value>
         </exp>
+        <exp bool_exp="pv1==0">
+          <value>1</value>
+        </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
+        <pv trig="true">$(name):sAuto</pv>
       </rule>
     </rules>
     <degree>180</degree>
@@ -1885,17 +1881,15 @@ $(pv_value)</tooltip>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
       </rule>
-      <rule name="borderstylr" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>1</value>
-        </exp>
-        <pv trig="true">$(name):sAuto</pv>
-      </rule>
       <rule name="BorderRule" prop_id="border_style" out_exp="false">
         <exp bool_exp="pv0">
           <value>9</value>
         </exp>
+        <exp bool_exp="pv1==0">
+          <value>1</value>
+        </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
+        <pv trig="true">$(name):sAuto</pv>
       </rule>
     </rules>
     <degree>0</degree>

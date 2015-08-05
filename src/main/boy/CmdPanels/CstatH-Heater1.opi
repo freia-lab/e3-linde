@@ -316,10 +316,10 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>185</y>
+    <y>214</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
-    <x>7</x>
+    <x>5</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -385,9 +385,9 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>181</y>
+    <y>210</y>
     <actions hook="false" hook_all="false" />
-    <x>98</x>
+    <x>96</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -455,9 +455,9 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>211</y>
+    <y>180</y>
     <actions hook="false" hook_all="false" />
-    <x>98</x>
+    <x>96</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
@@ -718,10 +718,10 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>215</y>
+    <y>184</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
-    <x>7</x>
+    <x>5</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -775,11 +775,11 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>183</y>
+    <y>212</y>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>157</x>
+    <x>155</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -833,10 +833,10 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>213</y>
+    <y>182</y>
     <wrap_words>true</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>157</x>
+    <x>155</x>
   </widget>
 </display>
