@@ -591,15 +591,7 @@ $(pv_value)</tooltip>
         <color name="IO Border" red="215" green="215" blue="215" />
       </border_color>
       <y>19</y>
-      <actions hook="true" hook_all="false">
-        <action type="EXECUTE_JAVASCRIPT">
-          <path>../scripts/openHeater2.js</path>
-          <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil);
-]]></scriptText>
-          <embedded>false</embedded>
-          <description></description>
-        </action>
-      </actions>
+      <actions hook="true" hook_all="false" />
       <x>10</x>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
