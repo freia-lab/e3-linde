@@ -63,7 +63,7 @@
     <font>
       <opifont.name fontName="Sans" height="18" style="1">Header 1</opifont.name>
     </font>
-    <width>432</width>
+    <width>434</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -388,7 +388,7 @@ $(pv_value)</tooltip>
     <y>186</y>
     <actions hook="true" hook_all="true">
       <action type="OPEN_OPI_IN_VIEW">
-        <path>TP002.opi</path>
+        <path>helper-opi-files/TP002.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>CstatH-Vac:TP002</P>
@@ -848,7 +848,7 @@ $(pv_value)</tooltip>
       <font>
         <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
       </font>
-      <width>147</width>
+      <width>148</width>
       <border_style>0</border_style>
       <rules />
       <border_width>2</border_width>
@@ -1063,7 +1063,7 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="Sans" height="18" style="1">Header 1</opifont.name>
     </font>
-    <width>426</width>
+    <width>429</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -1281,7 +1281,7 @@ HNOSS Controlled from EPICS
       <font>
         <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
       </font>
-      <width>147</width>
+      <width>148</width>
       <border_style>0</border_style>
       <rules />
       <border_width>2</border_width>
@@ -1607,7 +1607,7 @@ $(pv_value)</tooltip>
     <border_style>0</border_style>
     <rules />
     <fc>false</fc>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
@@ -1706,7 +1706,7 @@ $(pv_value)</tooltip>
       <y>0</y>
       <actions hook="true" hook_all="false">
         <action type="OPEN_OPI_IN_VIEW">
-          <path>CstatH-Valve.opi</path>
+          <path>helper-opi-files/CstatH-Valve.opi</path>
           <macros>
             <include_parent_macros>true</include_parent_macros>
           </macros>
