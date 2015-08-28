@@ -52,6 +52,8 @@ DB += vac.substitutions
 DB += vac.db
 DB += ArcDet.template
 DB += ArcDet.substitutions
+DB += Interlock.template
+DB += Interlock.substitutions
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add

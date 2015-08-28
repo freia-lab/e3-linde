@@ -15,6 +15,7 @@ dbLoadRecords("Dwater.db", "INIT_EVNT=7")
 dbLoadTemplate("Dwater.substitutions")
 dbLoadTemplate("vac.substitutions")
 dbLoadTemplate("ArcDet.substitutions")
+dbLoadTemplate("Interlock.substitutions")
 dbLoadRecords("vac.db", "INIT_EVNT=7")
 
 # PLC communication 

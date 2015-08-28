@@ -1,0 +1,76 @@
+record(longin, "$(SYS)-$(SUBS):$(DEV):sMask") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:WTRVAC/$(OFFS1) T=BYTE")
+  field(PINI, "YES")
+  field(SCAN, "I/O Intr")
+}
+record(longin, "$(SYS)-$(SUBS):$(DEV):sInp") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:WTRVAC/$(OFFS1)+1 T=BYTE")
+  field(PINI, "YES")
+  field(SCAN, "I/O Intr")
+}
+record(longin, "$(SYS)-$(SUBS):$(DEV):sLatched") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:WTRVAC/$(OFFS1)+2 T=BYTE")
+  field(PINI, "YES")
+  field(SCAN, "I/O Intr")
+}
+
+record (bi, "$(SYS)-$(SUBS):$(DEV):sNoLatch") {
+  field (DTYP, "S7plc")
+  field (INP,  "@PLC:WTRVAC/$(OFFS1)+3 T=BYTE B=0")
+  field (PINI, "YES")
+  field (PHAS, "0")
+  field (ONAM,  "Not Latched")
+  field (ZNAM,  "Latched")
+  field (SCAN, "I/O Intr")
+}
+record (bi, "$(SYS)-$(SUBS):$(DEV):sOutput") {
+  field (DTYP, "S7plc")
+  field (INP,  "@PLC:WTRVAC/$(OFFS1)+3 T=BYTE B=1")
+  field (PINI, "YES")
+  field (ONAM,  "Interlock Closed")
+  field (ZNAM,  "Interlock Open")
+  field (SCAN, "I/O Intr")
+}
+
+
+record (longout, "$(SYS)-$(SUBS):$(DEV):cMask") {
+  field (DTYP, "S7plc")
+  field (OUT,  "@PLC:WTRVAC/$(OFFS2) T=BYTE")
+  field (PINI, "NO")
+}
+
+record (bo, "$(SYS)-$(SUBS):$(DEV):cMask-proc") {
+  field(DTYP, "Soft Channel")
+  field(SCAN, "Event")
+  field(EVNT, "$(INIT_EVNT)")
+  field(PINI, "NO")
+  field(FLNK, "$(SYS)-$(SUBS):$(DEV):cMask")
+}
+
+record (bo, "$(SYS)-$(SUBS):$(DEV):cmdReset") {
+  field (DTYP, "S7plc")
+  field (OUT,  "@PLC:WTRVAC/$(OFFS2)+1 T=BYTE B=0")
+  field (ZNAM, "Idle")
+  field (HIGH, "0.5")
+  field (DOL,  "0")
+  field (ONAM, "Reset")
+  field (PINI, "YES")
+}
+record (bo, "$(SYS)-$(SUBS):$(DEV):cNoLatch") {
+  field (DTYP, "S7plc")
+  field (OUT,  "@PLC:WTRVAC/$(OFFS2)+1 T=BYTE B=1")
+  field (ZNAM, "Latched")
+  field (ONAM, "Not Latched")
+  field (PINI, "NO")
+}
+record (bo, "$(SYS)-$(SUBS):$(DEV):cNoLatch-proc") {
+  field(DTYP, "Soft Channel")
+  field(SCAN, "Event")
+  field(EVNT, "$(INIT_EVNT)")
+  field(PINI, "NO")
+  field(FLNK, "$(SYS)-$(SUBS):$(DEV):cNoLatch")
+}
+

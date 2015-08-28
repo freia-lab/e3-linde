@@ -1,0 +1,5 @@
+file "Interlock.template" { pattern
+{SYS,	SUBS,	DEV,	       OFFS1,	OFFS2, INIT_EVNT}
+{LLRF,	Cntrl,	SlowIntlk,     440, 	102, 7}
+}
+
