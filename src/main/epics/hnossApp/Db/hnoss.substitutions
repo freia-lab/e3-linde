@@ -207,6 +207,9 @@ file "PID.template" { pattern
 {MKS,    MKS1,    2894,   1810,    unknown}
 {MKS,    MKS2,    2916,   1820,    unknown}
 {MKS,    MKS3,    2938,   1830,    unknown}
+{LHe,    LIC100,  2960,   1840,    unknown}
+{LHe,    LIC101A, 2982,   1850,    unknown}
+{LHe,    LIC101B, 3004,   1860,    unknown}
 }
 
 file "Heater1.template" { pattern
@@ -319,6 +322,7 @@ file "SQanalog.template" { pattern
 {SQ5,	cP_CoolD_Tt,   3348,  FLOAT, sP_CoolD_Tt,4846	""}
 {SQ5,	cP_HighLt,     3352,  FLOAT, sP_HighLt,  4850	""}
 {SQ5,	cP_CV100,      3356,  FLOAT, sP_CV100,   4854	""}
+{SQ5,	cP_SP_LIC100,  3360,  FLOAT, sP_SP_LIC100,4858	""}
 {SQ6,	cP_Tt,         3416,  FLOAT, sP_Tt,      4932	""}
 {SQ6,	cP_Lt,         3420,  FLOAT, sP_Lt,      4936	""}
 {SQ7,	cP_PT,         3500,  FLOAT, sP_PT,      5034	""}
@@ -343,6 +347,7 @@ file "SQanalog.template" { pattern
 {SQ8,	cP_CV551,      3604,  FLOAT, sP_CV551,   5156	""}
 {SQ8,	cP_CV552,      3608,  FLOAT, sP_CV552,   5160	""}
 {SQ8,	cP_CV104,      3612,  FLOAT, sP_CV104,   5164	""}
+{SQ8,	cP_SP_LIC101,  3616,  FLOAT, sP_SP_LIC101,5168	""}
 {SQ9,	cP_CV550,      3668,  FLOAT, sP_CV550,   5238	""}
 {SQ9,	cP_LowLt,      3672,  FLOAT, sP_LowLt,   5242	""}
 {SQ9,	cP_HighLt,     3676,  FLOAT, sP_HighLt,  5246	""}
@@ -351,6 +356,7 @@ file "SQanalog.template" { pattern
 {SQ9,	cP_CV105,      3688,  FLOAT, sP_CV105,   5258	""}
 {SQ9,	cP_CV551_Reg,  3692,  FLOAT, sP_CV551_Reg,5262	""}
 {SQ9,	cP_Final_Pt,   3696,  FLOAT, sP_Final_Pt,5266	""}
+{SQ9,	cP_SP_LIC101,  3700,  FLOAT, sP_SP_LIC101,5270	""}
 {SQ9,	cP_CV551_Pt00, 4740,  FLOAT, sP_CV551_Pt00,6526	""}
 {SQ9,	cP_CV551_Pt01, 4744,  FLOAT, sP_CV551_Pt01,6530	""}
 {SQ9,	cP_CV551_Pt02, 4748,  FLOAT, sP_CV551_Pt02,6534	""}
@@ -416,14 +422,17 @@ file "SQbinPar.template" { pattern
 {SQ4,	 P_C2,          3229, 1,    4708, 1}
 {SQ4,	 P_Tt,          3229, 2,    4708, 2}
 {SQ4,	 P_Ft,          3229, 3,    4708, 3}
+{SQ5,	 P_LIC100,      3313, 0,    4810, 0}
 {SQ7,	 P_C1,          3481, 0,    5014, 0}
 {SQ7,	 P_C2,          3481, 1,    5014, 1}
 {SQ7,	 P_Tbl,         3481, 2,    5014, 2}
 {SQ7,	 P_MS,          3481, 3,    5014, 3}
 {SQ8,	 P_MS,          3565, 0,    5116, 0}
 {SQ8,	 P_Tbl,         3565, 1,    5116, 1}
+{SQ8,	 P_LIC101,      3565, 2,    5116, 2}
 {SQ9,	 P_MS,          3649, 0,    5218, 0}
 {SQ9,	 P_Tbl,         3649, 1,    5218, 1}
+{SQ9,	 P_LIC101,      3649, 2,    5218, 2}
 {SQ10,	 P_C1,          3733, 0,    5320, 0}
 {SQ10,	 P_C2,          3733, 1,    5320, 1}
 {SQ10,	 P_Tt,          3733, 2,    5320, 2}
