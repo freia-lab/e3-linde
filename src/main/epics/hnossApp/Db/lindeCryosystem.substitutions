@@ -628,7 +628,7 @@ file "lindeAnalogFloatInput.template" { pattern
 {CBox,	Pur,	UY3465-PercOut,	    494,  "%", "Regen vlv"}
 {CBox,	Pur,	UY3490-PercOut,	    498,  "%", "Cold gas supply vlv"}
 {Cmp,	LP,	UY2250-PercOut,	    538,  "%", "Bypass vlv"}
-{Cmp,	HP,	UY2160-PercOut,	    542,  "%", "Load vlv"}T
+{Cmp,	HP,	UY2160-PercOut,	    542,  "%", "Load vlv"}
 {Cmp,	HP,	UY2150-PercOut,	    546,  "%", "Unload vlv"}
 {Cmp,	HP,	SY2110-PercOut,	    550,  "%", "Speed setpoint"}
 
