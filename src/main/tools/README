@@ -1,0 +1,7 @@
+Start the server with ./server_linde & command.
+The server can use another then default (2000) port for communication with the IOC.
+Another port can be selected by starting the server with comman line argument:
+./server_linde <port> &
+
+for example:
+ ./server_linde 2001 &

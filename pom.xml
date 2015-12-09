@@ -21,17 +21,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.iter.codac.units</groupId>
-    <artifactId>epics-hnoss</artifactId>
+    <artifactId>epics-linde-freia</artifactId>
     <packaging>codac</packaging>
     <version>0.1a2</version>
-    <name>CODAC Core System epics-hnoss module</name>
-    <description>CODAC Core System epics-hnoss module</description>
+    <name>CODAC Core System epics-linde-freia module</name>
+    <description>CODAC Core System epics-linde-freia module</description>
     <url>http://www.ess.org/</url>
  
     <!-- project properties -->
     <properties>
         <unit.type>module</unit.type>
-        <module.name>hnoss</module.name>
+        <module.name>linde-freia</module.name>
     </properties>
 
     <!-- parent pom.xml -->
@@ -65,12 +65,12 @@
                     <packaging>
                         <package name="opi">
                             <include type="boy" file="*" />
-                            <include file="Hnoss-top.opi" topopi="true" type="boy"/>
+                            <include file="linde-StartStop.opi" topopi="true" type="boy"/>
  #                           <include type="databrowser" file="*" />
  #                           <include type="boy" file="*-SDDMain.opi" topopi="true" />
                         </package>
                         <package name="ioc">
-                            <include type="ioc" name="hnoss" runlevels="345" />
+                            <include type="ioc" name="linde-freia" runlevels="345" />
                         </package>
                         <package name="src">
                        	    <include type="source" source="./src/main/epics" target="epics/apps/${module.name}/src"/>
