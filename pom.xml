@@ -23,7 +23,7 @@
     <groupId>org.iter.codac.units</groupId>
     <artifactId>epics-linde-freia</artifactId>
     <packaging>codac</packaging>
-    <version>0.1a2</version>
+    <version>0.1</version>
     <name>CODAC Core System epics-linde-freia module</name>
     <description>CODAC Core System epics-linde-freia module</description>
     <url>http://www.ess.org/</url>
