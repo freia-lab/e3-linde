@@ -23,7 +23,7 @@ epicsEnvSet("AUTOSAVE_SYSM_PV_PREFIX","linde-freia:")
 #<sendIntervall> : time to wait before sending new data to PLC [ms]
 
 #s7plcConfigure Cryo-Linde,192.168.1.10,2000,2000,100,1,1000,100
-s7plcConfigure Cryo-Linde,127.0.0.1,2000,2000,100,1,1000,100
+s7plcConfigure Cryo-Linde,$(PLC_IPADDR),2000,2000,100,1,1000,100
 
 #############################################
 ## DB loading                              ##
