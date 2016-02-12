@@ -127,6 +127,7 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Dwr,	Htr, sStrtStopCmd,	690,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
 {Cryo,	VacSys,	VacSys,	sStrtStopCmd,	700,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
 {Cryo,	Pur,	Pur, sStrtStopCmd,	710,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
+{Cryo,	Dwr,	LC5200, sStrtStopCmd,	720,	0,	False,	True,  NO_ALARM,  NO_ALARM, "start/stop cmd"}
 
 {Cryo,	Cmp,	Cx, Pms_StrtOk,	750,	0,	"Not OK",	OK,  NO_ALARM,  NO_ALARM, "General permissives"}
 {Cryo,	Cmp,	Cx, Pms_StrtTuInletVlv,	750,	1,	"Not OK",	OK,  NO_ALARM, NO_ALARM, "Tu inlet vlv position"}
@@ -503,6 +504,7 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Dwr,	Htr,	PmsStopStat, 690,	3, "Stop not permitted", "Stop permitted", NO_ALARM, NO_ALARM, "Stop permissives ok"}
 {Cryo,	VacSys,	VacSys,	PmsStopStat, 700,	3, "Stop not permitted", "Stop permitted", NO_ALARM, NO_ALARM, "Stop permissives ok"}
 {Cryo,	Pur,	Pur,	PmsStopStat, 710,	3, "Stop not permitted", "Stop permitted", NO_ALARM, NO_ALARM, "Stop permissives ok"}
+{Cryo,	Dwr,	LC5200, PmsOk,	     720,	2, "Start not permitted", "Start permitted",  NO_ALARM,  NO_ALARM, "Start permissives ok"}
 {Cryo,	Cmp,	C1,	PmsStrtStat, 610,	2, "Start not permitted", "Start permitted", NO_ALARM, NO_ALARM, "Start permissives ok"}
 {Cryo,	Cmp,	C2,	PmsStrtStat, 620,	2, "Start not permitted", "Start permitted", NO_ALARM, NO_ALARM, "Start permissives ok"}
 {Cryo,	MCD,	MCD,	PmsStrtStat, 630,	2, "Start not permitted", "Start permitted", NO_ALARM, NO_ALARM, "Start permissives ok"}
@@ -525,6 +527,7 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Dwr,	Htr,	SwOnStat, 690,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
 {Cryo,	VacSys,	VacSys,	SwOnStat, 700,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
 {Cryo,	Pur,	Pur,	SwOnStat, 710,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
+{Cryo,	Dwr,	LC5200, SwOnStat, 720,	1, "OFF",	"ON", NO_ALARM,  NO_ALARM, "On/off"}
 {Cryo,	Cmp,	C1,	SdStat, 610,	4, "Operation", "Shutdown", NO_ALARM, MINOR, Shutdown}
 {Cryo,	Cmp,	C2,	SdStat, 620,	4, "Operation", "Shutdown", NO_ALARM, MINOR, Shutdown}
 {Cryo,	MCD,	MCD,	SdStat, 630,	4, "Operation", "Shutdown", NO_ALARM, MINOR, Shutdown}
@@ -551,6 +554,7 @@ file "visu_state.template" { pattern
 {Cryo,	Dwr,	Htr,	VisuState, 692}
 {Cryo,	VacSys,	VacSys,	VisuState, 702}
 {Cryo,	Pur,	Pur,	VisuState, 712}
+{Cryo,  Dwr,	LC5200,	VisuState,  722}
 }
 
 file "lindeAnalogFloatInput.template" { pattern
@@ -631,6 +635,8 @@ file "lindeAnalogFloatInput.template" { pattern
 {Cmp,	HP,	UY2160-PercOut,	    542,  "%", "Load vlv"}
 {Cmp,	HP,	UY2150-PercOut,	    546,  "%", "Unload vlv"}
 {Cmp,	HP,	SY2110-PercOut,	    550,  "%", "Speed setpoint"}
+
+{Dwr,	LHe,	LC5200_Sp,	    724,  "%", "Dewar level controller set-point"}
 
 {Cmp,	LP,	St_SdDlyActTm,	    756,  s, "Delay time until cmp sd"}
 {Cmp,	HP,	St_SdDlyActTm,	    760,  s, "Delay time until cmp sd"}
