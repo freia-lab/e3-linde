@@ -26,6 +26,7 @@ file "lindeBinaryOutput.template" { pattern
 {Cryo,	QA,	QS-7230,	OnOffCmd, 14,	2,	Idle,	Toggle, "On/off Command"}
 {Cryo,	QA,	QS-7240,	OnOffCmd, 14,	3,	Idle,	Toggle, "On/off Command"}
 {Cryo,	QA,	QS-7250,	OnOffCmd, 14,	4,	Idle,	Toggle, "On/off Command"}
+{Cryo,	Dwr,	LC5200, StrtStopCmd,	15,	0,	Idle,	Toggle, "Start/Stop Command"}
 }
 
 file "mbbi.template" { pattern
