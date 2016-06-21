@@ -551,8 +551,8 @@ file "lindeAnalogFloatInput.template" { pattern
 {CBox,	Pur,	PI3404,	            44, bara, "HP-Bundles outlet pre"}
 {Dwr,	LP,	TI5220,	    52,   "°C", temperature}
 {Rec,	LP,	TI7215,	    56,   "°C",	 temperature}
-{CBox,	HP,	SI3131,	            100, "m/s", "Speed tu 1"}
-{CBox,	HP,	SI3151,	            104, "m/s", "Speed tu 2"}
+{CBox,	HP,	SI3131,	            100, "rps", "Speed tu 1"}
+{CBox,	HP,	SI3151,	            104, "rps", "Speed tu 2"}
 {CBox,	HP,	PI3130,	            108, bara, "Inlet pre tu 1"}
 {CBox,	HP,	PI3150,	            112, bara, "Inlet pre tu 2"}
 {CBox,	LP,	PI3290,	            116, bara, "Dwr take back pre"}
