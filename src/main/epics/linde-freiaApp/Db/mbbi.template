@@ -14,21 +14,3 @@ record(mbbi, "Cryo-$(SUBS):$(DEV):$(SIG)") {
   field (DESC, "$(DESC)")
  }
 
-record(mbbi, "Cryo-Rec:LP:BalloonLevel") {
-  field (DTYP, "S7plc")
-  field (INP,  "@Cryo-Linde/11 T=BYTE")
-  field (SCAN, "I/O Intr")
-  field (NOBT, "4")
-  field (ZRVL, "0")
-  field (ONVL, "1")
-  field (THVL, "3")
-  field (SVVL, "7")
-  field (FFVL, "15")
-  field (ZRST, "Too low")
-  field (ONST, "Low")
-  field (THST, "Normal")
-  field (SVST, "High")
-  field (FFST, "Too high")
-  field (UNSV, "MINOR")
-  field (DESC, "Balloon level")
- }

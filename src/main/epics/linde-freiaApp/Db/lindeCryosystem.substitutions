@@ -449,14 +449,6 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	CBox,	Ads80K,	ActRegReset,  1306,	0,	False, True,  NO_ALARM, NO_ALARM, status}
 {Cryo,	CBox,	Ads80K,	LastRegReset,  1336,	0,	False, True,  NO_ALARM, NO_ALARM, status}
 {Cryo,	CBox,	Ads80K,	TotRegReset,  1366,	0,	False, True,  NO_ALARM, NO_ALARM, status}
-{Cryo,	CBox,	Ads80K,	INIT,  1430,	0,	False, True,  NO_ALARM, NO_ALARM, INIT}
-{Cryo,	CBox,	Ads80K,	PRESSURIZE,  1430,	1,	False, True,  NO_ALARM, NO_ALARM, PRESSURIZE}
-{Cryo,	CBox,	Ads80K,	COOLDOWN,  1430,	2,	False, True,  NO_ALARM, NO_ALARM, COOLDOWN}
-{Cryo,	CBox,	Ads80K,	ADSORPTION,  1430,	3,	False, True,  NO_ALARM, NO_ALARM, ADSORPTION}
-{Cryo,	CBox,	Ads80K,	PARALLEL,  1430,	4,	False, True,  NO_ALARM, NO_ALARM, PARALLEL}
-{Cryo,	CBox,	Ads80K,	ISOLATION,  1430,	5,	False, True,  NO_ALARM, NO_ALARM, ISOLATION}
-{Cryo,	CBox,	Ads80K,	DEPRESS,  1430,	   6,	      False, True,  NO_ALARM, NO_ALARM, DEPRESS}
-{Cryo,	CBox,	Ads80K,	MANUAL,  1430,	   7,	    False, True,  NO_ALARM, NO_ALARM, MANUAL}
 {Cryo,	ICn,	Dwr,	PmsT5220,  1470,	   0,	    "Not permissive", Permissive,  NO_ALARM, NO_ALARM, status}
 {Cryo,	Dwr,	Dwr,	PmsNoSd,  1470,	   1,	    False, True,  NO_ALARM, NO_ALARM, status}
 {Cryo,	Dwr,	Dwr,	PmsOk,  1470,	   7,	    False, True,  NO_ALARM, NO_ALARM, status}
@@ -544,17 +536,7 @@ file "lindeBinaryInput.template" { pattern
 
 file "visu_state.template" { pattern
 {SYS,	SUBS,	DEV,	SIG,	OFFS}
-{Cryo,	Cmp,	C1,	VisuState, 612}
 {Cryo,	Cmp,	C2,	VisuState, 622}
-{Cryo,	MCD,	MCD,	VisuState, 632}
-{Cryo,	HP,	DisChrgRec,	VisuState, 642}
-{Cryo,	CBox,	CoolMode,	VisuState, 652}
-{Cryo,	CBox,	WarmUpMode,	VisuState, 662}
-{Cryo,	CBox,	LN2,	VisuState, 672}
-{Cryo,	CBox,	LN2-IlkTu,	VisuState, 682}
-{Cryo,	Dwr,	Htr,	VisuState, 692}
-{Cryo,	VacSys,	VacSys,	VisuState, 702}
-{Cryo,	Pur,	Pur,	VisuState, 712}
 {Cryo,  Dwr,	LC5200,	VisuState,  722}
 }
 
