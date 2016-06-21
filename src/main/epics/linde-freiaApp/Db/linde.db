@@ -343,6 +343,14 @@ record(mbbi, "Cryo-Pur:Pur:VisuState") {
   field (DESC, "Purifier visual states")
 }
 
+record(calc, "Cryo:CBox:Pur:dP3401-3445") {
+  field(INPA, "Cryo:CBox:Pur:PI3401 CP")
+  field(INPB, "Cryo:CBox:Pur:PI3445 CP")
+  field(CALC, "A-B")
+  field(EGU, "bara")
+  field(PINI, "YES") 
+}
+
 #! Further lines contain data used by VisualDCT
 #! View(0,0,0.9)
 #! Record(Cryo-Linde-status,140,105,0,0,"Cryo-Linde-status")
