@@ -576,6 +576,7 @@ file "lindeAnalogFloatInput.template" { pattern
 {CBox,	Pur,	PI3420,	    196,  bara, "outlet pre"}
 {CBox,	Pur,	PI3465,	    200,  bara, "regen pre"}
 {CBox,	Pur,	PI3460,	    204,  bara, "Upstream pre"}
+{CBox,	Pur,	PI3490,	    208,  bara, "Pressure"}
 {CBox,	Pur,	TI3440,	    212,  K, temperature}
 {CBox,	Pur,	TI3450,	    216,  K, temperature}
 {Cmp,	HP,	PI2160,	    260,  bara, "Hi pre"}

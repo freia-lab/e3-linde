@@ -32,6 +32,69 @@
   <actions hook="false" hook_all="false" />
   <y>0</y>
   <x>0</x>
+  <widget typeId="org.csstudio.opibuilder.widgets.polygon" version="1.0.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <fill_level>100.0</fill_level>
+    <line_color>
+      <color name="IO Line" red="0" green="32" blue="92" />
+    </line_color>
+    <wuid>210431e9:1556e12dd3a:4df2</wuid>
+    <rotation_angle>0.0</rotation_angle>
+    <scripts />
+    <height>651</height>
+    <anti_alias>true</anti_alias>
+    <name>Polygon Template_7</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <alpha>255</alpha>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <points>
+      <point x="307" y="457" />
+      <point x="35" y="457" />
+      <point x="35" y="195" />
+      <point x="715" y="196" />
+      <point x="1455" y="197" />
+      <point x="1455" y="582" />
+      <point x="1455" y="845" />
+      <point x="926" y="845" />
+      <point x="508" y="845" />
+      <point x="508" y="457" />
+    </points>
+    <transparent>false</transparent>
+    <pv_name></pv_name>
+    <background_color>
+      <color name="IO Background" red="255" green="255" blue="205" />
+    </background_color>
+    <foreground_color>
+      <color red="168" green="200" blue="208" />
+    </foreground_color>
+    <widget_type>Polygon</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+    </font>
+    <width>1421</width>
+    <line_style>0</line_style>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <border_width>2</border_width>
+    <line_width>0</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>195</y>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>35</x>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <fill_arrow>true</fill_arrow>
@@ -2736,7 +2799,7 @@ $(pv_value)</tooltip>
     <y>427</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
-    <x>1401</x>
+    <x>1398</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.symbol.bool.BoolMonitorWidget" version="1.0.0">
     <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -5242,7 +5305,7 @@ $(pv_value)</tooltip>
     <format_type>0</format_type>
     <precision_from_pv>true</precision_from_pv>
     <transparent>false</transparent>
-    <pv_name>Cryo-CBox:LN2-IlkTu:VisuState</pv_name>
+    <pv_name>Cryo-CBox:Tu2:VisuState</pv_name>
     <background_color>
       <color name="IO TextButton" red="0" green="0" blue="0" />
     </background_color>
@@ -5300,7 +5363,7 @@ $(pv_value)</tooltip>
     <format_type>0</format_type>
     <precision_from_pv>true</precision_from_pv>
     <transparent>false</transparent>
-    <pv_name>Cryo-CBox:LN2-IlkTu:VisuState</pv_name>
+    <pv_name>Cryo-CBox:Tu1:VisuState</pv_name>
     <background_color>
       <color name="IO TextButton" red="0" green="0" blue="0" />
     </background_color>
@@ -5941,7 +6004,7 @@ $(pv_value)</tooltip>
     <format_type>0</format_type>
     <precision_from_pv>false</precision_from_pv>
     <transparent>false</transparent>
-    <pv_name>???</pv_name>
+    <pv_name>Cryo-CBox:Pur:ActStaTm</pv_name>
     <background_color>
       <color name="IO Shape Fill" red="188" green="188" blue="188" />
     </background_color>
@@ -7009,7 +7072,7 @@ $(pv_value)</tooltip>
     <y>713</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
-    <x>447</x>
+    <x>526</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -7067,7 +7130,7 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>433</x>
+    <x>512</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
