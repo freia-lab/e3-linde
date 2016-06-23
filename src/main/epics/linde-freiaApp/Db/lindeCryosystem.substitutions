@@ -49,6 +49,7 @@ file "mbbi.template" { pattern
 {CBox,  Tu2,    Tr_Speed,  1064,   3,  OK,   "Too high", "Too low",  "Tr: Turbine 2 speed"}
 {CBox,  Tu1,    Tr_Speed,  1065,   3,  OK,   "Too high", "Too low",  "Tr: Turbine 1 speed"}
 }
+
 file "lindeBinaryInput.template" { pattern
 {SYS,	SUBS,	DEV,	SIG,	OFFS,	BIT,	ZNAM,	ONAM,  ZSV,  OSV, DESC}
 {Cryo,	Ctrl,	Ctrl,	EZ1000,	10,	0,	"Not OK", OK,  MAJOR,  NO_ALARM, "Emergency stop"}

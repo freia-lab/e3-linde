@@ -177,7 +177,7 @@ record(mbbi, "Cryo-Cmp:C1:VisuState") {
   field (TWVL, "2")
   field (THVL, "3")
   field (FRVL, "4")   
-  field (ZRST, "OFF" 
+  field (ZRST, "OFF") 
   field (ONST, "STARTUP")
   field (TWST, "ON")
   field (THST, "OFF")
@@ -192,7 +192,7 @@ record(mbbi, "Cryo-MCD:MCD:VisuState") {
   field (ONVL, "1")
   field (TWVL, "2")
   field (THVL, "3")   
-  field (ZRST, "Off" 
+  field (ZRST, "Off") 
   field (ONST, "Await pres stabl")
   field (TWST, "Purge")
   field (THST, "Measuring")  
@@ -230,7 +230,7 @@ record(mbbi, "Cryo-CBox:CoolMode:VisuState") {
   field (FRVL, "4")   
   field (FVVL, "5")
   field (SXVL, "6")  
-  field (ZRST, "Off" 
+  field (ZRST, "Off") 
   field (ONST, "On")
   field (TWST, "Cooldown")
   field (THST, "Liquifying")
