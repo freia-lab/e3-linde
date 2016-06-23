@@ -593,6 +593,8 @@ file "lindeAnalogFloatInput.template" { pattern
 {CBox,	Pur,	TI3460,	    332,  K, temperature}
 {CBox,	HP,	TI3154,	    336,  K, temperature}
 {Dwr,	LHe,	LI5200_Lt,	    340,  K, "Dwr level liter"}
+{CBox,	Pur,	ActStaTm,	    344,  min, "Actual state time"}
+{CBox,	Pur,	ActPresDif,	    348,  bara, "Pres diff PI3401-PI3445"}
 {Pur,	Htr,	UY3470-PercOut,	    370,  "%", percent}
 {CBox,	Htr,	UY3115-PercOut,	    374,  "%", percent}
 {Dwr,	V,	UY5201-PercOut,	    378,  "%", CV5201}
@@ -638,6 +640,8 @@ file "lindeAnalogFloatInput.template" { pattern
 {CBox,	CBox,	StRemRcvryTm,	    900,  s, "Remaining recovery time"}
 {CBox,	CBox,	StTu2CalcOutletPr,	    904,  bara, "tu 2 outlet pre"}
 {CBox,	CBox,	StTuMassFlow,	    908,  "kg/s", "Turbine massflow"}
+{CBox,	HP,	SC3131-ActSp,	    912,  "SP", "Speed control tu1"}
+{CBox,	HP,	SC3151-ActSp,	    916,  "SP", "Speed control tu2"}
 }
 
 file "lindeAnalogIntInput.template" { pattern

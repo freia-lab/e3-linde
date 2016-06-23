@@ -104,6 +104,25 @@ record(stringin, Cryo-Regen:Ads80K:StaInf) {
   field(SCAN, "I/O Intr")
 }
 
+
+record (ai, "Cryo-CBox:LN2:PDI3685") {
+  field (DESC, "Coldbox:LN2 diff pressure")
+  field (EGU, "mbar")
+  field (PREC, "4")
+  field (DTYP, "S7plc")
+  field (INP,  "@Cryo-Linde/48 T=FLOAT")
+  field (SCAN, "I/O Intr")
+  field (FLNK, "Cryo-CBox:LN2:LI3685-PercOut")
+}
+
+record (calc, "Cryo-CBox:LN2:LI3685-PercOut") {
+  field (DESC, "Rec:Coldbox LN2 level")
+  field (EGU, "%")
+  field (PREC, "4")
+  field (INPA, "Cryo-CBox:LN2:PDI3685")
+  field (CALC, "100*A/496")
+}
+
 record(mbbi, "Cryo-Rec:LP:BalloonLevel") {
   field (DTYP, "S7plc")
   field (INP,  "@Cryo-Linde/11 T=BYTE")
@@ -343,12 +362,85 @@ record(mbbi, "Cryo-Pur:Pur:VisuState") {
   field (DESC, "Purifier visual states")
 }
 
-record(calc, "Cryo:CBox:Pur:dP3401-3445") {
-  field(INPA, "Cryo:CBox:Pur:PI3401 CP")
-  field(INPB, "Cryo:CBox:Pur:PI3445 CP")
-  field(CALC, "A-B")
-  field(EGU, "bara")
-  field(PINI, "YES") 
+record(mbbi, "Cryo-Cbox:Tu1:VisuState") {
+  field (DTYP, "S7plc")
+  field (INP,  "@Cryo-Linde/684 T=INT16")
+  field (SCAN, "I/O Intr") 
+  field (NOBT, "16") 
+  field (ZRVL, "0")
+  field (ONVL, "1")
+  field (TWVL, "2")
+  field (THVL, "3")
+  field (FRVL, "4") 
+  field (FVVL, "5")
+  field (SXVL, "6")
+  field (SVVL, "7")
+  field (EIVL, "8")  
+  field (ZRST, "") 
+  field (ONST, "")
+  field (TWST, "")
+  field (THST, "")
+  field (FRST, "") 
+  field (FVST, "")
+  field (SXST, "")
+  field (SVST, "")
+  field (EIST, "")
+  field (UNSV, "MINOR")
+  field (DESC, "Tu 1 visual states")
+}
+
+record(mbbi, "Cryo-Cbox:Tu2:VisuState") {
+  field (DTYP, "S7plc")
+  field (INP,  "@Cryo-Linde/686 T=INT16")
+  field (SCAN, "I/O Intr") 
+  field (NOBT, "16") 
+  field (ZRVL, "0")
+  field (ONVL, "1")
+  field (TWVL, "2")
+  field (THVL, "3")
+  field (FRVL, "4") 
+  field (FVVL, "5")
+  field (SXVL, "6")
+  field (SVVL, "7")
+  field (EIVL, "8")  
+  field (ZRST, "") 
+  field (ONST, "")
+  field (TWST, "")
+  field (THST, "")
+  field (FRST, "") 
+  field (FVST, "")
+  field (SXST, "")
+  field (SVST, "")
+  field (EIST, "")
+  field (UNSV, "MINOR")
+  field (DESC, "Tu 2 visual states")
+}
+
+record(mbbi, "Cryo-ICn:PmsTI5220:VisuState") {
+  field (DTYP, "S7plc")
+  field (INP,  "@Cryo-Linde/714 T=INT16")
+  field (SCAN, "I/O Intr") 
+  field (NOBT, "16") 
+  field (ZRVL, "0")
+  field (ONVL, "1")
+  field (TWVL, "2")
+  field (THVL, "3")
+  field (FRVL, "4") 
+  field (FVVL, "5")
+  field (SXVL, "6")
+  field (SVVL, "7")
+  field (EIVL, "8")  
+  field (ZRST, "") 
+  field (ONST, "")
+  field (TWST, "")
+  field (THST, "")
+  field (FRST, "") 
+  field (FVST, "")
+  field (SXST, "")
+  field (SVST, "")
+  field (EIST, "")
+  field (UNSV, "MINOR")
+  field (DESC, "PmsTI5220 visual states")
 }
 
 #! Further lines contain data used by VisualDCT

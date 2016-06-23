@@ -7,20 +7,3 @@ record (ai, "Cryo-$(SUBS):$(DEV):$(SIG)") {
   field (SCAN, "I/O Intr")
 }
 
-record (ai, "Cryo-CBox:LN2:PDI3685") {
-  field (DESC, "Coldbox:LN2 diff pressure")
-  field (EGU, "mbar")
-  field (PREC, "4")
-  field (DTYP, "S7plc")
-  field (INP,  "@Cryo-Linde/48 T=FLOAT")
-  field (SCAN, "I/O Intr")
-  field (FLNK, "Cryo-CBox:LN2:LI3685-PercOut")
-}
-
-record (calc, "Cryo-CBox:LN2:LI3685-PercOut") {
-  field (DESC, "Rec:Coldbox LN2 level")
-  field (EGU, "%")
-  field (PREC, "4")
-  field (INPA, "Cryo-CBox:LN2:PDI3685")
-  field (CALC, "100*A/496")
-}
