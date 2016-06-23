@@ -211,7 +211,7 @@ record(mbbi, "Cryo-HP:DisChrgRec:VisuState") {
   field (THVL, "3")
   field (FRVL, "4")   
   field (ZRST, "Off")  
-  field (ONST, "buffer active" 
+  field (ONST, "buffer active")
   field (TWST, "recovery selected")
   field (THST, "recovery on")
   field (FRST, "recovery active")
