@@ -1039,7 +1039,7 @@ $(pv_value)</tooltip>
     <border_style>0</border_style>
     <rules />
     <fc>false</fc>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
@@ -1128,7 +1128,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <transparent>false</transparent>
-      <pv_name></pv_name>
+      <pv_name>Cryo-Cbox:Tu1:VisuState</pv_name>
       <background_color>
         <color name="IO Background" red="255" green="255" blue="205" />
       </background_color>
@@ -1147,7 +1147,26 @@ $(pv_value)</tooltip>
       <width>14</width>
       <line_style>0</line_style>
       <border_style>0</border_style>
-      <rules />
+      <rules>
+        <rule name="ColorRule" prop_id="foreground_color" out_exp="false">
+          <exp bool_exp="!(pv0==4||pv0==5)">
+            <value>
+              <color name="IO OutputPV Bg" red="121" green="123" blue="126" />
+            </value>
+          </exp>
+          <exp bool_exp="pv0==4">
+            <value>
+              <color red="0" green="207" blue="0" />
+            </value>
+          </exp>
+          <exp bool_exp="pv0==5">
+            <value>
+              <color red="207" green="0" blue="0" />
+            </value>
+          </exp>
+          <pv trig="true">$(pv_name)</pv>
+        </rule>
+      </rules>
       <pv_value />
       <border_width>2</border_width>
       <line_width>1</line_width>
@@ -1251,7 +1270,7 @@ $(pv_value)</tooltip>
     <border_style>0</border_style>
     <rules />
     <fc>false</fc>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
@@ -1317,63 +1336,6 @@ $(pv_value)</tooltip>
 $(pv_value)</tooltip>
       <x>0</x>
     </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <visible>true</visible>
-      <fill_level>100.0</fill_level>
-      <line_color>
-        <color name="IO Line" red="0" green="32" blue="92" />
-      </line_color>
-      <wuid>4eb6c1c9:1555d8d019b:-50dd</wuid>
-      <bg_gradient_color>
-        <color name="IO Foreground" red="0" green="0" blue="0" />
-      </bg_gradient_color>
-      <scripts />
-      <height>47</height>
-      <anti_alias>true</anti_alias>
-      <name>Rectangle Template</name>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <alpha>255</alpha>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <transparent>false</transparent>
-      <pv_name></pv_name>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205" />
-      </background_color>
-      <foreground_color>
-        <color name="IO OutputPV Bg" red="121" green="123" blue="126" />
-      </foreground_color>
-      <widget_type>Rectangle</widget_type>
-      <enabled>true</enabled>
-      <fg_gradient_color>
-        <color name="IO Foreground" red="0" green="0" blue="0" />
-      </fg_gradient_color>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <font>
-        <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
-      </font>
-      <width>14</width>
-      <line_style>0</line_style>
-      <border_style>0</border_style>
-      <rules />
-      <pv_value />
-      <border_width>2</border_width>
-      <line_width>1</line_width>
-      <horizontal_fill>true</horizontal_fill>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215" />
-      </border_color>
-      <actions hook="false" hook_all="false" />
-      <y>20</y>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <x>18</x>
-      <gradient>false</gradient>
-    </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.polygon" version="1.0.0">
       <border_alarm_sensitive>false</border_alarm_sensitive>
       <visible>true</visible>
@@ -1430,6 +1392,82 @@ $(pv_value)</tooltip>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>0</x>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <visible>true</visible>
+      <fill_level>100.0</fill_level>
+      <line_color>
+        <color name="IO Line" red="0" green="32" blue="92" />
+      </line_color>
+      <wuid>63a203b3:1557dc35066:1789</wuid>
+      <bg_gradient_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </bg_gradient_color>
+      <scripts />
+      <height>47</height>
+      <anti_alias>true</anti_alias>
+      <name>Rectangle Template</name>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <alpha>255</alpha>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <transparent>false</transparent>
+      <pv_name>Cryo-Cbox:Tu2:VisuState</pv_name>
+      <background_color>
+        <color name="IO Background" red="255" green="255" blue="205" />
+      </background_color>
+      <foreground_color>
+        <color name="IO OutputPV Bg" red="121" green="123" blue="126" />
+      </foreground_color>
+      <widget_type>Rectangle</widget_type>
+      <enabled>true</enabled>
+      <fg_gradient_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </fg_gradient_color>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <font>
+        <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      </font>
+      <width>14</width>
+      <line_style>0</line_style>
+      <border_style>0</border_style>
+      <rules>
+        <rule name="ColorRule" prop_id="foreground_color" out_exp="false">
+          <exp bool_exp="!(pv0==4||pv0==5)">
+            <value>
+              <color name="IO OutputPV Bg" red="121" green="123" blue="126" />
+            </value>
+          </exp>
+          <exp bool_exp="pv0==4">
+            <value>
+              <color red="0" green="207" blue="0" />
+            </value>
+          </exp>
+          <exp bool_exp="pv0==5">
+            <value>
+              <color red="207" green="0" blue="0" />
+            </value>
+          </exp>
+          <pv trig="true">$(pv_name)</pv>
+        </rule>
+      </rules>
+      <pv_value />
+      <border_width>2</border_width>
+      <line_width>1</line_width>
+      <horizontal_fill>true</horizontal_fill>
+      <border_color>
+        <color name="IO Border" red="215" green="215" blue="215" />
+      </border_color>
+      <actions hook="false" hook_all="false" />
+      <y>20</y>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <x>18</x>
+      <gradient>false</gradient>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -3058,14 +3096,14 @@ $(pv_value)</tooltip>
     <auto_size>false</auto_size>
     <scripts />
     <height>46</height>
-    <data_type>1</data_type>
+    <data_type>0</data_type>
     <show_boolean_label>true</show_boolean_label>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <off_label>Closed</off_label>
     <background_color>
       <color name="IO Background" red="255" green="255" blue="205" />
     </background_color>
-    <enabled>true</enabled>
+    <enabled>false</enabled>
     <widget_type>Boolean Symbol Image Monitor</widget_type>
     <font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
@@ -3085,7 +3123,7 @@ $(pv_value)</tooltip>
     <flip_vertical>false</flip_vertical>
     <pv_value />
     <crop_bottom>0</crop_bottom>
-    <on_state>0</on_state>
+    <bit>-1</bit>
     <on_label>Open</on_label>
     <border_width>5</border_width>
     <image_file>../../SymbolLibrary/SVG/Fluid/Valves/VC 2 way-Valves Control.svg</image_file>
@@ -3106,7 +3144,7 @@ $(pv_value)</tooltip>
     <off_color>
       <color name="IO Default" red="255" green="0" blue="0" />
     </off_color>
-    <pv_name>Cryo-CBox:HP:GSL3130</pv_name>
+    <pv_name>Cryo-CBox:HP:UY3130-PercOut</pv_name>
     <foreground_color>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
@@ -3115,7 +3153,6 @@ $(pv_value)</tooltip>
     <crop_top>0</crop_top>
     <rules />
     <degree>0</degree>
-    <off_state>1</off_state>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
@@ -7177,7 +7214,7 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>653</y>
+    <y>651</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
     <x>863</x>
@@ -7234,7 +7271,7 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>670</y>
+    <y>666</y>
     <wrap_words>false</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
@@ -7649,63 +7686,6 @@ $(pv_value)</tooltip>
     <tooltip></tooltip>
     <x>773</x>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <visible>true</visible>
-    <fill_level>100.0</fill_level>
-    <line_color>
-      <color name="IO Line" red="0" green="32" blue="92" />
-    </line_color>
-    <wuid>210431e9:1556e12dd3a:-52bb</wuid>
-    <bg_gradient_color>
-      <color name="IO Foreground" red="0" green="0" blue="0" />
-    </bg_gradient_color>
-    <scripts />
-    <height>40</height>
-    <anti_alias>true</anti_alias>
-    <name>Rectangle Template_10</name>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <alpha>255</alpha>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <transparent>false</transparent>
-    <pv_name></pv_name>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205" />
-    </background_color>
-    <foreground_color>
-      <color name="IO Border" red="215" green="215" blue="215" />
-    </foreground_color>
-    <widget_type>Rectangle</widget_type>
-    <enabled>true</enabled>
-    <fg_gradient_color>
-      <color name="IO Foreground" red="0" green="0" blue="0" />
-    </fg_gradient_color>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
-    </font>
-    <width>27</width>
-    <line_style>0</line_style>
-    <border_style>0</border_style>
-    <rules />
-    <pv_value />
-    <border_width>2</border_width>
-    <line_width>1</line_width>
-    <horizontal_fill>true</horizontal_fill>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215" />
-    </border_color>
-    <actions hook="false" hook_all="false" />
-    <y>690</y>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <x>871</x>
-    <gradient>false</gradient>
-  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
     <vertical_alignment>1</vertical_alignment>
@@ -7742,7 +7722,7 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>1</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>729</y>
+    <y>730</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
     <x>865</x>
@@ -8122,7 +8102,7 @@ $(pv_value)</tooltip>
     <off_color>
       <color name="IO Default" red="255" green="0" blue="0" />
     </off_color>
-    <pv_name>Cryo-CBox:Pur:UY3420-PercOut</pv_name>
+    <pv_name>Cryo-CBox:Pur:UY3435-PercOut</pv_name>
     <foreground_color>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
@@ -8236,7 +8216,7 @@ $(pv_value)</tooltip>
     <off_color>
       <color name="IO Default" red="255" green="0" blue="0" />
     </off_color>
-    <pv_name>Cryo-CBox:Pur:UY3420-PercOut</pv_name>
+    <pv_name>Cryo-CBox:Pur:UY3490-PercOut</pv_name>
     <foreground_color>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
@@ -9030,7 +9010,7 @@ $(pv_value)</tooltip>
     <format_type>0</format_type>
     <precision_from_pv>false</precision_from_pv>
     <transparent>false</transparent>
-    <pv_name>Cryo-CBox:Pur:PI3420</pv_name>
+    <pv_name>Cryo-CBox:Pur:ActPresDif</pv_name>
     <background_color>
       <color name="IO Shape Fill" red="188" green="188" blue="188" />
     </background_color>
@@ -9611,6 +9591,94 @@ $(pv_value)</tooltip>
       </action>
     </actions>
     <x>1112</x>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.tank" version="1.0.0">
+    <level_lo>20.0</level_lo>
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <color_fillbackground>
+      <color name="IO Grid" red="215" green="215" blue="215" />
+    </color_fillbackground>
+    <color_hihi>
+      <color name="Major" red="255" green="0" blue="0" />
+    </color_hihi>
+    <fillcolor_alarm_sensitive>false</fillcolor_alarm_sensitive>
+    <show_lo>false</show_lo>
+    <scripts />
+    <height>44</height>
+    <major_tick_step_hint>50</major_tick_step_hint>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <background_color>
+      <color name="IO InputPV Bg" red="255" green="255" blue="255" />
+    </background_color>
+    <enabled>true</enabled>
+    <widget_type>Tank</widget_type>
+    <show_minor_ticks>false</show_minor_ticks>
+    <font>
+      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+    </font>
+    <width>36</width>
+    <show_lolo>false</show_lolo>
+    <border_style>15</border_style>
+    <effect_3d>false</effect_3d>
+    <pv_value />
+    <show_markers>false</show_markers>
+    <show_hi>false</show_hi>
+    <maximum>100.0</maximum>
+    <border_width>2</border_width>
+    <log_scale>false</log_scale>
+    <minimum>0.0</minimum>
+    <wuid>63a203b3:1557dc35066:2229</wuid>
+    <show_hihi>false</show_hihi>
+    <scale_format></scale_format>
+    <show_scale>false</show_scale>
+    <color_lo>
+      <color name="Minor" red="255" green="255" blue="0" />
+    </color_lo>
+    <name>Tank Template</name>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name>Cryo-CBox:Pur:LI3470</pv_name>
+    <color_hi>
+      <color name="Minor" red="255" green="255" blue="0" />
+    </color_hi>
+    <foreground_color>
+      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+    </foreground_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <level_hi>80.0</level_hi>
+    <scale_font>
+      <opifont.name fontName="arial" height="10" style="0">IO Scale 1</opifont.name>
+    </scale_font>
+    <level_hihi>90.0</level_hihi>
+    <color_lolo>
+      <color name="Major" red="255" green="0" blue="0" />
+    </color_lolo>
+    <fill_color>
+      <color name="IO PV ON" red="0" green="0" blue="225" />
+    </fill_color>
+    <rules>
+      <rule name="BorderRule" prop_id="border_style" out_exp="false">
+        <exp bool_exp="pv0==1">
+          <value>9</value>
+        </exp>
+        <pv trig="true">$(pv_name).SIMM</pv>
+      </rule>
+    </rules>
+    <transparent_background>false</transparent_background>
+    <limits_from_pv>false</limits_from_pv>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <level_lolo>10.0</level_lolo>
+    <y>686</y>
+    <actions hook="false" hook_all="false" />
+    <x>867</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
