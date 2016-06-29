@@ -601,7 +601,7 @@ file "lindeAnalogFloatInput.template" { pattern
 {CBox,	Pur,	TI3465,	    324,  K, temperature}
 {CBox,	Pur,	TI3475,	    328,  K, temperature}
 {CBox,	Pur,	TI3460,	    332,  K, temperature}
-{CBox,	HP,	TI3154,	    336,  K, temperature}
+{CBox,	HP,	TI3454,	    336,  K, temperature}
 {Dwr,	LHe,	LI5200_Lt,	    340,  Lt, "Dwr level liter"}
 {CBox,	Pur,	ActStaTm,	    344,  min, "Actual state time"}
 {CBox,	Pur,	ActPresDif,	    348,  bara, "Pres diff PI3401-PI3445"}

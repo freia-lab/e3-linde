@@ -117,7 +117,7 @@
           <pv_name>Cryo-Cmp:C1:StrtStopCmd</pv_name>
           <value>1</value>
           <timeout>10</timeout>
-          <confirm_message>Start/stop</confirm_message>
+          <confirm_message>Start/stop?</confirm_message>
           <description></description>
         </action>
       </actions>
@@ -145,7 +145,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>Cryo-Cmp:C1:SwOnStat</pv_name>
+      <pv_name>Cryo-Cmp:C1:VisuState</pv_name>
       <background_color>
         <color name="IO InputPV Bg" red="255" green="255" blue="255" />
       </background_color>
@@ -492,7 +492,7 @@ $(pv_value)</tooltip>
           <pv_name>Cryo-MCD:MCD:StrtStopCmd</pv_name>
           <value>1</value>
           <timeout>10</timeout>
-          <confirm_message></confirm_message>
+          <confirm_message>Start/stop?</confirm_message>
           <description></description>
         </action>
       </actions>
@@ -520,7 +520,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>Cryo-MCD:MCD:SwOnStat</pv_name>
+      <pv_name>Cryo-MCD:MCD:VisuState</pv_name>
       <background_color>
         <color name="IO InputPV Bg" red="255" green="255" blue="255" />
       </background_color>
@@ -813,7 +813,7 @@ $(pv_value)</tooltip>
           <pv_name>Cryo-HP:DisChrg:StrtStopCmd</pv_name>
           <value>1</value>
           <timeout>10</timeout>
-          <confirm_message></confirm_message>
+          <confirm_message>Start/stop?</confirm_message>
           <description></description>
         </action>
       </actions>
@@ -841,7 +841,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>Cryo-HP:DisChrgRec:SwOnStat</pv_name>
+      <pv_name>Cryo-HP:DisChrgRec:VisuState</pv_name>
       <background_color>
         <color name="IO InputPV Bg" red="255" green="255" blue="255" />
       </background_color>
@@ -1134,7 +1134,7 @@ $(pv_value)</tooltip>
           <pv_name>Cryo-CBox:Cm:StrtStopCmd</pv_name>
           <value>1</value>
           <timeout>10</timeout>
-          <confirm_message></confirm_message>
+          <confirm_message>Start/stop?</confirm_message>
           <description></description>
         </action>
       </actions>
@@ -1162,7 +1162,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>Cryo-CBox:CoolMode:SwOnStat</pv_name>
+      <pv_name>Cryo-CBox:CoolMode:VisuState</pv_name>
       <background_color>
         <color name="IO InputPV Bg" red="255" green="255" blue="255" />
       </background_color>
@@ -1340,7 +1340,7 @@ $(pv_value)</tooltip>
           <pv_name>Cryo-CBox:Wu:StrtStopCmd</pv_name>
           <value>1</value>
           <timeout>10</timeout>
-          <confirm_message></confirm_message>
+          <confirm_message>Start/stop?</confirm_message>
           <description></description>
         </action>
       </actions>
@@ -1368,7 +1368,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>Cryo-CBox:WarmUpMode:SwOnStat</pv_name>
+      <pv_name>Cryo-CBox:WarmUpMode:VisuState</pv_name>
       <background_color>
         <color name="IO InputPV Bg" red="255" green="255" blue="255" />
       </background_color>
@@ -2082,7 +2082,7 @@ $(pv_value)</tooltip>
           <pv_name>Cryo-CBox:LN2:StrtStopCmd</pv_name>
           <value>1</value>
           <timeout>10</timeout>
-          <confirm_message></confirm_message>
+          <confirm_message>Start/stop?</confirm_message>
           <description></description>
         </action>
       </actions>
@@ -2110,7 +2110,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>Cryo-CBox:LN2:SwOnStat</pv_name>
+      <pv_name>Cryo-CBox:LN2:VisuState</pv_name>
       <background_color>
         <color name="IO InputPV Bg" red="255" green="255" blue="255" />
       </background_color>
@@ -2403,7 +2403,7 @@ $(pv_value)</tooltip>
           <pv_name>Cryo-CBox:LN2-IlkTu:StrtStopCmd</pv_name>
           <value>1</value>
           <timeout>10</timeout>
-          <confirm_message></confirm_message>
+          <confirm_message>Start/stop?</confirm_message>
           <description></description>
         </action>
       </actions>
@@ -2431,7 +2431,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>Cryo-CBox:LN2-IlkTu:SwOnStat</pv_name>
+      <pv_name>Cryo-CBox:LN2-IlkTu:VisuState</pv_name>
       <background_color>
         <color name="IO InputPV Bg" red="255" green="255" blue="255" />
       </background_color>
@@ -2778,7 +2778,7 @@ $(pv_value)</tooltip>
           <pv_name>Cryo-Dwr:Htr:StrtStopCmd</pv_name>
           <value>1</value>
           <timeout>10</timeout>
-          <confirm_message></confirm_message>
+          <confirm_message>Start/stop?</confirm_message>
           <description></description>
         </action>
       </actions>
@@ -2806,7 +2806,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>Cryo-Dwr:Htr:SwOnStat</pv_name>
+      <pv_name>Cryo-Dwr:Htr:VisuState</pv_name>
       <background_color>
         <color name="IO InputPV Bg" red="255" green="255" blue="255" />
       </background_color>
@@ -3153,7 +3153,7 @@ $(pv_value)</tooltip>
           <pv_name>Cryo-Vac:VacSys:StrtStopCmd</pv_name>
           <value>1</value>
           <timeout>10</timeout>
-          <confirm_message></confirm_message>
+          <confirm_message>Start/stop?</confirm_message>
           <description></description>
         </action>
       </actions>
@@ -3181,7 +3181,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>Cryo-VacSys:VacSys:SwOnStat</pv_name>
+      <pv_name>Cryo-VacSys:VacSys:VisuState</pv_name>
       <background_color>
         <color name="IO InputPV Bg" red="255" green="255" blue="255" />
       </background_color>
@@ -3474,7 +3474,7 @@ $(pv_value)</tooltip>
           <pv_name>Cryo-Pur:Pur:StrtStopCmd</pv_name>
           <value>1</value>
           <timeout>10</timeout>
-          <confirm_message></confirm_message>
+          <confirm_message>Start/stop?</confirm_message>
           <description></description>
         </action>
       </actions>
@@ -3502,7 +3502,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>Cryo-Pur:Pur:SwOnStat</pv_name>
+      <pv_name>Cryo-Pur:Pur:VisuState</pv_name>
       <background_color>
         <color name="IO InputPV Bg" red="255" green="255" blue="255" />
       </background_color>

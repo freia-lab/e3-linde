@@ -443,6 +443,33 @@ record(mbbi, "Cryo-ICn:PmsTI5220:VisuState") {
   field (DESC, "PmsTI5220 visual states")
 }
 
+record(mbbi, "Cryo-Rec:LP:GasBag_VisuState") {
+  field (DTYP, "S7plc")
+  field (INP,  "@Cryo-Linde/716 T=INT16")
+  field (SCAN, "I/O Intr") 
+  field (NOBT, "16") 
+  field (ZRVL, "0")
+  field (ONVL, "1")
+  field (TWVL, "2")
+  field (THVL, "3")
+  field (FRVL, "4") 
+  field (FVVL, "5")
+  field (SXVL, "6")
+  field (SVVL, "7")
+  field (EIVL, "8")  
+  field (ZRST, "Ready") 
+  field (ONST, "State 1")
+  field (TWST, "State 2")
+  field (THST, "State 3")
+  field (FRST, "State 4") 
+  field (FVST, "State 5")
+  field (SXST, "State 6")
+  field (SVST, "State 7")
+  field (EIST, "State 8")
+  field (UNSV, "MINOR")
+  field (DESC, "Gas bag visual states")
+}
+
 #! Further lines contain data used by VisualDCT
 #! View(0,0,0.9)
 #! Record(Cryo-Linde-status,140,105,0,0,"Cryo-Linde-status")
