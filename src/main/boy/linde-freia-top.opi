@@ -190,7 +190,7 @@
         <auto_size>false</auto_size>
         <scripts />
         <zoom_to_fit>true</zoom_to_fit>
-        <height>870</height>
+        <height>900</height>
         <name>Linking Container Template</name>
         <scale_options>
           <width_scalable>true</width_scalable>
@@ -210,16 +210,16 @@
         <font>
           <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
         </font>
-        <width>1426</width>
+        <width>1470</width>
         <border_style>0</border_style>
         <rules />
         <border_width>2</border_width>
         <border_color>
           <color name="IO Border" red="215" green="215" blue="215" />
         </border_color>
-        <y>25</y>
+        <y>10</y>
         <actions hook="false" hook_all="false" />
-        <x>35</x>
+        <x>10</x>
         <tooltip></tooltip>
       </widget>
     </widget>
