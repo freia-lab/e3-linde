@@ -5009,7 +5009,7 @@ $(pv_value)</tooltip>
     <pv_value />
     <show_markers>false</show_markers>
     <show_hi>false</show_hi>
-    <maximum>100.0</maximum>
+    <maximum>16.0</maximum>
     <border_width>2</border_width>
     <log_scale>false</log_scale>
     <minimum>0.0</minimum>
@@ -5026,7 +5026,7 @@ $(pv_value)</tooltip>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
-    <pv_name>????</pv_name>
+    <pv_name>Cryo-Cmp:HP:PI2170</pv_name>
     <color_hi>
       <color name="Minor" red="255" green="255" blue="0" />
     </color_hi>

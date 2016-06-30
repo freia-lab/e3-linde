@@ -32,6 +32,69 @@
   <actions hook="false" hook_all="false" />
   <y>0</y>
   <x>0</x>
+  <widget typeId="org.csstudio.opibuilder.widgets.polygon" version="1.0.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <fill_level>100.0</fill_level>
+    <line_color>
+      <color name="IO Line" red="0" green="32" blue="92" />
+    </line_color>
+    <wuid>63a203b3:1559b9aed4a:674b</wuid>
+    <rotation_angle>0.0</rotation_angle>
+    <scripts />
+    <height>506</height>
+    <anti_alias>true</anti_alias>
+    <name>Polygon Template_1</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <alpha>255</alpha>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <points>
+      <point x="228" y="568" />
+      <point x="228" y="338" />
+      <point x="639" y="338" />
+      <point x="639" y="205" />
+      <point x="1259" y="205" />
+      <point x="1259" y="710" />
+      <point x="984" y="710" />
+      <point x="819" y="710" />
+      <point x="679" y="710" />
+      <point x="679" y="568" />
+    </points>
+    <transparent>false</transparent>
+    <pv_name></pv_name>
+    <background_color>
+      <color name="IO Background" red="255" green="255" blue="205" />
+    </background_color>
+    <foreground_color>
+      <color red="168" green="200" blue="208" />
+    </foreground_color>
+    <widget_type>Polygon</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+    </font>
+    <width>1032</width>
+    <line_style>0</line_style>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <border_width>2</border_width>
+    <line_width>0</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>205</y>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>228</x>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <visible>true</visible>
@@ -1366,10 +1429,10 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <pv_name>Cryo-Dwr:LP:TI5220</pv_name>
     <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188" />
+      <color red="151" green="3" blue="60" />
     </background_color>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+      <color red="255" green="255" blue="255" />
     </foreground_color>
     <widget_type>Text Update</widget_type>
     <enabled>true</enabled>
@@ -1392,7 +1455,7 @@ $(pv_value)</tooltip>
     <pv_value />
     <border_width>2</border_width>
     <border_color>
-      <color red="151" green="3" blue="60" />
+      <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
@@ -1950,10 +2013,10 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <pv_name>Cryo-Rec:LP:TI7215</pv_name>
     <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188" />
+      <color red="151" green="3" blue="60" />
     </background_color>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+      <color red="255" green="255" blue="255" />
     </foreground_color>
     <widget_type>Text Update</widget_type>
     <enabled>true</enabled>
@@ -1976,7 +2039,7 @@ $(pv_value)</tooltip>
     <pv_value />
     <border_width>2</border_width>
     <border_color>
-      <color red="151" green="3" blue="60" />
+      <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
@@ -4214,10 +4277,10 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <pv_name>Cryo-CBox:Pur:TI3450</pv_name>
     <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188" />
+      <color red="151" green="3" blue="60" />
     </background_color>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+      <color red="255" green="255" blue="255" />
     </foreground_color>
     <widget_type>Text Update</widget_type>
     <enabled>true</enabled>
@@ -4240,7 +4303,7 @@ $(pv_value)</tooltip>
     <pv_value />
     <border_width>2</border_width>
     <border_color>
-      <color red="151" green="3" blue="60" />
+      <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
@@ -4330,10 +4393,10 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <pv_name>Cryo-CBox:Pur:TI3460</pv_name>
     <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188" />
+      <color red="151" green="3" blue="60" />
     </background_color>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+      <color red="255" green="255" blue="255" />
     </foreground_color>
     <widget_type>Text Update</widget_type>
     <enabled>true</enabled>
@@ -4356,7 +4419,7 @@ $(pv_value)</tooltip>
     <pv_value />
     <border_width>2</border_width>
     <border_color>
-      <color red="151" green="3" blue="60" />
+      <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
@@ -4446,10 +4509,10 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <pv_name>Cryo-CBox:Pur:TI3475</pv_name>
     <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188" />
+      <color red="151" green="3" blue="60" />
     </background_color>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+      <color red="255" green="255" blue="255" />
     </foreground_color>
     <widget_type>Text Update</widget_type>
     <enabled>true</enabled>
@@ -4472,7 +4535,7 @@ $(pv_value)</tooltip>
     <pv_value />
     <border_width>2</border_width>
     <border_color>
-      <color red="151" green="3" blue="60" />
+      <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
@@ -5459,10 +5522,10 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <pv_name>Cryo-CBox:Pur:PI3465</pv_name>
     <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188" />
+      <color red="151" green="3" blue="60" />
     </background_color>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+      <color red="255" green="255" blue="255" />
     </foreground_color>
     <widget_type>Text Update</widget_type>
     <enabled>true</enabled>
@@ -5485,7 +5548,7 @@ $(pv_value)</tooltip>
     <pv_value />
     <border_width>2</border_width>
     <border_color>
-      <color red="151" green="3" blue="60" />
+      <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
@@ -5753,10 +5816,10 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <pv_name>Cryo-CBox:Pur:TI3440</pv_name>
     <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188" />
+      <color red="151" green="3" blue="60" />
     </background_color>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+      <color red="255" green="255" blue="255" />
     </foreground_color>
     <widget_type>Text Update</widget_type>
     <enabled>true</enabled>
@@ -5779,7 +5842,7 @@ $(pv_value)</tooltip>
     <pv_value />
     <border_width>2</border_width>
     <border_color>
-      <color red="151" green="3" blue="60" />
+      <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
@@ -7054,10 +7117,10 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <pv_name>Cryo-CBox:LN2:TI3610</pv_name>
     <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188" />
+      <color red="151" green="3" blue="60" />
     </background_color>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+      <color red="255" green="255" blue="255" />
     </foreground_color>
     <widget_type>Text Update</widget_type>
     <enabled>true</enabled>
@@ -7080,7 +7143,7 @@ $(pv_value)</tooltip>
     <pv_value />
     <border_width>2</border_width>
     <border_color>
-      <color red="151" green="3" blue="60" />
+      <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
@@ -7112,10 +7175,10 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <pv_name>Cryo-CBox:LN2:TI3605</pv_name>
     <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188" />
+      <color red="151" green="3" blue="60" />
     </background_color>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+      <color red="255" green="255" blue="255" />
     </foreground_color>
     <widget_type>Text Update</widget_type>
     <enabled>true</enabled>
@@ -7138,7 +7201,7 @@ $(pv_value)</tooltip>
     <pv_value />
     <border_width>2</border_width>
     <border_color>
-      <color red="151" green="3" blue="60" />
+      <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
@@ -7408,10 +7471,10 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <pv_name>Cryo-CBox:HP:TI3111</pv_name>
     <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188" />
+      <color red="151" green="3" blue="60" />
     </background_color>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+      <color red="255" green="255" blue="255" />
     </foreground_color>
     <widget_type>Text Update</widget_type>
     <enabled>true</enabled>
@@ -7434,7 +7497,7 @@ $(pv_value)</tooltip>
     <pv_value />
     <border_width>2</border_width>
     <border_color>
-      <color red="151" green="3" blue="60" />
+      <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
@@ -7581,10 +7644,10 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <pv_name>Cryo-CBox:HP:TI3112</pv_name>
     <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188" />
+      <color red="151" green="3" blue="60" />
     </background_color>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+      <color red="255" green="255" blue="255" />
     </foreground_color>
     <widget_type>Text Update</widget_type>
     <enabled>true</enabled>
@@ -7607,7 +7670,7 @@ $(pv_value)</tooltip>
     <pv_value />
     <border_width>2</border_width>
     <border_color>
-      <color red="151" green="3" blue="60" />
+      <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
@@ -9211,10 +9274,10 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <pv_name>Cryo-CBox:HP:TI3130</pv_name>
     <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188" />
+      <color red="151" green="3" blue="60" />
     </background_color>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+      <color red="255" green="255" blue="255" />
     </foreground_color>
     <widget_type>Text Update</widget_type>
     <enabled>true</enabled>
@@ -9237,7 +9300,7 @@ $(pv_value)</tooltip>
     <pv_value />
     <border_width>2</border_width>
     <border_color>
-      <color red="151" green="3" blue="60" />
+      <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
@@ -9443,10 +9506,10 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <pv_name>Cryo-CBox:HP:TI3131</pv_name>
     <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188" />
+      <color red="151" green="3" blue="60" />
     </background_color>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+      <color red="255" green="255" blue="255" />
     </foreground_color>
     <widget_type>Text Update</widget_type>
     <enabled>true</enabled>
@@ -9469,7 +9532,7 @@ $(pv_value)</tooltip>
     <pv_value />
     <border_width>2</border_width>
     <border_color>
-      <color red="151" green="3" blue="60" />
+      <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
@@ -9501,10 +9564,10 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <pv_name>Cryo-CBox:HP:TI3151</pv_name>
     <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188" />
+      <color red="151" green="3" blue="60" />
     </background_color>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+      <color red="255" green="255" blue="255" />
     </foreground_color>
     <widget_type>Text Update</widget_type>
     <enabled>true</enabled>
@@ -9527,7 +9590,7 @@ $(pv_value)</tooltip>
     <pv_value />
     <border_width>2</border_width>
     <border_color>
-      <color red="151" green="3" blue="60" />
+      <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
@@ -9617,10 +9680,10 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <pv_name>Cryo-CBox:HP:TI3155</pv_name>
     <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188" />
+      <color red="151" green="3" blue="60" />
     </background_color>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+      <color red="255" green="255" blue="255" />
     </foreground_color>
     <widget_type>Text Update</widget_type>
     <enabled>true</enabled>
@@ -9643,7 +9706,7 @@ $(pv_value)</tooltip>
     <pv_value />
     <border_width>2</border_width>
     <border_color>
-      <color red="151" green="3" blue="60" />
+      <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
@@ -11724,10 +11787,10 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <pv_name>Cryo-CBox:HP:TI3454</pv_name>
     <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188" />
+      <color red="151" green="3" blue="60" />
     </background_color>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+      <color red="255" green="255" blue="255" />
     </foreground_color>
     <widget_type>Text Update</widget_type>
     <enabled>true</enabled>
@@ -11750,7 +11813,7 @@ $(pv_value)</tooltip>
     <pv_value />
     <border_width>2</border_width>
     <border_color>
-      <color red="151" green="3" blue="60" />
+      <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
