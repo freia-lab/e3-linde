@@ -31,9 +31,9 @@ file "lindeBinaryOutput.template" { pattern
 
 file "mbbi.template" { pattern
 {SUBS,	DEV,	SIG,	OFFS, SHFT, ZRST, ONST, TWST, DESC}
-{CBox,  Ads80K,    InlVlv,  14,   0,  Partially open,   Closed, Open,  "inlet vlv"}
-{CBox,  Ads80K,    BypVlv,  14,   3,  Partially open,   Closed, Open,  "bypass vlv"}
-{CBox,  Ads80K,    OutVlv,  14,   5,  Partially open,   Closed, Open,  "outlet vlv"}
+{CBox,  Ads80K,    InlVlv,  14,   0,  "Partially open",   Closed, Open,  "inlet vlv"}
+{CBox,  Ads80K,    BypVlv,  14,   3,  "Partially open",   Closed, Open,  "bypass vlv"}
+{CBox,  Ads80K,    OutVlv,  14,   5,  "Partially open",   Closed, Open,  "outlet vlv"}
 {Rec,	LP,    CmpStat,     362,  0,  Null,   On, Off, "Compressor on/off"}
 {Cmp,   Cmp,   LpSdStat,      752,  4,  OK,     underrun, overstep, "Sd: Low pre status"}
 {Cmp,   Cmp,   HpSdStat,      752,  6,  OK,     underrun, overstep, "Sd: Hi pre status"}
