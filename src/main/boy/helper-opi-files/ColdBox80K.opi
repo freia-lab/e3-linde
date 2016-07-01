@@ -2555,47 +2555,6 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
     <vertical_alignment>1</vertical_alignment>
-    <wuid>4eb6c1c9:1555d8d019b:-7576</wuid>
-    <auto_size>true</auto_size>
-    <scripts />
-    <height>23</height>
-    <name>Label Template_48</name>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <transparent>true</transparent>
-    <show_scrollbar>false</show_scrollbar>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205" />
-    </background_color>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92" />
-    </foreground_color>
-    <widget_type>Label</widget_type>
-    <enabled>false</enabled>
-    <text>Coldbox 80 K</text>
-    <font>
-      <fontdata fontName="Sans" height="14" style="0" />
-    </font>
-    <width>122</width>
-    <border_style>0</border_style>
-    <rules />
-    <border_width>2</border_width>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215" />
-    </border_color>
-    <horizontal_alignment>0</horizontal_alignment>
-    <actions hook="false" hook_all="false" />
-    <y>10</y>
-    <wrap_words>true</wrap_words>
-    <tooltip></tooltip>
-    <x>511</x>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <visible>true</visible>
-    <vertical_alignment>1</vertical_alignment>
     <wuid>4eb6c1c9:1555d8d019b:-7564</wuid>
     <auto_size>true</auto_size>
     <scripts />
@@ -4104,7 +4063,7 @@ $(pv_value)</tooltip>
     <x>513</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
-    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_alarm_sensitive>true</border_alarm_sensitive>
     <visible>true</visible>
     <vertical_alignment>0</vertical_alignment>
     <show_units>true</show_units>
