@@ -3804,7 +3804,7 @@ $(pv_value)</tooltip>
     <format_type>0</format_type>
     <precision_from_pv>false</precision_from_pv>
     <transparent>false</transparent>
-    <pv_name>???</pv_name>
+    <pv_name>Cryo-CBox:HP:SC3131-ActSp</pv_name>
     <background_color>
       <color name="IO Shape Fill" red="188" green="188" blue="188" />
     </background_color>
@@ -4716,7 +4716,7 @@ $(pv_value)</tooltip>
     <format_type>0</format_type>
     <precision_from_pv>false</precision_from_pv>
     <transparent>false</transparent>
-    <pv_name>???</pv_name>
+    <pv_name>Cryo-CBox:HP:SC3151-ActSp</pv_name>
     <background_color>
       <color name="IO Shape Fill" red="188" green="188" blue="188" />
     </background_color>
@@ -5564,47 +5564,6 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
     <vertical_alignment>1</vertical_alignment>
-    <wuid>210431e9:1556e12dd3a:-6675</wuid>
-    <auto_size>true</auto_size>
-    <scripts />
-    <height>23</height>
-    <name>Label Template_48</name>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <transparent>true</transparent>
-    <show_scrollbar>false</show_scrollbar>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205" />
-    </background_color>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92" />
-    </foreground_color>
-    <widget_type>Label</widget_type>
-    <enabled>false</enabled>
-    <text>Coldbox Turbines</text>
-    <font>
-      <fontdata fontName="Sans" height="14" style="0" />
-    </font>
-    <width>158</width>
-    <border_style>0</border_style>
-    <rules />
-    <border_width>2</border_width>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215" />
-    </border_color>
-    <horizontal_alignment>0</horizontal_alignment>
-    <actions hook="false" hook_all="false" />
-    <y>3</y>
-    <wrap_words>true</wrap_words>
-    <tooltip></tooltip>
-    <x>641</x>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <visible>true</visible>
-    <vertical_alignment>1</vertical_alignment>
     <wuid>210431e9:1556e12dd3a:-6209</wuid>
     <auto_size>true</auto_size>
     <scripts />
@@ -5741,70 +5700,6 @@ $(pv_value)</tooltip>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
     <x>399</x>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
-    <border_alarm_sensitive>true</border_alarm_sensitive>
-    <visible>true</visible>
-    <vertical_alignment>0</vertical_alignment>
-    <show_units>true</show_units>
-    <wuid>210431e9:1556e12dd3a:-61dc</wuid>
-    <auto_size>false</auto_size>
-    <rotation_angle>0.0</rotation_angle>
-    <scripts>
-      <path pathString="EmbeddedJs" checkConnect="true" sfe="false" seoe="false">
-        <scriptName>EmbeddedScript</scriptName>
-        <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil);
-
-val3401 = PVUtil.getDouble(pvs[0]);
-
-val3445 = PVUtil.getDouble(pvs[1]);
-
-widget.setValue(val3401-val3445);]]></scriptText>
-        <pv trig="true">Cryo-CBox:Pur:PI3401</pv>
-        <pv trig="true">Cryo-CBox:Pur:PI3445</pv>
-      </path>
-    </scripts>
-    <height>20</height>
-    <name>Text Update Template_17</name>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <format_type>0</format_type>
-    <precision_from_pv>false</precision_from_pv>
-    <transparent>false</transparent>
-    <pv_name></pv_name>
-    <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188" />
-    </background_color>
-    <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
-    </foreground_color>
-    <widget_type>Text Update</widget_type>
-    <enabled>true</enabled>
-    <text>#######</text>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <precision>2</precision>
-    <font>
-      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
-    </font>
-    <width>70</width>
-    <border_style>1</border_style>
-    <rules />
-    <pv_value />
-    <border_width>2</border_width>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215" />
-    </border_color>
-    <horizontal_alignment>0</horizontal_alignment>
-    <actions hook="false" hook_all="false" />
-    <y>560</y>
-    <wrap_words>false</wrap_words>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <x>322</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
