@@ -1816,79 +1816,6 @@ $(pv_value)</tooltip>
       <tooltip></tooltip>
       <x>20</x>
     </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.symbol.bool.BoolMonitorWidget" version="1.0.0">
-      <border_alarm_sensitive>true</border_alarm_sensitive>
-      <visible>true</visible>
-      <auto_size>false</auto_size>
-      <scripts />
-      <height>46</height>
-      <data_type>1</data_type>
-      <show_boolean_label>true</show_boolean_label>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <off_label>Closed</off_label>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205" />
-      </background_color>
-      <enabled>true</enabled>
-      <widget_type>Boolean Symbol Image Monitor</widget_type>
-      <font>
-        <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
-      </font>
-      <permutation_matrix>
-        <row>
-          <col>1.0</col>
-          <col>0.0</col>
-        </row>
-        <row>
-          <col>0.0</col>
-          <col>1.0</col>
-        </row>
-      </permutation_matrix>
-      <width>51</width>
-      <border_style>15</border_style>
-      <flip_vertical>false</flip_vertical>
-      <pv_value />
-      <crop_bottom>0</crop_bottom>
-      <on_state>2</on_state>
-      <on_label>Open</on_label>
-      <border_width>5</border_width>
-      <image_file>../../SymbolLibrary/SVG/Fluid/Valves/VC 2 way-Valves Control.svg</image_file>
-      <crop_right>0</crop_right>
-      <crop_left>0</crop_left>
-      <wuid>456fec5c:1555874aa94:-4856</wuid>
-      <boolean_label_position>5</boolean_label_position>
-      <on_color>
-        <color red="0" green="255" blue="0" />
-      </on_color>
-      <stretch_to_fit>false</stretch_to_fit>
-      <name></name>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <off_color>
-        <color name="IO Default" red="255" green="0" blue="0" />
-      </off_color>
-      <pv_name>Cryo-CBox:Ads80K:BypVlv</pv_name>
-      <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92" />
-      </foreground_color>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <flip_horizontal>false</flip_horizontal>
-      <crop_top>0</crop_top>
-      <rules />
-      <degree>0</degree>
-      <off_state>1</off_state>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215" />
-      </border_color>
-      <y>32</y>
-      <actions hook="true" hook_all="false" />
-      <x>15</x>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
@@ -1946,6 +1873,92 @@ $(pv_value)</tooltip>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>9</x>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.symbol.bool.BoolMonitorWidget" version="1.0.0">
+      <border_alarm_sensitive>true</border_alarm_sensitive>
+      <visible>true</visible>
+      <auto_size>false</auto_size>
+      <scripts />
+      <height>46</height>
+      <data_type>0</data_type>
+      <show_boolean_label>false</show_boolean_label>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <off_label>Closed</off_label>
+      <background_color>
+        <color name="IO Background" red="255" green="255" blue="205" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Boolean Symbol Image Monitor</widget_type>
+      <font>
+        <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      </font>
+      <permutation_matrix>
+        <row>
+          <col>1.0</col>
+          <col>0.0</col>
+        </row>
+        <row>
+          <col>0.0</col>
+          <col>1.0</col>
+        </row>
+      </permutation_matrix>
+      <width>51</width>
+      <border_style>15</border_style>
+      <flip_vertical>false</flip_vertical>
+      <pv_value />
+      <crop_bottom>0</crop_bottom>
+      <bit>-1</bit>
+      <on_label>Open</on_label>
+      <border_width>5</border_width>
+      <image_file>../../SymbolLibrary/SVG/Fluid/Valves/VC 2 way-Valves Control.svg</image_file>
+      <crop_right>0</crop_right>
+      <crop_left>0</crop_left>
+      <wuid>63a203b3:155a575f6d1:2e0c</wuid>
+      <boolean_label_position>5</boolean_label_position>
+      <on_color>
+        <color red="0" green="255" blue="0" />
+      </on_color>
+      <stretch_to_fit>false</stretch_to_fit>
+      <name>_2</name>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <off_color>
+        <color name="IO 6-100K line" red="255" green="153" blue="0" />
+      </off_color>
+      <pv_name>Cryo-CBox:Ads80K:BypVlv</pv_name>
+      <foreground_color>
+        <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+      </foreground_color>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <flip_horizontal>false</flip_horizontal>
+      <crop_top>0</crop_top>
+      <rules>
+        <rule name="Rule" prop_id="on_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color red="255" green="0" blue="0" />
+            </value>
+          </exp>
+          <exp bool_exp="pv0==2">
+            <value>
+              <color red="0" green="255" blue="0" />
+            </value>
+          </exp>
+          <pv trig="true">$(pv_name)</pv>
+        </rule>
+      </rules>
+      <degree>0</degree>
+      <border_color>
+        <color name="IO Border" red="215" green="215" blue="215" />
+      </border_color>
+      <y>33</y>
+      <actions hook="true" hook_all="false" />
+      <x>15</x>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -2951,7 +2964,7 @@ $(pv_value)</tooltip>
       <data_type>0</data_type>
       <show_boolean_label>true</show_boolean_label>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <off_label>Closed</off_label>
+      <off_label>Open</off_label>
       <background_color>
         <color name="IO Background" red="255" green="255" blue="205" />
       </background_color>
@@ -2976,7 +2989,7 @@ $(pv_value)</tooltip>
       <pv_value />
       <crop_bottom>0</crop_bottom>
       <bit>-1</bit>
-      <on_label>Open</on_label>
+      <on_label>Closed</on_label>
       <border_width>5</border_width>
       <image_file>../../SymbolLibrary/SVG/Fluid/Valves/VC 2 way-Valves Control.svg</image_file>
       <crop_right>0</crop_right>
@@ -2984,7 +2997,7 @@ $(pv_value)</tooltip>
       <wuid>4eb6c1c9:1555d8d019b:-6ee4</wuid>
       <boolean_label_position>5</boolean_label_position>
       <on_color>
-        <color red="0" green="255" blue="0" />
+        <color red="255" green="0" blue="0" />
       </on_color>
       <stretch_to_fit>false</stretch_to_fit>
       <name></name>
@@ -2994,7 +3007,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <off_color>
-        <color red="255" green="0" blue="0" />
+        <color red="0" green="255" blue="0" />
       </off_color>
       <pv_name>Cryo-CBox:Ads80K:GSL3112</pv_name>
       <foreground_color>
@@ -4170,5 +4183,63 @@ $(pv_value)</tooltip>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     <x>504</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <vertical_alignment>0</vertical_alignment>
+    <show_units>true</show_units>
+    <wuid>63a203b3:155a575f6d1:31f0</wuid>
+    <auto_size>false</auto_size>
+    <rotation_angle>0.0</rotation_angle>
+    <scripts />
+    <height>20</height>
+    <name>Text Update Template_14</name>
+    <forecolor_alarm_sensitive>true</forecolor_alarm_sensitive>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <format_type>0</format_type>
+    <precision_from_pv>true</precision_from_pv>
+    <transparent>false</transparent>
+    <pv_name>Cryo-CBox:LN2:VisuState</pv_name>
+    <background_color>
+      <color name="IO TextButton" red="0" green="0" blue="0" />
+    </background_color>
+    <foreground_color>
+      <color name="IO OutputPV Fg" red="255" green="255" blue="255" />
+    </foreground_color>
+    <widget_type>Text Update</widget_type>
+    <enabled>true</enabled>
+    <text>######</text>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <precision>0</precision>
+    <font>
+      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+    </font>
+    <width>108</width>
+    <border_style>15</border_style>
+    <rules>
+      <rule name="BorderRule" prop_id="border_style" out_exp="false">
+        <exp bool_exp="pv0==1">
+          <value>9</value>
+        </exp>
+        <pv trig="true">$(pv_name).SIMM</pv>
+      </rule>
+    </rules>
+    <pv_value />
+    <border_width>2</border_width>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <horizontal_alignment>0</horizontal_alignment>
+    <actions hook="false" hook_all="false" />
+    <y>75</y>
+    <wrap_words>true</wrap_words>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>328</x>
   </widget>
 </display>
