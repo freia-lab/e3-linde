@@ -294,11 +294,13 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Cmp,	Cmp,	Wr_LpHigh,             1003,	2,	OK,	Warning,  NO_ALARM,  MINOR, "LP too high"}
 {Cryo,	Cmp,	Cmp,	Wr_LpLow,             1003,	3,	OK,	Warning,  NO_ALARM,  MINOR, "LP too low"}
 
-{Cryo,	Cmp,	Cmp,	Warning,             1004,	5,	OK,	Warning,  NO_ALARM,  MINOR, "Common warning"}
+
 {Cryo,	Cmp,	MCD,	Wr_H20,             1003,	0,	OK,	Warning,  NO_ALARM,  MINOR, "Content too hi"}
 {Cryo,	Cmp,	MCD,	Wr_N2,             1003,	1,	OK,	Warning,  NO_ALARM,  MINOR, "Content too hi"}
 {Cryo,	Cmp,	MCD,	Wr_CxHy,             1003,	2,	OK,	Warning,  NO_ALARM,  MINOR, "Content too hi"}
 {Cryo,	Cmp,	MCD,	Wr_Oil,             1003,	3,	OK,	Warning,  NO_ALARM,  MINOR, "Content too hi"}
+{Cryo,	Cmp,	C1,	Warning,             1004,	5,	OK,	Warning,  NO_ALARM,  MINOR, "C1 Common warning"}
+{Cryo,	Cmp,	C2,	Warning,             1005,	5,	OK,	Warning,  NO_ALARM,  MINOR, "C2 Common warning"}
 {Cryo,	CBox,	CBox,	Wr_CWFlowTux,             1007,	1,	OK,	Warning,  NO_ALARM,  MINOR, "Brake cooler flow"}
 {Cryo,	CBox,	Dwr,	Wr_DewarLvl,             1007,	2,	OK,	Warning,  NO_ALARM,  MINOR, "Dwr lvl too hi"}
 #mbbi?
@@ -322,80 +324,80 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Pur,	Pur,	Wr_SepLvlFail,             1012,	0,	OK,	Warning,  NO_ALARM,  MINOR, "separator lvl fail"}
 {Cryo,	VacSyS,	VacSys,	Wr_VcmCb_PrUnderRange,             1014,	0,	OK,	Warning,  NO_ALARM,  MINOR, "vcm msrmnt under range"}
 {Cryo,	VacSyS,	VacSys,	Wr_VcmCb_PrOverRange,             1014,	1,	OK,	Warning,  NO_ALARM,  MINOR, "vcm msrmnt over range"}
-{Cryo,	Pur,	Pur,	Wr_StaTout000,             1022,	0,	OK,	Warning,  NO_ALARM,  NO_ALARM, Off}
-{Cryo,	Pur,	Pur,	Wr_StaTout001,             1022,	1,	OK,	Warning,  NO_ALARM,  NO_ALARM, Idle}
-{Cryo,	Pur,	Pur,	Wr_StaTout002,             1022,	2,	OK,	Warning,  NO_ALARM,  NO_ALARM, Purge}
-{Cryo,	Pur,	Pur,	Wr_StaTout003,             1022,	3,	OK,	Warning,  NO_ALARM,  NO_ALARM, Spare}
-{Cryo,	Pur,	Pur,	Wr_StaTout004,             1022,	4,	OK,	Warning,  NO_ALARM,  NO_ALARM, Cd1}
-{Cryo,	Pur,	Pur,	Wr_StaTout005,             1022,	5,	OK,	Warning,  NO_ALARM,  NO_ALARM, Stby}
-{Cryo,	Pur,	Pur,	Wr_StaTout006,             1022,	6,	OK,	Warning,  NO_ALARM,  NO_ALARM, Cd2}
-{Cryo,	Pur,	Pur,	Wr_StaTout007,             1022,	7,	OK,	Warning,  NO_ALARM,  NO_ALARM, Purify}
-{Cryo,	Pur,	Pur,	Wr_StaTout008,             1023,	0,	OK,	Warning,  NO_ALARM,  NO_ALARM, Regen}
-{Cryo,	CBox,	Pur,	Wr_TI3465,             1042,	0,	OK,	Warning,  NO_ALARM,  NO_ALARM, TI3465}
-{Cryo,	CBox,	Pur,	Wr_TI3475,             1042,	1,	OK,	Warning,  NO_ALARM,  NO_ALARM, TI3475}
-{Cryo,	CBox,	Pur,	Wr_TI3460,             1042,	2,	OK,	Warning,  NO_ALARM,  NO_ALARM, TI3460}
-{Cryo,	CBox,	Pur,	Wr_TI3454,             1042,	3,	OK,	Warning,  NO_ALARM,  NO_ALARM, TI3454}
-{Cryo,	Rec,	LP,	Wr377_QI7210_ErrSum,	1046,	0,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	HP,	Wr378_TI3115_ErrSum,	1046,	1,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Rec,	LP,	Wr379_QI7220_ErrSum,	1046,	2,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Rec,	LP,	Wr380_QI7230_ErrSum,	1046,	3,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Rec,	LP,	Wr381_QI7240_ErrSum,	1046,	4,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Rec,	LP,	Wr383_QI7250_ErrSum,	1046,	5,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	Pur,	Wr383_PI3404_ErrSum,	1046,	6,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Rec,	LP,	Wr383_PDI3685_ErrSum,	1046,	7,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	ICn,	LP,	Wr369_TI5220_ErrSum,	1047,	0,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Rec,	LP,	Wr370_TI7215_ErrSum,	1047,	1,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	HP,	Wr397_SI3131_ErrSum,	1048,	4,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	HP,	Wr398_SI3151_ErrSum,	1048,	5,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	HP,	Wr399_PI3130_ErrSum,	1048,	6,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	HP,	Wr400_PI3150_ErrSum,	1048,	7,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	LP,	Wr385_PI3290_ErrSum,	1049,	0,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	VacSys,	Wr386_PI3905_ErrSum,	1049,	1,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	HP,	Wr387_TI3131_ErrSum,	1049,	2,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	HP,	Wr388_TI3151_ErrSum,	1049,	3,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	HP,	Wr389_TI3130_ErrSum,	1049,	4,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	HP,	Wr390_TI3155_ErrSum,	1049,	5,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	LP,	Wr391_TI3280_ErrSum,	1049,	6,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	HP,	Wr392_TI3112_ErrSum,	1049,	7,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	LN2,	Wr409_TI3610_ErrSum,	1050,	0,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	LN2,	Wr410_TI3605_ErrSum,	1050,	1,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	ICn,	HP,	Wr412_LI5200_ErrSum,	1050,	3,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	Pur,	Wr413_PI3400_ErrSum,	1050,	4,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	Pur,	Wr414_PI3401_ErrSum,	1050,	5,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	Pur,	Wr415_PI3445_ErrSum,	1050,	6,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	Pur,	Wr416_LI3470_ErrSum,	1050,	7,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	HP,	Wr401_PI3117_ErrSum,	1051,	0,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	HP,	Wr402_PI3154_ErrSum,	1051,	1,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	HP,	Wr403_TI3111_ErrSum,	1051,	2,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	Pur,	Wr405_PI3420_ErrSum,	1051,	4,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	Pur,	Wr406_PI3465_ErrSum,	1051,   5,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	Pur,	Wr407_PI3460_ErrSum,	1051,   6,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	Pur,	Wr425_TI3440_ErrSum,	1052,   0,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	CBox,	Pur,	Wr426_TI3450_ErrSum,	1052,   1,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cmp,	HP,	Wr421_PI2160_ErrSum,	1053,	4,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cmp,	HP,	Wr422_PI2170_ErrSum,	1053,	5,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cmp,	LP,	Wr423_PI2240_ErrSum,	1053,	6,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cmp,	HP,	Wr424_SI2110_ErrSum,	1053,	7,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cmp,	HP,	Wr441_QI1_2160_ErrSum,	1054,	0,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cmp,	HP,	Wr442_QI2_2160_ErrSum,	1054,	1,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cmp,	HP,	Wr443_QI3_2160_ErrSum,	1054,	2,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
-{Cryo,	Cmp,	HP,	Wr444_QI4_2160_ErrSum,	1054,	3,	OK,   Fault,  NO_ALARM,  MAJOR, ErrSum}
+{Cryo,	Pur,	Pur,	Wr_StaTout000,             1022,	0,	OK,	Warning,  NO_ALARM,  MINOR, Off}
+{Cryo,	Pur,	Pur,	Wr_StaTout001,             1022,	1,	OK,	Warning,  NO_ALARM,  MINOR, Idle}
+{Cryo,	Pur,	Pur,	Wr_StaTout002,             1022,	2,	OK,	Warning,  NO_ALARM,  MINOR, Purge}
+{Cryo,	Pur,	Pur,	Wr_StaTout003,             1022,	3,	OK,	Warning,  NO_ALARM,  MINOR, Spare}
+{Cryo,	Pur,	Pur,	Wr_StaTout004,             1022,	4,	OK,	Warning,  NO_ALARM,  MINOR, Cd1}
+{Cryo,	Pur,	Pur,	Wr_StaTout005,             1022,	5,	OK,	Warning,  NO_ALARM,  MINOR, Stby}
+{Cryo,	Pur,	Pur,	Wr_StaTout006,             1022,	6,	OK,	Warning,  NO_ALARM,  MINOR, Cd2}
+{Cryo,	Pur,	Pur,	Wr_StaTout007,             1022,	7,	OK,	Warning,  NO_ALARM,  MINOR, Purify}
+{Cryo,	Pur,	Pur,	Wr_StaTout008,             1023,	0,	OK,	Warning,  NO_ALARM,  MINOR, Regen}
+{Cryo,	CBox,	Pur,	Wr_TI3465,             1042,	0,	OK,	Warning,  NO_ALARM,  MINOR, TI3465}
+{Cryo,	CBox,	Pur,	Wr_TI3475,             1042,	1,	OK,	Warning,  NO_ALARM,  MINOR, TI3475}
+{Cryo,	CBox,	Pur,	Wr_TI3460,             1042,	2,	OK,	Warning,  NO_ALARM,  MINOR, TI3460}
+{Cryo,	CBox,	Pur,	Wr_TI3454,             1042,	3,	OK,	Warning,  NO_ALARM,  MINOR, TI3454}
+{Cryo,	Rec,	LP,	Wr377_QI7210_ErrSum,	1046,	0,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr378_TI3115_ErrSum,	1046,	1,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	Rec,	LP,	Wr379_QI7220_ErrSum,	1046,	2,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	Rec,	LP,	Wr380_QI7230_ErrSum,	1046,	3,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	Rec,	LP,	Wr381_QI7240_ErrSum,	1046,	4,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	Rec,	LP,	Wr383_QI7250_ErrSum,	1046,	5,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr383_PI3404_ErrSum,	1046,	6,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	Rec,	LP,	Wr383_PDI3685_ErrSum,	1046,	7,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	ICn,	LP,	Wr369_TI5220_ErrSum,	1047,	0,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	Rec,	LP,	Wr370_TI7215_ErrSum,	1047,	1,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr397_SI3131_ErrSum,	1048,	4,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr398_SI3151_ErrSum,	1048,	5,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr399_PI3130_ErrSum,	1048,	6,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr400_PI3150_ErrSum,	1048,	7,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	LP,	Wr385_PI3290_ErrSum,	1049,	0,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	VacSys,	Wr386_PI3905_ErrSum,	1049,	1,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr387_TI3131_ErrSum,	1049,	2,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr388_TI3151_ErrSum,	1049,	3,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr389_TI3130_ErrSum,	1049,	4,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr390_TI3155_ErrSum,	1049,	5,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	LP,	Wr391_TI3280_ErrSum,	1049,	6,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr392_TI3112_ErrSum,	1049,	7,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	LN2,	Wr409_TI3610_ErrSum,	1050,	0,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	LN2,	Wr410_TI3605_ErrSum,	1050,	1,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	ICn,	HP,	Wr412_LI5200_ErrSum,	1050,	3,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr413_PI3400_ErrSum,	1050,	4,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr414_PI3401_ErrSum,	1050,	5,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr415_PI3445_ErrSum,	1050,	6,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr416_LI3470_ErrSum,	1050,	7,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr401_PI3117_ErrSum,	1051,	0,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr402_PI3154_ErrSum,	1051,	1,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	HP,	Wr403_TI3111_ErrSum,	1051,	2,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr405_PI3420_ErrSum,	1051,	4,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr406_PI3465_ErrSum,	1051,   5,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr407_PI3460_ErrSum,	1051,   6,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr425_TI3440_ErrSum,	1052,   0,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	CBox,	Pur,	Wr426_TI3450_ErrSum,	1052,   1,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	Cmp,	HP,	Wr421_PI2160_ErrSum,	1053,	4,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	Cmp,	HP,	Wr422_PI2170_ErrSum,	1053,	5,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	Cmp,	LP,	Wr423_PI2240_ErrSum,	1053,	6,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	Cmp,	HP,	Wr424_SI2110_ErrSum,	1053,	7,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	Cmp,	HP,	Wr441_QI1_2160_ErrSum,	1054,	0,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	Cmp,	HP,	Wr442_QI2_2160_ErrSum,	1054,	1,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	Cmp,	HP,	Wr443_QI3_2160_ErrSum,	1054,	2,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
+{Cryo,	Cmp,	HP,	Wr444_QI4_2160_ErrSum,	1054,	3,	OK,   Fault,  NO_ALARM,  MINOR, ErrSum}
 {Cryo,	Ctrl,	Ctrl,	Tr001_EmergencyStop,	1057,	0,	Idle,   "Emergency stop push",  NO_ALARM, MAJOR, "Emergency stop push"}
 {Cryo,	Ctrl,	Ctrl,	Tr002_OpenFuseSd,	1057,	1,	Idle,   Shutdown,  NO_ALARM, MAJOR, "Fuses fallen off stop"}
 {Cryo,	Ctrl,	Ctrl,	Tr003_FirstPassPowerFail,	1057,	2,	Idle,   Failure,  NO_ALARM, MAJOR, "First pass power failure"}
 {Cryo,	Ctrl,	Ctrl,	Tr004_OpenFuseGm,	1057,	3,	Idle,   Trip,  NO_ALARM, MAJOR, "Opn fuse gasmngmnt panel trp"}
 {Cryo,	Cmp,	Cmp,	Tr025_Cx_InstrAirMiss,	1058,	0,	Idle,   "Instr air missing",  NO_ALARM, MAJOR, "Instr air missing"}
 #mbbi?
-{Cryo,	Cmp,	Cmp,	Tr029_Cx_LpLoLmtUnderRun,	1058,	4,	OK, underrun,  NO_ALARM, NO_ALARM, "LP lo lim underrun"}
-{Cryo,	Cmp,	Cmp,	Tr030_Cx_LpHiLmtOverstep,	1058,	5,	OK, overstep,  NO_ALARM, NO_ALARM, "LP hi lim overstep"}
-{Cryo,	Cmp,	Cmp,	Tr031_Cx_HpLoLmtUnderRun,	1058,	6,	OK, underrun,  NO_ALARM, NO_ALARM, "HP lo lim underrun"}
-{Cryo,	Cmp,	Cmp,	Tr032_Cx_HpHiLmtOverstep,	1058,	7,	OK, overstep,  NO_ALARM, NO_ALARM, "HP hi lim overstep"}
+{Cryo,	Cmp,	Cmp,	Tr029_Cx_LpLoLmtUnderRun,	1058,	4,	OK, underrun,  NO_ALARM, MAJOR, "LP lo lim underrun"}
+{Cryo,	Cmp,	Cmp,	Tr030_Cx_LpHiLmtOverstep,	1058,	5,	OK, overstep,  NO_ALARM, MAJOR, "LP hi lim overstep"}
+{Cryo,	Cmp,	Cmp,	Tr031_Cx_HpLoLmtUnderRun,	1058,	6,	OK, underrun,  NO_ALARM, MAJOR, "HP lo lim underrun"}
+{Cryo,	Cmp,	Cmp,	Tr032_Cx_HpHiLmtOverstep,	1058,	7,	OK, overstep,  NO_ALARM, MAJOR, "HP hi lim overstep"}
 
-{Cryo,	Cmp,	C1,	Tr017_C1_Fault,	1059,	0,	OK, Fault,  NO_ALARM, NO_ALARM, "Msg fault"}
-{Cryo,	Cmp,	C1,	Tr018_C1_NoReturnInfo,	1059,	1,	OK, "No info",  NO_ALARM, MINOR, "C1 running conf"}
+{Cryo,	Cmp,	C1,	Tr017_C1_Fault,	1059,	0,	OK, Fault,  NO_ALARM, MAJOR, "Msg fault"}
+{Cryo,	Cmp,	C1,	Tr018_C1_NoReturnInfo,	1059,	1,	OK, "No info",  NO_ALARM, MAJOR, "C1 running conf"}
 {Cryo,	Cmp,	C1,	Tr019_C1_CwFail,	1059,	2,	OK, Failure,  NO_ALARM, MAJOR, "C1 Cooling water"}
 {Cryo,	Cmp,	C2,	Tr021_C2_Fault,	1059,	4,	OK, Fault,  NO_ALARM, MAJOR, "C2 Fault"}
-{Cryo,	Cmp,	C2,	Tr022_C2_NoReturnInfo,	1059,	5,	OK, "No conf",  NO_ALARM, MINOR, "C2 running conf"}
+{Cryo,	Cmp,	C2,	Tr022_C2_NoReturnInfo,	1059,	5,	OK, "No conf",  NO_ALARM, MAJOR, "C2 running conf"}
 {Cryo,	Cmp,	C2,	Tr023_C2_CwFail,	1059,	6,	OK, Failure,  NO_ALARM, MAJOR, "C2 Cooling water"}
 {Cryo,	CBox,	CBox,	Tr033_Cb_SdCmprOff,	1061,	0,	running, "not running",  NO_ALARM, MAJOR, "Cmp not running"}
 {Cryo,	CBox,	CBox,	Tr034_Cb_SdInstrAirMiss,	1061,	1,	"Not missing", missing,  NO_ALARM, MAJOR, "Instr air missing"}
@@ -404,9 +406,9 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	CBox,	Dwr,	Tr038_Cb_SdDewarFull,	1061,	5,	OK, Full,  NO_ALARM, MAJOR, "dewar filling"}
 {Cryo,	CBox,	Tu1,	Tr049_Cb_SdBrakeTe_Tu1,	1063,	0,	OK, "Too high",  NO_ALARM, MAJOR, "brake cooler tu 1 temp"}
 {Cryo,	CBox,	Tu2,	Tr050_Cb_SdBrakeTe_Tu2,	1063,	1,	OK, "Too high",  NO_ALARM, MAJOR, "brake cooler tu 2 temp"}
-{Cryo,	CBox,	Tu2,	Tr073_Cb_SdInPrLowTu2,	1064,	0,	OK, Low,  NO_ALARM, MINOR, "inlet pressure tu 2"}
-{Cryo,	CBox,	Tu2,	Tr074_Cb_SdOutPrLowTu2,	1064,	1,	OK, Low,  NO_ALARM, MINOR, "outlet pressure tu 2"}
-{Cryo,	CBox,	Tu2,	Tr075_Cb_SdOutTeLowTu2,	1064,	2,	OK, Low,  NO_ALARM, MINOR, "outlet temp tu 2"}
+{Cryo,	CBox,	Tu2,	Tr073_Cb_SdInPrLowTu2,	1064,	0,	OK, Low,  NO_ALARM, MAJOR, "inlet pressure tu 2"}
+{Cryo,	CBox,	Tu2,	Tr074_Cb_SdOutPrLowTu2,	1064,	1,	OK, Low,  NO_ALARM, MAJOR, "outlet pressure tu 2"}
+{Cryo,	CBox,	Tu2,	Tr075_Cb_SdOutTeLowTu2,	1064,	2,	OK, Low,  NO_ALARM, MAJOR, "outlet temp tu 2"}
 
 #mbbi?
 {Cryo,	CBox,	Tu2,	Tr076_Cb_SdSpeedHighTu2,1064,	3,	"Not too high", "Too high",  NO_ALARM, MAJOR, "tu 2 speed hi"}
@@ -415,9 +417,9 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	CBox,	Tu2,	Tr078_Cb_SdPrRatioTu2, 1064,	5,	OK, Failure,  NO_ALARM, MAJOR, "tu 2 pressure ratio"}
 {Cryo,	CBox,	Tu2,	Tr079_Cb_SdBearingGasTu2, 1064,	6,	OK, Missing,  NO_ALARM, MAJOR, "tu 2 bearing gas"}  
 {Cryo,	CBox,	Tux,	Tr080_Cb_SdHardwireTux, 1064,	7,	OK, Trip,  NO_ALARM, MAJOR, "hrdwire safety turbines"}
-{Cryo,	CBox,	Tu1,	Tr065_Cb_SdInPrLowTu1,	1065,	0,	OK, Low,  NO_ALARM, MINOR, "inlet pressure tu 1"}
-{Cryo,	CBox,	Tu1,	Tr066_Cb_SdOutPrLowTu1,	1065,	1,	OK, Low,  NO_ALARM, MINOR, "outlet pressure tu 1"}
-{Cryo,	CBox,	Tu1,	Tr067_Cb_SdOutTeLowTu1,	1065,	2,	OK, Low,  NO_ALARM, MINOR, "outlet temp tu 1"}
+{Cryo,	CBox,	Tu1,	Tr065_Cb_SdInPrLowTu1,	1065,	0,	OK, Low,  NO_ALARM, MAJOR, "inlet pressure tu 1"}
+{Cryo,	CBox,	Tu1,	Tr066_Cb_SdOutPrLowTu1,	1065,	1,	OK, Low,  NO_ALARM, MAJOR, "outlet pressure tu 1"}
+{Cryo,	CBox,	Tu1,	Tr067_Cb_SdInTeLowTu1,	1065,	2,	OK, Low,  NO_ALARM, MAJOR, "outlet temp tu 1"}
 #mbbi?
 {Cryo,	CBox,	Tu1,	Tr068_Cb_SdSpeedHighTu1,1065,	3,	"Not too high", "Too high",  NO_ALARM, MAJOR, "tu 1 speed hi"}
 {Cryo,	CBox,	Tu1,	Tr069_Cb_SdSpeedLowTu1, 1065,	4,	"Not too low", "Too low",  NO_ALARM, MAJOR, "tu 1 speed lo"} 
@@ -425,8 +427,8 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	CBox,	Tu1,	Tr070_Cb_SdPrRatioTu1, 1065,	5,	OK, Failure,  NO_ALARM, MAJOR, "tu 1 pressure ratio"}
 {Cryo,	CBox,	Tu1,	Tr071_Cb_SdBearingGasTu1, 1065,	6,	OK, Missing,  NO_ALARM, MAJOR, "tu 1 bearing gas"}
 {Cryo,	CBox,	LN2,	Tr082_LN2_TALL3610, 1067,	1,	OK, "Too low",  NO_ALARM, MAJOR, "process temp"}
-{Cryo,	CBox,	Pur,	Tr105_Pu_SdCbOff, 1068,	0,	On, Off,  NO_ALARM, NO_ALARM, "CBox On/off"}
-{Cryo,	Pur,	Pur,	Tr107_Pu_SdSupplyPrLow, 1068,	2,	OK,"Too low",  NO_ALARM, NO_ALARM, "impure he supply pressure"}
+{Cryo,	CBox,	Pur,	Tr105_Pu_SdCbOff, 1068,	0,	On, Off,  NO_ALARM, MAJOR, "CBox On/off"}
+{Cryo,	Pur,	Pur,	Tr107_Pu_SdSupplyPrLow, 1068,	2,	OK,"Too low",  NO_ALARM, MAJOR, "impure he supply pressure"}
 {Cryo,	Pur,	Pur,	Tr108_Pu_SdSepLvl, 1068,	3,	OK, "Not achieved",  NO_ALARM, NO_ALARM, "Separator level lo"}
 {Cryo,	Ctrl,	Ctrl,	Reset_Flash, 1100,	0,	Idle, Reset,  NO_ALARM, NO_ALARM, "Rst Flashlight TP and Visu"}
 {Cryo,	CBox,	Ads80K,	AdsPmsP3117, 1110,	0,	"Not OK", OK,  NO_ALARM, NO_ALARM, "Pressure outlet"}
@@ -468,32 +470,32 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Dwr,	Dwr,	StCV5201_Slctd,  1472,	   4,	    closed, open, NO_ALARM, NO_ALARM, slctd}
 {Cryo,	Dwr,	Dwr,	StCV5202_Slctd,  1472,	   5,	    closed, open, NO_ALARM, NO_ALARM, slctd}
 {Cryo,	Dwr,	Dwr,	StCV5203_Slctd,  1472,	   6,	    closed, open, NO_ALARM, NO_ALARM, slctd}
-{Cryo,	Dwr,	Dwr,	Trp_FillTm,  1490,	   1,	    OK, Trip,  NO_ALARM, NO_ALARM, status}
-{Cryo,	Dwr,	Dwr,	Trp_ESD,  1490,	   2,	    OK, Trip,  NO_ALARM, NO_ALARM, status}
-{Cryo,	Dwr,	Dwr,	Trp_HWS,  1490,	   3,	    OK, Trip,  NO_ALARM, NO_ALARM, status}
-{Cryo,	ICn,	Dwr,	Wrn_TAL5220,  1491,	   0,	    OK, Trip,  NO_ALARM, NO_ALARM, status}
+{Cryo,	Dwr,	Dwr,	Trp_FillTm,  1490,	   1,	    OK, Trip,  NO_ALARM, MAJOR, status}
+{Cryo,	Dwr,	Dwr,	Trp_ESD,  1490,	   2,	    OK, Trip,  NO_ALARM, MAJOR, status}
+{Cryo,	Dwr,	Dwr,	Trp_HWS,  1490,	   3,	    OK, Trip,  NO_ALARM, MAJOR, status}
+{Cryo,	ICn,	Dwr,	Wrn_TAL5220,  1491,	   0,	    OK, Trip,  NO_ALARM, MINOR, status}
 {Cryo,	Dwr,	Dwr,	Msg_FillOn,  1492,	   0,	    Idle, Message_FillOn,  NO_ALARM, NO_ALARM, status}
 {Cryo,	Rec,	LP,	EUS7210_Slctd,	1500,	0,	"not selected",	selected,  NO_ALARM,  NO_ALARM, selected}
 {Cryo,	Rec,	LP,	QS7220_Slctd,	1500,	1,	"not selected",	selected,  NO_ALARM,  NO_ALARM, selected}
 {Cryo,	Rec,	LP,	QS7230_Slctd,	1500,	2,	"not selected",	selected,  NO_ALARM,  NO_ALARM, selected}
 {Cryo,	Rec,	LP,	QS7240_Slctd,	1500,	3,	"not selected",	selected,  NO_ALARM,  NO_ALARM, selected}
 {Cryo,	Rec,	LP,	QS7250_Slctd,	1500,	4,	"not selected",	selected,  NO_ALARM,  NO_ALARM, selected}
-{Cryo,	Rec,	LP,	Wrn_LAL7215,	1504,	0,	OK,	Warning,  NO_ALARM,  NO_ALARM, status}
-{Cryo,	Rec,	LP,	Wrn_LAH7215,	1504,	1,	OK,	Warning,  NO_ALARM,  NO_ALARM, status}
-{Cryo,	Rec,	LP,	Wrn_TAL7215,	1504,	2,	OK,	Warning,  NO_ALARM,  NO_ALARM, status}
-{Cryo,	Rec,	LP,	Wrn_CoWrn,	1504,	4,	OK,	Warning,  NO_ALARM,  NO_ALARM, status}
-{Cryo,	Rec,	LP,	Trp_LALL7215,	1505,	0,	OK,	Trip,  NO_ALARM,  NO_ALARM, status}
-{Cryo,	Rec,	LP,	Trp_LAHH7215,	1505,	1,	OK,	Trip,  NO_ALARM,  NO_ALARM, status}
-{Cryo,	Rec,	LP,	Trp_CoTrp,	1505,	4,	OK,	Trip,  NO_ALARM,  NO_ALARM, status}
-{Cryo,	Rec,	LP,	Trp_CoNoRetInfo,1505,	5,	OK,	Trip,  NO_ALARM,  NO_ALARM, "No return info"}
+{Cryo,	Rec,	LP,	Wrn_LAL7215,	1504,	0,	OK,	Warning,  NO_ALARM,  MINOR, status}
+{Cryo,	Rec,	LP,	Wrn_LAH7215,	1504,	1,	OK,	Warning,  NO_ALARM,  MINOR, status}
+{Cryo,	Rec,	LP,	Wrn_TAL7215,	1504,	2,	OK,	Warning,  NO_ALARM,  MINOR, status}
+{Cryo,	Rec,	LP,	Wrn_CoWrn,	1504,	4,	OK,	Warning,  NO_ALARM,  MINOR, status}
+{Cryo,	Rec,	LP,	Trp_LALL7215,	1505,	0,	OK,	Trip,  NO_ALARM,  MAJOR, status}
+{Cryo,	Rec,	LP,	Trp_LAHH7215,	1505,	1,	OK,	Trip,  NO_ALARM,  MAJOR, status}
+{Cryo,	Rec,	LP,	Trp_CoTrp,	1505,	4,	OK,	Trip,  NO_ALARM,  MAJOR, status}
+{Cryo,	Rec,	LP,	Trp_CoNoRetInfo,1505,	5,	OK,	Trip,  NO_ALARM,  MAJOR, "No return info"}
 {Cryo,	Rec,	LP,	Msg_Vent,	1506,	0,	Idle,	Message,  NO_ALARM,  NO_ALARM, status}
 {Cryo,	Rec,	Rec,	Msg_RecCoOn,	1506,	1,	"Not on",	On,  NO_ALARM,  NO_ALARM, On}
 {Cryo,	Rec,	Rec,	Msg_RecCoOff,	1506,	2,	"Not off",	Off,  NO_ALARM,  NO_ALARM, Off}
-{Cryo,	Rec,	LP,	Wrn_QAH7210,	1507,	0,	OK,	Warning,  NO_ALARM,  NO_ALARM, status}
-{Cryo,	Rec,	LP,	Wrn_QAH7220,	1507,	1,	OK,	Warning,  NO_ALARM,  NO_ALARM, status}
-{Cryo,	Rec,	LP,	Wrn_QAH7230,	1507,	2,	OK,	Warning,  NO_ALARM,  NO_ALARM, status}
-{Cryo,	Rec,	LP,	Wrn_QAH7240,	1507,	3,	OK,	Warning,  NO_ALARM,  NO_ALARM, status}
-{Cryo,	Rec,	LP,	Wrn_QAH7250,	1507,	4,	OK,	Warning,  NO_ALARM,  NO_ALARM, status}
+{Cryo,	Rec,	LP,	Wrn_QAH7210,	1507,	0,	OK,	Warning,  NO_ALARM,  MINOR, status}
+{Cryo,	Rec,	LP,	Wrn_QAH7220,	1507,	1,	OK,	Warning,  NO_ALARM,  MINOR, status}
+{Cryo,	Rec,	LP,	Wrn_QAH7230,	1507,	2,	OK,	Warning,  NO_ALARM,  MINOR, status}
+{Cryo,	Rec,	LP,	Wrn_QAH7240,	1507,	3,	OK,	Warning,  NO_ALARM,  MINOR, status}
+{Cryo,	Rec,	LP,	Wrn_QAH7250,	1507,	4,	OK,	Warning,  NO_ALARM,  MINOR, status}
 
 {Cryo,	Cmp,	C1,	PmsStopStat, 610,	3, "Stop not permitted", "Stop permitted", NO_ALARM, NO_ALARM, "Stop permissives ok"}
 {Cryo,	Cmp,	C2,	PmsStopStat, 620,	3, "Stop not permitted", "Stop permitted", NO_ALARM, NO_ALARM, "Stop permissives ok"}

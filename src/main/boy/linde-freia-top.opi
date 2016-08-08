@@ -37,6 +37,9 @@
       <include_parent_macros>true</include_parent_macros>
     </macros>
     <tab_2_enabled>true</tab_2_enabled>
+    <tab_6_foreground_color>
+      <color name="IO Foreground" red="0" green="0" blue="0" />
+    </tab_6_foreground_color>
     <tab_3_background_color>
       <color name="IO Shape Fill" red="188" green="188" blue="188" />
     </tab_3_background_color>
@@ -57,6 +60,7 @@
     </tab_4_font>
     <tab_5_icon_path></tab_5_icon_path>
     <wuid>4eb6c1c9:1555d8d019b:-6104</wuid>
+    <tab_6_title>Warnings</tab_6_title>
     <tab_1_icon_path></tab_1_icon_path>
     <tab_2_font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
@@ -69,6 +73,7 @@
     <tab_0_background_color>
       <color name="IO Shape Fill" red="188" green="188" blue="188" />
     </tab_0_background_color>
+    <tab_7_icon_path></tab_7_icon_path>
     <tab_3_foreground_color>
       <color name="IO Foreground" red="0" green="0" blue="0" />
     </tab_3_foreground_color>
@@ -85,11 +90,21 @@
     </border_color>
     <actions hook="false" hook_all="false" />
     <y>43</y>
+    <tab_6_background_color>
+      <color name="IO Shape Fill" red="188" green="188" blue="188" />
+    </tab_6_background_color>
     <x>14</x>
     <visible>true</visible>
+    <tab_6_icon_path></tab_6_icon_path>
     <tab_4_icon_path></tab_4_icon_path>
+    <tab_7_foreground_color>
+      <color name="IO Foreground" red="0" green="0" blue="0" />
+    </tab_7_foreground_color>
     <scripts />
     <tab_1_enabled>true</tab_1_enabled>
+    <tab_6_font>
+      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+    </tab_6_font>
     <height>970</height>
     <tab_5_enabled>true</tab_5_enabled>
     <horizontal_tabs>true</horizontal_tabs>
@@ -100,11 +115,16 @@
       <color name="IO Foreground" red="0" green="0" blue="0" />
     </tab_1_foreground_color>
     <tab_0_title>Overview</tab_0_title>
+    <tab_7_title>Trips &amp; Alarms</tab_7_title>
+    <tab_7_font>
+      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+    </tab_7_font>
     <background_color>
       <color name="IO Shape Fill" red="188" green="188" blue="188" />
     </background_color>
     <widget_type>Tabbed Container</widget_type>
     <enabled>true</enabled>
+    <tab_7_enabled>true</tab_7_enabled>
     <width>1505</width>
     <tab_5_foreground_color>
       <color name="IO Foreground" red="0" green="0" blue="0" />
@@ -113,6 +133,9 @@
       <color name="IO Shape Fill" red="188" green="188" blue="188" />
     </tab_1_background_color>
     <border_width>2</border_width>
+    <tab_7_background_color>
+      <color name="IO Shape Fill" red="188" green="188" blue="188" />
+    </tab_7_background_color>
     <tab_4_title>Coldbox cold end</tab_4_title>
     <name>Tabbed ContainerTemplate</name>
     <scale_options>
@@ -129,6 +152,7 @@
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </tab_0_font>
     <rules />
+    <tab_6_enabled>true</tab_6_enabled>
     <tab_2_title>Coldbox 80 K</tab_2_title>
     <tab_2_background_color>
       <color name="IO Shape Fill" red="188" green="188" blue="188" />
@@ -139,13 +163,13 @@
     <tab_3_font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </tab_3_font>
-    <tab_count>6</tab_count>
+    <tab_count>8</tab_count>
     <tooltip></tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
-      <visible>true</visible>
+      <visible>false</visible>
       <wuid>4eb6c1c9:1555d8d019b:-6103</wuid>
       <scripts />
       <height>936</height>
@@ -895,6 +919,129 @@ $(pv_value)</tooltip>
         <x>170</x>
         <tooltip></tooltip>
       </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <visible>true</visible>
+      <wuid>7f1b2335:155c0155eac:-43c8</wuid>
+      <scripts />
+      <height>936</height>
+      <name>Warnings</name>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <transparent>true</transparent>
+      <show_scrollbar>true</show_scrollbar>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Grouping Container</widget_type>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>1499</width>
+      <border_style>0</border_style>
+      <rules />
+      <fc>false</fc>
+      <lock_children>false</lock_children>
+      <border_width>1</border_width>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <y>1</y>
+      <actions hook="false" hook_all="false" />
+      <x>1</x>
+      <tooltip></tooltip>
+      <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <visible>true</visible>
+        <wuid>7f1b2335:155c0155eac:-3ffd</wuid>
+        <auto_size>false</auto_size>
+        <scripts />
+        <zoom_to_fit>true</zoom_to_fit>
+        <height>891</height>
+        <name>Linking Container Template</name>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <opi_file>helper-opi-files/WarningsTripsAlarms.opi</opi_file>
+        <foreground_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </foreground_color>
+        <background_color>
+          <color red="188" green="188" blue="188" />
+        </background_color>
+        <group_name></group_name>
+        <enabled>true</enabled>
+        <widget_type>Linking Container</widget_type>
+        <font>
+          <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        </font>
+        <width>1470</width>
+        <border_style>0</border_style>
+        <rules />
+        <border_width>2</border_width>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215" />
+        </border_color>
+        <y>25</y>
+        <actions hook="false" hook_all="false" />
+        <x>0</x>
+        <tooltip></tooltip>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <visible>false</visible>
+      <wuid>7f1b2335:155c0155eac:-43c7</wuid>
+      <scripts />
+      <height>936</height>
+      <name>Trips &amp; Alarms</name>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <transparent>true</transparent>
+      <show_scrollbar>true</show_scrollbar>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Grouping Container</widget_type>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>1499</width>
+      <border_style>0</border_style>
+      <rules />
+      <fc>false</fc>
+      <lock_children>false</lock_children>
+      <border_width>1</border_width>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <y>1</y>
+      <actions hook="false" hook_all="false" />
+      <x>1</x>
+      <tooltip></tooltip>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
