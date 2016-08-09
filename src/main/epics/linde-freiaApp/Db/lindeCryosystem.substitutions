@@ -473,7 +473,7 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Dwr,	Dwr,	Trp_FillTm,  1490,	   1,	    OK, Trip,  NO_ALARM, MAJOR, status}
 {Cryo,	Dwr,	Dwr,	Trp_ESD,  1490,	   2,	    OK, Trip,  NO_ALARM, MAJOR, status}
 {Cryo,	Dwr,	Dwr,	Trp_HWS,  1490,	   3,	    OK, Trip,  NO_ALARM, MAJOR, status}
-{Cryo,	ICn,	Dwr,	Wrn_TAL5220,  1491,	   0,	    OK, Trip,  NO_ALARM, MINOR, status}
+{Cryo,	ICn,	Dwr,	Wrn_TAL5220,  1491,	   0,	    OK, Trip,  NO_ALARM, MINOR, "Mobile dwr filling stopped"}
 {Cryo,	Dwr,	Dwr,	Msg_FillOn,  1492,	   0,	    Idle, Message_FillOn,  NO_ALARM, NO_ALARM, status}
 {Cryo,	Rec,	LP,	EUS7210_Slctd,	1500,	0,	"not selected",	selected,  NO_ALARM,  NO_ALARM, selected}
 {Cryo,	Rec,	LP,	QS7220_Slctd,	1500,	1,	"not selected",	selected,  NO_ALARM,  NO_ALARM, selected}
