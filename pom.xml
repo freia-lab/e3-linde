@@ -65,7 +65,7 @@
                     <packaging>
                         <package name="opi">
                             <include type="boy" file="*" />
-                            <include file="linde-StartStop.opi" topopi="true" type="boy"/>
+                            <include file="linde-freia-top.opi" topopi="true" type="boy"/>
  #                           <include type="databrowser" file="*" />
  #                           <include type="boy" file="*-SDDMain.opi" topopi="true" />
                         </package>
