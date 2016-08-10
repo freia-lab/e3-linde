@@ -66,8 +66,8 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Rec,	LP,	LSH7215,	11,	2,	"Not high",	High,  NO_ALARM,  MINOR, "Balloon level"}
 {Cryo,	Rec,	LP,	LSHH7215,	11,	3,	"Not too high",	"Too high",  NO_ALARM,  MAJOR, "Balloon level"}
 {Cryo,	Rec,	LP,	GSH7225,	11,	4,	"Not running",	Running,  NO_ALARM,  NO_ALARM, "Compressor run "}
-{Cryo,	Rec,	LP,	GAH7225,	11,	5,	OK,	Warning,  NO_ALARM,  MINOR, "Compressor warning "}
-{Cryo,	Rec,	LP,	GAHH7225,	11,	6,	"No alarm",	Alarm,  NO_ALARM,  MAJOR, "Compressor alarm "}
+{Cryo,	Rec,	LP,	GAH7225,	11,	5,	Warning,	Ok,  MINOR,	     NO_ALARM, "Compressor warning "}
+{Cryo,	Rec,	LP,	GAHH7225,	11,	6,	"Alarm",	"No alarm",  MAJOR, NO_ALARM, "Compressor alarm "}
 {Cryo,	ICn,	LP,	US5205,	12,	0,	"Not OK",	OK,  MINOR,  NO_ALARM, "Hardwired interlock CV5201"}
 {Cryo,	ICn,	LP,	US5206,	12,	1,	"Not OK",	OK,  MINOR,  NO_ALARM, "Hardwired interlock CV5202"}
 {Cryo,	ICn,	LP,	US5207,	12,	2,	"Not OK",	OK,  MINOR,  NO_ALARM, "Hardwired interlock CV5203"}
