@@ -291,7 +291,7 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Cmp,	Cmp,	Wr_HpHigh,             1003,	0,	OK,	Warning,  NO_ALARM,  MINOR, "HP too high"}
 {Cryo,	Cmp,	Cmp,	Wr_HpLow,             1003,	1,	OK,	Warning,  NO_ALARM,  MINOR, "HP too low"}
 
-{Cryo,	Cmp,	Cmp,	Wr_LpHigh,             1003,	2,	OK,	Warning,  NO_ALARM,  MINOR, "LP too high"}
+{Cryo,	Cmp,	Cmp,	Wr_LpHigh,             1003,	2,	OK,	Warning,  NO_ALARM,  MINOR, "LP PI2240 too high"}
 {Cryo,	Cmp,	Cmp,	Wr_LpLow,             1003,	3,	OK,	Warning,  NO_ALARM,  MINOR, "LP too low"}
 
 
@@ -393,7 +393,7 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Cmp,	Cmp,	Tr031_Cx_HpLoLmtUnderRun,	1058,	6,	OK, underrun,  NO_ALARM, MAJOR, "HP lo lim underrun"}
 {Cryo,	Cmp,	Cmp,	Tr032_Cx_HpHiLmtOverstep,	1058,	7,	OK, overstep,  NO_ALARM, MAJOR, "HP hi lim overstep"}
 
-{Cryo,	Cmp,	C1,	Tr017_C1_Fault,	1059,	0,	OK, Fault,  NO_ALARM, MAJOR, "Msg fault"}
+{Cryo,	Cmp,	C1,	Tr017_C1_Fault,	1059,	0,	OK, Fault,  NO_ALARM, MAJOR, "Common Fault, see SIGMA Control"}
 {Cryo,	Cmp,	C1,	Tr018_C1_NoReturnInfo,	1059,	1,	OK, "No info",  NO_ALARM, MAJOR, "C1 running conf"}
 {Cryo,	Cmp,	C1,	Tr019_C1_CwFail,	1059,	2,	OK, Failure,  NO_ALARM, MAJOR, "C1 Cooling water"}
 {Cryo,	Cmp,	C2,	Tr021_C2_Fault,	1059,	4,	OK, Fault,  NO_ALARM, MAJOR, "C2 Fault"}
