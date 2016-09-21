@@ -573,7 +573,7 @@ file "lindeAnalogFloatInput.template" { pattern
 {CBox,	HP,	TI3130,	    132,  K, temperature}
 {CBox,	HP,	TI3155,	    136,  K, temperature}
 {CBox,	LP,	TI3280,	    140,  K, temperature}
-{CBox,	HP,	TI3112,	    144,  K, temperature}
+{CBox,	HP,	TI3112,	    356,  K, temperature}
 {CBox,	LN2,	TI3610,	    148,  K, temperature}
 {CBox,	LN2,	TI3605,	    152,  "°C",	temperature}
 {Dwr,	LHe,	LI5200-PercOut,	    160,  "%", percent}
