@@ -8,4 +8,4 @@ include ${EPICS_ENV_PATH}/module.Makefile
 SOURCES = -none-
 STARTUPS = $(wildcard src/main/ioc/*.cmd)
 
-OPIS= src/main/boy
+OPIS= boy
