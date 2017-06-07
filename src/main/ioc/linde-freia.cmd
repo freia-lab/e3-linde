@@ -1,5 +1,3 @@
-require s7plc
-
 epicsEnvSet("AUTOSAVE_SYSM_PV_PREFIX","linde-freia:")
 
 #var s7plcDebug <level>
