@@ -17,3 +17,4 @@ dbpf Cryo-CBox:LN2:LI3685-PercOut.HYST 2
 dbpf Cryo-Dwr:CV-5201:OpenClsCmd.DOL "CstatV-Ctrl:CV5201:OCcmd CA"
 dbpf Cryo-Dwr:CV-5201:OpenClsCmd.OMSL "closed_loop"
 dbpf Cryo-Dwr:CV-5201:OpenClsCmd.FLNK "CstatV-Ctrl:CV5201:OCcmd-ackO CA"
+dbpf Cryo-Dwr:CV-5201:OpenClsCmd.IVOA "Set output to IVOV"
