@@ -1,8 +1,14 @@
+record (bo, "$(SYS)-$(SUBS):$(DEV):$(SIG)-DOL") {
+  field (DOL, "1")
+  field (OMSL, "closed_loop")
+  field (OUT, "$(SYS)-$(SUBS):$(DEV):$(SIG).VAL PP NMS")
+}
 
 record (bo, "$(SYS)-$(SUBS):$(DEV):$(SIG)") {
   field (DESC, "$(SUBS):$(DEV) $(DESC)")
   field (DTYP, "S7plc")
   field (OUT,  "@Cryo-Linde/$(OFFS) T=BYTE B=$(BIT)")
+  field (DOL, "$(SYS)-$(SUBS):$(DEV):$(SIG)-DOL")
   field (ZNAM, "$(ZNAM)")
   field (HIGH, "0.5")
   field (DOL,  "0")

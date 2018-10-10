@@ -10,7 +10,7 @@
   <background_color>
     <color name="IO Shape Fill" red="188" green="188" blue="188" />
   </background_color>
-  <boy_version>5.1.0.201607211843</boy_version>
+  <boy_version>5.1.0</boy_version>
   <foreground_color>
     <color name="IO Grid" red="215" green="215" blue="215" />
   </foreground_color>
@@ -50,7 +50,7 @@
     <enabled>true</enabled>
     <fill_level>100.0</fill_level>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -117,7 +117,7 @@ $(pv_value)</tooltip>
     <fill_arrow>true</fill_arrow>
     <fill_level>100.0</fill_level>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -173,7 +173,7 @@ $(pv_value)</tooltip>
     <fill_arrow>true</fill_arrow>
     <fill_level>100.0</fill_level>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -221,7 +221,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -272,7 +272,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>100.0</fill_level>
       <font>
-        <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -319,12 +319,12 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>false</enabled>
       <font>
-        <fontdata fontName="Sans" height="14" style="0" />
+        <fontdata fontName="Sans" height="14" style="0" pixels="false" />
       </font>
       <foreground_color>
         <color name="IO Text Fg" red="0" green="32" blue="92" />
       </foreground_color>
-      <height>26</height>
+      <height>24</height>
       <horizontal_alignment>0</horizontal_alignment>
       <name>Label Template</name>
       <rules />
@@ -341,7 +341,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>75</width>
+      <width>52</width>
       <wrap_words>true</wrap_words>
       <wuid>456fec5c:1555874aa94:-5d7c</wuid>
       <x>10</x>
@@ -369,7 +369,7 @@ $(pv_value)</tooltip>
     <fill_arrow>true</fill_arrow>
     <fill_level>100.0</fill_level>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -425,7 +425,7 @@ $(pv_value)</tooltip>
     <fill_arrow>true</fill_arrow>
     <fill_level>100.0</fill_level>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -483,7 +483,7 @@ $(pv_value)</tooltip>
     <fill_arrow>true</fill_arrow>
     <fill_level>100.0</fill_level>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -539,7 +539,7 @@ $(pv_value)</tooltip>
     <fill_arrow>true</fill_arrow>
     <fill_level>100.0</fill_level>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -595,7 +595,7 @@ $(pv_value)</tooltip>
     <fill_arrow>true</fill_arrow>
     <fill_level>100.0</fill_level>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -644,12 +644,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>false</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template</name>
     <rules />
@@ -666,7 +666,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>64</width>
+    <width>50</width>
     <wrap_words>true</wrap_words>
     <wuid>456fec5c:1555874aa94:-5a61</wuid>
     <x>44</x>
@@ -685,12 +685,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>false</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_1</name>
     <rules />
@@ -707,7 +707,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>64</width>
+    <width>50</width>
     <wrap_words>true</wrap_words>
     <wuid>456fec5c:1555874aa94:-5a51</wuid>
     <x>44</x>
@@ -726,12 +726,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>false</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_2</name>
     <rules />
@@ -748,7 +748,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>64</width>
+    <width>50</width>
     <wrap_words>true</wrap_words>
     <wuid>456fec5c:1555874aa94:-5a41</wuid>
     <x>179</x>
@@ -767,12 +767,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>false</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_3</name>
     <rules />
@@ -789,7 +789,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>64</width>
+    <width>50</width>
     <wrap_words>true</wrap_words>
     <wuid>456fec5c:1555874aa94:-5a34</wuid>
     <x>269</x>
@@ -816,7 +816,7 @@ $(pv_value)</tooltip>
     <fill_arrow>true</fill_arrow>
     <fill_level>100.0</fill_level>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -867,7 +867,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -920,7 +920,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>100.0</fill_level>
       <font>
-        <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -978,7 +978,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>100.0</fill_level>
       <font>
-        <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1033,7 +1033,7 @@ $(pv_value)</tooltip>
       <fill_arrow>true</fill_arrow>
       <fill_level>100.0</fill_level>
       <font>
-        <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1089,7 +1089,7 @@ $(pv_value)</tooltip>
       <fill_arrow>true</fill_arrow>
       <fill_level>100.0</fill_level>
       <font>
-        <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1138,12 +1138,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_37</name>
     <rules />
@@ -1160,7 +1160,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>50</width>
+    <width>39</width>
     <wrap_words>true</wrap_words>
     <wuid>456fec5c:1555874aa94:-4d08</wuid>
     <x>754</x>
@@ -1182,7 +1182,7 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+      <opifont.name fontName="arial" height="10" style="1" pixels="false">IO Input 1</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -1238,12 +1238,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_38</name>
     <rules />
@@ -1260,7 +1260,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>50</width>
+    <width>38</width>
     <wrap_words>true</wrap_words>
     <wuid>456fec5c:1555874aa94:-4c76</wuid>
     <x>554</x>
@@ -1282,7 +1282,7 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+      <opifont.name fontName="arial" height="10" style="1" pixels="false">IO Input 1</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -1338,7 +1338,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -1378,7 +1378,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Sans" height="8" style="0" />
+        <fontdata fontName="Sans" height="8" style="0" pixels="false" />
       </font>
       <foreground_color>
         <color name="IO Text Fg" red="0" green="32" blue="92" />
@@ -1400,7 +1400,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>50</width>
+      <width>39</width>
       <wrap_words>true</wrap_words>
       <wuid>456fec5c:1555874aa94:-4bb7</wuid>
       <x>20</x>
@@ -1432,7 +1432,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1499,7 +1499,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <opifont.name fontName="Cantarell" height="9" style="0">Fine Print</opifont.name>
+        <opifont.name fontName="Cantarell" height="9" style="0" pixels="false">Fine Print</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1556,7 +1556,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -1596,7 +1596,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Sans" height="8" style="0" />
+        <fontdata fontName="Sans" height="8" style="0" pixels="false" />
       </font>
       <foreground_color>
         <color name="IO Text Fg" red="0" green="32" blue="92" />
@@ -1618,7 +1618,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>50</width>
+      <width>39</width>
       <wrap_words>true</wrap_words>
       <wuid>456fec5c:1555874aa94:-4945</wuid>
       <x>20</x>
@@ -1650,7 +1650,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1717,7 +1717,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <opifont.name fontName="Cantarell" height="9" style="0">Fine Print</opifont.name>
+        <opifont.name fontName="Cantarell" height="9" style="0" pixels="false">Fine Print</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1774,7 +1774,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -1814,7 +1814,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Sans" height="8" style="0" />
+        <fontdata fontName="Sans" height="8" style="0" pixels="false" />
       </font>
       <foreground_color>
         <color name="IO Text Fg" red="0" green="32" blue="92" />
@@ -1836,7 +1836,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>50</width>
+      <width>39</width>
       <wrap_words>true</wrap_words>
       <wuid>456fec5c:1555874aa94:-4857</wuid>
       <x>20</x>
@@ -1858,7 +1858,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <opifont.name fontName="Cantarell" height="9" style="0">Fine Print</opifont.name>
+        <opifont.name fontName="Cantarell" height="9" style="0" pixels="false">Fine Print</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1928,7 +1928,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -2005,12 +2005,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_39</name>
     <rules />
@@ -2027,7 +2027,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>50</width>
+    <width>40</width>
     <wrap_words>true</wrap_words>
     <wuid>456fec5c:1555874aa94:-4694</wuid>
     <x>359</x>
@@ -2049,7 +2049,7 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+      <opifont.name fontName="arial" height="10" style="1" pixels="false">IO Input 1</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2110,7 +2110,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fill_level>100.0</fill_level>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2166,12 +2166,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_40</name>
     <rules />
@@ -2188,7 +2188,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>80</width>
+    <width>63</width>
     <wrap_words>true</wrap_words>
     <wuid>456fec5c:1555874aa94:-43dc</wuid>
     <x>350</x>
@@ -2207,12 +2207,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_41</name>
     <rules />
@@ -2229,7 +2229,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>50</width>
+    <width>40</width>
     <wrap_words>true</wrap_words>
     <wuid>456fec5c:1555874aa94:-43c8</wuid>
     <x>221</x>
@@ -2251,7 +2251,7 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+      <opifont.name fontName="arial" height="10" style="1" pixels="false">IO Input 1</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2321,7 +2321,7 @@ $(pv_value)</tooltip>
     <flip_horizontal>false</flip_horizontal>
     <flip_vertical>false</flip_vertical>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2383,7 +2383,7 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <fontdata fontName="Sans" height="8" style="0" />
+      <fontdata fontName="Sans" height="8" style="0" pixels="false" />
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
@@ -2405,7 +2405,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>50</width>
+    <width>39</width>
     <wrap_words>true</wrap_words>
     <wuid>456fec5c:1555874aa94:-4318</wuid>
     <x>515</x>
@@ -2424,7 +2424,7 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>false</enabled>
     <font>
-      <fontdata fontName="Sans" height="8" style="0" />
+      <fontdata fontName="Sans" height="8" style="0" pixels="false" />
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
@@ -2446,7 +2446,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>26</width>
+    <width>18</width>
     <wrap_words>true</wrap_words>
     <wuid>456fec5c:1555874aa94:-423a</wuid>
     <x>284</x>
@@ -2465,7 +2465,7 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>false</enabled>
     <font>
-      <fontdata fontName="Sans" height="8" style="0" />
+      <fontdata fontName="Sans" height="8" style="0" pixels="false" />
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
@@ -2487,7 +2487,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>25</width>
+    <width>20</width>
     <wrap_words>true</wrap_words>
     <wuid>456fec5c:1555874aa94:-422c</wuid>
     <x>461</x>
@@ -2514,7 +2514,7 @@ $(pv_value)</tooltip>
     <fill_arrow>true</fill_arrow>
     <fill_level>100.0</fill_level>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2570,7 +2570,7 @@ $(pv_value)</tooltip>
     <fill_arrow>true</fill_arrow>
     <fill_level>100.0</fill_level>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2618,12 +2618,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_49</name>
     <rules />
@@ -2640,7 +2640,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>52</width>
+    <width>41</width>
     <wrap_words>true</wrap_words>
     <wuid>4eb6c1c9:1555d8d019b:-7564</wuid>
     <x>142</x>
@@ -2662,7 +2662,7 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+      <opifont.name fontName="arial" height="10" style="1" pixels="false">IO Input 1</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2718,12 +2718,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_50</name>
     <rules />
@@ -2740,7 +2740,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>52</width>
+    <width>41</width>
     <wrap_words>true</wrap_words>
     <wuid>4eb6c1c9:1555d8d019b:-753d</wuid>
     <x>142</x>
@@ -2762,7 +2762,7 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+      <opifont.name fontName="arial" height="10" style="1" pixels="false">IO Input 1</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2826,7 +2826,7 @@ $(pv_value)</tooltip>
     <fill_arrow>true</fill_arrow>
     <fill_level>100.0</fill_level>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2883,7 +2883,7 @@ $(pv_value)</tooltip>
     <fill_arrow>true</fill_arrow>
     <fill_level>100.0</fill_level>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2931,7 +2931,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -2971,7 +2971,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Sans" height="8" style="0" />
+        <fontdata fontName="Sans" height="8" style="0" pixels="false" />
       </font>
       <foreground_color>
         <color name="IO Text Fg" red="0" green="32" blue="92" />
@@ -2993,7 +2993,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>50</width>
+      <width>39</width>
       <wrap_words>true</wrap_words>
       <wuid>4eb6c1c9:1555d8d019b:-6ee5</wuid>
       <x>20</x>
@@ -3026,7 +3026,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+        <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -3091,7 +3091,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <opifont.name fontName="Cantarell" height="9" style="0">Fine Print</opifont.name>
+        <opifont.name fontName="Cantarell" height="9" style="0" pixels="false">Fine Print</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -3156,7 +3156,7 @@ $(pv_value)</tooltip>
     <fill_arrow>true</fill_arrow>
     <fill_level>100.0</fill_level>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -3204,12 +3204,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_51</name>
     <rules />
@@ -3226,7 +3226,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>52</width>
+    <width>41</width>
     <wrap_words>true</wrap_words>
     <wuid>4eb6c1c9:1555d8d019b:-6e2f</wuid>
     <x>551</x>
@@ -3248,7 +3248,7 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+      <opifont.name fontName="arial" height="10" style="1" pixels="false">IO Input 1</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -3318,7 +3318,7 @@ $(pv_value)</tooltip>
     <flip_horizontal>false</flip_horizontal>
     <flip_vertical>false</flip_vertical>
     <font>
-      <opifont.name fontName="arial" height="8" style="0">IO Label 3</opifont.name>
+      <opifont.name fontName="arial" height="8" style="0" pixels="false">IO Label 3</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -3380,12 +3380,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>false</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_52</name>
     <rules />
@@ -3402,7 +3402,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>47</width>
+    <width>37</width>
     <wrap_words>true</wrap_words>
     <wuid>4eb6c1c9:1555d8d019b:-6dc6</wuid>
     <x>224</x>
@@ -3429,7 +3429,7 @@ $(pv_value)</tooltip>
     <fill_arrow>true</fill_arrow>
     <fill_level>100.0</fill_level>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -3481,12 +3481,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>false</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_53</name>
     <rules />
@@ -3503,7 +3503,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>64</width>
+    <width>50</width>
     <wrap_words>true</wrap_words>
     <wuid>4eb6c1c9:1555d8d019b:-68ec</wuid>
     <x>171</x>
@@ -3522,12 +3522,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>false</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_54</name>
     <rules />
@@ -3544,7 +3544,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>64</width>
+    <width>50</width>
     <wrap_words>true</wrap_words>
     <wuid>4eb6c1c9:1555d8d019b:-6686</wuid>
     <x>692</x>
@@ -3563,12 +3563,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>false</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_55</name>
     <rules />
@@ -3585,7 +3585,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>64</width>
+    <width>50</width>
     <wrap_words>true</wrap_words>
     <wuid>4eb6c1c9:1555d8d019b:-6678</wuid>
     <x>1199</x>
@@ -3604,12 +3604,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>false</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_56</name>
     <rules />
@@ -3626,7 +3626,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>64</width>
+    <width>50</width>
     <wrap_words>true</wrap_words>
     <wuid>4eb6c1c9:1555d8d019b:-666a</wuid>
     <x>1199</x>
@@ -3645,12 +3645,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>false</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_57</name>
     <rules />
@@ -3667,7 +3667,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>64</width>
+    <width>50</width>
     <wrap_words>true</wrap_words>
     <wuid>4eb6c1c9:1555d8d019b:-665f</wuid>
     <x>1199</x>
@@ -3686,12 +3686,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_58</name>
     <rules />
@@ -3708,7 +3708,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>47</width>
+    <width>36</width>
     <wrap_words>true</wrap_words>
     <wuid>4eb6c1c9:1555d8d019b:-5ffb</wuid>
     <x>914</x>
@@ -3730,7 +3730,7 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+      <opifont.name fontName="arial" height="10" style="1" pixels="false">IO Input 1</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -3786,7 +3786,7 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>false</enabled>
     <font>
-      <fontdata fontName="Sans" height="8" style="0" />
+      <fontdata fontName="Sans" height="8" style="0" pixels="false" />
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
@@ -3808,7 +3808,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>41</width>
+    <width>31</width>
     <wrap_words>true</wrap_words>
     <wuid>4eb6c1c9:1555d8d019b:-5cfd</wuid>
     <x>919</x>
@@ -3835,7 +3835,7 @@ $(pv_value)</tooltip>
     <fill_arrow>true</fill_arrow>
     <fill_level>100.0</fill_level>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -3883,12 +3883,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_60</name>
     <rules />
@@ -3905,7 +3905,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>52</width>
+    <width>40</width>
     <wrap_words>true</wrap_words>
     <wuid>4eb6c1c9:1555d8d019b:-5cdd</wuid>
     <x>966</x>
@@ -3927,7 +3927,7 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+      <opifont.name fontName="arial" height="10" style="1" pixels="false">IO Input 1</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -4007,7 +4007,7 @@ $(pv_value)</tooltip>
     <flip_horizontal>false</flip_horizontal>
     <flip_vertical>false</flip_vertical>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -4069,12 +4069,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>false</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_61</name>
     <rules />
@@ -4091,7 +4091,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>62</width>
+    <width>48</width>
     <wrap_words>true</wrap_words>
     <wuid>210431e9:1556e12dd3a:-6231</wuid>
     <x>446</x>
@@ -4110,12 +4110,12 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>19</height>
+    <height>15</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_62</name>
     <rules />
@@ -4132,7 +4132,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>50</width>
+    <width>39</width>
     <wrap_words>true</wrap_words>
     <wuid>210431e9:1556e12dd3a:4251</wuid>
     <x>513</x>
@@ -4154,7 +4154,7 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+      <opifont.name fontName="arial" height="10" style="1" pixels="false">IO Input 1</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -4206,7 +4206,7 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="Cantarell" height="9" style="0">Fine Print</opifont.name>
+      <opifont.name fontName="Cantarell" height="9" style="0" pixels="false">Fine Print</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -4255,7 +4255,7 @@ $(pv_value)</tooltip>
     <auto_size>false</auto_size>
     <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <background_color>
-      <color name="IO TextButton" red="0" green="0" blue="0" />
+      <color name="IO InputPV Bg" red="255" green="255" blue="255" />
     </background_color>
     <border_alarm_sensitive>true</border_alarm_sensitive>
     <border_color>
@@ -4265,11 +4265,11 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+      <opifont.name fontName="arial" height="10" style="1" pixels="false">IO Input 1</opifont.name>
     </font>
     <forecolor_alarm_sensitive>true</forecolor_alarm_sensitive>
     <foreground_color>
-      <color name="IO OutputPV Fg" red="255" green="255" blue="255" />
+      <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
     <height>20</height>
@@ -4314,7 +4314,7 @@ $(pv_value)</tooltip>
     <auto_size>false</auto_size>
     <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <background_color>
-      <color name="IO TextButton" red="0" green="0" blue="0" />
+      <color name="IO InputPV Bg" red="255" green="255" blue="255" />
     </background_color>
     <border_alarm_sensitive>true</border_alarm_sensitive>
     <border_color>
@@ -4324,11 +4324,11 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+      <opifont.name fontName="arial" height="10" style="1" pixels="false">IO Input 1</opifont.name>
     </font>
     <forecolor_alarm_sensitive>true</forecolor_alarm_sensitive>
     <foreground_color>
-      <color name="IO OutputPV Fg" red="255" green="255" blue="255" />
+      <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
     <height>20</height>
