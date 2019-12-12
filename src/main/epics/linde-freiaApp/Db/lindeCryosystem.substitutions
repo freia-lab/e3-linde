@@ -530,7 +530,7 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	CBox,	LN2-IlkTu,	SwOnStat, 680,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
 {Cryo,	Dwr,	Htr,	SwOnStat, 690,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
 {Cryo,	VacSys,	VacSys,	SwOnStat, 700,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
-{Cryo,	Pur,	Pur,	SwOnStat, 710,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
+{Cryo,	Pur,	Pur,	SwOnStat, 710,	1, "OFF",	"ON", NO_ALARM, NO_ALARM, "On/off"}
 {Cryo,	Dwr,	LC5200, SwOnStat, 720,	1, "OFF",	"ON", NO_ALARM,  NO_ALARM, "On/off"}
 {Cryo,	Cmp,	C1,	SdStat, 610,	4, "Operation", "Shutdown", NO_ALARM, MINOR, Shutdown}
 {Cryo,	Cmp,	C2,	SdStat, 620,	4, "Operation", "Shutdown", NO_ALARM, MINOR, Shutdown}
