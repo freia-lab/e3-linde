@@ -488,6 +488,19 @@ record (bi, "Cryo-CBox:Pur:PurOffAlrm") {
   field(OSV, "MAJOR")
 }
 
+record(calc, "Cryo-Cmp:HP:PI2170-Alrm") {
+  field (SCAN, "1 second")
+  field (DESC,"Alarm: Pur pressure too low")
+  field (INPA, "Cryo-Cmp:HP:PI2170.SEVR")
+  field (INPB, "Cryo-CBox:CoolMode:VisuState")
+  field (INPC, "Cryo-Pur:Pur:VisuState")
+  field (LOW, "-0.5")
+  field (LOLO, "-1.5")
+  field (LSV, "MINOR")
+  field (LLSV, "MAJOR")
+  field (CALC, "((B=2)||(B=3))&&(C#0)&&(C#7)?-A:0")
+}
+
 # Cryo-Pur:Pur:SwOnStat
 # Cryo-CBox:CoolMode:VisuState
 
