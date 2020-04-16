@@ -498,7 +498,7 @@ record(calc, "Cryo-Cmp:HP:PI2170-Alrm") {
   field (LOLO, "-1.5")
   field (LSV, "MINOR")
   field (LLSV, "MAJOR")
-  field (CALC, "((B=2)||(B=3))&&(C#0)&&(C#7)?-A:0")
+  field (CALC, "((B=2)||(B=3))&&(C>0)&&(C<7)?-A:0")
 }
 
 # Cryo-Pur:Pur:SwOnStat
