@@ -1,65 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <width>225</width>
-  <height>190</height>
   <background_color>
     <color name="IO Grid" red="215" green="215" blue="215">
     </color>
   </background_color>
   <actions>
   </actions>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template</name>
-    <pv_name>Cryo-Cmp:C1:VisuState</pv_name>
-    <x>28</x>
-    <y>55</y>
-    <width>61</width>
-    <height>21</height>
-    <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
-      </color>
-    </background_color>
-    <actions>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
-    <border_width>2</border_width>
-  </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template</name>
+    <class>TITLE</class>
     <text>Compressor</text>
-    <x>26</x>
-    <y>15</y>
-    <width>121</width>
-    <height>25</height>
-    <font>
-      <font family="Sans" style="REGULAR" size="20.0">
+    <x use_class="true">20</x>
+    <y use_class="true">0</y>
+    <width>185</width>
+    <height use_class="true">46</height>
+    <font use_class="true">
+      <font name="Header 1" family="Source Sans Pro" style="BOLD_ITALIC" size="36.0">
       </font>
     </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+    <foreground_color use_class="true">
+      <color name="HEADER-TEXT" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
       <color name="IO Background" red="255" green="255" blue="205">
       </color>
     </background_color>
-    <vertical_alignment>1</vertical_alignment>
+    <transparent use_class="true">true</transparent>
+    <horizontal_alignment use_class="true">0</horizontal_alignment>
+    <vertical_alignment use_class="true">1</vertical_alignment>
     <auto_size>true</auto_size>
+    <wrap_words use_class="true">false</wrap_words>
     <actions>
     </actions>
     <border_color>
@@ -67,135 +38,20 @@
       </color>
     </border_color>
   </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_1</name>
-    <pv_name>Cryo-Cmp:C1:PmsStrtStat</pv_name>
-    <x>101</x>
-    <y>55</y>
-    <width>136</width>
-    <height>21</height>
-    <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
-      </font>
-    </font>
-    <foreground_color>
-      <color red="255" green="0" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO TextButton" red="0" green="0" blue="0">
-      </color>
-    </background_color>
-    <actions>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-      <rule name="Visibility Rule" prop_id="visible" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>false</value>
-        </exp>
-        <pv_name>Cryo-Cmp:C1:SwOnStat</pv_name>
-      </rule>
-    </rules>
-    <border_width>2</border_width>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template</name>
-    <pv_name>Cryo-Cmp:C1:PmsStopStat</pv_name>
-    <x>101</x>
-    <y>55</y>
-    <width>136</width>
-    <height>21</height>
-    <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
-      </font>
-    </font>
-    <foreground_color>
-      <color red="255" green="255" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color red="0" green="0" blue="0">
-      </color>
-    </background_color>
-    <actions>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-      <rule name="Visibility Rule" prop_id="visible" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>false</value>
-        </exp>
-        <pv_name>Cryo-Cmp:C1:SwOnStat</pv_name>
-      </rule>
-    </rules>
-    <border_width>2</border_width>
-  </widget>
-  <widget type="action_button" version="3.0.0">
-    <name>Action Button Template</name>
-    <actions>
-      <action type="write_pv">
-        <pv_name>Cryo-Cmp:C1:StrtStopCmd</pv_name>
-        <value>1</value>
-      </action>
-    </actions>
-    <text>Start/Stop</text>
-    <x>247</x>
-    <y>51</y>
-    <width>95</width>
-    <height>28</height>
-    <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Foreground" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <tooltip>$(actions)</tooltip>
-  </widget>
   <widget type="group" version="2.0.0">
-    <y>100</y>
-    <width>366</width>
-    <height>368</height>
-    <transparent>true</transparent>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_1</name>
-      <text>Compressor Start Permissives</text>
-      <width>253</width>
-      <height>18</height>
-      <font>
-        <font family="Sans" style="BOLD" size="14.851485148514852">
-        </font>
+    <name>   Start Permissives   </name>
+    <x>20</x>
+    <y>143</y>
+    <width>370</width>
+    <height>372</height>
+    <font>
+      <font family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
-      <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <horizontal_alignment>1</horizontal_alignment>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
+    </font>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
     <widget type="label" version="2.0.0">
       <name>Label Template_2</name>
       <text>Turbine inlet valves close</text>
@@ -667,10 +523,6 @@
       <y>276</y>
       <width>67</width>
       <height>18</height>
-      <font>
-        <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
-        </font>
-      </font>
       <foreground_color>
         <color name="IO InputPV Fg" red="0" green="32" blue="92">
         </color>
@@ -680,6 +532,7 @@
         </color>
       </background_color>
       <precision>0</precision>
+      <vertical_alignment>1</vertical_alignment>
       <actions>
       </actions>
       <rules>
@@ -691,6 +544,10 @@
         </rule>
       </rules>
       <border_width>2</border_width>
+      <border_color>
+        <color name="BACKGROUND" red="220" green="225" blue="221">
+        </color>
+      </border_color>
     </widget>
     <widget type="textupdate" version="2.0.0">
       <name>Text Update Template_3</name>
@@ -699,10 +556,6 @@
       <y>308</y>
       <width>67</width>
       <height>18</height>
-      <font>
-        <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
-        </font>
-      </font>
       <foreground_color>
         <color name="IO InputPV Fg" red="0" green="32" blue="92">
         </color>
@@ -712,6 +565,7 @@
         </color>
       </background_color>
       <precision>0</precision>
+      <vertical_alignment>1</vertical_alignment>
       <actions>
       </actions>
       <rules>
@@ -723,45 +577,31 @@
         </rule>
       </rules>
       <border_width>2</border_width>
-    </widget>
-  </widget>
-  <widget type="group" version="2.0.0">
-    <x>382</x>
-    <y>100</y>
-    <width>291</width>
-    <height>225</height>
-    <transparent>true</transparent>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_11</name>
-      <text>Compressor Stop Permissives</text>
-      <width>249</width>
-      <height>19</height>
-      <font>
-        <font family="Sans" style="BOLD" size="14.851485148514852">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <horizontal_alignment>1</horizontal_alignment>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
       <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
+        <color name="BACKGROUND" red="220" green="225" blue="221">
         </color>
       </border_color>
     </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>  Stop Permissives  </name>
+    <x>402</x>
+    <y>143</y>
+    <width>295</width>
+    <height>202</height>
+    <font>
+      <font family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
     <widget type="label" version="2.0.0">
       <name>Label Template_12</name>
       <text>Dewar return valve close</text>
-      <y>39</y>
+      <x>7</x>
+      <y>19</y>
       <width>150</width>
       <height>15</height>
       <font>
@@ -788,7 +628,8 @@
     <widget type="label" version="2.0.0">
       <name>Label Template_13</name>
       <text>Turbine inlet valve close</text>
-      <y>79</y>
+      <x>7</x>
+      <y>59</y>
       <width>146</width>
       <height>15</height>
       <font>
@@ -815,7 +656,8 @@
     <widget type="label" version="2.0.0">
       <name>Label Template_14</name>
       <text>Cbox Coldmode Off</text>
-      <y>119</y>
+      <x>7</x>
+      <y>99</y>
       <width>116</width>
       <height>15</height>
       <font>
@@ -842,7 +684,8 @@
     <widget type="label" version="2.0.0">
       <name>Label Template_15</name>
       <text>Cbox Warm-Up Off</text>
-      <y>159</y>
+      <x>7</x>
+      <y>139</y>
       <width>112</width>
       <height>15</height>
       <font>
@@ -870,8 +713,8 @@
       <name>LED Template_6</name>
       <pv_name>Cryo-Cmp:Cx:Pms_StopDwrReturn</pv_name>
       <bit>0</bit>
-      <x>172</x>
-      <y>39</y>
+      <x>179</x>
+      <y>19</y>
       <width>67</width>
       <height>24</height>
       <off_color>
@@ -910,8 +753,8 @@
       <name>LED Template_7</name>
       <pv_name>Cryo-Cmp:Cx:Pms_StopTuVlvCls</pv_name>
       <bit>0</bit>
-      <x>172</x>
-      <y>79</y>
+      <x>179</x>
+      <y>59</y>
       <width>67</width>
       <height>24</height>
       <off_color>
@@ -950,8 +793,8 @@
       <name>LED Template_8</name>
       <pv_name>Cryo-Cmp:Cx:Pms_CbCMOff</pv_name>
       <bit>0</bit>
-      <x>172</x>
-      <y>119</y>
+      <x>179</x>
+      <y>99</y>
       <width>67</width>
       <height>24</height>
       <off_color>
@@ -990,8 +833,8 @@
       <name>LED Template_9</name>
       <pv_name>Cryo-Cmp:Cx:Pms_CbWUOff</pv_name>
       <bit>0</bit>
-      <x>172</x>
-      <y>159</y>
+      <x>179</x>
+      <y>139</y>
       <width>67</width>
       <height>24</height>
       <off_color>
@@ -1025,6 +868,136 @@
           <pv_name>$(pv_name).SIMM</pv_name>
         </rule>
       </rules>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>  Control  </name>
+    <x>209</x>
+    <y>50</y>
+    <width>488</width>
+    <height>81</height>
+    <font>
+      <font family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button Template</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>Cryo-Cmp:C1:StrtStopCmd</pv_name>
+        <value>1</value>
+      </action>
+    </actions>
+    <text>Start/Stop</text>
+    <x>232</x>
+    <y>73</y>
+    <width>136</width>
+    <height>35</height>
+    <font>
+      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="IO Foreground" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>Group_1</name>
+    <x>390</x>
+    <y>73</y>
+    <width>140</width>
+    <height>35</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update Template_4</name>
+      <pv_name>Cryo-Cmp:C1:PmsStrtStat</pv_name>
+      <width>140</width>
+      <height>35</height>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="BorderRule" prop_id="border_style" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>9</value>
+          </exp>
+          <pv_name>$(pv_name).SIMM</pv_name>
+        </rule>
+        <rule name="Visibility Rule" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>false</value>
+          </exp>
+          <pv_name>Cryo-Cmp:C1:SwOnStat</pv_name>
+        </rule>
+      </rules>
+      <border_width>2</border_width>
+      <border_color>
+        <color name="BACKGROUND" red="220" green="225" blue="221">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update Template_5</name>
+      <pv_name>Cryo-Cmp:C1:PmsStopStat</pv_name>
+      <width>140</width>
+      <height>35</height>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="BorderRule" prop_id="border_style" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>9</value>
+          </exp>
+          <pv_name>$(pv_name).SIMM</pv_name>
+        </rule>
+        <rule name="Visibility Rule" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>false</value>
+          </exp>
+          <pv_name>Cryo-Cmp:C1:SwOnStat</pv_name>
+        </rule>
+      </rules>
+      <border_width>2</border_width>
+      <border_color>
+        <color name="BACKGROUND" red="220" green="225" blue="221">
+        </color>
+      </border_color>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>  Status  </name>
+    <x>20</x>
+    <y>50</y>
+    <width>160</width>
+    <height>81</height>
+    <font>
+      <font family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
+      </font>
+    </font>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update</name>
+      <pv_name>Cryo-Cmp:C1:VisuState</pv_name>
+      <width>107</width>
+      <height>35</height>
+      <transparent>true</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <border_width>2</border_width>
+      <border_color>
+        <color name="BACKGROUND" red="220" green="225" blue="221">
+        </color>
+      </border_color>
     </widget>
   </widget>
 </display>
