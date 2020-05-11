@@ -4,7 +4,7 @@ file "lindeBinaryOutput.template" { pattern
 {Cryo,	Cmp,	C2,	StrtStopCmd, 10,	1,	Idle,	Toggle, "Start/Stop Command"}
 {Cryo,	MCD,	MCD,	StrtStopCmd, 10,	2,	Idle,	Toggle, "Start/Stop Command"}
 {Cryo,	HP,	DisChrg,	StrtStopCmd, 10,	3,	Idle,	Toggle, "Start/Stop Command"}
-{Cryo,	CBox,	Cm,	StrtStopCmd, 10,	4,	Idle,	Toggle, "Start/Stop Command"}
+{Cryo,	CBox,	CoolMode,	StrtStopCmd, 10,	4,	Idle,	Toggle, "Start/Stop Command"}
 {Cryo,	CBox,	Wu,	StrtStopCmd, 10,	5,	Idle,	Toggle, "Start/Stop Command"}
 {Cryo,	CBox,	LN2,	StrtStopCmd, 10,	6,	Idle,	Toggle, "Start/Stop Command"}
 {Cryo,	CBox,	LN2-IlkTu,	StrtStopCmd, 10,	7,	Idle,	Toggle, "Start/Stop Command"}

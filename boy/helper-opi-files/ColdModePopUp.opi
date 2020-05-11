@@ -10,7 +10,7 @@
   <background_color>
     <color name="IO Grid" red="215" green="215" blue="215" />
   </background_color>
-  <boy_version>5.1.0.201703221304</boy_version>
+  <boy_version>5.1.0</boy_version>
   <foreground_color>
     <color name="IO Grid" red="215" green="215" blue="215" />
   </foreground_color>
@@ -75,7 +75,7 @@
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
         <action type="WRITE_PV">
-          <pv_name>Cryo-CBox:Cm:StrtStopCmd</pv_name>
+          <pv_name>Cryo-CBox:CoolMode:StrtStopCmd</pv_name>
           <value>1</value>
           <timeout>10</timeout>
           <confirm_message>Start/stop?</confirm_message>
@@ -198,7 +198,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color name="IO Text Fg" red="0" green="32" blue="92" />
       </foreground_color>
-      <height>22</height>
+      <height>23</height>
       <horizontal_alignment>0</horizontal_alignment>
       <name>Label Template</name>
       <rules />
@@ -215,7 +215,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>168</width>
+      <width>173</width>
       <wrap_words>true</wrap_words>
       <wuid>63a203b3:155a575f6d1:-63df</wuid>
       <x>10</x>
