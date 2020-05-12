@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <height>135</height>
+  <width>450</width>
+  <height>220</height>
   <background_color>
     <color name="IO Grid" red="215" green="215" blue="215">
     </color>
@@ -43,8 +44,8 @@
     <name>  Control  </name>
     <x>209</x>
     <y>50</y>
-    <width>488</width>
-    <height>81</height>
+    <width>191</width>
+    <height>150</height>
     <font>
       <font family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
@@ -53,44 +54,92 @@
       <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-  </widget>
-  <widget type="action_button" version="3.0.0">
-    <name>Action Button Template</name>
-    <actions>
-      <action type="write_pv">
-        <pv_name>$(pv_name)</pv_name>
-        <value>1</value>
-        <description>Start/Stop</description>
-      </action>
-    </actions>
-    <pv_name>$(P)-$(D):StrtStopCmd</pv_name>
-    <text>Start/Stop</text>
-    <x>232</x>
-    <y>73</y>
-    <width>136</width>
-    <height>35</height>
-    <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button Template</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+          <description>Start/Stop</description>
+        </action>
+      </actions>
+      <pv_name>$(P)-$(D):StrtStopCmd</pv_name>
+      <text>Start/Stop</text>
+      <y>9</y>
+      <width>136</width>
+      <height>35</height>
+      <font>
+        <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+        </font>
       </font>
-    </font>
-    <foreground_color>
-      <color name="IO Foreground" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <tooltip>$(actions)
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <tooltip>$(actions)
 $(pv_name)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button Template_2</name>
+      <actions>
+        <action type="open_display">
+          <file>$(Pms_file).bob</file>
+          <target>replace</target>
+          <description>Permissives</description>
+        </action>
+      </actions>
+      <pv_name>loc://$(Pms_file)($(INVISIBLE))</pv_name>
+      <y>62</y>
+      <width>136</width>
+      <height>35</height>
+      <font>
+        <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <rules>
+        <rule name="Invisible" prop_id="visible" out_exp="false">
+          <exp bool_exp="pvInt0==1">
+            <value>false</value>
+          </exp>
+          <pv_name>$(pv_name)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(actions)</tooltip>
+    </widget>
   </widget>
   <widget type="group" version="2.0.0">
-    <name>Group_1</name>
-    <x>390</x>
-    <y>73</y>
-    <width>140</width>
-    <height>35</height>
-    <style>3</style>
-    <transparent>true</transparent>
+    <name>  Status  </name>
+    <x>20</x>
+    <y>50</y>
+    <width>189</width>
+    <height>150</height>
+    <font>
+      <font family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
+      </font>
+    </font>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update</name>
+      <pv_name>$(P)-$(D):VisuState</pv_name>
+      <y>5</y>
+      <width>107</width>
+      <height>35</height>
+      <transparent>true</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <border_width>2</border_width>
+      <border_color>
+        <color name="BACKGROUND" red="220" green="225" blue="221">
+        </color>
+      </border_color>
+    </widget>
     <widget type="textupdate" version="2.0.0">
       <name>Text Update Template_4</name>
       <pv_name>$(P)-$(D):PmsStrtStat</pv_name>
+      <y>62</y>
       <width>140</width>
       <height>35</height>
       <transparent>true</transparent>
@@ -111,6 +160,15 @@ $(pv_name)</tooltip>
         </color>
       </border_color>
     </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>Group</name>
+    <x>43</x>
+    <y>135</y>
+    <width>140</width>
+    <height>35</height>
+    <style>3</style>
+    <transparent>true</transparent>
     <widget type="textupdate" version="2.0.0">
       <name>Text Update Template_5</name>
       <pv_name>$(P)-$(D):PmsStopStat</pv_name>
@@ -128,31 +186,6 @@ $(pv_name)</tooltip>
           <pv_name>Cryo-Cmp:C1:SwOnStat</pv_name>
         </rule>
       </rules>
-      <border_width>2</border_width>
-      <border_color>
-        <color name="BACKGROUND" red="220" green="225" blue="221">
-        </color>
-      </border_color>
-    </widget>
-  </widget>
-  <widget type="group" version="2.0.0">
-    <name>  Status  </name>
-    <x>20</x>
-    <y>50</y>
-    <width>160</width>
-    <height>81</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
-      </font>
-    </font>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update</name>
-      <pv_name>$(P)-$(D):VisuState</pv_name>
-      <width>107</width>
-      <height>35</height>
-      <transparent>true</transparent>
-      <horizontal_alignment>1</horizontal_alignment>
-      <vertical_alignment>1</vertical_alignment>
       <border_width>2</border_width>
       <border_color>
         <color name="BACKGROUND" red="220" green="225" blue="221">

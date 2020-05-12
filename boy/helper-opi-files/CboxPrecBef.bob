@@ -3,102 +3,78 @@
   <width>550</width>
   <height>225</height>
   <background_color>
-    <color red="165" green="236" blue="237">
+    <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
   </background_color>
   <actions>
   </actions>
-  <widget type="label" version="2.0.0">
-    <name>Label Template</name>
-    <text>LN2 precooling before turbine start</text>
-    <x>30</x>
-    <y>30</y>
-    <width>299</width>
-    <height>18</height>
+  <widget type="group" version="2.0.0">
+    <name>LN2 precooling before turbine start</name>
+    <x>24</x>
+    <y>64</y>
+    <width>473</width>
+    <height>70</height>
     <font>
-      <font family="Sans" style="BOLD" size="14.851485148514852">
+      <font family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
     </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_1</name>
-    <text>Permissives LN2 on</text>
-    <x>47</x>
-    <y>89</y>
-    <width>116</width>
-    <height>14</height>
-    <font>
-      <font family="Sans" style="REGULAR" size="11.881188118811881">
+    <widget type="label" version="2.0.0">
+      <name>Label Template_1</name>
+      <text>Permissives LN2 on</text>
+      <y>5</y>
+      <width>116</width>
+      <height>14</height>
+      <font>
+        <font family="Sans" style="REGULAR" size="11.881188118811881">
+        </font>
       </font>
-    </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>LED Template</name>
-    <pv_name>Cryo-CBox:LN2-IlkTu:PmsStrtStat</pv_name>
-    <bit>0</bit>
-    <x>407</x>
-    <y>87</y>
-    <width>67</width>
-    <height>24</height>
-    <off_color>
-      <color red="255" green="0" blue="0">
-      </color>
-    </off_color>
-    <on_color>
-      <color red="0" green="255" blue="0">
-      </color>
-    </on_color>
-    <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+      <foreground_color>
+        <color name="IO Text Fg" red="0" green="32" blue="92">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="IO Background" red="255" green="255" blue="205">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+      <auto_size>true</auto_size>
+      <actions>
+      </actions>
+      <border_color>
+        <color name="IO Border" red="215" green="215" blue="215">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED Template</name>
+      <pv_name>Cryo-CBox:LN2-IlkTu:PmsStrtStat</pv_name>
+      <bit>0</bit>
+      <x>360</x>
+      <width>67</width>
+      <height>24</height>
+      <off_color>
+        <color red="255" green="0" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <font>
+        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        </font>
       </font>
-    </font>
-    <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <square>true</square>
-    <actions>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
+      <foreground_color>
+        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        </color>
+      </foreground_color>
+      <square>true</square>
+      <actions>
+      </actions>
+    </widget>
   </widget>
 </display>
