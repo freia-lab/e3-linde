@@ -11,7 +11,6 @@ record (bo, "$(SYS)-$(SUBS):$(DEV):$(SIG)") {
   field (DOL, "$(SYS)-$(SUBS):$(DEV):$(SIG)-DOL")
   field (ZNAM, "$(ZNAM)")
   field (HIGH, "0.5")
-  field (DOL,  "0")
   field (ONAM, "$(ONAM)")
   field (PINI, "YES")
   field (FLNK, "s7-send-counter")

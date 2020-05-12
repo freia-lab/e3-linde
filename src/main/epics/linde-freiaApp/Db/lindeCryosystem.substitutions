@@ -5,11 +5,11 @@ file "lindeBinaryOutput.template" { pattern
 {Cryo,	MCD,	MCD,	StrtStopCmd, 10,	2,	Idle,	Toggle, "Start/Stop Command"}
 {Cryo,	HP,	DisChrg,	StrtStopCmd, 10,	3,	Idle,	Toggle, "Start/Stop Command"}
 {Cryo,	CBox,	CoolMode,	StrtStopCmd, 10,	4,	Idle,	Toggle, "Start/Stop Command"}
-{Cryo,	CBox,	Wu,	StrtStopCmd, 10,	5,	Idle,	Toggle, "Start/Stop Command"}
+{Cryo,	CBox,	WarmUpMode,	StrtStopCmd, 10,	5,	Idle,	Toggle, "Start/Stop Command"}
 {Cryo,	CBox,	LN2,	StrtStopCmd, 10,	6,	Idle,	Toggle, "Start/Stop Command"}
 {Cryo,	CBox,	LN2-IlkTu,	StrtStopCmd, 10,	7,	Idle,	Toggle, "Start/Stop Command"}
 {Cryo,	Dwr,	Htr,	StrtStopCmd, 11,	0,	Idle,	Toggle, "Start/Stop Command"}
-{Cryo,	Vac,	VacSys,	StrtStopCmd, 11,	1,	Idle,	Toggle, "Start/Stop Command"}
+{Cryo,	VacSys,	VacSys,	StrtStopCmd, 11,	1,	Idle,	Toggle, "Start/Stop Command"}
 {Cryo,	Pur,	Pur,	StrtStopCmd, 11,	2,	Idle,	Toggle, "Start/Stop Command"}
 {Cryo,	Cryo,	Cryo,	ResetCmd,    11,	7,	Idle,	Toggle, "Reset Command"}
 {Cryo,  Regen,  Ads80K, CmdOprtrRst, 	12,	0,	Idle,	Toggle, "Command"}
