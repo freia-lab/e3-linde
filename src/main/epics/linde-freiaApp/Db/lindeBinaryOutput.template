@@ -8,7 +8,7 @@ record (bo, "$(SYS)-$(SUBS):$(DEV):$(SIG)") {
   field (DESC, "$(SUBS):$(DEV) $(DESC)")
   field (DTYP, "S7plc")
   field (OUT,  "@Cryo-Linde/$(OFFS) T=BYTE B=$(BIT)")
-  field (DOL, "$(SYS)-$(SUBS):$(DEV):$(SIG)-DOL")
+  field (DOL, "0")
   field (ZNAM, "$(ZNAM)")
   field (HIGH, "0.5")
   field (ONAM, "$(ONAM)")
