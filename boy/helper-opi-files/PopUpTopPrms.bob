@@ -22,7 +22,7 @@
       </color>
     </foreground_color>
     <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
       </color>
     </background_color>
     <widget type="action_button" version="3.0.0">
@@ -91,6 +91,10 @@ $(pv_name)</tooltip>
       <y>26</y>
       <width>107</width>
       <height>35</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="16.0">
+        </font>
+      </font>
       <background_color>
         <color name="BACKGROUND" red="220" green="225" blue="221">
         </color>
@@ -98,7 +102,6 @@ $(pv_name)</tooltip>
       <transparent>true</transparent>
       <horizontal_alignment>1</horizontal_alignment>
       <vertical_alignment>1</vertical_alignment>
-      <border_width>2</border_width>
       <border_color>
         <color name="BACKGROUND" red="220" green="225" blue="221">
         </color>
@@ -106,19 +109,25 @@ $(pv_name)</tooltip>
     </widget>
     <widget type="group" version="2.0.0">
       <name>Permissives</name>
-      <x>222</x>
+      <x>209</x>
       <y>26</y>
-      <width>140</width>
+      <width>160</width>
       <height>35</height>
       <style>3</style>
       <transparent>true</transparent>
       <widget type="textupdate" version="2.0.0">
         <name>Text Update Template_4</name>
         <pv_name>$(P)-$(D):PmsStrtStat</pv_name>
-        <width>140</width>
+        <width>160</width>
         <height>35</height>
+        <font>
+          <font family="Source Sans Pro" style="BOLD" size="16.0">
+          </font>
+        </font>
         <transparent>true</transparent>
+        <horizontal_alignment>1</horizontal_alignment>
         <vertical_alignment>1</vertical_alignment>
+        <wrap_words>false</wrap_words>
         <actions>
         </actions>
         <rules>
@@ -129,7 +138,6 @@ $(pv_name)</tooltip>
             <pv_name>Cryo-Cmp:C1:SwOnStat</pv_name>
           </rule>
         </rules>
-        <border_width>2</border_width>
         <border_color>
           <color name="BACKGROUND" red="220" green="225" blue="221">
           </color>
@@ -138,14 +146,20 @@ $(pv_name)</tooltip>
       <widget type="textupdate" version="2.0.0">
         <name>Text Update Template_5</name>
         <pv_name>$(P)-$(D):PmsStopStat</pv_name>
-        <width>140</width>
+        <width>160</width>
         <height>35</height>
+        <font>
+          <font family="Source Sans Pro" style="BOLD" size="16.0">
+          </font>
+        </font>
         <background_color>
           <color name="BACKGROUND" red="220" green="225" blue="221">
           </color>
         </background_color>
         <transparent>true</transparent>
+        <horizontal_alignment>1</horizontal_alignment>
         <vertical_alignment>1</vertical_alignment>
+        <wrap_words>false</wrap_words>
         <actions>
         </actions>
         <rules>
@@ -156,7 +170,6 @@ $(pv_name)</tooltip>
             <pv_name>Cryo-Cmp:C1:SwOnStat</pv_name>
           </rule>
         </rules>
-        <border_width>2</border_width>
         <border_color>
           <color name="BACKGROUND" red="220" green="225" blue="221">
           </color>
@@ -170,10 +183,6 @@ $(pv_name)</tooltip>
       <y>26</y>
       <width>70</width>
       <height>35</height>
-      <font>
-        <font family="Source Sans Pro" style="BOLD" size="16.0">
-        </font>
-      </font>
       <vertical_alignment>1</vertical_alignment>
     </widget>
   </widget>

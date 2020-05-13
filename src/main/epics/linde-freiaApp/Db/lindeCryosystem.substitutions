@@ -3,7 +3,7 @@ file "lindeBinaryOutput.template" { pattern
 {Cryo,	Cmp,	C1,	StrtStopCmd, 10,	0,	Idle,	Toggle, "Start/Stop Command"}
 {Cryo,	Cmp,	C2,	StrtStopCmd, 10,	1,	Idle,	Toggle, "Start/Stop Command"}
 {Cryo,	MCD,	MCD,	StrtStopCmd, 10,	2,	Idle,	Toggle, "Start/Stop Command"}
-{Cryo,	HP,	DisChrg,	StrtStopCmd, 10,	3,	Idle,	Toggle, "Start/Stop Command"}
+{Cryo,	HP,	DisChrgRec,	StrtStopCmd, 10,	3,	Idle,	Toggle, "Start/Stop Command"}
 {Cryo,	CBox,	CoolMode,	StrtStopCmd, 10,	4,	Idle,	Toggle, "Start/Stop Command"}
 {Cryo,	CBox,	WarmUpMode,	StrtStopCmd, 10,	5,	Idle,	Toggle, "Start/Stop Command"}
 {Cryo,	CBox,	LN2,	StrtStopCmd, 10,	6,	Idle,	Toggle, "Start/Stop Command"}
@@ -497,29 +497,29 @@ file "lindeBinaryInput.template" { pattern
 {Cryo,	Rec,	LP,	Wrn_QAH7240,	1507,	3,	OK,	Warning,  NO_ALARM,  MINOR, status}
 {Cryo,	Rec,	LP,	Wrn_QAH7250,	1507,	4,	OK,	Warning,  NO_ALARM,  MINOR, status}
 
-{Cryo,	Cmp,	C1,	PmsStopStat, 610,	3, "Stop not permitted", "Stop permitted", NO_ALARM, NO_ALARM, "Stop permissives ok"}
-{Cryo,	Cmp,	C2,	PmsStopStat, 620,	3, "Stop not permitted", "Stop permitted", NO_ALARM, NO_ALARM, "Stop permissives ok"}
-{Cryo,	MCD,	MCD,	PmsStopStat, 630,	3, "Stop not permitted", "Stop permitted", NO_ALARM, NO_ALARM, "Stop permissives ok"}
-{Cryo,	HP,	DisChrgRec,	PmsStopStat, 640,	3, "Stop not permitted", "Stop permitted", NO_ALARM, NO_ALARM, "Stop permissives ok"}
-{Cryo,	CBox,	CoolMode,	PmsStopStat, 650,	3, "Stop not permitted", "Stop permitted", NO_ALARM, NO_ALARM, "Stop permissives ok"}
-{Cryo,	CBox,	WarmUpMode,	PmsStopStat, 660,	3, "Stop not permitted", "Stop permitted", NO_ALARM, NO_ALARM, "Stop permissives ok"}
-{Cryo,	CBox,	LN2,	PmsStopStat, 670,	3, "Stop not permitted", "Stop permitted", NO_ALARM, NO_ALARM, "Stop permissives ok"}
-{Cryo,	CBox,	LN2-IlkTu,	PmsStopStat, 680, 3, "Stop not permitted", "Stop permitted", NO_ALARM, NO_ALARM, "Stop permissives ok"}
-{Cryo,	Dwr,	Htr,	PmsStopStat, 690,	3, "Stop not permitted", "Stop permitted", NO_ALARM, NO_ALARM, "Stop permissives ok"}
-{Cryo,	VacSys,	VacSys,	PmsStopStat, 700,	3, "Stop not permitted", "Stop permitted", NO_ALARM, NO_ALARM, "Stop permissives ok"}
-{Cryo,	Pur,	Pur,	PmsStopStat, 710,	3, "Stop not permitted", "Stop permitted", NO_ALARM, NO_ALARM, "Stop permissives ok"}
-{Cryo,	Dwr,	LC5200, PmsOk,	     720,	2, "Start not permitted", "Start permitted",  NO_ALARM,  NO_ALARM, "Start permissives ok"}
-{Cryo,	Cmp,	C1,	PmsStrtStat, 610,	2, "Start not permitted", "Start permitted", NO_ALARM, NO_ALARM, "Start permissives ok"}
-{Cryo,	Cmp,	C2,	PmsStrtStat, 620,	2, "Start not permitted", "Start permitted", NO_ALARM, NO_ALARM, "Start permissives ok"}
-{Cryo,	MCD,	MCD,	PmsStrtStat, 630,	2, "Start not permitted", "Start permitted", NO_ALARM, NO_ALARM, "Start permissives ok"}
-{Cryo,	HP,	DisChrgRec,	PmsStrtStat, 640,	2, "Start not permitted", "Start permitted", NO_ALARM, NO_ALARM, "Start permissives ok"}
-{Cryo,	CBox,	CoolMode,	PmsStrtStat, 650,	2, "Start not permitted", "Start permitted", NO_ALARM, NO_ALARM, "Start permissives ok"}
-{Cryo,	CBox,	WarmUpMode,	PmsStrtStat, 660,	2, "Start not permitted", "Start permitted", NO_ALARM, NO_ALARM, "Start permissives ok"}
-{Cryo,	CBox,	LN2,	PmsStrtStat, 670,	2, "Start not permitted", "Start permitted", NO_ALARM, NO_ALARM, "Start permissives ok"}
-{Cryo,	CBox,	LN2-IlkTu, PmsStrtStat, 680,	2, "Start not permitted", "Start permitted", NO_ALARM, NO_ALARM, "Start permissives ok"}
-{Cryo,	Dwr,	Htr,	PmsStrtStat, 690,	2, "Start not permitted", "Start permitted", NO_ALARM, NO_ALARM, "Start permissives ok"}
-{Cryo,	VacSys,	VacSys,	PmsStrtStat, 700,	2, "Start not permitted", "Start permitted", NO_ALARM, NO_ALARM, "Start permissives ok"}
-{Cryo,	Pur,	Pur,	PmsStrtStat, 710,	2, "Start not permitted", "Start permitted", NO_ALARM, NO_ALARM, "Start permissives ok"}
+{Cryo,	Cmp,	C1,	PmsStopStat, 610,	3, "Stop not permitted", "Stop permitted", MINOR, NO_ALARM, "Stop permissives ok"}
+{Cryo,	Cmp,	C2,	PmsStopStat, 620,	3, "Stop not permitted", "Stop permitted", MINOR, NO_ALARM, "Stop permissives ok"}
+{Cryo,	MCD,	MCD,	PmsStopStat, 630,	3, "Stop not permitted", "Stop permitted", MINOR, NO_ALARM, "Stop permissives ok"}
+{Cryo,	HP,	DisChrgRec,	PmsStopStat, 640,	3, "Stop not permitted", "Stop permitted", MINOR, NO_ALARM, "Stop permissives ok"}
+{Cryo,	CBox,	CoolMode,	PmsStopStat, 650,	3, "Stop not permitted", "Stop permitted", MINOR, NO_ALARM, "Stop permissives ok"}
+{Cryo,	CBox,	WarmUpMode,	PmsStopStat, 660,	3, "Stop not permitted", "Stop permitted", MINOR, NO_ALARM, "Stop permissives ok"}
+{Cryo,	CBox,	LN2,	PmsStopStat, 670,	3, "Stop not permitted", "Stop permitted", MINOR, NO_ALARM, "Stop permissives ok"}
+{Cryo,	CBox,	LN2-IlkTu,	PmsStopStat, 680, 3, "Stop not permitted", "Stop permitted", MINOR, NO_ALARM, "Stop permissives ok"}
+{Cryo,	Dwr,	Htr,	PmsStopStat, 690,	3, "Stop not permitted", "Stop permitted", MINOR, NO_ALARM, "Stop permissives ok"}
+{Cryo,	VacSys,	VacSys,	PmsStopStat, 700,	3, "Stop not permitted", "Stop permitted", MINOR, NO_ALARM, "Stop permissives ok"}
+{Cryo,	Pur,	Pur,	PmsStopStat, 710,	3, "Stop not permitted", "Stop permitted", MINOR, NO_ALARM, "Stop permissives ok"}
+{Cryo,	Dwr,	LC5200, PmsOk,	     720,	2, "Start not permitted", "Start permitted",  MINOR,  NO_ALARM, "Start permissives ok"}
+{Cryo,	Cmp,	C1,	PmsStrtStat, 610,	2, "Start not permitted", "Start permitted", MINOR, NO_ALARM, "Start permissives ok"}
+{Cryo,	Cmp,	C2,	PmsStrtStat, 620,	2, "Start not permitted", "Start permitted", MINOR, NO_ALARM, "Start permissives ok"}
+{Cryo,	MCD,	MCD,	PmsStrtStat, 630,	2, "Start not permitted", "Start permitted", MINOR, NO_ALARM, "Start permissives ok"}
+{Cryo,	HP,	DisChrgRec,	PmsStrtStat, 640,	2, "Start not permitted", "Start permitted", MINOR, NO_ALARM, "Start permissives ok"}
+{Cryo,	CBox,	CoolMode,	PmsStrtStat, 650,	2, "Start not permitted", "Start permitted", MINOR, NO_ALARM, "Start permissives ok"}
+{Cryo,	CBox,	WarmUpMode,	PmsStrtStat, 660,	2, "Start not permitted", "Start permitted", MINOR, NO_ALARM, "Start permissives ok"}
+{Cryo,	CBox,	LN2,	PmsStrtStat, 670,	2, "Start not permitted", "Start permitted", MINOR, NO_ALARM, "Start permissives ok"}
+{Cryo,	CBox,	LN2-IlkTu, PmsStrtStat, 680,	2, "Start not permitted", "Start permitted", MINOR, NO_ALARM, "Start permissives ok"}
+{Cryo,	Dwr,	Htr,	PmsStrtStat, 690,	2, "Start not permitted", "Start permitted", MINOR, NO_ALARM, "Start permissives ok"}
+{Cryo,	VacSys,	VacSys,	PmsStrtStat, 700,	2, "Start not permitted", "Start permitted", MINOR, NO_ALARM, "Start permissives ok"}
+{Cryo,	Pur,	Pur,	PmsStrtStat, 710,	2, "Start not permitted", "Start permitted", MINOR, NO_ALARM, "Start permissives ok"}
 {Cryo,	Cmp,	C1,	SwOnStat, 610,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
 {Cryo,	Cmp,	C2,	SwOnStat, 620,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
 {Cryo,	MCD,	MCD,	SwOnStat, 630,	1, "OFF",	"ON", MAJOR, NO_ALARM, "On/off"}
