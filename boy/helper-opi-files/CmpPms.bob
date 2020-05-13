@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <width>550</width>
-  <height>700</height>
+  <width>830</width>
+  <height>450</height>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
@@ -9,719 +9,745 @@
   <actions>
   </actions>
   <widget type="group" version="2.0.0">
-    <name>Compressor Start Permissives</name>
-    <x>31</x>
+    <name>Group</name>
+    <x>20</x>
     <y>20</y>
-    <width>479</width>
-    <height>340</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
-      </font>
-    </font>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_10</name>
-      <text>Turbine inlet valves close</text>
-      <y>9</y>
-      <width>152</width>
-      <height>15</height>
+    <width>677</width>
+    <height>372</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="group" version="2.0.0">
+      <name>   Start Permissives   </name>
+      <width>370</width>
+      <height>372</height>
       <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
+        <font family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
         </font>
       </font>
-      <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
       <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
+        <color name="BACKGROUND" red="220" green="225" blue="221">
         </color>
       </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
+      <widget type="label" version="2.0.0">
+        <name>Label Template_27</name>
+        <text>Turbine inlet valves close</text>
+        <x>1</x>
+        <y>39</y>
+        <width>152</width>
+        <height>15</height>
+        <font>
+          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205">
+          </color>
+        </background_color>
+        <vertical_alignment>1</vertical_alignment>
+        <auto_size>true</auto_size>
+        <actions>
+        </actions>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label Template_28</name>
+        <text>Buffer pressure</text>
+        <x>1</x>
+        <y>79</y>
+        <width>92</width>
+        <height>15</height>
+        <font>
+          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205">
+          </color>
+        </background_color>
+        <vertical_alignment>1</vertical_alignment>
+        <auto_size>true</auto_size>
+        <actions>
+        </actions>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label Template_29</name>
+        <text>Low pressure</text>
+        <x>1</x>
+        <y>119</y>
+        <width>80</width>
+        <height>15</height>
+        <font>
+          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205">
+          </color>
+        </background_color>
+        <vertical_alignment>1</vertical_alignment>
+        <auto_size>true</auto_size>
+        <actions>
+        </actions>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label Template_30</name>
+        <text>High pressure</text>
+        <x>1</x>
+        <y>159</y>
+        <width>83</width>
+        <height>15</height>
+        <font>
+          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205">
+          </color>
+        </background_color>
+        <vertical_alignment>1</vertical_alignment>
+        <auto_size>true</auto_size>
+        <actions>
+        </actions>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label Template_31</name>
+        <text>No Shutdown active</text>
+        <x>1</x>
+        <y>199</y>
+        <width>120</width>
+        <height>15</height>
+        <font>
+          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205">
+          </color>
+        </background_color>
+        <vertical_alignment>1</vertical_alignment>
+        <auto_size>true</auto_size>
+        <actions>
+        </actions>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label Template_32</name>
+        <text>Compressor Motor Protection expired</text>
+        <x>1</x>
+        <y>239</y>
+        <width>223</width>
+        <height>15</height>
+        <font>
+          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205">
+          </color>
+        </background_color>
+        <vertical_alignment>1</vertical_alignment>
+        <auto_size>true</auto_size>
+        <actions>
+        </actions>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label Template_33</name>
+        <text>Motor protection time</text>
+        <x>38</x>
+        <y>276</y>
+        <width>130</width>
+        <height>15</height>
+        <font>
+          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205">
+          </color>
+        </background_color>
+        <vertical_alignment>1</vertical_alignment>
+        <auto_size>true</auto_size>
+        <actions>
+        </actions>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label Template_34</name>
+        <text>Actual off time</text>
+        <x>38</x>
+        <y>308</y>
+        <width>88</width>
+        <height>15</height>
+        <font>
+          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205">
+          </color>
+        </background_color>
+        <vertical_alignment>1</vertical_alignment>
+        <auto_size>true</auto_size>
+        <actions>
+        </actions>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED Template_20</name>
+        <pv_name>Cryo-Cmp:Cx:Pms_StrtTuInletVlv</pv_name>
+        <bit>0</bit>
+        <x>257</x>
+        <y>39</y>
+        <width>67</width>
+        <height>24</height>
+        <off_color>
+          <color red="255" green="0" blue="0">
+          </color>
+        </off_color>
+        <on_color>
+          <color red="0" green="255" blue="0">
+          </color>
+        </on_color>
+        <font>
+          <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <line_color>
+          <color red="150" green="150" blue="150">
+          </color>
+        </line_color>
+        <square>true</square>
+        <actions>
+        </actions>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED Template_21</name>
+        <pv_name>Cryo-Cmp:Cx:Pms_StrtBuPr</pv_name>
+        <bit>0</bit>
+        <x>257</x>
+        <y>79</y>
+        <width>67</width>
+        <height>24</height>
+        <off_color>
+          <color red="255" green="0" blue="0">
+          </color>
+        </off_color>
+        <on_color>
+          <color red="0" green="255" blue="0">
+          </color>
+        </on_color>
+        <font>
+          <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <line_color>
+          <color red="150" green="150" blue="150">
+          </color>
+        </line_color>
+        <square>true</square>
+        <actions>
+        </actions>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED Template_22</name>
+        <pv_name>Cryo-Cmp:Cx:Pms_StrtLP</pv_name>
+        <bit>0</bit>
+        <x>257</x>
+        <y>119</y>
+        <width>67</width>
+        <height>24</height>
+        <off_color>
+          <color red="255" green="0" blue="0">
+          </color>
+        </off_color>
+        <on_color>
+          <color red="0" green="255" blue="0">
+          </color>
+        </on_color>
+        <font>
+          <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <line_color>
+          <color red="150" green="150" blue="150">
+          </color>
+        </line_color>
+        <square>true</square>
+        <actions>
+        </actions>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED Template_23</name>
+        <pv_name>Cryo-Cmp:Cx:Pms_StrtHP</pv_name>
+        <bit>0</bit>
+        <x>257</x>
+        <y>159</y>
+        <width>67</width>
+        <height>24</height>
+        <off_color>
+          <color red="255" green="0" blue="0">
+          </color>
+        </off_color>
+        <on_color>
+          <color red="0" green="255" blue="0">
+          </color>
+        </on_color>
+        <font>
+          <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <line_color>
+          <color red="150" green="150" blue="150">
+          </color>
+        </line_color>
+        <square>true</square>
+        <actions>
+        </actions>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED Template_24</name>
+        <pv_name>Cryo-Cmp:C1:Pms_StrtNoSd</pv_name>
+        <bit>0</bit>
+        <x>257</x>
+        <y>199</y>
+        <width>67</width>
+        <height>24</height>
+        <off_color>
+          <color red="255" green="0" blue="0">
+          </color>
+        </off_color>
+        <on_color>
+          <color red="0" green="255" blue="0">
+          </color>
+        </on_color>
+        <font>
+          <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <line_color>
+          <color red="150" green="150" blue="150">
+          </color>
+        </line_color>
+        <square>true</square>
+        <actions>
+        </actions>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED Template_25</name>
+        <pv_name>Cryo-Cmp:C1:Pms_StrtMotorProt</pv_name>
+        <bit>0</bit>
+        <x>257</x>
+        <y>239</y>
+        <width>67</width>
+        <height>24</height>
+        <off_color>
+          <color red="255" green="0" blue="0">
+          </color>
+        </off_color>
+        <on_color>
+          <color red="0" green="255" blue="0">
+          </color>
+        </on_color>
+        <font>
+          <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <line_color>
+          <color red="150" green="150" blue="150">
+          </color>
+        </line_color>
+        <square>true</square>
+        <actions>
+        </actions>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update Template_4</name>
+        <pv_name>Cryo-Cmp:Cmp:ActMotorProtTm</pv_name>
+        <x>257</x>
+        <y>276</y>
+        <width>67</width>
+        <height>18</height>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="IO InputPV Bg" red="255" green="255" blue="255">
+          </color>
+        </background_color>
+        <precision>0</precision>
+        <vertical_alignment>1</vertical_alignment>
+        <actions>
+        </actions>
+        <border_width>2</border_width>
+        <border_color>
+          <color name="BACKGROUND" red="220" green="225" blue="221">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update Template_5</name>
+        <pv_name>Cryo-Cmp:Cmp:ActOffTm</pv_name>
+        <x>257</x>
+        <y>308</y>
+        <width>67</width>
+        <height>18</height>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="IO InputPV Bg" red="255" green="255" blue="255">
+          </color>
+        </background_color>
+        <precision>0</precision>
+        <vertical_alignment>1</vertical_alignment>
+        <actions>
+        </actions>
+        <border_width>2</border_width>
+        <border_color>
+          <color name="BACKGROUND" red="220" green="225" blue="221">
+          </color>
+        </border_color>
+      </widget>
     </widget>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_16</name>
-      <text>Buffer pressure</text>
-      <y>42</y>
-      <width>92</width>
-      <height>15</height>
+    <widget type="group" version="2.0.0">
+      <name>  Stop Permissives  </name>
+      <x>382</x>
+      <width>295</width>
+      <height>210</height>
       <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
+        <font family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
         </font>
       </font>
-      <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
       <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
+        <color name="BACKGROUND" red="220" green="225" blue="221">
         </color>
       </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_17</name>
-      <text>Low pressure</text>
-      <y>82</y>
-      <width>80</width>
-      <height>15</height>
-      <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
+      <widget type="label" version="2.0.0">
+        <name>Label Template_35</name>
+        <text>Dewar return valve close</text>
+        <x>7</x>
+        <y>19</y>
+        <width>150</width>
+        <height>15</height>
+        <font>
+          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          </font>
         </font>
-      </font>
-      <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_18</name>
-      <text>High pressure</text>
-      <y>122</y>
-      <width>83</width>
-      <height>15</height>
-      <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205">
+          </color>
+        </background_color>
+        <vertical_alignment>1</vertical_alignment>
+        <auto_size>true</auto_size>
+        <actions>
+        </actions>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label Template_36</name>
+        <text>Turbine inlet valve close</text>
+        <x>7</x>
+        <y>59</y>
+        <width>146</width>
+        <height>15</height>
+        <font>
+          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          </font>
         </font>
-      </font>
-      <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_19</name>
-      <text>No Shutdown active</text>
-      <y>162</y>
-      <width>120</width>
-      <height>15</height>
-      <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205">
+          </color>
+        </background_color>
+        <vertical_alignment>1</vertical_alignment>
+        <auto_size>true</auto_size>
+        <actions>
+        </actions>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label Template_37</name>
+        <text>Cbox Coldmode Off</text>
+        <x>7</x>
+        <y>99</y>
+        <width>116</width>
+        <height>15</height>
+        <font>
+          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          </font>
         </font>
-      </font>
-      <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_20</name>
-      <text>Compressor Motor Protection expired</text>
-      <y>202</y>
-      <width>223</width>
-      <height>15</height>
-      <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205">
+          </color>
+        </background_color>
+        <vertical_alignment>1</vertical_alignment>
+        <auto_size>true</auto_size>
+        <actions>
+        </actions>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label Template_38</name>
+        <text>Cbox Warm-Up Off</text>
+        <x>7</x>
+        <y>139</y>
+        <width>112</width>
+        <height>15</height>
+        <font>
+          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          </font>
         </font>
-      </font>
-      <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_21</name>
-      <text>Motor protection time</text>
-      <x>98</x>
-      <y>238</y>
-      <width>130</width>
-      <height>15</height>
-      <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205">
+          </color>
+        </background_color>
+        <vertical_alignment>1</vertical_alignment>
+        <auto_size>true</auto_size>
+        <actions>
+        </actions>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED Template_26</name>
+        <pv_name>Cryo-Cmp:Cx:Pms_StopDwrReturn</pv_name>
+        <bit>0</bit>
+        <x>179</x>
+        <y>19</y>
+        <width>67</width>
+        <height>24</height>
+        <off_color>
+          <color red="255" green="0" blue="0">
+          </color>
+        </off_color>
+        <on_color>
+          <color red="0" green="255" blue="0">
+          </color>
+        </on_color>
+        <font>
+          <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+          </font>
         </font>
-      </font>
-      <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_22</name>
-      <text>Actual off time</text>
-      <x>98</x>
-      <y>268</y>
-      <width>88</width>
-      <height>15</height>
-      <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <line_color>
+          <color red="150" green="150" blue="150">
+          </color>
+        </line_color>
+        <square>true</square>
+        <actions>
+        </actions>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED Template_27</name>
+        <pv_name>Cryo-Cmp:Cx:Pms_StopTuVlvCls</pv_name>
+        <bit>0</bit>
+        <x>179</x>
+        <y>59</y>
+        <width>67</width>
+        <height>24</height>
+        <off_color>
+          <color red="255" green="0" blue="0">
+          </color>
+        </off_color>
+        <on_color>
+          <color red="0" green="255" blue="0">
+          </color>
+        </on_color>
+        <font>
+          <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+          </font>
         </font>
-      </font>
-      <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-    <widget type="led" version="2.0.0">
-      <name>LED Template_10</name>
-      <pv_name>Cryo-Cmp:Cx:Pms_StrtTuInletVlv</pv_name>
-      <bit>0</bit>
-      <x>360</x>
-      <y>4</y>
-      <width>67</width>
-      <height>24</height>
-      <off_color>
-        <color red="255" green="0" blue="0">
-        </color>
-      </off_color>
-      <on_color>
-        <color red="0" green="255" blue="0">
-        </color>
-      </on_color>
-      <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <line_color>
+          <color red="150" green="150" blue="150">
+          </color>
+        </line_color>
+        <square>true</square>
+        <actions>
+        </actions>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED Template_28</name>
+        <pv_name>Cryo-Cmp:Cx:Pms_CbCMOff</pv_name>
+        <bit>0</bit>
+        <x>179</x>
+        <y>99</y>
+        <width>67</width>
+        <height>24</height>
+        <off_color>
+          <color red="255" green="0" blue="0">
+          </color>
+        </off_color>
+        <on_color>
+          <color red="0" green="255" blue="0">
+          </color>
+        </on_color>
+        <font>
+          <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+          </font>
         </font>
-      </font>
-      <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <line_color>
-        <color red="150" green="150" blue="150">
-        </color>
-      </line_color>
-      <square>true</square>
-      <actions>
-      </actions>
-    </widget>
-    <widget type="led" version="2.0.0">
-      <name>LED Template_11</name>
-      <pv_name>Cryo-Cmp:Cx:Pms_StrtBuPr</pv_name>
-      <bit>0</bit>
-      <x>360</x>
-      <y>42</y>
-      <width>67</width>
-      <height>24</height>
-      <off_color>
-        <color red="255" green="0" blue="0">
-        </color>
-      </off_color>
-      <on_color>
-        <color red="0" green="255" blue="0">
-        </color>
-      </on_color>
-      <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <line_color>
+          <color red="150" green="150" blue="150">
+          </color>
+        </line_color>
+        <square>true</square>
+        <actions>
+        </actions>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED Template_29</name>
+        <pv_name>Cryo-Cmp:Cx:Pms_CbWUOff</pv_name>
+        <bit>0</bit>
+        <x>179</x>
+        <y>139</y>
+        <width>67</width>
+        <height>24</height>
+        <off_color>
+          <color red="255" green="0" blue="0">
+          </color>
+        </off_color>
+        <on_color>
+          <color red="0" green="255" blue="0">
+          </color>
+        </on_color>
+        <font>
+          <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+          </font>
         </font>
-      </font>
-      <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <line_color>
-        <color red="150" green="150" blue="150">
-        </color>
-      </line_color>
-      <square>true</square>
-      <actions>
-      </actions>
-    </widget>
-    <widget type="led" version="2.0.0">
-      <name>LED Template_12</name>
-      <pv_name>Cryo-Cmp:Cx:Pms_StrtLP</pv_name>
-      <bit>0</bit>
-      <x>360</x>
-      <y>80</y>
-      <width>67</width>
-      <height>24</height>
-      <off_color>
-        <color red="255" green="0" blue="0">
-        </color>
-      </off_color>
-      <on_color>
-        <color red="0" green="255" blue="0">
-        </color>
-      </on_color>
-      <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <line_color>
-        <color red="150" green="150" blue="150">
-        </color>
-      </line_color>
-      <square>true</square>
-      <actions>
-      </actions>
-    </widget>
-    <widget type="led" version="2.0.0">
-      <name>LED Template_13</name>
-      <pv_name>Cryo-Cmp:Cx:Pms_StrtHP</pv_name>
-      <bit>0</bit>
-      <x>360</x>
-      <y>120</y>
-      <width>67</width>
-      <height>24</height>
-      <off_color>
-        <color red="255" green="0" blue="0">
-        </color>
-      </off_color>
-      <on_color>
-        <color red="0" green="255" blue="0">
-        </color>
-      </on_color>
-      <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <line_color>
-        <color red="150" green="150" blue="150">
-        </color>
-      </line_color>
-      <square>true</square>
-      <actions>
-      </actions>
-    </widget>
-    <widget type="led" version="2.0.0">
-      <name>LED Template_14</name>
-      <pv_name>Cryo-Cmp:C1:Pms_StrtNoSd</pv_name>
-      <bit>0</bit>
-      <x>360</x>
-      <y>160</y>
-      <width>67</width>
-      <height>24</height>
-      <off_color>
-        <color red="255" green="0" blue="0">
-        </color>
-      </off_color>
-      <on_color>
-        <color red="0" green="255" blue="0">
-        </color>
-      </on_color>
-      <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <line_color>
-        <color red="150" green="150" blue="150">
-        </color>
-      </line_color>
-      <square>true</square>
-      <actions>
-      </actions>
-    </widget>
-    <widget type="led" version="2.0.0">
-      <name>LED Template_15</name>
-      <pv_name>Cryo-Cmp:C1:Pms_StrtMotorProt</pv_name>
-      <bit>0</bit>
-      <x>360</x>
-      <y>200</y>
-      <width>67</width>
-      <height>24</height>
-      <off_color>
-        <color red="255" green="0" blue="0">
-        </color>
-      </off_color>
-      <on_color>
-        <color red="0" green="255" blue="0">
-        </color>
-      </on_color>
-      <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <line_color>
-        <color red="150" green="150" blue="150">
-        </color>
-      </line_color>
-      <square>true</square>
-      <actions>
-      </actions>
-    </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update Template_2</name>
-      <pv_name>Cryo-Cmp:Cmp:ActMotorProtTm</pv_name>
-      <x>360</x>
-      <y>237</y>
-      <width>67</width>
-      <height>18</height>
-      <font>
-        <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO InputPV Bg" red="255" green="255" blue="255">
-        </color>
-      </background_color>
-      <precision>0</precision>
-      <actions>
-      </actions>
-      <border_width>2</border_width>
-    </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update Template_3</name>
-      <pv_name>Cryo-Cmp:Cmp:ActOffTm</pv_name>
-      <x>360</x>
-      <y>269</y>
-      <width>67</width>
-      <height>18</height>
-      <font>
-        <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO InputPV Bg" red="255" green="255" blue="255">
-        </color>
-      </background_color>
-      <precision>0</precision>
-      <actions>
-      </actions>
-      <border_width>2</border_width>
-    </widget>
-  </widget>
-  <widget type="group" version="2.0.0">
-    <name>Compressor Stop Permissives</name>
-    <x>31</x>
-    <y>390</y>
-    <width>473</width>
-    <height>190</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
-      </font>
-    </font>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_12</name>
-      <text>Dewar return valve close</text>
-      <y>6</y>
-      <width>150</width>
-      <height>14</height>
-      <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_13</name>
-      <text>Turbine inlet valve close</text>
-      <y>42</y>
-      <width>146</width>
-      <height>15</height>
-      <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_14</name>
-      <text>Cbox Coldmode Off</text>
-      <y>82</y>
-      <width>116</width>
-      <height>15</height>
-      <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_15</name>
-      <text>Cbox Warm-Up Off</text>
-      <y>122</y>
-      <width>112</width>
-      <height>15</height>
-      <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-    <widget type="led" version="2.0.0">
-      <name>LED Template_6</name>
-      <pv_name>Cryo-Cmp:Cx:Pms_StopDwrReturn</pv_name>
-      <bit>0</bit>
-      <x>360</x>
-      <y>2</y>
-      <width>67</width>
-      <height>24</height>
-      <off_color>
-        <color red="255" green="0" blue="0">
-        </color>
-      </off_color>
-      <on_color>
-        <color red="0" green="255" blue="0">
-        </color>
-      </on_color>
-      <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <line_color>
-        <color red="150" green="150" blue="150">
-        </color>
-      </line_color>
-      <square>true</square>
-      <actions>
-      </actions>
-    </widget>
-    <widget type="led" version="2.0.0">
-      <name>LED Template_7</name>
-      <pv_name>Cryo-Cmp:Cx:Pms_StopTuVlvCls</pv_name>
-      <bit>0</bit>
-      <x>360</x>
-      <y>40</y>
-      <width>67</width>
-      <height>24</height>
-      <off_color>
-        <color red="255" green="0" blue="0">
-        </color>
-      </off_color>
-      <on_color>
-        <color red="0" green="255" blue="0">
-        </color>
-      </on_color>
-      <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <line_color>
-        <color red="150" green="150" blue="150">
-        </color>
-      </line_color>
-      <square>true</square>
-      <actions>
-      </actions>
-    </widget>
-    <widget type="led" version="2.0.0">
-      <name>LED Template_8</name>
-      <pv_name>Cryo-Cmp:Cx:Pms_CbCMOff</pv_name>
-      <bit>0</bit>
-      <x>360</x>
-      <y>80</y>
-      <width>67</width>
-      <height>24</height>
-      <off_color>
-        <color red="255" green="0" blue="0">
-        </color>
-      </off_color>
-      <on_color>
-        <color red="0" green="255" blue="0">
-        </color>
-      </on_color>
-      <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <line_color>
-        <color red="150" green="150" blue="150">
-        </color>
-      </line_color>
-      <square>true</square>
-      <actions>
-      </actions>
-    </widget>
-    <widget type="led" version="2.0.0">
-      <name>LED Template_9</name>
-      <pv_name>Cryo-Cmp:Cx:Pms_CbWUOff</pv_name>
-      <bit>0</bit>
-      <x>360</x>
-      <y>120</y>
-      <width>67</width>
-      <height>24</height>
-      <off_color>
-        <color red="255" green="0" blue="0">
-        </color>
-      </off_color>
-      <on_color>
-        <color red="0" green="255" blue="0">
-        </color>
-      </on_color>
-      <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <line_color>
-        <color red="150" green="150" blue="150">
-        </color>
-      </line_color>
-      <square>true</square>
-      <actions>
-      </actions>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <line_color>
+          <color red="150" green="150" blue="150">
+          </color>
+        </line_color>
+        <square>true</square>
+        <actions>
+        </actions>
+      </widget>
     </widget>
   </widget>
 </display>
