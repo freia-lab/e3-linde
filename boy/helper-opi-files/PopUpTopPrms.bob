@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <width>400</width>
+  <height>180</height>
+  <background_color>
+    <color name="IO Grid" red="215" green="215" blue="215">
+    </color>
+  </background_color>
+  <actions>
+  </actions>
+  <widget type="group" version="2.0.0">
+    <name>  $(L)  </name>
+    <width>400</width>
+    <height>180</height>
+    <style>1</style>
+    <font>
+      <font family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK-BORDER" red="121" green="121" blue="121">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button Template</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+          <description>Start/Stop</description>
+        </action>
+      </actions>
+      <pv_name>$(P)-$(D):StrtStopCmd</pv_name>
+      <text>Start/Stop...</text>
+      <x>59</x>
+      <y>86</y>
+      <width>136</width>
+      <height>35</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <tooltip>$(actions)
+$(pv_name)</tooltip>
+      <show_confirm_dialog>true</show_confirm_dialog>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button Template_2</name>
+      <actions>
+        <action type="open_display">
+          <file>$(Pms_file).bob</file>
+          <target>standalone</target>
+          <description>Permissives...</description>
+        </action>
+      </actions>
+      <pv_name>loc://$(D)($(INVISIBLE))</pv_name>
+      <x>222</x>
+      <y>86</y>
+      <width>136</width>
+      <height>35</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <rules>
+        <rule name="Invisible" prop_id="visible" out_exp="false">
+          <exp bool_exp="pvInt0==1">
+            <value>false</value>
+          </exp>
+          <pv_name>$(pv_name)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update</name>
+      <pv_name>$(P)-$(D):VisuState</pv_name>
+      <x>90</x>
+      <y>26</y>
+      <width>107</width>
+      <height>35</height>
+      <background_color>
+        <color name="BACKGROUND" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <border_width>2</border_width>
+      <border_color>
+        <color name="BACKGROUND" red="220" green="225" blue="221">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>Permissives</name>
+      <x>222</x>
+      <y>26</y>
+      <width>140</width>
+      <height>35</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update Template_4</name>
+        <pv_name>$(P)-$(D):PmsStrtStat</pv_name>
+        <width>140</width>
+        <height>35</height>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <actions>
+        </actions>
+        <rules>
+          <rule name="Visibility Rule" prop_id="visible" out_exp="false">
+            <exp bool_exp="pv0==1">
+              <value>false</value>
+            </exp>
+            <pv_name>Cryo-Cmp:C1:SwOnStat</pv_name>
+          </rule>
+        </rules>
+        <border_width>2</border_width>
+        <border_color>
+          <color name="BACKGROUND" red="220" green="225" blue="221">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update Template_5</name>
+        <pv_name>$(P)-$(D):PmsStopStat</pv_name>
+        <width>140</width>
+        <height>35</height>
+        <background_color>
+          <color name="BACKGROUND" red="220" green="225" blue="221">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <actions>
+        </actions>
+        <rules>
+          <rule name="Visibility Rule" prop_id="visible" out_exp="false">
+            <exp bool_exp="pv0==0">
+              <value>false</value>
+            </exp>
+            <pv_name>Cryo-Cmp:C1:SwOnStat</pv_name>
+          </rule>
+        </rules>
+        <border_width>2</border_width>
+        <border_color>
+          <color name="BACKGROUND" red="220" green="225" blue="221">
+          </color>
+        </border_color>
+      </widget>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label</name>
+      <text>Status:</text>
+      <x>29</x>
+      <y>26</y>
+      <width>70</width>
+      <height>35</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+</display>
