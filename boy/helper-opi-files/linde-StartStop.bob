@@ -55,7 +55,7 @@
       <x>15</x>
       <y>15</y>
       <width>131</width>
-      <height>17</height>
+      <height>18</height>
       <font>
         <font family="Sans" style="REGULAR" size="13.861386138613861">
         </font>
@@ -443,7 +443,7 @@
       <x>15</x>
       <y>15</y>
       <width>136</width>
-      <height>17</height>
+      <height>18</height>
       <font>
         <font family="Sans" style="REGULAR" size="13.861386138613861">
         </font>
@@ -922,6 +922,7 @@ Controller LC5200</text>
       <INVISIBLE>1</INVISIBLE>
       <L>MCD</L>
       <P>Cryo</P>
+      <Pms_file>MCDPms</Pms_file>
     </macros>
     <x>25</x>
     <y>229</y>
@@ -1006,10 +1007,9 @@ Controller LC5200</text>
     <file>PopUpTopPrms.bob</file>
     <macros>
       <D>Cmp:C1</D>
-      <INVISIBLE>0</INVISIBLE>
+      <INVISIBLE>1</INVISIBLE>
       <L>CBox Precool Turbine Start</L>
       <P>Cryo</P>
-      <Pms_file>CboxPrecBef</Pms_file>
     </macros>
     <x>807</x>
     <y>229</y>
