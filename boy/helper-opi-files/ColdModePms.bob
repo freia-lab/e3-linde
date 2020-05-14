@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <width>400</width>
-  <height>450</height>
+  <width>550</width>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
@@ -10,8 +9,8 @@
   </actions>
   <widget type="group" version="2.0.0">
     <name>Coldmode Permissives</name>
-    <x>6</x>
-    <y>9</y>
+    <x>40</x>
+    <y>30</y>
     <width>385</width>
     <height>430</height>
     <font>
