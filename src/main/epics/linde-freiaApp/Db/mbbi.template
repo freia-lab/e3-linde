@@ -12,5 +12,6 @@ record(mbbi, "Cryo-$(SUBS):$(DEV):$(SIG)") {
   field (TWST, "$(TWST)")
   field (UNSV, "MINOR")
   field (DESC, "$(DESC)")
- }
+  field (SIMS, "INVALID")
+}
 

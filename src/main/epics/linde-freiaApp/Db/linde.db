@@ -89,6 +89,7 @@ record(longin, Cryo-Cmp:C1:TotOpTm) {
   field(DTYP, "S7plc")
   field(INP, "@Cryo-Linde/800 T=INT32")
   field(SCAN, "I/O Intr")
+  field (SIMS, "INVALID")
 }
 
 record(longin, Cryo-Cmp:C1:ActOpTm) {
@@ -97,11 +98,13 @@ record(longin, Cryo-Cmp:C1:ActOpTm) {
   field(DTYP, "S7plc")
   field(INP, "@Cryo-Linde/804 T=INT32")
   field(SCAN, "I/O Intr")
+  field (SIMS, "INVALID")
 }
 record(stringin, Cryo-Regen:Ads80K:StaInf) {
   field(DTYP, "S7plc")
   field(INP, "@Cryo-Linde/1150 L=32")
   field(SCAN, "I/O Intr")
+  field (SIMS, "INVALID")
 }
 
 
@@ -113,6 +116,7 @@ record (ai, "Cryo-CBox:LN2:PDI3685") {
   field (INP,  "@Cryo-Linde/48 T=FLOAT")
   field (SCAN, "I/O Intr")
   field (FLNK, "Cryo-CBox:LN2:LI3685-PercOut")
+  field (SIMS, "INVALID")
 }
 
 record (calc, "Cryo-CBox:LN2:LI3685-PercOut") {
@@ -140,7 +144,8 @@ record(mbbi, "Cryo-Rec:LP:BalloonLevel") {
   field (FFST, "Too high")
   field (UNSV, "MINOR")
   field (DESC, "Balloon level Visual State")
- }
+  field (SIMS, "INVALID")
+}
 
 record(mbbi, "Cryo-Cryo-CBox:Ads80K:VisuState") {
   field (DTYP, "S7plc")
@@ -165,6 +170,7 @@ record(mbbi, "Cryo-Cryo-CBox:Ads80K:VisuState") {
   field (SVST, "MANUAL")
   field (UNSV, "MINOR")
   field (DESC, "Ads80K Visual State")
+  field (SIMS, "INVALID")
 }
 
 record(mbbi, "Cryo-Cmp:C1:VisuState") {
@@ -182,6 +188,7 @@ record(mbbi, "Cryo-Cmp:C1:VisuState") {
   field (TWST, "ON")
   field (THST, "OFF")
   field (FRST, "FAULT")
+  field (SIMS, "INVALID")
 }
 record(mbbi, "Cryo-MCD:MCD:VisuState") {
   field (DTYP, "S7plc")
@@ -198,6 +205,7 @@ record(mbbi, "Cryo-MCD:MCD:VisuState") {
   field (THST, "Measuring")  
   field (UNSV, "MINOR")
   field (DESC, "MCD visual state")
+  field (SIMS, "INVALID")
 }
 
 record(mbbi, "Cryo-HP:DisChrgRec:VisuState") {
@@ -217,6 +225,7 @@ record(mbbi, "Cryo-HP:DisChrgRec:VisuState") {
   field (FRST, "recovery active")
   field (UNSV, "MINOR")
   field (DESC, "Discharge in")
+  field (SIMS, "INVALID")
 }
 record(mbbi, "Cryo-CBox:CoolMode:VisuState") {
   field (DTYP, "S7plc")
@@ -241,6 +250,7 @@ record(mbbi, "Cryo-CBox:CoolMode:VisuState") {
   field (SXSV, "MAJOR")
   field (UNSV, "MINOR")
   field (DESC, "Coolmode visual states")
+  field (SIMS, "INVALID")
 }
 
 record(mbbi, "Cryo-CBox:WarmUpMode:VisuState") {
@@ -256,6 +266,7 @@ record(mbbi, "Cryo-CBox:WarmUpMode:VisuState") {
   field (TWST, "WU completed")
   field (UNSV, "MINOR")
   field (DESC, "Warm-up mode visual states")
+  field (SIMS, "INVALID")
 }
 
 record(mbbi, "Cryo-CBox:LN2:VisuState") {
@@ -275,6 +286,7 @@ record(mbbi, "Cryo-CBox:LN2:VisuState") {
   field (FRST, "Shutdown")
   field (UNSV, "MINOR")
   field (DESC, "LN2 visual states")
+  field (SIMS, "INVALID")
 }
 
 record(mbbi, "Cryo-CBox:LN2-IlkTu:VisuState") {
@@ -292,6 +304,7 @@ record(mbbi, "Cryo-CBox:LN2-IlkTu:VisuState") {
   field (THST, "Finish")
   field (UNSV, "MINOR")
   field (DESC, "Interlock turbines visual states")
+  field (SIMS, "INVALID")
 }
 
 record(mbbi, "Cryo-Dwr:Htr:VisuState") {
@@ -313,6 +326,7 @@ record(mbbi, "Cryo-Dwr:Htr:VisuState") {
   field (FVST, "Heater on")
   field (UNSV, "MINOR")
   field (DESC, "Dewar heater visual states")
+  field (SIMS, "INVALID")
 }
 
 record(mbbi, "Cryo-VacSys:VacSys:VisuState") {
@@ -334,6 +348,7 @@ record(mbbi, "Cryo-VacSys:VacSys:VisuState") {
   field (FVST, "Selected")
   field (UNSV, "MINOR")
   field (DESC, "VacSys visual states")
+  field (SIMS, "INVALID")
 }
 
 record(mbbi, "Cryo-Pur:Pur:VisuState") {
@@ -362,6 +377,7 @@ record(mbbi, "Cryo-Pur:Pur:VisuState") {
   field (SVSV, "MAJOR")
   field (UNSV, "MINOR")
   field (DESC, "Purifier visual states")
+  field (SIMS, "INVALID")
 }
 
 record(mbbi, "Cryo-Cbox:Tu1:VisuState") {
@@ -389,6 +405,7 @@ record(mbbi, "Cryo-Cbox:Tu1:VisuState") {
   field (EIST, "")
   field (UNSV, "MINOR")
   field (DESC, "Tu 1 visual states")
+  field (SIMS, "INVALID")
 }
 
 record(mbbi, "Cryo-Cbox:Tu2:VisuState") {
@@ -416,6 +433,7 @@ record(mbbi, "Cryo-Cbox:Tu2:VisuState") {
   field (EIST, "")
   field (UNSV, "MINOR")
   field (DESC, "Tu 2 visual states")
+  field (SIMS, "INVALID")
 }
 
 record(mbbi, "Cryo-ICn:PmsTI5220:VisuState") {
@@ -443,6 +461,7 @@ record(mbbi, "Cryo-ICn:PmsTI5220:VisuState") {
   field (EIST, "")
   field (UNSV, "MINOR")
   field (DESC, "PmsTI5220 visual states")
+  field (SIMS, "INVALID")
 }
 
 record(mbbi, "Cryo-Rec:LP:GasBag_VisuState") {
@@ -470,6 +489,7 @@ record(mbbi, "Cryo-Rec:LP:GasBag_VisuState") {
   field (EIST, "State 8")
   field (UNSV, "MINOR")
   field (DESC, "Gas bag visual states")
+  field (SIMS, "INVALID")
 }
 
 record (calc, "Cryo-CBox:Pur:PurOffAlrm-calc") {
@@ -486,6 +506,7 @@ record (bi, "Cryo-CBox:Pur:PurOffAlrm") {
   field(ZNAM, "OK")
   field(ONAM, "Purifier Off")
   field(OSV, "MAJOR")
+  field (SIMS, "INVALID")
 }
 
 record(calc, "Cryo-Cmp:HP:PI2170-Alrm") {

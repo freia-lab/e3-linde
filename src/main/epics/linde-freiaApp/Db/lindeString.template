@@ -3,4 +3,5 @@ record(stringin, "Cryo-$(SUBS):$(DEV):$(SIG)") {
   field(INP, "@Cryo-Linde/$(OFFS) L=16")
   field(SCAN, "I/O Intr")
   field(DESC, "$(DESC)")
+  field (SIMS, "INVALID")
 }

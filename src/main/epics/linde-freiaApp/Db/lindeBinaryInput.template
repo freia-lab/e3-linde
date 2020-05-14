@@ -7,4 +7,5 @@ record (bi, "$(SYS)-$(SUBS):$(DEV):$(SIG)") {
   field (SCAN, "I/O Intr")
   field (OSV,  "$(OSV)")
   field (ZSV,  "$(ZSV)")
+  field (SIMS, "INVALID")
 }
