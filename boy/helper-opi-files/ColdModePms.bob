@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <width>550</width>
+  <width>500</width>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
@@ -9,8 +9,8 @@
   </actions>
   <widget type="group" version="2.0.0">
     <name>Coldmode Permissives</name>
-    <x>40</x>
-    <y>30</y>
+    <x>20</x>
+    <y>20</y>
     <width>385</width>
     <height>430</height>
     <font>
@@ -21,6 +21,7 @@
       <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
+    <transparent>true</transparent>
     <widget type="label" version="2.0.0">
       <name>Label Template_1</name>
       <text>Vacuum pressure</text>

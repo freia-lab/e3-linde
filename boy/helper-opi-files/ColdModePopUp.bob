@@ -21,9 +21,9 @@
   <widget type="embedded" version="2.0.0">
     <name>Permissives</name>
     <file>ColdModePms.bob</file>
-    <x>20</x>
     <y>137</y>
-    <width>410</width>
+    <width>670</width>
     <height>460</height>
+    <transparent>true</transparent>
   </widget>
 </display>

@@ -9,146 +9,6 @@
   <actions>
   </actions>
   <grid_visible>false</grid_visible>
-  <widget type="group" version="2.0.0">
-    <name>Panel 2_3</name>
-    <x>464</x>
-    <y>432</y>
-    <width>328</width>
-    <height>273</height>
-    <style>2</style>
-    <font>
-      <font family="Source Sans Pro" style="BOLD_ITALIC" size="16.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK-BORDER" red="121" green="121" blue="121">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
-      </color>
-    </background_color>
-    <actions>
-    </actions>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update Template</name>
-      <pv_name>Cryo-ICn:Dwr:PmsT5220</pv_name>
-      <x>17</x>
-      <y>52</y>
-      <width>123</width>
-      <height>17</height>
-      <font>
-        <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO InputPV Bg" red="255" green="255" blue="255">
-        </color>
-      </background_color>
-      <actions>
-      </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
-      <border_width>2</border_width>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>Label Template</name>
-      <text>Mobile dewar filling</text>
-      <x>15</x>
-      <y>15</y>
-      <width>118</width>
-      <height>19</height>
-      <font>
-        <font family="Source Sans Pro" style="BOLD_ITALIC" size="13.861386138613861">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update Template</name>
-      <pv_name>Cryo-Rec:LP:GSH7225</pv_name>
-      <x>17</x>
-      <y>192</y>
-      <width>123</width>
-      <height>17</height>
-      <font>
-        <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO InputPV Bg" red="255" green="255" blue="255">
-        </color>
-      </background_color>
-      <actions>
-      </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
-      <border_width>2</border_width>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>Label Template</name>
-      <text>Recovery</text>
-      <x>15</x>
-      <y>155</y>
-      <width>55</width>
-      <height>18</height>
-      <font>
-        <font family="Source Sans Pro" style="BOLD_ITALIC" size="13.861386138613861">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-  </widget>
   <widget type="action_button" version="3.0.0">
     <name>Action Button Template</name>
     <actions>
@@ -159,10 +19,14 @@
       </action>
     </actions>
     <text>RESET</text>
-    <x>565</x>
+    <x>545</x>
     <y>110</y>
-    <width>116</width>
-    <height>31</height>
+    <width>136</width>
+    <height>35</height>
+    <font>
+      <font family="Source Sans Pro" style="BOLD" size="16.0">
+      </font>
+    </font>
     <foreground_color>
       <color red="0" green="0" blue="0">
       </color>
@@ -201,7 +65,7 @@
     <name>LED Template</name>
     <pv_name>Cryo-Ctrl:Ctrl:UAH1010</pv_name>
     <bit>0</bit>
-    <x>510</x>
+    <x>490</x>
     <y>40</y>
     <width>96</width>
     <height>36</height>
@@ -216,7 +80,7 @@
       </color>
     </on_color>
     <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="10.9">
       </font>
     </font>
     <foreground_color>
@@ -243,7 +107,7 @@
     <name>LED Template_1</name>
     <pv_name>Cryo-Ctrl:Ctrl:UAHH1011</pv_name>
     <bit>0</bit>
-    <x>636</x>
+    <x>616</x>
     <y>40</y>
     <width>96</width>
     <height>36</height>
@@ -258,7 +122,7 @@
       </color>
     </on_color>
     <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="10.9">
       </font>
     </font>
     <foreground_color>
@@ -281,16 +145,164 @@
       </rule>
     </rules>
   </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display</name>
+    <file>PopUpTopPrms.bob</file>
+    <macros>
+      <D>Cmp:C1</D>
+      <INVISIBLE>0</INVISIBLE>
+      <L>Compressor</L>
+      <P>Cryo</P>
+      <Pms_file>CmpPms</Pms_file>
+    </macros>
+    <x>25</x>
+    <y>15</y>
+    <width>405</width>
+    <height>214</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_2</name>
+    <file>PopUpTopPrms.bob</file>
+    <macros>
+      <D>MCD:MCD</D>
+      <INVISIBLE>1</INVISIBLE>
+      <L>MCD</L>
+      <P>Cryo</P>
+      <Pms_file>MCDPms</Pms_file>
+    </macros>
+    <x>25</x>
+    <y>229</y>
+    <width>405</width>
+    <height>214</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_3</name>
+    <file>PopUpTopPrms.bob</file>
+    <macros>
+      <D>HP:DisChrgRec</D>
+      <INVISIBLE>1</INVISIBLE>
+      <L>High-Pressure Discharge to Recovery</L>
+      <P>Cryo</P>
+    </macros>
+    <x>25</x>
+    <y>443</y>
+    <width>405</width>
+    <height>214</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_5</name>
+    <file>PopUpTopPrms.bob</file>
+    <macros>
+      <D>CBox:CoolMode</D>
+      <INVISIBLE>0</INVISIBLE>
+      <L>Coldbox Coldmode</L>
+      <P>Cryo</P>
+      <Pms_file>ColdModePms</Pms_file>
+    </macros>
+    <x>25</x>
+    <y>657</y>
+    <width>405</width>
+    <height>214</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_6</name>
+    <file>PopUpTopPrms.bob</file>
+    <macros>
+      <D>CBox:WarmUpMode</D>
+      <INVISIBLE>0</INVISIBLE>
+      <L>Coldbox Warmup</L>
+      <P>Cryo</P>
+      <Pms_file>CboxWUPms</Pms_file>
+    </macros>
+    <x>25</x>
+    <y>871</y>
+    <width>405</width>
+    <height>185</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_4</name>
+    <file>PopUpTopPrms.bob</file>
+    <macros>
+      <D>CBox:LN2</D>
+      <INVISIBLE>1</INVISIBLE>
+      <L>LN2 Precooling</L>
+      <P>Cryo</P>
+    </macros>
+    <x>807</x>
+    <y>15</y>
+    <width>403</width>
+    <height>227</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_11</name>
+    <file>PopUpTopPrms.bob</file>
+    <macros>
+      <D>VacSys:VacSys</D>
+      <INVISIBLE>1</INVISIBLE>
+      <L>Vacuum System</L>
+      <P>Cryo</P>
+      <Pms_file></Pms_file>
+    </macros>
+    <x>807</x>
+    <y>657</y>
+    <width>403</width>
+    <height>220</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_12</name>
+    <file>PopUpTopPrms.bob</file>
+    <macros>
+      <D>CBox:LN2-IlkTu</D>
+      <INVISIBLE>0</INVISIBLE>
+      <L>Coldbox Precooling for Turbine Start</L>
+      <P>Cryo</P>
+      <Pms_file>CboxPrecBef</Pms_file>
+    </macros>
+    <x>807</x>
+    <y>229</y>
+    <width>403</width>
+    <height>214</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_14</name>
+    <file>PopUpTopPrms.bob</file>
+    <macros>
+      <D>Dwr:Htr</D>
+      <INVISIBLE>0</INVISIBLE>
+      <L>Dewar Heater</L>
+      <P>Cryo</P>
+      <Pms_file>DwrHtrPms</Pms_file>
+    </macros>
+    <x>807</x>
+    <y>443</y>
+    <width>403</width>
+    <height>214</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_15</name>
+    <file>PopUpTopPrms.bob</file>
+    <macros>
+      <D>Pur:Pur</D>
+      <INVISIBLE>0</INVISIBLE>
+      <L>Purifier</L>
+      <P>Cryo</P>
+      <Pms_file>PurPms</Pms_file>
+    </macros>
+    <x>807</x>
+    <y>866</y>
+    <width>403</width>
+    <height>184</height>
+  </widget>
   <widget type="group" version="2.0.0">
-    <name>Grouping Container</name>
+    <name>Dewar LHe levelController LC5200</name>
     <macros>
       <P>Cryo-Dwr</P>
     </macros>
-    <x>464</x>
-    <y>211</y>
+    <x>453</x>
+    <y>185</y>
     <width>328</width>
-    <height>223</height>
-    <style>2</style>
+    <height>244</height>
+    <style>1</style>
     <font>
       <font family="Source Sans Pro" style="BOLD_ITALIC" size="16.0">
       </font>
@@ -306,38 +318,10 @@
     <actions>
     </actions>
     <widget type="label" version="2.0.0">
-      <name>Label Template_1</name>
-      <text>Dewar LHe level
-Controller LC5200</text>
-      <x>45</x>
-      <width>107</width>
-      <height>36</height>
-      <font>
-        <font family="Source Sans Pro" style="BOLD_ITALIC" size="13.861386138613861">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-    <widget type="label" version="2.0.0">
       <name>Label</name>
       <text>Set-point:</text>
       <x>2</x>
-      <y>61</y>
+      <y>34</y>
       <width>98</width>
       <foreground_color>
         <color red="0" green="0" blue="0">
@@ -360,8 +344,8 @@ Controller LC5200</text>
     <widget type="textupdate" version="2.0.0">
       <name>Text Update</name>
       <pv_name>$(P):LHe:LC5200_Sp</pv_name>
-      <x>99</x>
-      <y>61</y>
+      <x>100</x>
+      <y>34</y>
       <foreground_color>
         <color red="0" green="0" blue="0">
         </color>
@@ -384,7 +368,7 @@ Controller LC5200</text>
       <name>Label_1</name>
       <text>Status</text>
       <x>64</x>
-      <y>90</y>
+      <y>68</y>
       <width>80</width>
       <foreground_color>
         <color red="0" green="0" blue="0">
@@ -408,7 +392,7 @@ Controller LC5200</text>
       <name>Text Update_1</name>
       <pv_name>$(P):LC5200:SwOnStat</pv_name>
       <x>10</x>
-      <y>109</y>
+      <y>93</y>
       <width>197</width>
       <foreground_color>
         <color red="0" green="0" blue="0">
@@ -431,7 +415,7 @@ Controller LC5200</text>
       <name>Text Update_2</name>
       <pv_name>$(P):LC5200:PmsOk</pv_name>
       <x>10</x>
-      <y>140</y>
+      <y>120</y>
       <width>197</width>
       <foreground_color>
         <color red="0" green="0" blue="0">
@@ -454,7 +438,7 @@ Controller LC5200</text>
       <name>LED</name>
       <pv_name>$(P):LC5200:SwOnStat</pv_name>
       <x>227</x>
-      <y>111</y>
+      <y>93</y>
       <width>59</width>
       <height>19</height>
       <off_color>
@@ -481,7 +465,7 @@ Controller LC5200</text>
       <name>LED_1</name>
       <pv_name>$(P):LC5200:PmsOk</pv_name>
       <x>227</x>
-      <y>142</y>
+      <y>120</y>
       <width>59</width>
       <off_color>
         <color red="0" green="100" blue="0">
@@ -514,11 +498,11 @@ Controller LC5200</text>
       <pv_name>$(P):LC5200:StrtStopCmd</pv_name>
       <text>Start/Stop...</text>
       <x>10</x>
-      <y>180</y>
-      <width>156</width>
-      <height>31</height>
+      <y>156</y>
+      <width>136</width>
+      <height>35</height>
       <font>
-        <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+        <font family="Source Sans Pro" style="BOLD" size="16.0">
         </font>
       </font>
       <foreground_color>
@@ -528,151 +512,126 @@ Controller LC5200</text>
       <show_confirm_dialog>true</show_confirm_dialog>
     </widget>
   </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>Embedded Display</name>
-    <file>PopUpTopPrms.bob</file>
-    <macros>
-      <D>Cmp:C1</D>
-      <INVISIBLE>0</INVISIBLE>
-      <L>Compressor</L>
-      <P>Cryo</P>
-      <Pms_file>CmpPms</Pms_file>
-    </macros>
-    <x>25</x>
-    <y>15</y>
-    <width>429</width>
-    <height>214</height>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>Embedded Display_2</name>
-    <file>PopUpTopPrms.bob</file>
-    <macros>
-      <D>MCD:MCD</D>
-      <INVISIBLE>1</INVISIBLE>
-      <L>MCD</L>
-      <P>Cryo</P>
-      <Pms_file>MCDPms</Pms_file>
-    </macros>
-    <x>25</x>
-    <y>229</y>
-    <width>429</width>
-    <height>214</height>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>Embedded Display_3</name>
-    <file>PopUpTopPrms.bob</file>
-    <macros>
-      <D>HP:DisChrgRec</D>
-      <INVISIBLE>1</INVISIBLE>
-      <L>High-Pressure Discharge to Recovery</L>
-      <P>Cryo</P>
-    </macros>
-    <x>25</x>
+  <widget type="group" version="2.0.0">
+    <name>Mobile dewar filling and recovery</name>
+    <x>453</x>
     <y>443</y>
-    <width>429</width>
-    <height>214</height>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>Embedded Display_5</name>
-    <file>PopUpTopPrms.bob</file>
-    <macros>
-      <D>CBox:CoolMode</D>
-      <INVISIBLE>0</INVISIBLE>
-      <L>Coldbox Coldmode</L>
-      <P>Cryo</P>
-      <Pms_file>ColdModePms</Pms_file>
-    </macros>
-    <x>25</x>
-    <y>657</y>
-    <width>429</width>
-    <height>214</height>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>Embedded Display_6</name>
-    <file>PopUpTopPrms.bob</file>
-    <macros>
-      <D>CBox:WarmUpMode</D>
-      <INVISIBLE>0</INVISIBLE>
-      <L>Coldbox Warmup</L>
-      <P>Cryo</P>
-      <Pms_file>CboxWUPms</Pms_file>
-    </macros>
-    <x>25</x>
-    <y>871</y>
-    <width>429</width>
-    <height>214</height>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>Embedded Display_4</name>
-    <file>PopUpTopPrms.bob</file>
-    <macros>
-      <D>CBox:LN2</D>
-      <INVISIBLE>1</INVISIBLE>
-      <L>LN2 Precooling</L>
-      <P>Cryo</P>
-    </macros>
-    <x>807</x>
-    <y>15</y>
-    <width>450</width>
-    <height>227</height>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>Embedded Display_11</name>
-    <file>PopUpTopPrms.bob</file>
-    <macros>
-      <D>VacSys:VacSys</D>
-      <INVISIBLE>1</INVISIBLE>
-      <L>Vacuum System</L>
-      <P>Cryo</P>
-      <Pms_file></Pms_file>
-    </macros>
-    <x>807</x>
-    <y>670</y>
-    <width>443</width>
-    <height>220</height>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>Embedded Display_12</name>
-    <file>PopUpTopPrms.bob</file>
-    <macros>
-      <D>Cmp:C1</D>
-      <INVISIBLE>1</INVISIBLE>
-      <L>Coldbox Precool Turbine Start</L>
-      <P>Cryo</P>
-    </macros>
-    <x>807</x>
-    <y>229</y>
-    <width>450</width>
-    <height>214</height>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>Embedded Display_14</name>
-    <file>PopUpTopPrms.bob</file>
-    <macros>
-      <D>Dwr:Htr</D>
-      <INVISIBLE>0</INVISIBLE>
-      <L>Dewar Heater</L>
-      <P>Cryo</P>
-      <Pms_file>DwrHtrPms</Pms_file>
-    </macros>
-    <x>807</x>
-    <y>443</y>
-    <width>450</width>
-    <height>227</height>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>Embedded Display_15</name>
-    <file>PopUpTopPrms.bob</file>
-    <macros>
-      <D>Pur:Pur</D>
-      <INVISIBLE>0</INVISIBLE>
-      <L>Purifier</L>
-      <P>Cryo</P>
-      <Pms_file>PurPms</Pms_file>
-    </macros>
-    <x>807</x>
-    <y>871</y>
-    <width>443</width>
-    <height>214</height>
+    <width>328</width>
+    <height>219</height>
+    <style>1</style>
+    <font>
+      <font family="Source Sans Pro" style="BOLD_ITALIC" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK-BORDER" red="121" green="121" blue="121">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update Template</name>
+      <pv_name>Cryo-ICn:Dwr:PmsT5220</pv_name>
+      <x>17</x>
+      <y>48</y>
+      <width>197</width>
+      <foreground_color>
+        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="IO InputPV Bg" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="BorderRule" prop_id="border_style" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>9</value>
+          </exp>
+          <pv_name>$(pv_name).SIMM</pv_name>
+        </rule>
+      </rules>
+      <border_width>2</border_width>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label Template</name>
+      <text>Mobile dewar filling:</text>
+      <x>15</x>
+      <y>15</y>
+      <width>185</width>
+      <height>21</height>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="IO Background" red="255" green="255" blue="205">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+      <auto_size>true</auto_size>
+      <actions>
+      </actions>
+      <border_color>
+        <color name="IO Border" red="215" green="215" blue="215">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update Template</name>
+      <pv_name>Cryo-Rec:LP:GSH7225</pv_name>
+      <x>17</x>
+      <y>146</y>
+      <width>197</width>
+      <foreground_color>
+        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="IO InputPV Bg" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="BorderRule" prop_id="border_style" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>9</value>
+          </exp>
+          <pv_name>$(pv_name).SIMM</pv_name>
+        </rule>
+      </rules>
+      <border_width>2</border_width>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label Template</name>
+      <text>Recovery:</text>
+      <x>17</x>
+      <y>117</y>
+      <width>71</width>
+      <height>21</height>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="IO Background" red="255" green="255" blue="205">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+      <auto_size>true</auto_size>
+      <actions>
+      </actions>
+      <border_color>
+        <color name="IO Border" red="215" green="215" blue="215">
+        </color>
+      </border_color>
+    </widget>
   </widget>
 </display>
