@@ -79,10 +79,6 @@
       <color name="Minor" red="255" green="255" blue="0">
       </color>
     </on_color>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="10.9">
-      </font>
-    </font>
     <foreground_color>
       <color name="IO InputPV Fg" red="0" green="32" blue="92">
       </color>
@@ -121,10 +117,6 @@
       <color name="Major" red="255" green="0" blue="0">
       </color>
     </on_color>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="10.9">
-      </font>
-    </font>
     <foreground_color>
       <color name="IO InputPV Fg" red="0" green="32" blue="92">
       </color>
@@ -197,7 +189,7 @@
       <INVISIBLE>0</INVISIBLE>
       <L>Coldbox Coldmode</L>
       <P>Cryo</P>
-      <Pms_file>ColdModePms</Pms_file>
+      <Pms_file>CBoxCMPms</Pms_file>
     </macros>
     <x>25</x>
     <y>657</y>
@@ -564,7 +556,7 @@
       <text>Mobile dewar filling:</text>
       <x>15</x>
       <y>15</y>
-      <width>185</width>
+      <width>135</width>
       <height>21</height>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
@@ -614,7 +606,7 @@
       <text>Recovery:</text>
       <x>17</x>
       <y>117</y>
-      <width>71</width>
+      <width>66</width>
       <height>21</height>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">

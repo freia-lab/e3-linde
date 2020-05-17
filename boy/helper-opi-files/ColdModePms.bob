@@ -21,14 +21,13 @@
       <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-    <transparent>true</transparent>
     <widget type="label" version="2.0.0">
       <name>Label Template_1</name>
       <text>Vacuum pressure</text>
       <x>1</x>
       <y>9</y>
       <width>105</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>
@@ -55,7 +54,7 @@
       <text>Warm-Up off</text>
       <y>40</y>
       <width>76</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>
@@ -82,7 +81,7 @@
       <text>CW flow ok</text>
       <y>80</y>
       <width>67</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>
@@ -109,7 +108,7 @@
       <text>Instrument air pressure ok</text>
       <y>120</y>
       <width>159</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>
@@ -136,7 +135,7 @@
       <text>GMP pressure stable</text>
       <y>160</y>
       <width>123</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>
@@ -163,7 +162,7 @@
       <text>Turbine inlet valve close</text>
       <y>200</y>
       <width>146</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>
@@ -358,7 +357,7 @@
       <text>Turbine inlet valve not controlled</text>
       <y>241</y>
       <width>198</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>
@@ -385,7 +384,7 @@
       <text>Turbines 1+2 stopped</text>
       <y>281</y>
       <width>133</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>
@@ -412,7 +411,7 @@
       <text>Coldbox shutdowns</text>
       <y>321</y>
       <width>117</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>
@@ -439,7 +438,7 @@
       <text>No coldbox shutdown</text>
       <y>361</y>
       <width>129</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>

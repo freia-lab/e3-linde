@@ -20,7 +20,7 @@
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Permissives</name>
-    <file>ColdModePms.bob</file>
+    <file>CBoxCMPms.bob</file>
     <y>137</y>
     <width>670</width>
     <height>460</height>

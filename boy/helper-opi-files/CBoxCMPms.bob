@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <width>550</width>
+  <width>500</width>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
@@ -10,17 +10,22 @@
   <widget type="group" version="2.0.0">
     <name>Coldmode Permissives</name>
     <x>20</x>
-    <y>50</y>
-    <width>473</width>
-    <height>431</height>
+    <y>20</y>
+    <width>385</width>
+    <height>430</height>
     <font>
       <font family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
     </font>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
     <widget type="label" version="2.0.0">
       <name>Label Template_1</name>
       <text>Vacuum pressure</text>
-      <y>5</y>
+      <x>1</x>
+      <y>9</y>
       <width>105</width>
       <height>15</height>
       <font>
@@ -47,7 +52,7 @@
     <widget type="label" version="2.0.0">
       <name>Label Template_2</name>
       <text>Warm-Up off</text>
-      <y>42</y>
+      <y>40</y>
       <width>76</width>
       <height>15</height>
       <font>
@@ -74,7 +79,7 @@
     <widget type="label" version="2.0.0">
       <name>Label Template_3</name>
       <text>CW flow ok</text>
-      <y>82</y>
+      <y>80</y>
       <width>67</width>
       <height>15</height>
       <font>
@@ -101,7 +106,7 @@
     <widget type="label" version="2.0.0">
       <name>Label Template_4</name>
       <text>Instrument air pressure ok</text>
-      <y>122</y>
+      <y>120</y>
       <width>159</width>
       <height>15</height>
       <font>
@@ -128,7 +133,7 @@
     <widget type="label" version="2.0.0">
       <name>Label Template_5</name>
       <text>GMP pressure stable</text>
-      <y>162</y>
+      <y>160</y>
       <width>123</width>
       <height>15</height>
       <font>
@@ -155,7 +160,7 @@
     <widget type="label" version="2.0.0">
       <name>Label Template_6</name>
       <text>Turbine inlet valve close</text>
-      <y>202</y>
+      <y>200</y>
       <width>146</width>
       <height>15</height>
       <font>
@@ -183,8 +188,8 @@
       <name>LED Template</name>
       <pv_name>Cryo-CBox:CBox:PmsVacPrOk</pv_name>
       <bit>0</bit>
-      <x>360</x>
-      <y>2</y>
+      <x>243</x>
+      <y>7</y>
       <width>67</width>
       <height>24</height>
       <off_color>
@@ -211,8 +216,8 @@
       <name>LED Template_1</name>
       <pv_name>Cryo-CBox:CBox:PmsNotWu</pv_name>
       <bit>0</bit>
-      <x>360</x>
-      <y>42</y>
+      <x>243</x>
+      <y>44</y>
       <width>67</width>
       <height>24</height>
       <off_color>
@@ -239,7 +244,7 @@
       <name>LED Template_2</name>
       <pv_name>Cryo-CBox:CBox:PmsCWFlowTUxOk</pv_name>
       <bit>0</bit>
-      <x>360</x>
+      <x>243</x>
       <y>80</y>
       <width>67</width>
       <height>24</height>
@@ -267,7 +272,7 @@
       <name>LED Template_3</name>
       <pv_name>Cryo-CBox:CBox:PmsInstrAirOk</pv_name>
       <bit>0</bit>
-      <x>360</x>
+      <x>243</x>
       <y>120</y>
       <width>67</width>
       <height>24</height>
@@ -295,7 +300,7 @@
       <name>LED Template_4</name>
       <pv_name>Cryo-CBox:CBox:PmsCxPrStable</pv_name>
       <bit>0</bit>
-      <x>360</x>
+      <x>243</x>
       <y>160</y>
       <width>67</width>
       <height>24</height>
@@ -323,7 +328,7 @@
       <name>LED Template_5</name>
       <pv_name>Cryo-CBox:CBox:PmsTuxInletVlvCls</pv_name>
       <bit>0</bit>
-      <x>360</x>
+      <x>243</x>
       <y>200</y>
       <width>67</width>
       <height>24</height>
@@ -350,7 +355,7 @@
     <widget type="label" version="2.0.0">
       <name>Label Template_7</name>
       <text>Turbine inlet valve not controlled</text>
-      <y>243</y>
+      <y>241</y>
       <width>198</width>
       <height>15</height>
       <font>
@@ -377,7 +382,7 @@
     <widget type="label" version="2.0.0">
       <name>Label Template_8</name>
       <text>Turbines 1+2 stopped</text>
-      <y>283</y>
+      <y>281</y>
       <width>133</width>
       <height>15</height>
       <font>
@@ -404,7 +409,7 @@
     <widget type="label" version="2.0.0">
       <name>Label Template_9</name>
       <text>Coldbox shutdowns</text>
-      <y>323</y>
+      <y>321</y>
       <width>117</width>
       <height>15</height>
       <font>
@@ -431,9 +436,9 @@
     <widget type="label" version="2.0.0">
       <name>Label Template_10</name>
       <text>No coldbox shutdown</text>
-      <y>363</y>
+      <y>361</y>
       <width>129</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>
@@ -459,7 +464,7 @@
       <name>LED Template_6</name>
       <pv_name>Cryo-CBox:CBox:PmsTuInVlvNoCtrlSig</pv_name>
       <bit>0</bit>
-      <x>360</x>
+      <x>243</x>
       <y>241</y>
       <width>67</width>
       <height>24</height>
@@ -487,7 +492,7 @@
       <name>LED Template_7</name>
       <pv_name>Cryo-CBox:CBox:PmsTuxNotTurn</pv_name>
       <bit>0</bit>
-      <x>360</x>
+      <x>243</x>
       <y>281</y>
       <width>67</width>
       <height>24</height>
@@ -515,7 +520,7 @@
       <name>LED Template_8</name>
       <pv_name>Cryo-CBox:CBox:PmsToManyShutdowns</pv_name>
       <bit>0</bit>
-      <x>360</x>
+      <x>243</x>
       <y>321</y>
       <width>67</width>
       <height>24</height>
@@ -543,7 +548,7 @@
       <name>LED Template_9</name>
       <pv_name>Cryo-CBox:CBox:PmsNoCbSd</pv_name>
       <bit>0</bit>
-      <x>360</x>
+      <x>243</x>
       <y>361</y>
       <width>67</width>
       <height>24</height>

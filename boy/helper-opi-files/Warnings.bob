@@ -68,7 +68,7 @@
       <text>Parameter input failure high pressure control</text>
       <x>29</x>
       <width>224</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -135,7 +135,7 @@
       <x>29</x>
       <y>29</y>
       <width>220</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -202,7 +202,7 @@
       <x>29</x>
       <y>58</y>
       <width>255</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -269,7 +269,7 @@
       <x>29</x>
       <y>87</y>
       <width>201</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -336,7 +336,7 @@
       <x>29</x>
       <y>116</y>
       <width>118</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -403,7 +403,7 @@
       <x>29</x>
       <y>145</y>
       <width>200</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -470,7 +470,7 @@
       <x>29</x>
       <y>174</y>
       <width>46</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -537,7 +537,7 @@
       <x>29</x>
       <y>203</y>
       <width>200</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -604,7 +604,7 @@
       <x>29</x>
       <y>232</y>
       <width>239</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -671,7 +671,7 @@
       <x>29</x>
       <y>261</y>
       <width>287</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -738,7 +738,7 @@
       <x>29</x>
       <y>290</y>
       <width>283</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -805,7 +805,7 @@
       <x>29</x>
       <y>319</y>
       <width>239</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -872,7 +872,7 @@
       <x>29</x>
       <y>348</y>
       <width>287</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -939,7 +939,7 @@
       <x>29</x>
       <y>377</y>
       <width>283</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1006,7 +1006,7 @@
       <x>29</x>
       <y>406</y>
       <width>327</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1073,7 +1073,7 @@
       <x>29</x>
       <y>435</y>
       <width>147</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1140,7 +1140,7 @@
       <x>29</x>
       <y>464</y>
       <width>108</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1207,7 +1207,7 @@
       <x>29</x>
       <y>493</y>
       <width>103</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1274,7 +1274,7 @@
       <x>29</x>
       <y>522</y>
       <width>106</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1341,7 +1341,7 @@
       <x>29</x>
       <y>551</y>
       <width>101</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1408,7 +1408,7 @@
       <x>29</x>
       <y>580</y>
       <width>103</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1475,7 +1475,7 @@
       <x>29</x>
       <y>609</y>
       <width>103</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1542,7 +1542,7 @@
       <x>29</x>
       <y>638</y>
       <width>165</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1609,7 +1609,7 @@
       <x>29</x>
       <y>667</y>
       <width>157</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1676,7 +1676,7 @@
       <x>29</x>
       <y>696</y>
       <width>169</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1743,7 +1743,7 @@
       <x>29</x>
       <y>725</y>
       <width>157</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1810,7 +1810,7 @@
       <x>29</x>
       <y>754</y>
       <width>171</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1877,7 +1877,7 @@
       <x>29</x>
       <y>783</y>
       <width>152</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1961,7 +1961,7 @@
       <text>Dwr warn - Dewar level measuring under range</text>
       <x>29</x>
       <width>236</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2028,7 +2028,7 @@
       <x>29</x>
       <y>29</y>
       <width>229</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2095,7 +2095,7 @@
       <x>29</x>
       <y>58</y>
       <width>252</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2162,7 +2162,7 @@
       <x>29</x>
       <y>87</y>
       <width>192</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2229,7 +2229,7 @@
       <x>29</x>
       <y>116</y>
       <width>173</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2296,7 +2296,7 @@
       <x>29</x>
       <y>145</y>
       <width>169</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2363,7 +2363,7 @@
       <x>29</x>
       <y>174</y>
       <width>252</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2430,7 +2430,7 @@
       <x>29</x>
       <y>203</y>
       <width>182</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2497,7 +2497,7 @@
       <x>29</x>
       <y>232</y>
       <width>173</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2564,7 +2564,7 @@
       <x>29</x>
       <y>261</y>
       <width>169</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2631,7 +2631,7 @@
       <x>29</x>
       <y>290</y>
       <width>172</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2698,7 +2698,7 @@
       <x>29</x>
       <y>319</y>
       <width>181</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2765,7 +2765,7 @@
       <x>29</x>
       <y>348</y>
       <width>159</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2832,7 +2832,7 @@
       <x>29</x>
       <y>377</y>
       <width>287</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2899,7 +2899,7 @@
       <x>29</x>
       <y>406</y>
       <width>280</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2966,7 +2966,7 @@
       <x>29</x>
       <y>435</y>
       <width>38</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3033,7 +3033,7 @@
       <x>29</x>
       <y>464</y>
       <width>41</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3100,7 +3100,7 @@
       <x>29</x>
       <y>493</y>
       <width>52</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3167,7 +3167,7 @@
       <x>29</x>
       <y>522</y>
       <width>52</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3234,7 +3234,7 @@
       <x>29</x>
       <y>551</y>
       <width>43</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3301,7 +3301,7 @@
       <x>29</x>
       <y>580</y>
       <width>64</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3368,7 +3368,7 @@
       <x>29</x>
       <y>609</y>
       <width>43</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3435,7 +3435,7 @@
       <x>29</x>
       <y>638</y>
       <width>52</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3502,7 +3502,7 @@
       <x>29</x>
       <y>667</y>
       <width>90</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3569,7 +3569,7 @@
       <x>29</x>
       <y>696</y>
       <width>79</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3636,7 +3636,7 @@
       <x>29</x>
       <y>725</y>
       <width>79</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3703,7 +3703,7 @@
       <x>29</x>
       <y>754</y>
       <width>79</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3770,7 +3770,7 @@
       <x>29</x>
       <y>783</y>
       <width>79</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3854,7 +3854,7 @@
       <text>Error sum QI7210</text>
       <x>29</x>
       <width>88</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3921,7 +3921,7 @@
       <x>29</x>
       <y>29</y>
       <width>87</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3988,7 +3988,7 @@
       <x>29</x>
       <y>58</y>
       <width>88</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4055,7 +4055,7 @@
       <x>29</x>
       <y>87</y>
       <width>88</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4122,7 +4122,7 @@
       <x>29</x>
       <y>116</y>
       <width>88</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4189,7 +4189,7 @@
       <x>29</x>
       <y>145</y>
       <width>88</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4256,7 +4256,7 @@
       <x>29</x>
       <y>174</y>
       <width>86</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4323,7 +4323,7 @@
       <x>29</x>
       <y>203</y>
       <width>94</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4390,7 +4390,7 @@
       <x>29</x>
       <y>232</y>
       <width>87</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4457,7 +4457,7 @@
       <x>29</x>
       <y>261</y>
       <width>87</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4524,7 +4524,7 @@
       <x>29</x>
       <y>290</y>
       <width>87</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4591,7 +4591,7 @@
       <x>29</x>
       <y>319</y>
       <width>87</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4658,7 +4658,7 @@
       <x>29</x>
       <y>348</y>
       <width>86</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4725,7 +4725,7 @@
       <x>29</x>
       <y>377</y>
       <width>86</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4792,7 +4792,7 @@
       <x>29</x>
       <y>406</y>
       <width>86</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4859,7 +4859,7 @@
       <x>29</x>
       <y>435</y>
       <width>86</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4926,7 +4926,7 @@
       <x>29</x>
       <y>464</y>
       <width>87</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4993,7 +4993,7 @@
       <x>29</x>
       <y>493</y>
       <width>87</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5060,7 +5060,7 @@
       <x>29</x>
       <y>522</y>
       <width>87</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5127,7 +5127,7 @@
       <x>29</x>
       <y>551</y>
       <width>87</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5194,7 +5194,7 @@
       <x>29</x>
       <y>580</y>
       <width>87</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5261,7 +5261,7 @@
       <x>29</x>
       <y>609</y>
       <width>87</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5328,7 +5328,7 @@
       <x>29</x>
       <y>638</y>
       <width>87</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5395,7 +5395,7 @@
       <x>29</x>
       <y>667</y>
       <width>87</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5462,7 +5462,7 @@
       <x>29</x>
       <y>696</y>
       <width>86</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5529,7 +5529,7 @@
       <x>29</x>
       <y>725</y>
       <width>86</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5596,7 +5596,7 @@
       <x>29</x>
       <y>754</y>
       <width>86</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5663,7 +5663,7 @@
       <x>29</x>
       <y>783</y>
       <width>86</width>
-      <height>12</height>
+      <height>13</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -7042,45 +7042,6 @@
         </color>
       </border_color>
     </widget>
-    <widget type="led" version="2.0.0">
-      <name>LED Template_20</name>
-      <pv_name>Cryo-Rec:LP:Wrn_TAL7215</pv_name>
-      <bit>0</bit>
-      <x>2</x>
-      <y>582</y>
-      <width>19</width>
-      <height>19</height>
-      <off_color>
-        <color red="0" green="255" blue="0">
-        </color>
-      </off_color>
-      <on_color>
-        <color red="255" green="0" blue="0">
-        </color>
-      </on_color>
-      <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <line_color>
-        <color red="150" green="150" blue="150">
-        </color>
-      </line_color>
-      <actions>
-      </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
-    </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_20</name>
       <text>TAL7215</text>
@@ -7108,45 +7069,6 @@
         <color name="IO Border" red="215" green="215" blue="215">
         </color>
       </border_color>
-    </widget>
-    <widget type="led" version="2.0.0">
-      <name>LED Template_21</name>
-      <pv_name>Cryo-Rec:LP:Wrn_CoWrn</pv_name>
-      <bit>0</bit>
-      <x>2</x>
-      <y>611</y>
-      <width>19</width>
-      <height>19</height>
-      <off_color>
-        <color red="0" green="255" blue="0">
-        </color>
-      </off_color>
-      <on_color>
-        <color red="255" green="0" blue="0">
-        </color>
-      </on_color>
-      <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <line_color>
-        <color red="150" green="150" blue="150">
-        </color>
-      </line_color>
-      <actions>
-      </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_21</name>
@@ -7578,224 +7500,11 @@
         </color>
       </border_color>
     </widget>
-    <widget type="rectangle" version="2.0.0">
-      <name>Rectangle Template_1</name>
-      <x>132</x>
-      <y>622</y>
-      <width>116</width>
-      <height>81</height>
-      <line_width>1</line_width>
-      <line_color>
-        <color name="IO Line" red="0" green="32" blue="92">
-        </color>
-      </line_color>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <actions>
-      </actions>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    </widget>
-    <widget type="group" version="2.0.0">
-      <name>Group</name>
-      <x>132</x>
-      <y>622</y>
-      <width>116</width>
-      <height>81</height>
-      <style>3</style>
-      <transparent>true</transparent>
-      <widget type="group" version="2.0.0">
-        <name>Panel 2_4</name>
-        <width>116</width>
-        <height>81</height>
-        <style>3</style>
-        <foreground_color>
-          <color red="0" green="128" blue="255">
-          </color>
-        </foreground_color>
-        <background_color>
-          <color red="240" green="240" blue="240">
-          </color>
-        </background_color>
-        <transparent>true</transparent>
-        <actions>
-        </actions>
-        <widget type="label" version="2.0.0">
-          <name>Label Template_29</name>
-          <text>LEGEND</text>
-          <x>20</x>
-          <width>63</width>
-          <height>18</height>
-          <font>
-            <font name="IO Title" family="arial" style="BOLD" size="13.861386138613861">
-            </font>
-          </font>
-          <foreground_color>
-            <color name="IO Text Fg" red="0" green="32" blue="92">
-            </color>
-          </foreground_color>
-          <background_color>
-            <color name="IO Background" red="255" green="255" blue="205">
-            </color>
-          </background_color>
-          <vertical_alignment>1</vertical_alignment>
-          <auto_size>true</auto_size>
-          <actions>
-          </actions>
-          <border_color>
-            <color name="IO Border" red="215" green="215" blue="215">
-            </color>
-          </border_color>
-        </widget>
-        <widget type="ellipse" version="2.0.0">
-          <name>Ellipse Template</name>
-          <x>8</x>
-          <y>26</y>
-          <width>20</width>
-          <height>20</height>
-          <line_width>1</line_width>
-          <line_color>
-            <color name="IO Line" red="0" green="32" blue="92">
-            </color>
-          </line_color>
-          <background_color>
-            <color name="IO Background" red="255" green="255" blue="205">
-            </color>
-          </background_color>
-          <actions>
-          </actions>
-          <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-        </widget>
-        <widget type="polyline" version="2.0.0">
-          <name>Polyline Template</name>
-          <x>36</x>
-          <y>35</y>
-          <width>18</width>
-          <height>1</height>
-          <line_width>1</line_width>
-          <line_color>
-            <color name="IO Background" red="255" green="255" blue="205">
-            </color>
-          </line_color>
-          <points>
-            <point x="0.0" y="0.0">
-            </point>
-            <point x="17.0" y="0.0">
-            </point>
-          </points>
-          <actions>
-          </actions>
-          <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-        </widget>
-        <widget type="label" version="2.0.0">
-          <name>Label Template_30</name>
-          <text>OK</text>
-          <x>62</x>
-          <y>28</y>
-          <width>15</width>
-          <height>13</height>
-          <font>
-            <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-            </font>
-          </font>
-          <foreground_color>
-            <color name="IO Text Fg" red="0" green="32" blue="92">
-            </color>
-          </foreground_color>
-          <background_color>
-            <color name="IO Background" red="255" green="255" blue="205">
-            </color>
-          </background_color>
-          <vertical_alignment>1</vertical_alignment>
-          <auto_size>true</auto_size>
-          <actions>
-          </actions>
-          <border_color>
-            <color name="IO Border" red="215" green="215" blue="215">
-            </color>
-          </border_color>
-        </widget>
-        <widget type="ellipse" version="2.0.0">
-          <name>Ellipse Template_1</name>
-          <x>8</x>
-          <y>56</y>
-          <width>20</width>
-          <height>20</height>
-          <line_width>1</line_width>
-          <line_color>
-            <color name="IO Line" red="0" green="32" blue="92">
-            </color>
-          </line_color>
-          <background_color>
-            <color name="IO Background" red="255" green="255" blue="205">
-            </color>
-          </background_color>
-          <actions>
-          </actions>
-          <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-        </widget>
-        <widget type="polyline" version="2.0.0">
-          <name>Polyline Template_1</name>
-          <x>36</x>
-          <y>65</y>
-          <width>18</width>
-          <height>1</height>
-          <line_width>1</line_width>
-          <line_color>
-            <color name="IO Background" red="255" green="255" blue="205">
-            </color>
-          </line_color>
-          <points>
-            <point x="0.0" y="0.0">
-            </point>
-            <point x="17.0" y="0.0">
-            </point>
-          </points>
-          <actions>
-          </actions>
-          <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-        </widget>
-        <widget type="label" version="2.0.0">
-          <name>Label Template_48</name>
-          <text>Warning</text>
-          <x>62</x>
-          <y>58</y>
-          <width>42</width>
-          <height>13</height>
-          <font>
-            <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-            </font>
-          </font>
-          <foreground_color>
-            <color name="IO Text Fg" red="0" green="32" blue="92">
-            </color>
-          </foreground_color>
-          <background_color>
-            <color name="IO Background" red="255" green="255" blue="205">
-            </color>
-          </background_color>
-          <vertical_alignment>1</vertical_alignment>
-          <auto_size>true</auto_size>
-          <actions>
-          </actions>
-          <border_color>
-            <color name="IO Border" red="215" green="215" blue="215">
-            </color>
-          </border_color>
-        </widget>
-      </widget>
-    </widget>
     <widget type="action_button" version="3.0.0">
       <name>Action Button Template</name>
       <actions>
         <action type="write_pv">
-          <pv_name>Cryo-Rec:LP:Wrn:ResetCmd</pv_name>
+          <pv_name>Cryo-Cryo:Cryo:ResetCmd</pv_name>
           <value>1</value>
           <description>Reset faults</description>
         </action>
@@ -7814,6 +7523,251 @@ $(pv_value)</tooltip>
         </color>
       </foreground_color>
       <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED Template_21</name>
+      <pv_name>Cryo-Rec:LP:Wrn_CoWrn</pv_name>
+      <bit>0</bit>
+      <x>2</x>
+      <y>611</y>
+      <width>19</width>
+      <height>19</height>
+      <off_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="255" green="0" blue="0">
+        </color>
+      </on_color>
+      <font>
+        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color red="150" green="150" blue="150">
+        </color>
+      </line_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="BorderRule" prop_id="border_style" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>9</value>
+          </exp>
+          <pv_name>$(pv_name).SIMM</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED Template_20</name>
+      <pv_name>Cryo-Rec:LP:Wrn_TAL7215</pv_name>
+      <bit>0</bit>
+      <x>2</x>
+      <y>582</y>
+      <width>19</width>
+      <height>19</height>
+      <off_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="255" green="0" blue="0">
+        </color>
+      </on_color>
+      <font>
+        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color red="150" green="150" blue="150">
+        </color>
+      </line_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="BorderRule" prop_id="border_style" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>9</value>
+          </exp>
+          <pv_name>$(pv_name).SIMM</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>Panel 2_4</name>
+      <x>132</x>
+      <y>622</y>
+      <width>116</width>
+      <height>81</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle Template_1</name>
+        <width>116</width>
+        <height>81</height>
+        <line_width>1</line_width>
+        <line_color>
+          <color name="IO Line" red="0" green="32" blue="92">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205">
+          </color>
+        </background_color>
+        <actions>
+        </actions>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      </widget>
+      <widget type="ellipse" version="2.0.0">
+        <name>Ellipse Template</name>
+        <x>9</x>
+        <y>18</y>
+        <width>20</width>
+        <height>20</height>
+        <line_width>1</line_width>
+        <line_color>
+          <color name="IO Line" red="0" green="32" blue="92">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205">
+          </color>
+        </background_color>
+        <actions>
+        </actions>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      </widget>
+      <widget type="polyline" version="2.0.0">
+        <name>Polyline Template</name>
+        <x>37</x>
+        <y>27</y>
+        <width>18</width>
+        <height>1</height>
+        <line_width>1</line_width>
+        <line_color>
+          <color name="IO Background" red="255" green="255" blue="205">
+          </color>
+        </line_color>
+        <points>
+          <point x="0.0" y="0.0">
+          </point>
+          <point x="17.0" y="0.0">
+          </point>
+        </points>
+        <actions>
+        </actions>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label Template_30</name>
+        <text>OK</text>
+        <x>63</x>
+        <y>20</y>
+        <width>15</width>
+        <height>13</height>
+        <font>
+          <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205">
+          </color>
+        </background_color>
+        <vertical_alignment>1</vertical_alignment>
+        <auto_size>true</auto_size>
+        <actions>
+        </actions>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="ellipse" version="2.0.0">
+        <name>Ellipse Template_1</name>
+        <x>9</x>
+        <y>48</y>
+        <width>20</width>
+        <height>20</height>
+        <line_width>1</line_width>
+        <line_color>
+          <color name="IO Line" red="0" green="32" blue="92">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205">
+          </color>
+        </background_color>
+        <actions>
+        </actions>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      </widget>
+      <widget type="polyline" version="2.0.0">
+        <name>Polyline Template_1</name>
+        <x>37</x>
+        <y>57</y>
+        <width>18</width>
+        <height>1</height>
+        <line_width>1</line_width>
+        <line_color>
+          <color name="IO Background" red="255" green="255" blue="205">
+          </color>
+        </line_color>
+        <points>
+          <point x="0.0" y="0.0">
+          </point>
+          <point x="17.0" y="0.0">
+          </point>
+        </points>
+        <actions>
+        </actions>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label Template_48</name>
+        <text>Warning</text>
+        <x>63</x>
+        <y>50</y>
+        <width>42</width>
+        <height>13</height>
+        <font>
+          <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="32" blue="92">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="IO Background" red="255" green="255" blue="205">
+          </color>
+        </background_color>
+        <vertical_alignment>1</vertical_alignment>
+        <auto_size>true</auto_size>
+        <actions>
+        </actions>
+        <border_color>
+          <color name="IO Border" red="215" green="215" blue="215">
+          </color>
+        </border_color>
+      </widget>
     </widget>
   </widget>
 </display>
