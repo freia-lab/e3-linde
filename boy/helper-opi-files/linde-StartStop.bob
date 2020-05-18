@@ -189,7 +189,7 @@
       <INVISIBLE>0</INVISIBLE>
       <L>Coldbox Coldmode</L>
       <P>Cryo</P>
-      <Pms_file>CBoxCMPms</Pms_file>
+      <Pms_file>CboxCMPms</Pms_file>
     </macros>
     <x>25</x>
     <y>657</y>
