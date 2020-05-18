@@ -541,8 +541,8 @@ $(pv_value)</tooltip>
     <text>S2110</text>
     <x>265</x>
     <y>56</y>
-    <width>36</width>
-    <height>19</height>
+    <width>26</width>
+    <height>13</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="10.0">
       </font>
@@ -570,7 +570,7 @@ $(pv_value)</tooltip>
     <x>425</x>
     <y>59</y>
     <width>28</width>
-    <height>10</height>
+    <height>13</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="10.0">
       </font>
@@ -643,13 +643,13 @@ $(pv_value)</tooltip>
   <widget type="symbol" version="2.0.0">
     <pv_name>Cryo-Cmp:OilSys:US2810</pv_name>
     <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_general_closed_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_general_GREEN.svg</symbol>
     </symbols>
-    <x>263</x>
+    <x>270</x>
     <y>256</y>
-    <width>36</width>
-    <height>36</height>
+    <width>20</width>
+    <height>13</height>
     <background_color>
       <color name="IO Shape Fill" red="188" green="188" blue="188">
       </color>
@@ -658,15 +658,14 @@ $(pv_value)</tooltip>
     <actions>
     </actions>
     <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_81</name>
     <text>V2810</text>
     <x>293</x>
     <y>266</y>
-    <width>32</width>
-    <height>12</height>
+    <width>28</width>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -714,8 +713,8 @@ $(pv_value)</tooltip>
     <text>V2811</text>
     <x>457</x>
     <y>265</y>
-    <width>32</width>
-    <height>12</height>
+    <width>28</width>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -826,8 +825,8 @@ $(pv_value)</tooltip>
     <text>LC2811</text>
     <x>457</x>
     <y>206</y>
-    <width>38</width>
-    <height>12</height>
+    <width>34</width>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -854,8 +853,8 @@ $(pv_value)</tooltip>
     <text>LC2810 </text>
     <x>295</x>
     <y>208</y>
-    <width>41</width>
-    <height>12</height>
+    <width>36</width>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -956,8 +955,8 @@ $(pv_value)</tooltip>
     <text>C2110</text>
     <x>73</x>
     <y>366</y>
-    <width>33</width>
-    <height>12</height>
+    <width>41</width>
+    <height>21</height>
     <foreground_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -1070,8 +1069,8 @@ $(pv_value)</tooltip>
     <text>CV2250</text>
     <x>735</x>
     <y>611</y>
-    <width>32</width>
-    <height>10</height>
+    <width>34</width>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -1098,8 +1097,8 @@ $(pv_value)</tooltip>
     <text>CV2160</text>
     <x>916</x>
     <y>612</y>
-    <width>32</width>
-    <height>10</height>
+    <width>34</width>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -1126,8 +1125,8 @@ $(pv_value)</tooltip>
     <text>CV2150</text>
     <x>916</x>
     <y>394</y>
-    <width>32</width>
-    <height>10</height>
+    <width>34</width>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -1154,8 +1153,8 @@ $(pv_value)</tooltip>
     <text>V2161</text>
     <x>665</x>
     <y>445</y>
-    <width>32</width>
-    <height>12</height>
+    <width>28</width>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -1182,8 +1181,8 @@ $(pv_value)</tooltip>
     <text>PI2240</text>
     <x>107</x>
     <y>505</y>
-    <width>35</width>
-    <height>12</height>
+    <width>31</width>
+    <height>14</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -1348,8 +1347,8 @@ $(pv_value)</tooltip>
     <text>PC2240</text>
     <x>115</x>
     <y>584</y>
-    <width>39</width>
-    <height>12</height>
+    <width>35</width>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -1412,8 +1411,8 @@ $(pv_value)</tooltip>
     <text>PCH2240</text>
     <x>200</x>
     <y>584</y>
-    <width>46</width>
-    <height>12</height>
+    <width>42</width>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -1490,8 +1489,8 @@ $(pv_value)</tooltip>
     <text>to HP Setpoint </text>
     <x>309</x>
     <y>590</y>
-    <width>68</width>
-    <height>25</height>
+    <width>57</width>
+    <height>12</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="9.0">
       </font>
@@ -1518,8 +1517,8 @@ $(pv_value)</tooltip>
     <text>QT2160</text>
     <x>549</x>
     <y>455</y>
-    <width>43</width>
-    <height>13</height>
+    <width>39</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -1582,8 +1581,8 @@ $(pv_value)</tooltip>
     <text>GC2250-2</text>
     <x>716</x>
     <y>664</y>
-    <width>50</width>
-    <height>12</height>
+    <width>48</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -1610,8 +1609,8 @@ $(pv_value)</tooltip>
     <text>SI2110</text>
     <x>24</x>
     <y>409</y>
-    <width>35</width>
-    <height>12</height>
+    <width>31</width>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -1699,8 +1698,8 @@ $(pv_value)</tooltip>
     <text>to HP Setpoint </text>
     <x>711</x>
     <y>523</y>
-    <width>85</width>
-    <height>18</height>
+    <width>63</width>
+    <height>13</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="10.0">
       </font>
@@ -1727,8 +1726,8 @@ $(pv_value)</tooltip>
     <text>PI2160</text>
     <x>590</x>
     <y>306</y>
-    <width>35</width>
-    <height>12</height>
+    <width>31</width>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -1828,8 +1827,8 @@ $(pv_value)</tooltip>
     <text>PC2160</text>
     <x>573</x>
     <y>271</y>
-    <width>39</width>
-    <height>12</height>
+    <width>35</width>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -1952,8 +1951,8 @@ $(pv_value)</tooltip>
     <text>GC2250-1</text>
     <x>716</x>
     <y>580</y>
-    <width>50</width>
-    <height>12</height>
+    <width>48</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -2012,7 +2011,7 @@ $(pv_value)</tooltip>
     <name>Text Update Template_31</name>
     <pv_name>Cryo-Cmp:LP:UY2250-PercOut</pv_name>
     <x>722</x>
-    <y>627</y>
+    <y>630</y>
     <width>60</width>
     <height>16</height>
     <font>
@@ -2176,8 +2175,8 @@ $(pv_value)</tooltip>
     <text>D2177</text>
     <x>965</x>
     <y>713</y>
-    <width>33</width>
-    <height>17</height>
+    <width>29</width>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -2204,8 +2203,8 @@ $(pv_value)</tooltip>
     <text>PI2170</text>
     <x>920</x>
     <y>483</y>
-    <width>35</width>
-    <height>12</height>
+    <width>31</width>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -2547,21 +2546,13 @@ $(pv_value)</tooltip>
       </border_color>
     </widget>
   </widget>
-  <widget type="picture" version="2.0.0">
-    <name>Picture_4</name>
-    <file>../../SymbolLibrary/SVG/Fluid/Valves/VG 2 way-Valves On-Off On.svg</file>
-    <x>350</x>
-    <y>323</y>
-    <width>48</width>
-    <height>36</height>
-  </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_59</name>
     <text>A2140</text>
     <x>634</x>
     <y>53</y>
-    <width>46</width>
-    <height>1</height>
+    <width>28</width>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -2626,19 +2617,19 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_7</name>
-    <pv_name>Cryo-Cmp:OilSys:US2811</pv_name>
+    <pv_name>Cryo-Cmp:LP:UY2250-PercOut</pv_name>
     <symbols>
-      <symbol>../../../freia-symbols/cryogenics/valve, control type continuosly operated.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
     </symbols>
-    <x>776</x>
-    <y>611</y>
-    <width>41</width>
-    <height>27</height>
+    <x>782</x>
+    <y>604</y>
+    <width>27</width>
+    <height>41</height>
     <background_color>
       <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
       </color>
     </background_color>
-    <rotation>90.0</rotation>
     <actions>
     </actions>
     <border_alarm_sensitive>false</border_alarm_sensitive>
