@@ -54,21 +54,13 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template</name>
       <text>Parameter input failure high pressure control</text>
       <x>29</x>
       <width>224</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -120,14 +112,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_1</name>
@@ -135,7 +119,7 @@
       <x>29</x>
       <y>29</y>
       <width>220</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -187,14 +171,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_2</name>
@@ -202,7 +178,7 @@
       <x>29</x>
       <y>58</y>
       <width>255</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -254,14 +230,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_3</name>
@@ -269,7 +237,7 @@
       <x>29</x>
       <y>87</y>
       <width>201</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -321,14 +289,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_5</name>
@@ -336,7 +296,7 @@
       <x>29</x>
       <y>116</y>
       <width>118</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -388,14 +348,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_6</name>
@@ -403,7 +355,7 @@
       <x>29</x>
       <y>145</y>
       <width>200</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -455,14 +407,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_8</name>
@@ -470,7 +414,7 @@
       <x>29</x>
       <y>174</y>
       <width>46</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -522,14 +466,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_9</name>
@@ -537,7 +473,7 @@
       <x>29</x>
       <y>203</y>
       <width>200</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -589,14 +525,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_10</name>
@@ -604,7 +532,7 @@
       <x>29</x>
       <y>232</y>
       <width>239</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -656,14 +584,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_11</name>
@@ -671,7 +591,7 @@
       <x>29</x>
       <y>261</y>
       <width>287</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -723,14 +643,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_12</name>
@@ -738,7 +650,7 @@
       <x>29</x>
       <y>290</y>
       <width>283</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -790,14 +702,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_13</name>
@@ -805,7 +709,7 @@
       <x>29</x>
       <y>319</y>
       <width>239</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -857,14 +761,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_14</name>
@@ -872,7 +768,7 @@
       <x>29</x>
       <y>348</y>
       <width>287</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -924,14 +820,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_15</name>
@@ -939,7 +827,7 @@
       <x>29</x>
       <y>377</y>
       <width>283</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -991,14 +879,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_16</name>
@@ -1006,7 +886,7 @@
       <x>29</x>
       <y>406</y>
       <width>327</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1058,14 +938,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_17</name>
@@ -1073,7 +945,7 @@
       <x>29</x>
       <y>435</y>
       <width>147</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1125,14 +997,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_18</name>
@@ -1140,7 +1004,7 @@
       <x>29</x>
       <y>464</y>
       <width>108</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1192,14 +1056,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_19</name>
@@ -1207,7 +1063,7 @@
       <x>29</x>
       <y>493</y>
       <width>103</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1259,14 +1115,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_18</name>
@@ -1274,7 +1122,7 @@
       <x>29</x>
       <y>522</y>
       <width>106</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1326,14 +1174,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_19</name>
@@ -1341,7 +1181,7 @@
       <x>29</x>
       <y>551</y>
       <width>101</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1393,14 +1233,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_22</name>
@@ -1408,7 +1240,7 @@
       <x>29</x>
       <y>580</y>
       <width>103</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1460,14 +1292,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_23</name>
@@ -1475,7 +1299,7 @@
       <x>29</x>
       <y>609</y>
       <width>103</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1527,14 +1351,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_24</name>
@@ -1542,7 +1358,7 @@
       <x>29</x>
       <y>638</y>
       <width>165</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1594,14 +1410,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_25</name>
@@ -1609,7 +1417,7 @@
       <x>29</x>
       <y>667</y>
       <width>157</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1661,14 +1469,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_26</name>
@@ -1676,7 +1476,7 @@
       <x>29</x>
       <y>696</y>
       <width>169</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1728,14 +1528,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_27</name>
@@ -1743,7 +1535,7 @@
       <x>29</x>
       <y>725</y>
       <width>157</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1795,14 +1587,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template</name>
@@ -1810,7 +1594,7 @@
       <x>29</x>
       <y>754</y>
       <width>171</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1862,14 +1646,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_1</name>
@@ -1877,7 +1653,7 @@
       <x>29</x>
       <y>783</y>
       <width>152</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -1947,21 +1723,13 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_2</name>
       <text>Dwr warn - Dewar level measuring under range</text>
       <x>29</x>
       <width>236</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2013,14 +1781,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_1</name>
@@ -2028,7 +1788,7 @@
       <x>29</x>
       <y>29</y>
       <width>229</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2080,14 +1840,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_1</name>
@@ -2095,7 +1847,7 @@
       <x>29</x>
       <y>58</y>
       <width>252</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2147,14 +1899,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_1</name>
@@ -2162,7 +1906,7 @@
       <x>29</x>
       <y>87</y>
       <width>192</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2214,14 +1958,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_1</name>
@@ -2229,7 +1965,7 @@
       <x>29</x>
       <y>116</y>
       <width>173</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2281,14 +2017,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_1</name>
@@ -2296,7 +2024,7 @@
       <x>29</x>
       <y>145</y>
       <width>169</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2348,14 +2076,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_1</name>
@@ -2363,7 +2083,7 @@
       <x>29</x>
       <y>174</y>
       <width>252</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2415,14 +2135,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_1</name>
@@ -2430,7 +2142,7 @@
       <x>29</x>
       <y>203</y>
       <width>182</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2482,14 +2194,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_1</name>
@@ -2497,7 +2201,7 @@
       <x>29</x>
       <y>232</y>
       <width>173</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2549,14 +2253,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_1</name>
@@ -2564,7 +2260,7 @@
       <x>29</x>
       <y>261</y>
       <width>169</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2616,14 +2312,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_12</name>
@@ -2631,7 +2319,7 @@
       <x>29</x>
       <y>290</y>
       <width>172</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2683,14 +2371,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_13</name>
@@ -2698,7 +2378,7 @@
       <x>29</x>
       <y>319</y>
       <width>181</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2750,14 +2430,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_14</name>
@@ -2765,7 +2437,7 @@
       <x>29</x>
       <y>348</y>
       <width>159</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2817,14 +2489,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_15</name>
@@ -2832,7 +2496,7 @@
       <x>29</x>
       <y>377</y>
       <width>287</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2884,14 +2548,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_16</name>
@@ -2899,7 +2555,7 @@
       <x>29</x>
       <y>406</y>
       <width>280</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -2951,14 +2607,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_17</name>
@@ -2966,7 +2614,7 @@
       <x>29</x>
       <y>435</y>
       <width>38</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3018,14 +2666,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_18</name>
@@ -3033,7 +2673,7 @@
       <x>29</x>
       <y>464</y>
       <width>41</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3085,14 +2725,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_19</name>
@@ -3100,7 +2732,7 @@
       <x>29</x>
       <y>493</y>
       <width>52</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3152,14 +2784,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_20</name>
@@ -3167,7 +2791,7 @@
       <x>29</x>
       <y>522</y>
       <width>52</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3219,14 +2843,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_21</name>
@@ -3234,7 +2850,7 @@
       <x>29</x>
       <y>551</y>
       <width>43</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3286,14 +2902,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_22</name>
@@ -3301,7 +2909,7 @@
       <x>29</x>
       <y>580</y>
       <width>64</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3353,14 +2961,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_23</name>
@@ -3368,7 +2968,7 @@
       <x>29</x>
       <y>609</y>
       <width>43</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3420,14 +3020,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_24</name>
@@ -3435,7 +3027,7 @@
       <x>29</x>
       <y>638</y>
       <width>52</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3487,14 +3079,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_21</name>
@@ -3502,7 +3086,7 @@
       <x>29</x>
       <y>667</y>
       <width>90</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3554,14 +3138,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_26</name>
@@ -3569,7 +3145,7 @@
       <x>29</x>
       <y>696</y>
       <width>79</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3621,14 +3197,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_27</name>
@@ -3636,7 +3204,7 @@
       <x>29</x>
       <y>725</y>
       <width>79</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3688,14 +3256,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_28</name>
@@ -3703,7 +3263,7 @@
       <x>29</x>
       <y>754</y>
       <width>79</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3755,14 +3315,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_25</name>
@@ -3770,7 +3322,7 @@
       <x>29</x>
       <y>783</y>
       <width>79</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3840,21 +3392,13 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_26</name>
       <text>Error sum QI7210</text>
       <x>29</x>
       <width>88</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3906,14 +3450,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_27</name>
@@ -3921,7 +3457,7 @@
       <x>29</x>
       <y>29</y>
       <width>87</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -3973,14 +3509,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_24</name>
@@ -3988,7 +3516,7 @@
       <x>29</x>
       <y>58</y>
       <width>88</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4040,14 +3568,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_1</name>
@@ -4055,7 +3575,7 @@
       <x>29</x>
       <y>87</y>
       <width>88</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4107,14 +3627,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_2</name>
@@ -4122,7 +3634,7 @@
       <x>29</x>
       <y>116</y>
       <width>88</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4174,14 +3686,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_31</name>
@@ -4189,7 +3693,7 @@
       <x>29</x>
       <y>145</y>
       <width>88</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4241,14 +3745,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_32</name>
@@ -4256,7 +3752,7 @@
       <x>29</x>
       <y>174</y>
       <width>86</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4308,14 +3804,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_33</name>
@@ -4323,7 +3811,7 @@
       <x>29</x>
       <y>203</y>
       <width>94</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4375,14 +3863,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_34</name>
@@ -4390,7 +3870,7 @@
       <x>29</x>
       <y>232</y>
       <width>87</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4442,14 +3922,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_35</name>
@@ -4457,7 +3929,7 @@
       <x>29</x>
       <y>261</y>
       <width>87</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4509,14 +3981,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_36</name>
@@ -4524,7 +3988,7 @@
       <x>29</x>
       <y>290</y>
       <width>87</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4576,14 +4040,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_37</name>
@@ -4591,7 +4047,7 @@
       <x>29</x>
       <y>319</y>
       <width>87</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4643,14 +4099,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_38</name>
@@ -4658,7 +4106,7 @@
       <x>29</x>
       <y>348</y>
       <width>86</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4710,14 +4158,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_39</name>
@@ -4725,7 +4165,7 @@
       <x>29</x>
       <y>377</y>
       <width>86</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4777,14 +4217,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_40</name>
@@ -4792,7 +4224,7 @@
       <x>29</x>
       <y>406</y>
       <width>86</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4844,14 +4276,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_41</name>
@@ -4859,7 +4283,7 @@
       <x>29</x>
       <y>435</y>
       <width>86</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4911,14 +4335,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_42</name>
@@ -4926,7 +4342,7 @@
       <x>29</x>
       <y>464</y>
       <width>87</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -4978,14 +4394,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_43</name>
@@ -4993,7 +4401,7 @@
       <x>29</x>
       <y>493</y>
       <width>87</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5045,14 +4453,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_44</name>
@@ -5060,7 +4460,7 @@
       <x>29</x>
       <y>522</y>
       <width>87</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5112,14 +4512,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_45</name>
@@ -5127,7 +4519,7 @@
       <x>29</x>
       <y>551</y>
       <width>87</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5179,14 +4571,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_46</name>
@@ -5194,7 +4578,7 @@
       <x>29</x>
       <y>580</y>
       <width>87</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5246,14 +4630,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_47</name>
@@ -5261,7 +4637,7 @@
       <x>29</x>
       <y>609</y>
       <width>87</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5313,14 +4689,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_49</name>
@@ -5328,7 +4696,7 @@
       <x>29</x>
       <y>638</y>
       <width>87</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5380,14 +4748,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_50</name>
@@ -5395,7 +4755,7 @@
       <x>29</x>
       <y>667</y>
       <width>87</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5447,14 +4807,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_51</name>
@@ -5462,7 +4814,7 @@
       <x>29</x>
       <y>696</y>
       <width>86</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5514,14 +4866,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_52</name>
@@ -5529,7 +4873,7 @@
       <x>29</x>
       <y>725</y>
       <width>86</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5581,14 +4925,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_53</name>
@@ -5596,7 +4932,7 @@
       <x>29</x>
       <y>754</y>
       <width>86</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5648,14 +4984,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_54</name>
@@ -5663,7 +4991,7 @@
       <x>29</x>
       <y>783</y>
       <width>86</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5733,21 +5061,13 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_54</name>
       <text>Error sum LI3470 </text>
       <x>29</x>
       <width>89</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5799,14 +5119,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_1</name>
@@ -5814,7 +5126,7 @@
       <x>29</x>
       <y>29</y>
       <width>86</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5866,14 +5178,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_2</name>
@@ -5881,7 +5185,7 @@
       <x>29</x>
       <y>58</y>
       <width>86</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -5933,14 +5237,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_3</name>
@@ -5948,7 +5244,7 @@
       <x>29</x>
       <y>87</y>
       <width>87</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -6000,14 +5296,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_4</name>
@@ -6015,7 +5303,7 @@
       <x>29</x>
       <y>116</y>
       <width>86</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -6067,14 +5355,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_5</name>
@@ -6082,7 +5362,7 @@
       <x>29</x>
       <y>145</y>
       <width>86</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -6134,14 +5414,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_6</name>
@@ -6149,7 +5421,7 @@
       <x>29</x>
       <y>174</y>
       <width>86</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -6201,14 +5473,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_7</name>
@@ -6216,7 +5480,7 @@
       <x>29</x>
       <y>203</y>
       <width>87</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -6268,14 +5532,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_8</name>
@@ -6283,7 +5539,7 @@
       <x>29</x>
       <y>232</y>
       <width>87</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -6335,14 +5591,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_9</name>
@@ -6350,7 +5598,7 @@
       <x>29</x>
       <y>261</y>
       <width>86</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -6402,14 +5650,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_10</name>
@@ -6417,7 +5657,7 @@
       <x>29</x>
       <y>290</y>
       <width>86</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -6469,14 +5709,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_11</name>
@@ -6484,7 +5716,7 @@
       <x>29</x>
       <y>319</y>
       <width>86</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -6536,14 +5768,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_12</name>
@@ -6551,7 +5775,7 @@
       <x>29</x>
       <y>348</y>
       <width>87</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -6603,14 +5827,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_13</name>
@@ -6618,7 +5834,7 @@
       <x>29</x>
       <y>377</y>
       <width>103</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -6670,14 +5886,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_14</name>
@@ -6685,7 +5893,7 @@
       <x>29</x>
       <y>406</y>
       <width>103</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -6737,14 +5945,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_15</name>
@@ -6752,7 +5952,7 @@
       <x>29</x>
       <y>435</y>
       <width>103</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -6804,14 +6004,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_16</name>
@@ -6819,7 +6011,7 @@
       <x>29</x>
       <y>464</y>
       <width>103</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -6871,14 +6063,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_17</name>
@@ -6886,7 +6070,7 @@
       <x>29</x>
       <y>493</y>
       <width>190</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -6938,14 +6122,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_18</name>
@@ -6953,7 +6129,7 @@
       <x>29</x>
       <y>522</y>
       <width>44</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -7005,14 +6181,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_19</name>
@@ -7020,7 +6188,7 @@
       <x>29</x>
       <y>551</y>
       <width>45</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -7048,7 +6216,7 @@
       <x>29</x>
       <y>580</y>
       <width>44</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -7076,7 +6244,7 @@
       <x>29</x>
       <y>609</y>
       <width>34</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -7128,14 +6296,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_22</name>
@@ -7143,7 +6303,7 @@
       <x>29</x>
       <y>638</y>
       <width>48</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -7195,14 +6355,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_23</name>
@@ -7210,7 +6362,7 @@
       <x>29</x>
       <y>667</y>
       <width>48</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -7262,14 +6414,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_24</name>
@@ -7277,7 +6421,7 @@
       <x>29</x>
       <y>696</y>
       <width>48</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -7329,14 +6473,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_25</name>
@@ -7344,7 +6480,7 @@
       <x>29</x>
       <y>725</y>
       <width>48</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -7396,14 +6532,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_26</name>
@@ -7411,7 +6539,7 @@
       <x>29</x>
       <y>754</y>
       <width>48</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -7463,14 +6591,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_27</name>
@@ -7478,7 +6598,7 @@
       <x>29</x>
       <y>783</y>
       <width>103</width>
-      <height>13</height>
+      <height>12</height>
       <font>
         <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
         </font>
@@ -7554,14 +6674,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED Template_20</name>
@@ -7593,14 +6705,6 @@
       </line_color>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="group" version="2.0.0">
       <name>Panel 2_4</name>
@@ -7746,7 +6850,7 @@ $(pv_value)</tooltip>
         <x>63</x>
         <y>50</y>
         <width>42</width>
-        <height>13</height>
+        <height>12</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>

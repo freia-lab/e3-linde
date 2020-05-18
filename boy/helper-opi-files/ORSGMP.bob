@@ -662,8 +662,8 @@ $(pv_value)</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label Template_81</name>
     <text>V2810</text>
-    <x>293</x>
-    <y>266</y>
+    <x>290</x>
+    <y>255</y>
     <width>28</width>
     <height>15</height>
     <font>
@@ -687,32 +687,11 @@ $(pv_value)</tooltip>
       </color>
     </border_color>
   </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>_1</name>
-    <pv_name>Cryo-Cmp:OilSys:US2811</pv_name>
-    <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-    </symbols>
-    <x>422</x>
-    <y>256</y>
-    <width>36</width>
-    <height>36</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <rotation>90.0</rotation>
-    <actions>
-    </actions>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
-  </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_82</name>
     <text>V2811</text>
-    <x>457</x>
-    <y>265</y>
+    <x>453</x>
+    <y>255</y>
     <width>28</width>
     <height>15</height>
     <font>
@@ -1227,14 +1206,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -1292,14 +1263,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -1655,14 +1618,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -1772,14 +1727,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -1873,14 +1820,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -1994,14 +1933,6 @@ $(pv_value)</tooltip>
     </background_color>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
@@ -2030,14 +1961,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -2063,14 +1986,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -2096,14 +2011,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
   </widget>
   <widget type="polyline" version="2.0.0">
@@ -2249,14 +2156,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -2333,14 +2232,6 @@ $(pv_value)</tooltip>
       <wrap_words>false</wrap_words>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
       <border_width>2</border_width>
       <border_color>
         <color name="IO Border" red="215" green="215" blue="215">
@@ -2399,14 +2290,6 @@ $(pv_value)</tooltip>
       <wrap_words>false</wrap_words>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
       <border_width>2</border_width>
       <border_color>
         <color name="IO Border" red="215" green="215" blue="215">
@@ -2465,14 +2348,6 @@ $(pv_value)</tooltip>
       <wrap_words>false</wrap_words>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
       <border_width>2</border_width>
       <border_color>
         <color name="IO Border" red="215" green="215" blue="215">
@@ -2531,14 +2406,6 @@ $(pv_value)</tooltip>
       <wrap_words>false</wrap_words>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
       <border_width>2</border_width>
       <border_color>
         <color name="IO Border" red="215" green="215" blue="215">
@@ -2575,47 +2442,6 @@ $(pv_value)</tooltip>
     </border_color>
   </widget>
   <widget type="symbol" version="2.0.0">
-    <name>_3</name>
-    <pv_name>Cryo-Cmp:OilSys:US2811</pv_name>
-    <symbols>
-      <symbol>../../../freia-symbols/cryogenics/valve, control type continuosly operated.svg</symbol>
-    </symbols>
-    <x>870</x>
-    <y>395</y>
-    <width>41</width>
-    <height>27</height>
-    <background_color>
-      <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
-      </color>
-    </background_color>
-    <rotation>90.0</rotation>
-    <actions>
-    </actions>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>_4</name>
-    <pv_name>Cryo-Cmp:OilSys:US2811</pv_name>
-    <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-    </symbols>
-    <x>632</x>
-    <y>434</y>
-    <width>36</width>
-    <height>36</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <rotation>90.0</rotation>
-    <actions>
-    </actions>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="symbol" version="2.0.0">
     <name>_7</name>
     <pv_name>Cryo-Cmp:LP:UY2250-PercOut</pv_name>
     <symbols>
@@ -2636,23 +2462,83 @@ $(pv_value)</tooltip>
     <auto_size>true</auto_size>
   </widget>
   <widget type="symbol" version="2.0.0">
-    <name>_10</name>
-    <pv_name>Cryo-Cmp:OilSys:US2811</pv_name>
+    <name>_8</name>
+    <pv_name>Cryo-Cmp:HP:UY2150-PercOut</pv_name>
     <symbols>
-      <symbol>../../../freia-symbols/cryogenics/valve, control type continuosly operated.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
     </symbols>
-    <x>869</x>
-    <y>612</y>
-    <width>41</width>
-    <height>27</height>
+    <x>877</x>
+    <y>388</y>
+    <width>27</width>
+    <height>41</height>
     <background_color>
       <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="symbol" version="2.0.0">
+    <name>_9</name>
+    <pv_name>Cryo-Cmp:HP:UY2160-PercOut</pv_name>
+    <symbols>
+      <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
+    </symbols>
+    <x>877</x>
+    <y>604</y>
+    <width>27</width>
+    <height>41</height>
+    <background_color>
+      <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="symbol" version="2.0.0">
+    <name>Symbol</name>
+    <pv_name>Cryo-Cmp:OilSys:US2811</pv_name>
+    <symbols>
+      <symbol>../../freia-symbols/cryogenics/valve_general_closed_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_general_GREEN.svg</symbol>
+    </symbols>
+    <x>430</x>
+    <y>255</y>
+    <width>20</width>
+    <height>13</height>
+    <background_color>
+      <color name="IO Shape Fill" red="188" green="188" blue="188">
       </color>
     </background_color>
     <rotation>90.0</rotation>
     <actions>
     </actions>
     <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
+  </widget>
+  <widget type="symbol" version="2.0.0">
+    <name>Symbol_1</name>
+    <pv_name>Cryo-Cmp:HP:US2161</pv_name>
+    <symbols>
+      <symbol>../../freia-symbols/cryogenics/valve_general_closed_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_general_GREEN.svg</symbol>
+    </symbols>
+    <x>640</x>
+    <y>445</y>
+    <width>20</width>
+    <height>13</height>
+    <background_color>
+      <color name="IO Shape Fill" red="188" green="188" blue="188">
+      </color>
+    </background_color>
+    <rotation>90.0</rotation>
+    <actions>
+    </actions>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
 </display>
