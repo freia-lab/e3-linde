@@ -19,9 +19,8 @@
             <file>helper-opi-files/Overview.opi</file>
             <x>10</x>
             <y>10</y>
-            <width>1470</width>
-            <height>900</height>
-            <resize>1</resize>
+            <width>1483</width>
+            <height>917</height>
             <actions>
             </actions>
             <border_color>
@@ -103,11 +102,10 @@
           <widget type="embedded" version="2.0.0">
             <name>Linking Container Template</name>
             <file>helper-opi-files/ORSGMP.opi</file>
-            <x>120</x>
-            <y>20</y>
-            <width>1250</width>
-            <height>870</height>
-            <resize>1</resize>
+            <x>10</x>
+            <y>10</y>
+            <width>1483</width>
+            <height>917</height>
             <actions>
             </actions>
             <border_color>
@@ -151,11 +149,10 @@
           <widget type="embedded" version="2.0.0">
             <name>Linking Container Template</name>
             <file>helper-opi-files/ColdBox80K.opi</file>
-            <x>80</x>
-            <y>85</y>
-            <width>1300</width>
-            <height>700</height>
-            <resize>1</resize>
+            <x>10</x>
+            <y>10</y>
+            <width>1483</width>
+            <height>917</height>
             <actions>
             </actions>
             <border_color>
@@ -199,10 +196,10 @@
           <widget type="embedded" version="2.0.0">
             <name>Linking Container Template</name>
             <file>helper-opi-files/ColdBoxTurbines.opi</file>
-            <y>35</y>
-            <width>1476</width>
-            <height>870</height>
-            <resize>1</resize>
+            <x>10</x>
+            <y>10</y>
+            <width>1483</width>
+            <height>917</height>
             <actions>
             </actions>
             <border_color>
@@ -246,11 +243,10 @@
           <widget type="embedded" version="2.0.0">
             <name>Linking Container Template</name>
             <file>helper-opi-files/ColdboxColdEnd.opi</file>
-            <x>15</x>
+            <x>10</x>
             <y>10</y>
-            <width>1476</width>
-            <height>870</height>
-            <resize>1</resize>
+            <width>1483</width>
+            <height>917</height>
             <actions>
             </actions>
             <border_color>
@@ -294,10 +290,10 @@
           <widget type="embedded" version="2.0.0">
             <name>Linking Container Template</name>
             <file>helper-opi-files/linde-StartStop.opi</file>
-            <x>170</x>
-            <width>1165</width>
-            <height>926</height>
-            <resize>1</resize>
+            <x>10</x>
+            <y>10</y>
+            <width>1483</width>
+            <height>917</height>
             <actions>
             </actions>
             <border_color>
@@ -313,39 +309,11 @@
           <widget type="embedded" version="2.0.0">
             <name>Linking Container Template</name>
             <file>helper-opi-files/Warnings.opi</file>
-            <x>28</x>
-            <y>50</y>
-            <width>1401</width>
-            <height>866</height>
+            <x>10</x>
+            <y>10</y>
+            <width>1483</width>
+            <height>917</height>
             <resize>1</resize>
-            <actions>
-            </actions>
-            <border_color>
-              <color name="IO Border" red="215" green="215" blue="215">
-              </color>
-            </border_color>
-          </widget>
-          <widget type="label" version="2.0.0">
-            <name>Label Template_48</name>
-            <text>Warnings</text>
-            <x>685</x>
-            <y>15</y>
-            <width>66</width>
-            <height>18</height>
-            <font>
-              <font family="Sans" style="REGULAR" size="13.861386138613861">
-              </font>
-            </font>
-            <foreground_color>
-              <color name="IO Text Fg" red="0" green="32" blue="92">
-              </color>
-            </foreground_color>
-            <background_color>
-              <color name="IO Background" red="255" green="255" blue="205">
-              </color>
-            </background_color>
-            <vertical_alignment>1</vertical_alignment>
-            <auto_size>true</auto_size>
             <actions>
             </actions>
             <border_color>
@@ -565,10 +533,10 @@ $(pv_value)</tooltip>
           <widget type="embedded" version="2.0.0">
             <name>Linking Container Template</name>
             <file>helper-opi-files/TripsAndAlarms.opi</file>
-            <x>410</x>
-            <y>70</y>
-            <width>781</width>
-            <height>836</height>
+            <x>10</x>
+            <y>10</y>
+            <width>1483</width>
+            <height>917</height>
             <resize>1</resize>
             <actions>
             </actions>
@@ -804,6 +772,7 @@ $(pv_value)</tooltip>
       <color name="IO Shape Fill" red="188" green="188" blue="188">
       </color>
     </background_color>
+    <active_tab>5</active_tab>
     <tab_height>10</tab_height>
     <actions>
     </actions>

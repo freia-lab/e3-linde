@@ -27,7 +27,7 @@
       <x>1</x>
       <y>9</y>
       <width>105</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>
@@ -54,7 +54,7 @@
       <text>Warm-Up off</text>
       <y>40</y>
       <width>76</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>
@@ -81,7 +81,7 @@
       <text>CW flow ok</text>
       <y>80</y>
       <width>67</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>
@@ -108,7 +108,7 @@
       <text>Instrument air pressure ok</text>
       <y>120</y>
       <width>159</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>
@@ -135,7 +135,7 @@
       <text>GMP pressure stable</text>
       <y>160</y>
       <width>123</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>
@@ -162,7 +162,7 @@
       <text>Turbine inlet valve close</text>
       <y>200</y>
       <width>146</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>
@@ -357,7 +357,7 @@
       <text>Turbine inlet valve not controlled</text>
       <y>241</y>
       <width>198</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>
@@ -384,7 +384,7 @@
       <text>Turbines 1+2 stopped</text>
       <y>281</y>
       <width>133</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>
@@ -411,7 +411,7 @@
       <text>Coldbox shutdowns</text>
       <y>321</y>
       <width>117</width>
-      <height>15</height>
+      <height>14</height>
       <font>
         <font family="Sans" style="REGULAR" size="11.881188118811881">
         </font>
