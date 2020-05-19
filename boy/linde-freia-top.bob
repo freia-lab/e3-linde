@@ -34,7 +34,7 @@
             <x>685</x>
             <y>15</y>
             <width>66</width>
-            <height>18</height>
+            <height>17</height>
             <font>
               <font family="Sans" style="REGULAR" size="13.861386138613861">
               </font>
@@ -119,7 +119,7 @@
             <x>685</x>
             <y>15</y>
             <width>66</width>
-            <height>18</height>
+            <height>17</height>
             <font>
               <font family="Sans" style="REGULAR" size="13.861386138613861">
               </font>
@@ -166,7 +166,7 @@
             <x>685</x>
             <y>15</y>
             <width>92</width>
-            <height>18</height>
+            <height>17</height>
             <font>
               <font family="Sans" style="REGULAR" size="13.861386138613861">
               </font>
@@ -213,7 +213,7 @@
             <x>685</x>
             <y>15</y>
             <width>121</width>
-            <height>18</height>
+            <height>17</height>
             <font>
               <font family="Sans" style="REGULAR" size="13.861386138613861">
               </font>
@@ -260,7 +260,7 @@
             <x>685</x>
             <y>15</y>
             <width>123</width>
-            <height>18</height>
+            <height>17</height>
             <font>
               <font family="Sans" style="REGULAR" size="13.861386138613861">
               </font>
@@ -313,217 +313,12 @@
             <y>10</y>
             <width>1483</width>
             <height>917</height>
-            <resize>1</resize>
             <actions>
             </actions>
             <border_color>
               <color name="IO Border" red="215" green="215" blue="215">
               </color>
             </border_color>
-          </widget>
-          <widget type="group" version="2.0.0">
-            <name>Panel 2_4</name>
-            <x>1375</x>
-            <y>850</y>
-            <width>116</width>
-            <height>81</height>
-            <style>3</style>
-            <foreground_color>
-              <color red="0" green="128" blue="255">
-              </color>
-            </foreground_color>
-            <background_color>
-              <color red="240" green="240" blue="240">
-              </color>
-            </background_color>
-            <transparent>true</transparent>
-            <actions>
-            </actions>
-            <widget type="rectangle" version="2.0.0">
-              <name>Rectangle Template</name>
-              <width>116</width>
-              <height>81</height>
-              <line_width>1</line_width>
-              <line_color>
-                <color name="IO Line" red="0" green="32" blue="92">
-                </color>
-              </line_color>
-              <background_color>
-                <color name="IO Background" red="255" green="255" blue="205">
-                </color>
-              </background_color>
-              <actions>
-              </actions>
-              <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-            </widget>
-            <widget type="label" version="2.0.0">
-              <name>Label Template</name>
-              <text>LEGEND</text>
-              <x>20</x>
-              <width>63</width>
-              <height>18</height>
-              <font>
-                <font name="IO Title" family="arial" style="BOLD" size="13.861386138613861">
-                </font>
-              </font>
-              <foreground_color>
-                <color name="IO Text Fg" red="0" green="32" blue="92">
-                </color>
-              </foreground_color>
-              <background_color>
-                <color name="IO Background" red="255" green="255" blue="205">
-                </color>
-              </background_color>
-              <vertical_alignment>1</vertical_alignment>
-              <auto_size>true</auto_size>
-              <actions>
-              </actions>
-              <border_color>
-                <color name="IO Border" red="215" green="215" blue="215">
-                </color>
-              </border_color>
-            </widget>
-            <widget type="ellipse" version="2.0.0">
-              <name>Ellipse Template</name>
-              <x>8</x>
-              <y>26</y>
-              <width>20</width>
-              <height>20</height>
-              <line_width>1</line_width>
-              <line_color>
-                <color name="IO Line" red="0" green="32" blue="92">
-                </color>
-              </line_color>
-              <background_color>
-                <color name="IO Background" red="255" green="255" blue="205">
-                </color>
-              </background_color>
-              <actions>
-              </actions>
-              <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-            </widget>
-            <widget type="polyline" version="2.0.0">
-              <name>Polyline Template</name>
-              <x>36</x>
-              <y>35</y>
-              <width>18</width>
-              <height>1</height>
-              <line_width>1</line_width>
-              <line_color>
-                <color name="IO Background" red="255" green="255" blue="205">
-                </color>
-              </line_color>
-              <points>
-                <point x="0.0" y="0.0">
-                </point>
-                <point x="17.0" y="0.0">
-                </point>
-              </points>
-              <actions>
-              </actions>
-              <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-            </widget>
-            <widget type="label" version="2.0.0">
-              <name>Label Template_1</name>
-              <text>OK</text>
-              <x>62</x>
-              <y>28</y>
-              <width>15</width>
-              <height>13</height>
-              <font>
-                <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-                </font>
-              </font>
-              <foreground_color>
-                <color name="IO Text Fg" red="0" green="32" blue="92">
-                </color>
-              </foreground_color>
-              <background_color>
-                <color name="IO Background" red="255" green="255" blue="205">
-                </color>
-              </background_color>
-              <vertical_alignment>1</vertical_alignment>
-              <auto_size>true</auto_size>
-              <actions>
-              </actions>
-              <border_color>
-                <color name="IO Border" red="215" green="215" blue="215">
-                </color>
-              </border_color>
-            </widget>
-            <widget type="ellipse" version="2.0.0">
-              <name>Ellipse Template_1</name>
-              <x>8</x>
-              <y>56</y>
-              <width>20</width>
-              <height>20</height>
-              <line_width>1</line_width>
-              <line_color>
-                <color name="IO Line" red="0" green="32" blue="92">
-                </color>
-              </line_color>
-              <background_color>
-                <color name="IO Background" red="255" green="255" blue="205">
-                </color>
-              </background_color>
-              <actions>
-              </actions>
-              <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-            </widget>
-            <widget type="polyline" version="2.0.0">
-              <name>Polyline Template_1</name>
-              <x>36</x>
-              <y>65</y>
-              <width>18</width>
-              <height>1</height>
-              <line_width>1</line_width>
-              <line_color>
-                <color name="IO Background" red="255" green="255" blue="205">
-                </color>
-              </line_color>
-              <points>
-                <point x="0.0" y="0.0">
-                </point>
-                <point x="17.0" y="0.0">
-                </point>
-              </points>
-              <actions>
-              </actions>
-              <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-            </widget>
-            <widget type="label" version="2.0.0">
-              <name>Label Template_2</name>
-              <text>Warning</text>
-              <x>62</x>
-              <y>58</y>
-              <width>42</width>
-              <height>13</height>
-              <font>
-                <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-                </font>
-              </font>
-              <foreground_color>
-                <color name="IO Text Fg" red="0" green="32" blue="92">
-                </color>
-              </foreground_color>
-              <background_color>
-                <color name="IO Background" red="255" green="255" blue="205">
-                </color>
-              </background_color>
-              <vertical_alignment>1</vertical_alignment>
-              <auto_size>true</auto_size>
-              <actions>
-              </actions>
-              <border_color>
-                <color name="IO Border" red="215" green="215" blue="215">
-                </color>
-              </border_color>
-            </widget>
           </widget>
         </children>
       </tab>
@@ -537,7 +332,6 @@ $(pv_value)</tooltip>
             <y>10</y>
             <width>1483</width>
             <height>917</height>
-            <resize>1</resize>
             <actions>
             </actions>
             <border_color>
@@ -551,197 +345,9 @@ $(pv_value)</tooltip>
             <x>685</x>
             <y>15</y>
             <width>102</width>
-            <height>18</height>
+            <height>17</height>
             <font>
               <font family="Sans" style="REGULAR" size="13.861386138613861">
-              </font>
-            </font>
-            <foreground_color>
-              <color name="IO Text Fg" red="0" green="32" blue="92">
-              </color>
-            </foreground_color>
-            <background_color>
-              <color name="IO Background" red="255" green="255" blue="205">
-              </color>
-            </background_color>
-            <vertical_alignment>1</vertical_alignment>
-            <auto_size>true</auto_size>
-            <actions>
-            </actions>
-            <border_color>
-              <color name="IO Border" red="215" green="215" blue="215">
-              </color>
-            </border_color>
-          </widget>
-          <widget type="rectangle" version="2.0.0">
-            <name>Rectangle Template</name>
-            <x>1359</x>
-            <y>850</y>
-            <width>129</width>
-            <height>81</height>
-            <line_width>1</line_width>
-            <line_color>
-              <color name="IO Line" red="0" green="32" blue="92">
-              </color>
-            </line_color>
-            <background_color>
-              <color name="IO Background" red="255" green="255" blue="205">
-              </color>
-            </background_color>
-            <actions>
-            </actions>
-            <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-          </widget>
-          <widget type="label" version="2.0.0">
-            <name>Label Template</name>
-            <text>LEGEND</text>
-            <x>1386</x>
-            <y>850</y>
-            <width>63</width>
-            <height>18</height>
-            <font>
-              <font name="IO Title" family="arial" style="BOLD" size="13.861386138613861">
-              </font>
-            </font>
-            <foreground_color>
-              <color name="IO Text Fg" red="0" green="32" blue="92">
-              </color>
-            </foreground_color>
-            <background_color>
-              <color name="IO Background" red="255" green="255" blue="205">
-              </color>
-            </background_color>
-            <vertical_alignment>1</vertical_alignment>
-            <auto_size>true</auto_size>
-            <actions>
-            </actions>
-            <border_color>
-              <color name="IO Border" red="215" green="215" blue="215">
-              </color>
-            </border_color>
-          </widget>
-          <widget type="ellipse" version="2.0.0">
-            <name>Ellipse Template</name>
-            <x>1368</x>
-            <y>876</y>
-            <width>20</width>
-            <height>20</height>
-            <line_width>1</line_width>
-            <line_color>
-              <color name="IO Line" red="0" green="32" blue="92">
-              </color>
-            </line_color>
-            <background_color>
-              <color name="IO Background" red="255" green="255" blue="205">
-              </color>
-            </background_color>
-            <actions>
-            </actions>
-            <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-          </widget>
-          <widget type="polyline" version="2.0.0">
-            <name>Polyline Template</name>
-            <x>1396</x>
-            <y>885</y>
-            <width>18</width>
-            <height>1</height>
-            <line_width>1</line_width>
-            <line_color>
-              <color name="IO Background" red="255" green="255" blue="205">
-              </color>
-            </line_color>
-            <points>
-              <point x="0.0" y="0.0">
-              </point>
-              <point x="17.0" y="0.0">
-              </point>
-            </points>
-            <actions>
-            </actions>
-            <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-          </widget>
-          <widget type="label" version="2.0.0">
-            <name>Label Template_1</name>
-            <text>OK</text>
-            <x>1422</x>
-            <y>878</y>
-            <width>15</width>
-            <height>13</height>
-            <font>
-              <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-              </font>
-            </font>
-            <foreground_color>
-              <color name="IO Text Fg" red="0" green="32" blue="92">
-              </color>
-            </foreground_color>
-            <background_color>
-              <color name="IO Background" red="255" green="255" blue="205">
-              </color>
-            </background_color>
-            <vertical_alignment>1</vertical_alignment>
-            <auto_size>true</auto_size>
-            <actions>
-            </actions>
-            <border_color>
-              <color name="IO Border" red="215" green="215" blue="215">
-              </color>
-            </border_color>
-          </widget>
-          <widget type="ellipse" version="2.0.0">
-            <name>Ellipse Template_1</name>
-            <x>1368</x>
-            <y>906</y>
-            <width>20</width>
-            <height>20</height>
-            <line_width>1</line_width>
-            <line_color>
-              <color name="IO Line" red="0" green="32" blue="92">
-              </color>
-            </line_color>
-            <background_color>
-              <color name="IO Background" red="255" green="255" blue="205">
-              </color>
-            </background_color>
-            <actions>
-            </actions>
-            <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-          </widget>
-          <widget type="polyline" version="2.0.0">
-            <name>Polyline Template_1</name>
-            <x>1396</x>
-            <y>915</y>
-            <width>18</width>
-            <height>1</height>
-            <line_width>1</line_width>
-            <line_color>
-              <color name="IO Background" red="255" green="255" blue="205">
-              </color>
-            </line_color>
-            <points>
-              <point x="0.0" y="0.0">
-              </point>
-              <point x="17.0" y="0.0">
-              </point>
-            </points>
-            <actions>
-            </actions>
-            <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-          </widget>
-          <widget type="label" version="2.0.0">
-            <name>Label Template_2</name>
-            <text>Trip/Alarm</text>
-            <x>1422</x>
-            <y>908</y>
-            <width>52</width>
-            <height>13</height>
-            <font>
-              <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
               </font>
             </font>
             <foreground_color>
@@ -772,7 +378,7 @@ $(pv_value)</tooltip>
       <color name="IO Shape Fill" red="188" green="188" blue="188">
       </color>
     </background_color>
-    <active_tab>5</active_tab>
+    <active_tab>6</active_tab>
     <tab_height>10</tab_height>
     <actions>
     </actions>
