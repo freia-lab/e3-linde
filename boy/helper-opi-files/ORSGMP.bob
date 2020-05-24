@@ -539,12 +539,12 @@ $(pv_value)</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label Template_60</name>
     <text>S2110</text>
-    <x>265</x>
+    <x>263</x>
     <y>56</y>
-    <width>26</width>
+    <width>44</width>
     <height>13</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="10.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -552,7 +552,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -567,12 +567,12 @@ $(pv_value)</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label Template_61</name>
     <text>S2111 </text>
-    <x>425</x>
+    <x>423</x>
     <y>59</y>
-    <width>28</width>
+    <width>44</width>
     <height>13</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="10.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -580,7 +580,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -664,10 +664,10 @@ $(pv_value)</tooltip>
     <text>V2810</text>
     <x>290</x>
     <y>255</y>
-    <width>28</width>
-    <height>15</height>
+    <width>40</width>
+    <height>14</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="11.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -675,7 +675,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -692,10 +692,10 @@ $(pv_value)</tooltip>
     <text>V2811</text>
     <x>453</x>
     <y>255</y>
-    <width>28</width>
-    <height>15</height>
+    <width>37</width>
+    <height>14</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="11.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -703,7 +703,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -804,10 +804,10 @@ $(pv_value)</tooltip>
     <text>LC2811</text>
     <x>457</x>
     <y>206</y>
-    <width>34</width>
-    <height>15</height>
+    <width>43</width>
+    <height>14</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="11.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -832,10 +832,10 @@ $(pv_value)</tooltip>
     <text>LC2810 </text>
     <x>295</x>
     <y>208</y>
-    <width>36</width>
-    <height>15</height>
+    <width>45</width>
+    <height>14</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="11.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -843,7 +843,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -1048,10 +1048,10 @@ $(pv_value)</tooltip>
     <text>CV2250</text>
     <x>735</x>
     <y>611</y>
-    <width>34</width>
-    <height>15</height>
+    <width>47</width>
+    <height>14</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="11.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -1059,7 +1059,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -1075,11 +1075,11 @@ $(pv_value)</tooltip>
     <name>Label Template_99</name>
     <text>CV2160</text>
     <x>916</x>
-    <y>612</y>
-    <width>34</width>
-    <height>15</height>
+    <y>610</y>
+    <width>44</width>
+    <height>14</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="11.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -1087,7 +1087,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -1103,11 +1103,11 @@ $(pv_value)</tooltip>
     <name>Label Template_100</name>
     <text>CV2150</text>
     <x>916</x>
-    <y>394</y>
-    <width>34</width>
-    <height>15</height>
+    <y>392</y>
+    <width>44</width>
+    <height>14</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="11.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -1115,7 +1115,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -1133,7 +1133,7 @@ $(pv_value)</tooltip>
     <x>665</x>
     <y>445</y>
     <width>28</width>
-    <height>15</height>
+    <height>14</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -1160,10 +1160,10 @@ $(pv_value)</tooltip>
     <text>PI2240</text>
     <x>107</x>
     <y>505</y>
-    <width>31</width>
+    <width>56</width>
     <height>14</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="11.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -1171,7 +1171,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -1310,10 +1310,10 @@ $(pv_value)</tooltip>
     <text>PC2240</text>
     <x>115</x>
     <y>584</y>
-    <width>35</width>
-    <height>15</height>
+    <width>48</width>
+    <height>14</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="11.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -1321,7 +1321,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="GRAY" red="169" green="169" blue="169">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -1372,12 +1372,12 @@ $(pv_value)</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label Template_105</name>
     <text>PCH2240</text>
-    <x>200</x>
+    <x>205</x>
     <y>584</y>
     <width>42</width>
-    <height>15</height>
+    <height>14</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="11.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -1385,7 +1385,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -1450,12 +1450,12 @@ $(pv_value)</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label Template_106</name>
     <text>to HP Setpoint </text>
-    <x>309</x>
-    <y>590</y>
-    <width>57</width>
-    <height>12</height>
+    <x>325</x>
+    <y>592</y>
+    <width>76</width>
+    <height>21</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="9.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -1491,7 +1491,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -1572,10 +1572,10 @@ $(pv_value)</tooltip>
     <text>SI2110</text>
     <x>24</x>
     <y>409</y>
-    <width>31</width>
-    <height>15</height>
+    <width>54</width>
+    <height>14</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="11.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -1583,7 +1583,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -1653,10 +1653,10 @@ $(pv_value)</tooltip>
     <text>to HP Setpoint </text>
     <x>711</x>
     <y>523</y>
-    <width>63</width>
-    <height>13</height>
+    <width>80</width>
+    <height>18</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="10.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -1664,7 +1664,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -1681,10 +1681,10 @@ $(pv_value)</tooltip>
     <text>PI2160</text>
     <x>590</x>
     <y>306</y>
-    <width>31</width>
-    <height>15</height>
+    <width>44</width>
+    <height>14</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="11.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -1692,7 +1692,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -1774,10 +1774,10 @@ $(pv_value)</tooltip>
     <text>PC2160</text>
     <x>573</x>
     <y>271</y>
-    <width>35</width>
-    <height>15</height>
+    <width>44</width>
+    <height>14</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="11.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -1785,7 +1785,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -2082,10 +2082,10 @@ $(pv_value)</tooltip>
     <text>D2177</text>
     <x>965</x>
     <y>713</y>
-    <width>29</width>
-    <height>15</height>
+    <width>44</width>
+    <height>14</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="11.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -2093,7 +2093,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -2110,10 +2110,10 @@ $(pv_value)</tooltip>
     <text>PI2170</text>
     <x>920</x>
     <y>483</y>
-    <width>31</width>
-    <height>15</height>
+    <width>44</width>
+    <height>14</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="11.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -2121,7 +2121,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -2221,7 +2221,7 @@ $(pv_value)</tooltip>
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2279,7 +2279,7 @@ $(pv_value)</tooltip>
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2337,7 +2337,7 @@ $(pv_value)</tooltip>
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2395,7 +2395,7 @@ $(pv_value)</tooltip>
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2416,12 +2416,12 @@ $(pv_value)</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label Template_59</name>
     <text>A2140</text>
-    <x>634</x>
+    <x>632</x>
     <y>53</y>
-    <width>28</width>
-    <height>15</height>
+    <width>44</width>
+    <height>14</height>
     <font>
-      <font family="Source Sans Pro" style="REGULAR" size="11.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -2429,7 +2429,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
