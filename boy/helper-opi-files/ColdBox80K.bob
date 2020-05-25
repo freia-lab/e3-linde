@@ -61,6 +61,7 @@ $(pv_value)</tooltip>
       <color name="RED-BORDER" red="150" green="8" blue="16">
       </color>
     </line_color>
+    <line_style>1</line_style>
     <points>
       <point x="53.0" y="0.0">
       </point>
@@ -83,6 +84,7 @@ $(pv_value)</tooltip>
       <color name="RED-BORDER" red="150" green="8" blue="16">
       </color>
     </line_color>
+    <line_style>1</line_style>
     <points>
       <point x="0.0" y="0.0">
       </point>
@@ -135,8 +137,8 @@ $(pv_value)</tooltip>
       <text>E3110</text>
       <x>15</x>
       <y>87</y>
-      <width>56</width>
-      <height>16</height>
+      <width>36</width>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -401,6 +403,7 @@ $(pv_value)</tooltip>
       <color name="RED-BORDER" red="150" green="8" blue="16">
       </color>
     </line_color>
+    <arrows>1</arrows>
     <points>
       <point x="0.0" y="0.0">
       </point>
@@ -436,10 +439,13 @@ $(pv_value)</tooltip>
     <transparent>true</transparent>
     <actions>
     </actions>
-    <widget type="rectangle" version="2.0.0">
-      <name>Rounded Rectangle Template</name>
-      <width>121</width>
+    <widget type="arc" version="2.0.0">
+      <name>Arc_2</name>
+      <x>8</x>
+      <width>40</width>
       <height>56</height>
+      <start_angle>90.0</start_angle>
+      <total_angle>180.0</total_angle>
       <line_width>1</line_width>
       <line_color>
         <color name="BLACK" red="0" green="0" blue="0">
@@ -449,12 +455,23 @@ $(pv_value)</tooltip>
         <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
         </color>
       </background_color>
-      <corner_width>56</corner_width>
-      <corner_height>56</corner_height>
-      <actions>
-      </actions>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    </widget>
+    <widget type="arc" version="2.0.0">
+      <name>Arc_1</name>
+      <x>75</x>
+      <width>40</width>
+      <height>56</height>
+      <start_angle>270.0</start_angle>
+      <total_angle>180.0</total_angle>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+        </color>
+      </background_color>
     </widget>
     <widget type="rectangle" version="2.0.0">
       <name>Rectangle Template</name>
@@ -831,8 +848,8 @@ $(pv_value)</tooltip>
       <text>CV3114</text>
       <x>20</x>
       <y>3</y>
-      <width>51</width>
-      <height>17</height>
+      <width>37</width>
+      <height>16</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="12.0">
         </font>
@@ -889,7 +906,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget type="symbol" version="2.0.0">
       <name>_10</name>
-      <pv_name>Cryo-CBox:Ads80K:BypVlv</pv_name>
+      <pv_name>Cryo-CBox:Ads80K:UY3114-PercOut</pv_name>
       <symbols>
         <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
         <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
@@ -1489,7 +1506,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget type="symbol" version="2.0.0">
       <name>_11</name>
-      <pv_name>Cryo-CBox:Ads80K:GSL3112</pv_name>
+      <pv_name>Cryo-CBox:Ads80K:UY3112-PercOut</pv_name>
       <symbols>
         <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
         <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
@@ -1520,6 +1537,7 @@ $(pv_value)</tooltip>
       <color name="BLUE-BORDER" red="47" green="135" blue="148">
       </color>
     </line_color>
+    <arrows>1</arrows>
     <points>
       <point x="480.0" y="0.0">
       </point>
@@ -1974,30 +1992,6 @@ $(pv_value)</tooltip>
       </color>
     </border_color>
   </widget>
-  <widget type="symbol" version="2.0.0">
-    <symbols>
-      <symbol>../../SymbolLibrary/SVG/Fluid/Heat_Exchangers/HT Electrical Heater.svg</symbol>
-      <symbol>../../SymbolLibrary/SVG/Fluid/Heat_Exchangers/HT Electrical Heater.svg</symbol>
-    </symbols>
-    <x>839</x>
-    <y>295</y>
-    <width>45</width>
-    <height>28</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-Heater1.opi</file>
-        <macros>
-          <Heater1>$(name)</Heater1>
-        </macros>
-        <target>tab</target>
-      </action>
-    </actions>
-    <auto_size>true</auto_size>
-  </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_61</name>
     <text>N2-3463</text>
@@ -2209,7 +2203,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_9</name>
-    <pv_name>Cryo-CBox:Ads80K:InlVlv</pv_name>
+    <pv_name>Cryo-CBox:HP:UY3111-PercOut</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
@@ -2230,7 +2224,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_12</name>
-    <pv_name>Cryo-CBox:Ads80K:OutVlv</pv_name>
+    <pv_name>Cryo-CBox:Ads80K:UY3117-PercOut</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
@@ -2267,5 +2261,162 @@ $(pv_value)</tooltip>
     <actions>
     </actions>
     <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="arc" version="2.0.0">
+    <name>Arc</name>
+    <x>660</x>
+    <y>50</y>
+    <width>1</width>
+    <height>1</height>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline Template_10</name>
+    <x>107</x>
+    <y>250</y>
+    <width>10</width>
+    <height>1</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
+    <arrows>2</arrows>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="10.974358974358992" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline Template_12</name>
+    <x>1170</x>
+    <y>394</y>
+    <width>15</width>
+    <height>1</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
+    <arrows>2</arrows>
+    <points>
+      <point x="15.525641025641107" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline Template_23</name>
+    <x>190</x>
+    <y>61</y>
+    <width>1</width>
+    <height>21</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
+    <arrows>2</arrows>
+    <points>
+      <point x="0.0" y="21.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline Template_24</name>
+    <x>469</x>
+    <y>118</y>
+    <width>1</width>
+    <height>19</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="RED-BORDER" red="150" green="8" blue="16">
+      </color>
+    </line_color>
+    <arrows>2</arrows>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="19.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline Template_25</name>
+    <x>469</x>
+    <y>574</y>
+    <width>1</width>
+    <height>16</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="RED-BORDER" red="150" green="8" blue="16">
+      </color>
+    </line_color>
+    <arrows>2</arrows>
+    <points>
+      <point x="0.0" y="16.33333333333337">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline Template_26</name>
+    <x>1171</x>
+    <y>459</y>
+    <width>15</width>
+    <height>1</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
+    <arrows>1</arrows>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="15.513333333333321" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="symbol" version="2.0.0">
+    <name>Symbol</name>
+    <pv_name>Cryo-CBox:Htr:UY3115-PercOut</pv_name>
+    <symbols>
+      <symbol>../../../freia-symbols/Fluids/HT_Electrical_Heater_RED.svg</symbol>
+      <symbol>../../../freia-symbols/Fluids/HT_Electrical_Heater_GREEN.svg</symbol>
+    </symbols>
+    <x>810</x>
+    <y>294</y>
+    <width>94</width>
+    <height>66</height>
   </widget>
 </display>

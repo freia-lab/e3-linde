@@ -142,10 +142,13 @@ $(pv_value)</tooltip>
     <transparent>true</transparent>
     <actions>
     </actions>
-    <widget type="rectangle" version="2.0.0">
-      <name>Rounded Rectangle Template</name>
+    <widget type="arc" version="2.0.0">
+      <name>Arc_2</name>
+      <y>96</y>
       <width>56</width>
-      <height>146</height>
+      <height>40</height>
+      <start_angle>180.0</start_angle>
+      <total_angle>180.0</total_angle>
       <line_width>1</line_width>
       <line_color>
         <color name="BLACK" red="0" green="0" blue="0">
@@ -155,12 +158,22 @@ $(pv_value)</tooltip>
         <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
         </color>
       </background_color>
-      <corner_width>56</corner_width>
-      <corner_height>56</corner_height>
-      <actions>
-      </actions>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    </widget>
+    <widget type="arc" version="2.0.0">
+      <name>Arc_1</name>
+      <y>8</y>
+      <width>56</width>
+      <height>40</height>
+      <total_angle>180.0</total_angle>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+        </color>
+      </background_color>
     </widget>
     <widget type="rectangle" version="2.0.0">
       <name>Rectangle Template</name>
@@ -541,8 +554,8 @@ $(pv_value)</tooltip>
     <text>S2110</text>
     <x>263</x>
     <y>56</y>
-    <width>44</width>
-    <height>13</height>
+    <width>31</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -569,8 +582,8 @@ $(pv_value)</tooltip>
     <text>S2111 </text>
     <x>423</x>
     <y>59</y>
-    <width>44</width>
-    <height>13</height>
+    <width>33</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -664,8 +677,8 @@ $(pv_value)</tooltip>
     <text>V2810</text>
     <x>290</x>
     <y>255</y>
-    <width>40</width>
-    <height>14</height>
+    <width>31</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -692,8 +705,8 @@ $(pv_value)</tooltip>
     <text>V2811</text>
     <x>453</x>
     <y>255</y>
-    <width>37</width>
-    <height>14</height>
+    <width>31</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -804,8 +817,8 @@ $(pv_value)</tooltip>
     <text>LC2811</text>
     <x>457</x>
     <y>206</y>
-    <width>43</width>
-    <height>14</height>
+    <width>37</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -832,8 +845,8 @@ $(pv_value)</tooltip>
     <text>LC2810 </text>
     <x>295</x>
     <y>208</y>
-    <width>45</width>
-    <height>14</height>
+    <width>39</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -1048,8 +1061,8 @@ $(pv_value)</tooltip>
     <text>CV2250</text>
     <x>735</x>
     <y>611</y>
-    <width>47</width>
-    <height>14</height>
+    <width>37</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -1076,8 +1089,8 @@ $(pv_value)</tooltip>
     <text>CV2160</text>
     <x>916</x>
     <y>610</y>
-    <width>44</width>
-    <height>14</height>
+    <width>37</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -1104,8 +1117,8 @@ $(pv_value)</tooltip>
     <text>CV2150</text>
     <x>916</x>
     <y>392</y>
-    <width>44</width>
-    <height>14</height>
+    <width>37</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -1158,10 +1171,10 @@ $(pv_value)</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label Template_41</name>
     <text>PI2240</text>
-    <x>107</x>
-    <y>505</y>
-    <width>56</width>
-    <height>14</height>
+    <x>110</x>
+    <y>523</y>
+    <width>34</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -1186,8 +1199,8 @@ $(pv_value)</tooltip>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_3</name>
     <pv_name>Cryo-Cmp:LP:PI2240</pv_name>
-    <x>97</x>
-    <y>522</y>
+    <x>100</x>
+    <y>540</y>
     <width>66</width>
     <height>16</height>
     <font>
@@ -1240,35 +1253,6 @@ $(pv_value)</tooltip>
       </color>
     </border_color>
   </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_4</name>
-    <pv_name>???</pv_name>
-    <x>97</x>
-    <y>541</y>
-    <width>66</width>
-    <height>16</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="12.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
-      </color>
-    </background_color>
-    <precision>2</precision>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <border_width>2</border_width>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
   <widget type="polygon" version="2.0.0">
     <name>Polygon Template_1</name>
     <x>94</x>
@@ -1310,8 +1294,8 @@ $(pv_value)</tooltip>
     <text>PC2240</text>
     <x>115</x>
     <y>584</y>
-    <width>48</width>
-    <height>14</height>
+    <width>38</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -1374,8 +1358,8 @@ $(pv_value)</tooltip>
     <text>PCH2240</text>
     <x>205</x>
     <y>584</y>
-    <width>42</width>
-    <height>14</height>
+    <width>46</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -1453,7 +1437,7 @@ $(pv_value)</tooltip>
     <x>325</x>
     <y>592</y>
     <width>76</width>
-    <height>21</height>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -1572,8 +1556,8 @@ $(pv_value)</tooltip>
     <text>SI2110</text>
     <x>24</x>
     <y>409</y>
-    <width>54</width>
-    <height>14</height>
+    <width>34</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -1653,8 +1637,8 @@ $(pv_value)</tooltip>
     <text>to HP Setpoint </text>
     <x>711</x>
     <y>523</y>
-    <width>80</width>
-    <height>18</height>
+    <width>76</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -1681,8 +1665,8 @@ $(pv_value)</tooltip>
     <text>PI2160</text>
     <x>590</x>
     <y>306</y>
-    <width>44</width>
-    <height>14</height>
+    <width>34</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -1774,8 +1758,8 @@ $(pv_value)</tooltip>
     <text>PC2160</text>
     <x>573</x>
     <y>271</y>
-    <width>44</width>
-    <height>14</height>
+    <width>38</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -1792,35 +1776,6 @@ $(pv_value)</tooltip>
     <auto_size>true</auto_size>
     <actions>
     </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_11</name>
-    <pv_name>???</pv_name>
-    <x>578</x>
-    <y>342</y>
-    <width>66</width>
-    <height>16</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="12.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
-      </color>
-    </background_color>
-    <precision>2</precision>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
@@ -2040,7 +1995,7 @@ $(pv_value)</tooltip>
   <widget type="tank" version="2.0.0">
     <name>Tank Template</name>
     <pv_name>Cryo-Cmp:HP:PI2170</pv_name>
-    <x>950</x>
+    <x>943</x>
     <y>670</y>
     <width>61</width>
     <height>44</height>
@@ -2049,19 +2004,15 @@ $(pv_value)</tooltip>
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-    <fill_color>
-      <color name="IO PV ON" red="0" green="0" blue="225">
-      </color>
-    </fill_color>
     <empty_color>
-      <color name="IO Grid" red="215" green="215" blue="215">
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
       </color>
     </empty_color>
     <actions>
@@ -2082,8 +2033,8 @@ $(pv_value)</tooltip>
     <text>D2177</text>
     <x>965</x>
     <y>713</y>
-    <width>44</width>
-    <height>14</height>
+    <width>32</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -2110,8 +2061,8 @@ $(pv_value)</tooltip>
     <text>PI2170</text>
     <x>920</x>
     <y>483</y>
-    <width>44</width>
-    <height>14</height>
+    <width>34</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -2418,8 +2369,8 @@ $(pv_value)</tooltip>
     <text>A2140</text>
     <x>632</x>
     <y>53</y>
-    <width>44</width>
-    <height>14</height>
+    <width>31</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -2540,5 +2491,51 @@ $(pv_value)</tooltip>
     <actions>
     </actions>
     <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline Template_14</name>
+    <x>90</x>
+    <y>393</y>
+    <width>1</width>
+    <height>17</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
+    <arrows>2</arrows>
+    <points>
+      <point x="0.0" y="17.33333333333337">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline Template_15</name>
+    <x>1058</x>
+    <y>405</y>
+    <width>19</width>
+    <height>1</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
+    <arrows>2</arrows>
+    <points>
+      <point x="19.174358974358938" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
   </widget>
 </display>
