@@ -138,7 +138,7 @@ $(pv_value)</tooltip>
       <x>15</x>
       <y>87</y>
       <width>36</width>
-      <height>19</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2414,8 +2414,8 @@ $(pv_value)</tooltip>
       <symbol>../../../freia-symbols/Fluids/HT_Electrical_Heater_RED.svg</symbol>
       <symbol>../../../freia-symbols/Fluids/HT_Electrical_Heater_GREEN.svg</symbol>
     </symbols>
-    <x>810</x>
-    <y>294</y>
+    <x>824</x>
+    <y>287</y>
     <width>94</width>
     <height>66</height>
   </widget>
