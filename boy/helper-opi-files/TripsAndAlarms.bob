@@ -41,11 +41,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -59,14 +59,14 @@
       <name>Label Template_1</name>
       <text>Emergency stop pushed</text>
       <x>30</x>
-      <width>121</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -99,11 +99,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -118,14 +118,14 @@
       <text>Fuses fallen off stop (Check cabinet)</text>
       <x>30</x>
       <y>30</y>
-      <width>181</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -158,11 +158,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -177,14 +177,14 @@
       <text>First pass power failure message</text>
       <x>30</x>
       <y>60</y>
-      <width>164</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -217,11 +217,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -236,14 +236,14 @@
       <text>Open fuse gasmanagement panel</text>
       <x>30</x>
       <y>90</y>
-      <width>169</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -276,11 +276,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -295,14 +295,14 @@
       <text>Sd Cx - Instrument air missing</text>
       <x>30</x>
       <y>120</y>
-      <width>151</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -335,11 +335,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -354,14 +354,14 @@
       <text>Sd Cx - Low pressure lower limit under run</text>
       <x>30</x>
       <y>150</y>
-      <width>212</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -394,11 +394,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -413,14 +413,14 @@
       <text>Sd Cx - Low pressure upper limit overstep</text>
       <x>30</x>
       <y>180</y>
-      <width>209</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -453,11 +453,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -472,14 +472,14 @@
       <text>Sd Cx - High pressure lower limit under run</text>
       <x>30</x>
       <y>210</y>
-      <width>215</width>
+      <width>314</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -512,11 +512,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -531,14 +531,14 @@
       <text>Sd Cx - High pressure upper limit overstep</text>
       <x>30</x>
       <y>240</y>
-      <width>212</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -571,11 +571,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -590,14 +590,14 @@
       <text>Sd C1 - Message fault</text>
       <x>30</x>
       <y>270</y>
-      <width>108</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -630,11 +630,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -649,14 +649,14 @@
       <text>Sd C1 - After start signal no running confirmation</text>
       <x>30</x>
       <y>300</y>
-      <width>245</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -689,11 +689,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -708,14 +708,14 @@
       <text>Sd C1 - Cooling water failure</text>
       <x>30</x>
       <y>330</y>
-      <width>142</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -748,11 +748,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -767,14 +767,14 @@
       <text>Sd C2 - Message fault</text>
       <x>30</x>
       <y>360</y>
-      <width>108</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -807,11 +807,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -826,14 +826,14 @@
       <text>Sd C2 - After start signal no running confirmation </text>
       <x>30</x>
       <y>390</y>
-      <width>248</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -866,11 +866,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -885,14 +885,14 @@
       <text>Sd C2 - Cooling water failure</text>
       <x>30</x>
       <y>420</y>
-      <width>142</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -925,11 +925,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -944,14 +944,14 @@
       <text>Sd cb - compressor not running</text>
       <x>30</x>
       <y>450</y>
-      <width>157</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -984,11 +984,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -1003,14 +1003,14 @@
       <text>Sd cb - instrument air missing</text>
       <x>30</x>
       <y>480</y>
-      <width>149</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -1043,11 +1043,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -1062,14 +1062,14 @@
       <text>Sd cb - fuses fallen off stop (Check cabinet)</text>
       <x>30</x>
       <y>510</y>
-      <width>217</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -1102,11 +1102,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -1121,14 +1121,14 @@
       <text>Sd cb - pure-he buffer too low</text>
       <x>30</x>
       <y>540</y>
-      <width>149</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -1161,11 +1161,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -1180,14 +1180,14 @@
       <text>Sd cb - dewar full</text>
       <x>30</x>
       <y>570</y>
-      <width>87</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -1220,11 +1220,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -1239,14 +1239,14 @@
       <text>Sd cb - temperature brake cooler turbine 1 too high</text>
       <x>30</x>
       <y>600</y>
-      <width>257</width>
+      <width>314</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -1279,11 +1279,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -1298,14 +1298,14 @@
       <text>Sd cb - temperature brake cooler turbine 2 too high</text>
       <x>30</x>
       <y>630</y>
-      <width>257</width>
+      <width>314</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -1338,11 +1338,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -1357,14 +1357,14 @@
       <text>Sd cb - inlet pressure turbine 2 low</text>
       <x>30</x>
       <y>660</y>
-      <width>174</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -1397,11 +1397,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -1416,14 +1416,14 @@
       <text>Sd cb - outlet pressure turbine 2 low</text>
       <x>30</x>
       <y>690</y>
-      <width>181</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -1456,11 +1456,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -1475,14 +1475,14 @@
       <text>Sd cb - outlet temperature turbine 2 low</text>
       <x>30</x>
       <y>720</y>
-      <width>201</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -1515,11 +1515,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -1534,14 +1534,14 @@
       <text>Sd cb - turbine 2 speed too high</text>
       <x>30</x>
       <y>750</y>
-      <width>160</width>
+      <width>280</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -1564,8 +1564,12 @@
     <width>314</width>
     <height>654</height>
     <style>3</style>
+    <font>
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
+      </font>
+    </font>
     <foreground_color>
-      <color red="0" green="128" blue="255">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
@@ -1592,11 +1596,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -1610,14 +1614,14 @@
       <name>Label Template_1</name>
       <text>Sd cb - turbine 2 speed too low</text>
       <x>30</x>
-      <width>155</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -1650,11 +1654,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -1669,14 +1673,14 @@
       <text>Sd cb - turbine 2 pressure ratio failure</text>
       <x>30</x>
       <y>30</y>
-      <width>190</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -1709,11 +1713,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -1728,14 +1732,14 @@
       <text>Sd cb - turbine 2 bearing gas missing</text>
       <x>30</x>
       <y>60</y>
-      <width>186</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -1768,11 +1772,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -1787,14 +1791,14 @@
       <text>Sd cb - hardwire safety turbines</text>
       <x>30</x>
       <y>90</y>
-      <width>159</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -1827,11 +1831,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -1846,14 +1850,14 @@
       <text>Sd cb - inlet pressure turbine 1 low</text>
       <x>30</x>
       <y>120</y>
-      <width>174</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -1886,11 +1890,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -1905,14 +1909,14 @@
       <text>Sd cb - outlet pressure turbine 1 low</text>
       <x>30</x>
       <y>150</y>
-      <width>181</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -1945,11 +1949,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -1964,14 +1968,14 @@
       <text>Sd cb - inlet temperature turbine 1 low</text>
       <x>30</x>
       <y>180</y>
-      <width>193</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2004,11 +2008,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -2023,14 +2027,14 @@
       <text>Sd cb - turbine 1 speed too high</text>
       <x>30</x>
       <y>210</y>
-      <width>160</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2063,11 +2067,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -2082,14 +2086,14 @@
       <text>Sd cb - turbine 1 speed too low</text>
       <x>30</x>
       <y>240</y>
-      <width>155</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2122,11 +2126,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -2141,14 +2145,14 @@
       <text>Sd cb - turbine 1 pressure ratio failure</text>
       <x>30</x>
       <y>270</y>
-      <width>190</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2181,11 +2185,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -2200,14 +2204,14 @@
       <text>Sd cb - turbine 1 bearing gas missing</text>
       <x>30</x>
       <y>300</y>
-      <width>186</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2240,11 +2244,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -2259,14 +2263,14 @@
       <text>LN2 trip - process temperature too low</text>
       <x>30</x>
       <y>330</y>
-      <width>193</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2299,11 +2303,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -2318,14 +2322,14 @@
       <text>Sd pu - coldbox is switched off</text>
       <x>30</x>
       <y>360</y>
-      <width>152</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2358,11 +2362,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -2377,14 +2381,14 @@
       <text>Sd pu - impure helium supply pressure too low</text>
       <x>30</x>
       <y>390</y>
-      <width>232</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2417,11 +2421,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -2436,14 +2440,14 @@
       <text>Sd pu - separator level low not achieved</text>
       <x>30</x>
       <y>420</y>
-      <width>201</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2476,11 +2480,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -2495,14 +2499,14 @@
       <text>Fill time</text>
       <x>30</x>
       <y>450</y>
-      <width>40</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2535,11 +2539,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -2554,14 +2558,14 @@
       <text>ESD</text>
       <x>30</x>
       <y>480</y>
-      <width>21</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2594,11 +2598,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -2613,14 +2617,14 @@
       <text>HWS</text>
       <x>30</x>
       <y>510</y>
-      <width>24</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2653,11 +2657,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -2672,14 +2676,14 @@
       <text>LALL7215</text>
       <x>30</x>
       <y>540</y>
-      <width>49</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2712,11 +2716,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -2731,14 +2735,14 @@
       <text>LAHH7215</text>
       <x>30</x>
       <y>570</y>
-      <width>53</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2771,11 +2775,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -2790,14 +2794,14 @@
       <text>CoTrp</text>
       <x>30</x>
       <y>600</y>
-      <width>30</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2830,11 +2834,11 @@
         </color>
       </on_color>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <line_color>
@@ -2849,14 +2853,14 @@
       <text>CoNoRetInfo</text>
       <x>30</x>
       <y>630</y>
-      <width>63</width>
+      <width>290</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2926,14 +2930,14 @@
       <name>Label Template_21</name>
       <text>0 = Purifier heater alarm</text>
       <x>30</x>
-      <width>124</width>
-      <height>12</height>
+      <width>147</width>
+      <height>13</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -2985,14 +2989,14 @@
       <text>0 = Purifier heater alarm</text>
       <x>30</x>
       <y>30</y>
-      <width>124</width>
+      <width>147</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -3044,14 +3048,14 @@
       <text>0 = Compressor alarm</text>
       <x>30</x>
       <y>60</y>
-      <width>113</width>
+      <width>147</width>
       <height>12</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -3076,11 +3080,11 @@
     <width>56</width>
     <height>14</height>
     <font>
-      <font name="IO SubTitle" family="arial" style="BOLD" size="11.881188118811881">
+      <font family="Source Sans Pro" style="BOLD" size="15.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
@@ -3120,115 +3124,72 @@
     </foreground_color>
     <tooltip>$(actions)</tooltip>
   </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label Template_29</name>
+    <text></text>
+    <x>669</x>
+    <y>710</y>
+    <width>0</width>
+    <height>17</height>
+    <font>
+      <font name="IO Title" family="arial" style="BOLD" size="13.861386138613861">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="IO Text Fg" red="0" green="32" blue="92">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="IO Background" red="255" green="255" blue="205">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215">
+      </color>
+    </border_color>
+  </widget>
   <widget type="group" version="2.0.0">
     <name>Panel 2_4</name>
-    <x>612</x>
-    <y>678</y>
-    <width>116</width>
-    <height>69</height>
+    <x>604</x>
+    <y>677</y>
+    <width>129</width>
+    <height>81</height>
     <style>3</style>
     <transparent>true</transparent>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_29</name>
-      <text></text>
-      <x>12</x>
-      <y>12</y>
-      <width>0</width>
-      <height>17</height>
-      <font>
-        <font name="IO Title" family="arial" style="BOLD" size="13.861386138613861">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
     <widget type="rectangle" version="2.0.0">
-      <name>Rectangle Template_1</name>
-      <width>116</width>
-      <height>69</height>
+      <name>Rectangle Template_2</name>
+      <width>129</width>
+      <height>81</height>
       <line_width>1</line_width>
       <line_color>
-        <color name="IO Line" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </line_color>
       <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
+        <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
         </color>
       </background_color>
-      <actions>
-      </actions>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    </widget>
-    <widget type="ellipse" version="2.0.0">
-      <name>Ellipse Template</name>
-      <x>12</x>
-      <y>12</y>
-      <width>20</width>
-      <height>20</height>
-      <line_width>1</line_width>
-      <line_color>
-        <color name="IO Line" red="0" green="32" blue="92">
-        </color>
-      </line_color>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <actions>
-      </actions>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    </widget>
-    <widget type="polyline" version="2.0.0">
-      <name>Polyline Template</name>
-      <x>40</x>
-      <y>21</y>
-      <width>18</width>
-      <height>1</height>
-      <line_width>1</line_width>
-      <line_color>
-        <color name="IO Background" red="255" green="255" blue="205">
-        </color>
-      </line_color>
-      <points>
-        <point x="0.0" y="0.0">
-        </point>
-        <point x="17.0" y="0.0">
-        </point>
-      </points>
       <actions>
       </actions>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     </widget>
     <widget type="label" version="2.0.0">
-      <name>Label Template_30</name>
-      <text>OK</text>
-      <x>66</x>
-      <y>14</y>
-      <width>15</width>
-      <height>12</height>
+      <name>Label Template_49</name>
+      <text>LEGEND</text>
+      <x>27</x>
+      <width>63</width>
+      <height>18</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="BOLD" size="16.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
@@ -3245,18 +3206,18 @@ $(pv_value)</tooltip>
       </border_color>
     </widget>
     <widget type="ellipse" version="2.0.0">
-      <name>Ellipse Template_1</name>
-      <x>12</x>
-      <y>42</y>
+      <name>Ellipse Template_2</name>
+      <x>9</x>
+      <y>26</y>
       <width>20</width>
       <height>20</height>
       <line_width>1</line_width>
       <line_color>
-        <color name="IO Line" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </line_color>
       <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
+        <color name="LED-GREEN-ON" red="70" green="255" blue="70">
         </color>
       </background_color>
       <actions>
@@ -3265,14 +3226,14 @@ $(pv_value)</tooltip>
 $(pv_value)</tooltip>
     </widget>
     <widget type="polyline" version="2.0.0">
-      <name>Polyline Template_1</name>
-      <x>40</x>
-      <y>51</y>
+      <name>Polyline Template_2</name>
+      <x>37</x>
+      <y>35</y>
       <width>18</width>
       <height>1</height>
       <line_width>1</line_width>
       <line_color>
-        <color name="IO Background" red="255" green="255" blue="205">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </line_color>
       <points>
@@ -3287,18 +3248,88 @@ $(pv_value)</tooltip>
 $(pv_value)</tooltip>
     </widget>
     <widget type="label" version="2.0.0">
-      <name>Label Template_48</name>
-      <text>Warning</text>
-      <x>66</x>
-      <y>44</y>
-      <width>42</width>
-      <height>12</height>
+      <name>Label Template_50</name>
+      <text>OK</text>
+      <x>62</x>
+      <y>25</y>
+      <width>47</width>
+      <height>13</height>
       <font>
-        <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="IO Background" red="255" green="255" blue="205">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+      <auto_size>true</auto_size>
+      <actions>
+      </actions>
+      <border_color>
+        <color name="IO Border" red="215" green="215" blue="215">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>Ellipse Template_3</name>
+      <x>9</x>
+      <y>56</y>
+      <width>20</width>
+      <height>20</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="LED-RED-ON" red="255" green="60" blue="46">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline Template_3</name>
+      <x>37</x>
+      <y>65</y>
+      <width>18</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="17.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label Template_51</name>
+      <text>Trip/Alarm</text>
+      <x>61</x>
+      <y>57</y>
+      <width>66</width>
+      <height>13</height>
+      <font>
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
