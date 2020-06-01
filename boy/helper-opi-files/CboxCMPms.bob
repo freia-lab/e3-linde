@@ -26,18 +26,18 @@
       <text>Vacuum pressure</text>
       <x>1</x>
       <y>9</y>
-      <width>105</width>
+      <width>230</width>
       <height>15</height>
       <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
+        <color name="BACKGROUND" red="220" green="225" blue="221">
         </color>
       </background_color>
       <vertical_alignment>1</vertical_alignment>
@@ -53,18 +53,18 @@
       <name>Label Template_2</name>
       <text>Warm-Up off</text>
       <y>40</y>
-      <width>76</width>
+      <width>230</width>
       <height>15</height>
       <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
+        <color name="BACKGROUND" red="220" green="225" blue="221">
         </color>
       </background_color>
       <vertical_alignment>1</vertical_alignment>
@@ -80,18 +80,18 @@
       <name>Label Template_3</name>
       <text>CW flow ok</text>
       <y>80</y>
-      <width>67</width>
+      <width>230</width>
       <height>15</height>
       <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
+        <color name="BACKGROUND" red="220" green="225" blue="221">
         </color>
       </background_color>
       <vertical_alignment>1</vertical_alignment>
@@ -107,18 +107,18 @@
       <name>Label Template_4</name>
       <text>Instrument air pressure ok</text>
       <y>120</y>
-      <width>159</width>
+      <width>230</width>
       <height>15</height>
       <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
+        <color name="BACKGROUND" red="220" green="225" blue="221">
         </color>
       </background_color>
       <vertical_alignment>1</vertical_alignment>
@@ -134,18 +134,18 @@
       <name>Label Template_5</name>
       <text>GMP pressure stable</text>
       <y>160</y>
-      <width>123</width>
+      <width>230</width>
       <height>15</height>
       <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
+        <color name="BACKGROUND" red="220" green="225" blue="221">
         </color>
       </background_color>
       <vertical_alignment>1</vertical_alignment>
@@ -161,18 +161,18 @@
       <name>Label Template_6</name>
       <text>Turbine inlet valve close</text>
       <y>200</y>
-      <width>146</width>
+      <width>230</width>
       <height>15</height>
       <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
+        <color name="BACKGROUND" red="220" green="225" blue="221">
         </color>
       </background_color>
       <vertical_alignment>1</vertical_alignment>
@@ -356,18 +356,18 @@
       <name>Label Template_7</name>
       <text>Turbine inlet valve not controlled</text>
       <y>241</y>
-      <width>198</width>
+      <width>230</width>
       <height>15</height>
       <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
+        <color name="BACKGROUND" red="220" green="225" blue="221">
         </color>
       </background_color>
       <vertical_alignment>1</vertical_alignment>
@@ -383,18 +383,18 @@
       <name>Label Template_8</name>
       <text>Turbines 1+2 stopped</text>
       <y>281</y>
-      <width>133</width>
+      <width>230</width>
       <height>15</height>
       <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
+        <color name="BACKGROUND" red="220" green="225" blue="221">
         </color>
       </background_color>
       <vertical_alignment>1</vertical_alignment>
@@ -410,18 +410,18 @@
       <name>Label Template_9</name>
       <text>Coldbox shutdowns</text>
       <y>321</y>
-      <width>117</width>
+      <width>230</width>
       <height>15</height>
       <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
+        <color name="BACKGROUND" red="220" green="225" blue="221">
         </color>
       </background_color>
       <vertical_alignment>1</vertical_alignment>
@@ -437,18 +437,18 @@
       <name>Label Template_10</name>
       <text>No coldbox shutdown</text>
       <y>361</y>
-      <width>129</width>
+      <width>230</width>
       <height>14</height>
       <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
+        <color name="BACKGROUND" red="220" green="225" blue="221">
         </color>
       </background_color>
       <vertical_alignment>1</vertical_alignment>

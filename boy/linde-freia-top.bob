@@ -34,7 +34,7 @@
             <x>685</x>
             <y>15</y>
             <width>66</width>
-            <height>17</height>
+            <height>18</height>
             <font>
               <font family="Sans" style="REGULAR" size="13.861386138613861">
               </font>
@@ -119,7 +119,7 @@
             <x>685</x>
             <y>15</y>
             <width>66</width>
-            <height>17</height>
+            <height>18</height>
             <font>
               <font family="Sans" style="REGULAR" size="13.861386138613861">
               </font>
@@ -166,7 +166,7 @@
             <x>685</x>
             <y>15</y>
             <width>92</width>
-            <height>17</height>
+            <height>18</height>
             <font>
               <font family="Sans" style="REGULAR" size="13.861386138613861">
               </font>
@@ -213,7 +213,7 @@
             <x>685</x>
             <y>15</y>
             <width>121</width>
-            <height>17</height>
+            <height>18</height>
             <font>
               <font family="Sans" style="REGULAR" size="13.861386138613861">
               </font>
@@ -260,7 +260,7 @@
             <x>685</x>
             <y>15</y>
             <width>123</width>
-            <height>17</height>
+            <height>18</height>
             <font>
               <font family="Sans" style="REGULAR" size="13.861386138613861">
               </font>
@@ -339,34 +339,6 @@
               </color>
             </border_color>
           </widget>
-          <widget type="label" version="2.0.0">
-            <name>Label Template_48</name>
-            <text>Trips &amp; Alarms</text>
-            <x>685</x>
-            <y>15</y>
-            <width>102</width>
-            <height>17</height>
-            <font>
-              <font family="Sans" style="REGULAR" size="13.861386138613861">
-              </font>
-            </font>
-            <foreground_color>
-              <color name="IO Text Fg" red="0" green="32" blue="92">
-              </color>
-            </foreground_color>
-            <background_color>
-              <color name="IO Background" red="255" green="255" blue="205">
-              </color>
-            </background_color>
-            <vertical_alignment>1</vertical_alignment>
-            <auto_size>true</auto_size>
-            <actions>
-            </actions>
-            <border_color>
-              <color name="IO Border" red="215" green="215" blue="215">
-              </color>
-            </border_color>
-          </widget>
         </children>
       </tab>
     </tabs>
@@ -378,7 +350,7 @@
       <color name="IO Shape Fill" red="188" green="188" blue="188">
       </color>
     </background_color>
-    <active_tab>6</active_tab>
+    <active_tab>3</active_tab>
     <tab_height>10</tab_height>
     <actions>
     </actions>

@@ -32,19 +32,19 @@
         <name>Label Template_27</name>
         <text>Turbine inlet valves close</text>
         <x>1</x>
-        <y>39</y>
-        <width>152</width>
-        <height>15</height>
+        <y>24</y>
+        <width>210</width>
+        <height>14</height>
         <font>
-          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
         </font>
         <foreground_color>
-          <color name="IO Text Fg" red="0" green="32" blue="92">
+          <color name="BLACK" red="0" green="0" blue="0">
           </color>
         </foreground_color>
         <background_color>
-          <color name="IO Background" red="255" green="255" blue="205">
+          <color name="BACKGROUND" red="220" green="225" blue="221">
           </color>
         </background_color>
         <vertical_alignment>1</vertical_alignment>
@@ -60,19 +60,19 @@
         <name>Label Template_28</name>
         <text>Buffer pressure</text>
         <x>1</x>
-        <y>79</y>
-        <width>92</width>
-        <height>15</height>
+        <y>64</y>
+        <width>210</width>
+        <height>14</height>
         <font>
-          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
         </font>
         <foreground_color>
-          <color name="IO Text Fg" red="0" green="32" blue="92">
+          <color name="BLACK" red="0" green="0" blue="0">
           </color>
         </foreground_color>
         <background_color>
-          <color name="IO Background" red="255" green="255" blue="205">
+          <color name="BACKGROUND" red="220" green="225" blue="221">
           </color>
         </background_color>
         <vertical_alignment>1</vertical_alignment>
@@ -88,19 +88,19 @@
         <name>Label Template_29</name>
         <text>Low pressure</text>
         <x>1</x>
-        <y>119</y>
-        <width>80</width>
-        <height>15</height>
+        <y>104</y>
+        <width>210</width>
+        <height>14</height>
         <font>
-          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
         </font>
         <foreground_color>
-          <color name="IO Text Fg" red="0" green="32" blue="92">
+          <color name="BLACK" red="0" green="0" blue="0">
           </color>
         </foreground_color>
         <background_color>
-          <color name="IO Background" red="255" green="255" blue="205">
+          <color name="BACKGROUND" red="220" green="225" blue="221">
           </color>
         </background_color>
         <vertical_alignment>1</vertical_alignment>
@@ -116,19 +116,19 @@
         <name>Label Template_30</name>
         <text>High pressure</text>
         <x>1</x>
-        <y>159</y>
-        <width>83</width>
-        <height>15</height>
+        <y>144</y>
+        <width>210</width>
+        <height>14</height>
         <font>
-          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
         </font>
         <foreground_color>
-          <color name="IO Text Fg" red="0" green="32" blue="92">
+          <color name="BLACK" red="0" green="0" blue="0">
           </color>
         </foreground_color>
         <background_color>
-          <color name="IO Background" red="255" green="255" blue="205">
+          <color name="BACKGROUND" red="220" green="225" blue="221">
           </color>
         </background_color>
         <vertical_alignment>1</vertical_alignment>
@@ -144,19 +144,19 @@
         <name>Label Template_31</name>
         <text>No Shutdown active</text>
         <x>1</x>
-        <y>199</y>
-        <width>120</width>
-        <height>15</height>
+        <y>184</y>
+        <width>210</width>
+        <height>14</height>
         <font>
-          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
         </font>
         <foreground_color>
-          <color name="IO Text Fg" red="0" green="32" blue="92">
+          <color name="BLACK" red="0" green="0" blue="0">
           </color>
         </foreground_color>
         <background_color>
-          <color name="IO Background" red="255" green="255" blue="205">
+          <color name="BACKGROUND" red="220" green="225" blue="221">
           </color>
         </background_color>
         <vertical_alignment>1</vertical_alignment>
@@ -172,19 +172,19 @@
         <name>Label Template_32</name>
         <text>Compressor Motor Protection expired</text>
         <x>1</x>
-        <y>239</y>
-        <width>223</width>
-        <height>15</height>
+        <y>224</y>
+        <width>236</width>
+        <height>14</height>
         <font>
-          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
         </font>
         <foreground_color>
-          <color name="IO Text Fg" red="0" green="32" blue="92">
+          <color name="BLACK" red="0" green="0" blue="0">
           </color>
         </foreground_color>
         <background_color>
-          <color name="IO Background" red="255" green="255" blue="205">
+          <color name="BACKGROUND" red="220" green="225" blue="221">
           </color>
         </background_color>
         <vertical_alignment>1</vertical_alignment>
@@ -200,19 +200,19 @@
         <name>Label Template_33</name>
         <text>Motor protection time</text>
         <x>38</x>
-        <y>276</y>
-        <width>130</width>
-        <height>15</height>
+        <y>261</y>
+        <width>210</width>
+        <height>14</height>
         <font>
-          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
         </font>
         <foreground_color>
-          <color name="IO Text Fg" red="0" green="32" blue="92">
+          <color name="BLACK" red="0" green="0" blue="0">
           </color>
         </foreground_color>
         <background_color>
-          <color name="IO Background" red="255" green="255" blue="205">
+          <color name="BACKGROUND" red="220" green="225" blue="221">
           </color>
         </background_color>
         <vertical_alignment>1</vertical_alignment>
@@ -228,19 +228,19 @@
         <name>Label Template_34</name>
         <text>Actual off time</text>
         <x>38</x>
-        <y>308</y>
-        <width>88</width>
-        <height>15</height>
+        <y>293</y>
+        <width>210</width>
+        <height>14</height>
         <font>
-          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
         </font>
         <foreground_color>
-          <color name="IO Text Fg" red="0" green="32" blue="92">
+          <color name="BLACK" red="0" green="0" blue="0">
           </color>
         </foreground_color>
         <background_color>
-          <color name="IO Background" red="255" green="255" blue="205">
+          <color name="BACKGROUND" red="220" green="225" blue="221">
           </color>
         </background_color>
         <vertical_alignment>1</vertical_alignment>
@@ -256,8 +256,8 @@
         <name>LED Template_20</name>
         <pv_name>Cryo-Cmp:Cx:Pms_StrtTuInletVlv</pv_name>
         <bit>0</bit>
-        <x>257</x>
-        <y>39</y>
+        <x>248</x>
+        <y>24</y>
         <width>67</width>
         <height>24</height>
         <off_color>
@@ -288,8 +288,8 @@
         <name>LED Template_21</name>
         <pv_name>Cryo-Cmp:Cx:Pms_StrtBuPr</pv_name>
         <bit>0</bit>
-        <x>257</x>
-        <y>79</y>
+        <x>248</x>
+        <y>64</y>
         <width>67</width>
         <height>24</height>
         <off_color>
@@ -320,8 +320,8 @@
         <name>LED Template_22</name>
         <pv_name>Cryo-Cmp:Cx:Pms_StrtLP</pv_name>
         <bit>0</bit>
-        <x>257</x>
-        <y>119</y>
+        <x>248</x>
+        <y>104</y>
         <width>67</width>
         <height>24</height>
         <off_color>
@@ -352,8 +352,8 @@
         <name>LED Template_23</name>
         <pv_name>Cryo-Cmp:Cx:Pms_StrtHP</pv_name>
         <bit>0</bit>
-        <x>257</x>
-        <y>159</y>
+        <x>248</x>
+        <y>144</y>
         <width>67</width>
         <height>24</height>
         <off_color>
@@ -384,8 +384,8 @@
         <name>LED Template_24</name>
         <pv_name>Cryo-Cmp:C1:Pms_StrtNoSd</pv_name>
         <bit>0</bit>
-        <x>257</x>
-        <y>199</y>
+        <x>248</x>
+        <y>184</y>
         <width>67</width>
         <height>24</height>
         <off_color>
@@ -416,8 +416,8 @@
         <name>LED Template_25</name>
         <pv_name>Cryo-Cmp:C1:Pms_StrtMotorProt</pv_name>
         <bit>0</bit>
-        <x>257</x>
-        <y>239</y>
+        <x>248</x>
+        <y>224</y>
         <width>67</width>
         <height>24</height>
         <off_color>
@@ -447,16 +447,20 @@
       <widget type="textupdate" version="2.0.0">
         <name>Text Update Template_4</name>
         <pv_name>Cryo-Cmp:Cmp:ActMotorProtTm</pv_name>
-        <x>257</x>
-        <y>276</y>
+        <x>248</x>
+        <y>261</y>
         <width>67</width>
         <height>18</height>
+        <font>
+          <font family="Source Sans Pro" style="REGULAR" size="15.0">
+          </font>
+        </font>
         <foreground_color>
-          <color name="IO InputPV Fg" red="0" green="32" blue="92">
+          <color name="BLACK" red="0" green="0" blue="0">
           </color>
         </foreground_color>
         <background_color>
-          <color name="IO InputPV Bg" red="255" green="255" blue="255">
+          <color name="WHITE" red="255" green="255" blue="255">
           </color>
         </background_color>
         <precision>0</precision>
@@ -472,16 +476,20 @@
       <widget type="textupdate" version="2.0.0">
         <name>Text Update Template_5</name>
         <pv_name>Cryo-Cmp:Cmp:ActOffTm</pv_name>
-        <x>257</x>
-        <y>308</y>
+        <x>248</x>
+        <y>293</y>
         <width>67</width>
         <height>18</height>
+        <font>
+          <font family="Source Sans Pro" style="REGULAR" size="15.0">
+          </font>
+        </font>
         <foreground_color>
-          <color name="IO InputPV Fg" red="0" green="32" blue="92">
+          <color name="BLACK" red="0" green="0" blue="0">
           </color>
         </foreground_color>
         <background_color>
-          <color name="IO InputPV Bg" red="255" green="255" blue="255">
+          <color name="WHITE" red="255" green="255" blue="255">
           </color>
         </background_color>
         <precision>0</precision>
@@ -513,18 +521,18 @@
         <text>Dewar return valve close</text>
         <x>7</x>
         <y>19</y>
-        <width>150</width>
-        <height>15</height>
+        <width>172</width>
+        <height>14</height>
         <font>
-          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
         </font>
         <foreground_color>
-          <color name="IO Text Fg" red="0" green="32" blue="92">
+          <color name="BLACK" red="0" green="0" blue="0">
           </color>
         </foreground_color>
         <background_color>
-          <color name="IO Background" red="255" green="255" blue="205">
+          <color name="BACKGROUND" red="220" green="225" blue="221">
           </color>
         </background_color>
         <vertical_alignment>1</vertical_alignment>
@@ -541,18 +549,18 @@
         <text>Turbine inlet valve close</text>
         <x>7</x>
         <y>59</y>
-        <width>146</width>
+        <width>168</width>
         <height>15</height>
         <font>
-          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
         </font>
         <foreground_color>
-          <color name="IO Text Fg" red="0" green="32" blue="92">
+          <color name="BLACK" red="0" green="0" blue="0">
           </color>
         </foreground_color>
         <background_color>
-          <color name="IO Background" red="255" green="255" blue="205">
+          <color name="BACKGROUND" red="220" green="225" blue="221">
           </color>
         </background_color>
         <vertical_alignment>1</vertical_alignment>
@@ -569,18 +577,18 @@
         <text>Cbox Coldmode Off</text>
         <x>7</x>
         <y>99</y>
-        <width>116</width>
-        <height>15</height>
+        <width>138</width>
+        <height>14</height>
         <font>
-          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
         </font>
         <foreground_color>
-          <color name="IO Text Fg" red="0" green="32" blue="92">
+          <color name="BLACK" red="0" green="0" blue="0">
           </color>
         </foreground_color>
         <background_color>
-          <color name="IO Background" red="255" green="255" blue="205">
+          <color name="BACKGROUND" red="220" green="225" blue="221">
           </color>
         </background_color>
         <vertical_alignment>1</vertical_alignment>
@@ -597,18 +605,18 @@
         <text>Cbox Warm-Up Off</text>
         <x>7</x>
         <y>139</y>
-        <width>112</width>
-        <height>15</height>
+        <width>134</width>
+        <height>14</height>
         <font>
-          <font family="Sans" style="REGULAR" size="11.881188118811881">
+          <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
         </font>
         <foreground_color>
-          <color name="IO Text Fg" red="0" green="32" blue="92">
+          <color name="BLACK" red="0" green="0" blue="0">
           </color>
         </foreground_color>
         <background_color>
-          <color name="IO Background" red="255" green="255" blue="205">
+          <color name="BACKGROUND" red="220" green="225" blue="221">
           </color>
         </background_color>
         <vertical_alignment>1</vertical_alignment>

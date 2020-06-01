@@ -26,18 +26,18 @@
       <name>Label Template_1</name>
       <text>If Coldmode On - Heater locked</text>
       <y>6</y>
-      <width>188</width>
+      <width>250</width>
       <height>14</height>
       <font>
-        <font family="Sans" style="REGULAR" size="11.881188118811881">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92">
+        <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </foreground_color>
       <background_color>
-        <color name="IO Background" red="255" green="255" blue="205">
+        <color name="BACKGROUND" red="220" green="225" blue="221">
         </color>
       </background_color>
       <vertical_alignment>1</vertical_alignment>
