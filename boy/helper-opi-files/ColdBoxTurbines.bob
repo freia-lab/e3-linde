@@ -12,6 +12,30 @@
     <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
   </grid_color>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline Template_14</name>
+    <x>480</x>
+    <y>33</y>
+    <width>134</width>
+    <height>151</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="150.0">
+      </point>
+      <point x="133.0" y="150.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
   <widget type="polygon" version="2.0.0">
     <name>Polygon Template_7</name>
     <x>35</x>
@@ -456,67 +480,41 @@ $(pv_value)</tooltip>
     <transparent>true</transparent>
     <actions>
     </actions>
-    <widget type="polygon" version="2.0.0">
-      <name>Polygon Template</name>
-      <width>50</width>
-      <height>21</height>
-      <line_width>2</line_width>
+    <widget type="multi_state_led" version="2.0.0">
+      <name>LED (Multi State)_1</name>
+      <pv_name>Cryo-Cbox:Tu1:VisuState</pv_name>
+      <x>13</x>
+      <y>18</y>
+      <width>23</width>
+      <height>50</height>
       <line_color>
         <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </line_color>
-      <background_color>
+      <square>true</square>
+      <states>
+        <state>
+          <value>5</value>
+          <label> </label>
+          <color>
+            <color name="LED-RED-ON" red="255" green="60" blue="46">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>4</value>
+          <label> </label>
+          <color>
+            <color name="LED-GREEN-ON" red="70" green="255" blue="70">
+            </color>
+          </color>
+        </state>
+      </states>
+      <fallback_label> </fallback_label>
+      <fallback_color>
         <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
         </color>
-      </background_color>
-      <points>
-        <point x="0.0" y="0.0">
-        </point>
-        <point x="49.0" y="0.0">
-        </point>
-        <point x="38.0" y="20.0">
-        </point>
-        <point x="11.0" y="20.0">
-        </point>
-      </points>
-      <actions>
-      </actions>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    </widget>
-    <widget type="rectangle" version="2.0.0">
-      <name>Rectangle Template</name>
-      <x>15</x>
-      <y>20</y>
-      <width>18</width>
-      <height>47</height>
-      <line_width>1</line_width>
-      <line_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </line_color>
-      <background_color>
-        <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
-        </color>
-      </background_color>
-      <actions>
-      </actions>
-      <rules>
-        <rule name="ColorRule" prop_id="foreground_color" out_exp="false">
-          <exp bool_exp="!(pv0==4||pv0==5)">
-            <value>&lt;color blue="126" green="123" name="IO OutputPV Bg" red="121"/&gt;</value>
-          </exp>
-          <exp bool_exp="pv0==4">
-            <value>&lt;color blue="0" green="207" red="0"/&gt;</value>
-          </exp>
-          <exp bool_exp="pv0==5">
-            <value>&lt;color blue="0" green="0" red="207"/&gt;</value>
-          </exp>
-          <pv_name>$(pv_name)</pv_name>
-        </rule>
-      </rules>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+      </fallback_color>
     </widget>
     <widget type="polygon" version="2.0.0">
       <name>Polygon Template_1</name>
@@ -546,6 +544,64 @@ $(pv_value)</tooltip>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon Template</name>
+      <width>50</width>
+      <height>21</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+        </color>
+      </background_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="49.0" y="0.0">
+        </point>
+        <point x="38.0" y="20.0">
+        </point>
+        <point x="11.0" y="20.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline Template_3</name>
+    <x>643</x>
+    <y>220</y>
+    <width>300</width>
+    <height>44</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="19.0">
+      </point>
+      <point x="21.0" y="19.0">
+      </point>
+      <point x="21.0" y="43.0">
+      </point>
+      <point x="121.0" y="43.0">
+      </point>
+      <point x="121.0" y="0.0">
+      </point>
+      <point x="299.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
   </widget>
   <widget type="group" version="2.0.0">
     <name>Panel 2_1</name>
@@ -565,13 +621,47 @@ $(pv_value)</tooltip>
     <transparent>true</transparent>
     <actions>
     </actions>
-    <widget type="rectangle" version="2.0.0">
-      <name>Rectangle Template</name>
-      <x>15</x>
-      <y>20</y>
-      <width>18</width>
-      <height>47</height>
-      <line_width>1</line_width>
+    <widget type="multi_state_led" version="2.0.0">
+      <name>LED (Multi State)_2</name>
+      <pv_name>Cryo-Cbox:Tu2:VisuState</pv_name>
+      <x>13</x>
+      <y>19</y>
+      <width>23</width>
+      <height>50</height>
+      <line_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <square>true</square>
+      <states>
+        <state>
+          <value>5</value>
+          <label> </label>
+          <color>
+            <color name="LED-RED-ON" red="255" green="60" blue="46">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>4</value>
+          <label> </label>
+          <color>
+            <color name="LED-GREEN-ON" red="70" green="255" blue="70">
+            </color>
+          </color>
+        </state>
+      </states>
+      <fallback_label> </fallback_label>
+      <fallback_color>
+        <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+        </color>
+      </fallback_color>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon Template</name>
+      <width>50</width>
+      <height>21</height>
+      <line_width>2</line_width>
       <line_color>
         <color name="BLACK" red="0" green="0" blue="0">
         </color>
@@ -580,22 +670,18 @@ $(pv_value)</tooltip>
         <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
         </color>
       </background_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="49.0" y="0.0">
+        </point>
+        <point x="38.0" y="20.0">
+        </point>
+        <point x="11.0" y="20.0">
+        </point>
+      </points>
       <actions>
       </actions>
-      <rules>
-        <rule name="ColorRule" prop_id="foreground_color" out_exp="false">
-          <exp bool_exp="!(pv0==4||pv0==5)">
-            <value>&lt;color blue="126" green="123" name="IO OutputPV Bg" red="121"/&gt;</value>
-          </exp>
-          <exp bool_exp="pv0==4">
-            <value>&lt;color blue="0" green="207" red="0"/&gt;</value>
-          </exp>
-          <exp bool_exp="pv0==5">
-            <value>&lt;color blue="0" green="0" red="207"/&gt;</value>
-          </exp>
-          <pv_name>$(pv_name)</pv_name>
-        </rule>
-      </rules>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     </widget>
@@ -620,34 +706,6 @@ $(pv_value)</tooltip>
         <point x="38.0" y="0.0">
         </point>
         <point x="11.0" y="0.0">
-        </point>
-      </points>
-      <actions>
-      </actions>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    </widget>
-    <widget type="polygon" version="2.0.0">
-      <name>Polygon Template</name>
-      <width>50</width>
-      <height>21</height>
-      <line_width>2</line_width>
-      <line_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </line_color>
-      <background_color>
-        <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
-        </color>
-      </background_color>
-      <points>
-        <point x="0.0" y="0.0">
-        </point>
-        <point x="49.0" y="0.0">
-        </point>
-        <point x="38.0" y="20.0">
-        </point>
-        <point x="11.0" y="20.0">
         </point>
       </points>
       <actions>
@@ -689,7 +747,7 @@ $(pv_value)</tooltip>
     <name>Label Template_1</name>
     <text>E3140</text>
     <x>690</x>
-    <y>316</y>
+    <y>314</y>
     <width>38</width>
     <height>19</height>
     <font>
@@ -740,40 +798,10 @@ $(pv_value)</tooltip>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
-  <widget type="polyline" version="2.0.0">
-    <name>Polyline Template_3</name>
-    <x>643</x>
-    <y>220</y>
-    <width>300</width>
-    <height>44</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color name="BLUE-BORDER" red="47" green="135" blue="148">
-      </color>
-    </line_color>
-    <points>
-      <point x="0.0" y="19.0">
-      </point>
-      <point x="21.0" y="19.0">
-      </point>
-      <point x="21.0" y="43.0">
-      </point>
-      <point x="121.0" y="43.0">
-      </point>
-      <point x="121.0" y="0.0">
-      </point>
-      <point x="299.0" y="0.0">
-      </point>
-    </points>
-    <actions>
-    </actions>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-  </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_2</name>
     <text>E3150</text>
-    <x>839</x>
+    <x>840</x>
     <y>314</y>
     <width>38</width>
     <height>19</height>
@@ -803,8 +831,8 @@ $(pv_value)</tooltip>
     <name>Polyline Template_4</name>
     <x>973</x>
     <y>240</y>
-    <width>95</width>
-    <height>31</height>
+    <width>94</width>
+    <height>32</height>
     <line_width>2</line_width>
     <line_color>
       <color name="BLUE-BORDER" red="47" green="135" blue="148">
@@ -815,7 +843,7 @@ $(pv_value)</tooltip>
       </point>
       <point x="94.0" y="0.0">
       </point>
-      <point x="94.0" y="30.0">
+      <point x="94.0" y="32.5">
       </point>
     </points>
     <actions>
@@ -826,9 +854,9 @@ $(pv_value)</tooltip>
   <widget type="polyline" version="2.0.0">
     <name>Polyline Template_5</name>
     <x>1067</x>
-    <y>280</y>
-    <width>1</width>
-    <height>88</height>
+    <y>282</y>
+    <width>0</width>
+    <height>83</height>
     <line_width>2</line_width>
     <line_color>
       <color name="BLUE-BORDER" red="47" green="135" blue="148">
@@ -836,9 +864,9 @@ $(pv_value)</tooltip>
     </line_color>
     <arrows>2</arrows>
     <points>
-      <point x="0.0" y="0.0">
+      <point x="0.5" y="0.0">
       </point>
-      <point x="0.0" y="87.0">
+      <point x="0.0" y="83.5">
       </point>
     </points>
     <actions>
@@ -1383,10 +1411,10 @@ $(pv_value)</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label Template_13</name>
     <text>impure gas supply </text>
-    <x>50</x>
-    <y>719</y>
-    <width>58</width>
-    <height>69</height>
+    <x>47</x>
+    <y>762</y>
+    <width>110</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1492,30 +1520,6 @@ $(pv_value)</tooltip>
       </color>
     </border_color>
   </widget>
-  <widget type="polyline" version="2.0.0">
-    <name>Polyline Template_14</name>
-    <x>480</x>
-    <y>33</y>
-    <width>134</width>
-    <height>151</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLUE-BORDER" red="47" green="135" blue="148">
-      </color>
-    </line_color>
-    <points>
-      <point x="0.0" y="0.0">
-      </point>
-      <point x="0.0" y="150.0">
-      </point>
-      <point x="133.0" y="150.0">
-      </point>
-    </points>
-    <actions>
-    </actions>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-  </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_55</name>
     <text>CV3130</text>
@@ -1597,8 +1601,8 @@ $(pv_value)</tooltip>
     <text>M</text>
     <x>598</x>
     <y>89</y>
-    <width>7</width>
-    <height>10</height>
+    <width>10</width>
+    <height>17</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="13.0">
       </font>
@@ -1772,8 +1776,8 @@ $(pv_value)</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label Template_40</name>
     <text>SC3131</text>
-    <x>696</x>
-    <y>149</y>
+    <x>697</x>
+    <y>147</y>
     <width>44</width>
     <height>18</height>
     <font>
@@ -2059,8 +2063,8 @@ $(pv_value)</tooltip>
     <text>M</text>
     <x>931</x>
     <y>88</y>
-    <width>7</width>
-    <height>10</height>
+    <width>10</width>
+    <height>17</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="13.0">
       </font>
@@ -3975,20 +3979,20 @@ $(pv_value)</tooltip>
   <widget type="polyline" version="2.0.0">
     <name>Polyline Template_58</name>
     <x>881</x>
-    <y>439</y>
-    <width>306</width>
-    <height>95</height>
+    <y>438</y>
+    <width>309</width>
+    <height>94</height>
     <line_width>1</line_width>
     <line_color>
       <color name="BLUE-BORDER" red="47" green="135" blue="148">
       </color>
     </line_color>
     <points>
-      <point x="0.0" y="94.0">
+      <point x="0.0" y="94.5">
       </point>
       <point x="0.0" y="0.0">
       </point>
-      <point x="305.0" y="0.0">
+      <point x="309.0" y="0.0">
       </point>
     </points>
     <actions>
@@ -4021,9 +4025,9 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>Polyline Template_60</name>
-    <x>1198</x>
-    <y>439</y>
-    <width>125</width>
+    <x>1200</x>
+    <y>438</y>
+    <width>121</width>
     <height>1</height>
     <line_width>1</line_width>
     <line_color>
@@ -4033,7 +4037,7 @@ $(pv_value)</tooltip>
     <points>
       <point x="0.0" y="0.0">
       </point>
-      <point x="124.0" y="0.0">
+      <point x="121.59999999999991" y="0.0">
       </point>
     </points>
     <actions>
@@ -5010,6 +5014,7 @@ $(pv_value)</tooltip>
       <color name="IO Shape Fill" red="188" green="188" blue="188">
       </color>
     </background_color>
+    <rotation>90.0</rotation>
     <actions>
     </actions>
     <border_alarm_sensitive>false</border_alarm_sensitive>
