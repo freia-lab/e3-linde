@@ -3,11 +3,12 @@
   <width>1340</width>
   <height>820</height>
   <background_color>
-    <color name="IO Shape Fill" red="188" green="188" blue="188">
+    <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
   </background_color>
   <actions>
   </actions>
+  <grid_visible>false</grid_visible>
   <widget type="group" version="2.0.0">
     <name>Panel 2</name>
     <width>436</width>
@@ -63,8 +64,8 @@
       <name>Label Template</name>
       <text>Parameter input failure high pressure control</text>
       <x>29</x>
-      <width>390</width>
-      <height>12</height>
+      <width>264</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -122,8 +123,8 @@
       <text>Parameter input failure low pressure control</text>
       <x>29</x>
       <y>29</y>
-      <width>220</width>
-      <height>12</height>
+      <width>260</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -181,8 +182,8 @@
       <text>Database for supervision of analog inputs incorrect</text>
       <x>29</x>
       <y>58</y>
-      <width>390</width>
-      <height>12</height>
+      <width>298</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -240,8 +241,8 @@
       <text>Common failure of analog inputs control</text>
       <x>29</x>
       <y>87</y>
-      <width>390</width>
-      <height>12</height>
+      <width>237</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -299,8 +300,8 @@
       <text>PLC battery voltage low</text>
       <x>29</x>
       <y>116</y>
-      <width>390</width>
-      <height>12</height>
+      <width>139</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -358,8 +359,8 @@
       <text>Fuses fallen off warning (Check cabinet)</text>
       <x>29</x>
       <y>145</y>
-      <width>390</width>
-      <height>12</height>
+      <width>232</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -417,8 +418,8 @@
       <text>Start PLC</text>
       <x>29</x>
       <y>174</y>
-      <width>390</width>
-      <height>12</height>
+      <width>55</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -476,8 +477,8 @@
       <text>Fuses fallen off warning (Check cabinet)</text>
       <x>29</x>
       <y>203</y>
-      <width>390</width>
-      <height>12</height>
+      <width>232</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -535,8 +536,8 @@
       <text>Gm warn - Coalescer 1 (S2810) Evacuation fault</text>
       <x>29</x>
       <y>232</y>
-      <width>390</width>
-      <height>12</height>
+      <width>275</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -594,8 +595,8 @@
       <text>Gm warn - Coalescer 1 (S2810) Evacuation time too short</text>
       <x>29</x>
       <y>261</y>
-      <width>390</width>
-      <height>12</height>
+      <width>331</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -653,8 +654,8 @@
       <text>Gm warn - Coalescer 1 (S2810) Evacuation time too long</text>
       <x>29</x>
       <y>290</y>
-      <width>390</width>
-      <height>12</height>
+      <width>326</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -712,8 +713,8 @@
       <text>Gm warn - Coalescer 2 (S2811) Evacuation fault</text>
       <x>29</x>
       <y>319</y>
-      <width>390</width>
-      <height>12</height>
+      <width>275</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -771,8 +772,8 @@
       <text>Gm warn - Coalescer 2 (S2811) Evacuation time too short</text>
       <x>29</x>
       <y>348</y>
-      <width>390</width>
-      <height>12</height>
+      <width>331</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -830,8 +831,8 @@
       <text>Gm warn - Coalescer 2 (S2811) Evacuation time too long</text>
       <x>29</x>
       <y>377</y>
-      <width>390</width>
-      <height>12</height>
+      <width>326</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -889,8 +890,8 @@
       <text>Gm warn - High pressure too low - bad oilseparation in coalescers</text>
       <x>29</x>
       <y>406</y>
-      <width>390</width>
-      <height>12</height>
+      <width>382</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -948,8 +949,8 @@
       <text>Cx warn - Buffer pressure low</text>
       <x>29</x>
       <y>435</y>
-      <width>390</width>
-      <height>12</height>
+      <width>170</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1007,8 +1008,8 @@
       <text>Cx warn - HP too high</text>
       <x>29</x>
       <y>464</y>
-      <width>390</width>
-      <height>12</height>
+      <width>125</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1066,8 +1067,8 @@
       <text>Cx warn - HP too low</text>
       <x>29</x>
       <y>493</y>
-      <width>390</width>
-      <height>12</height>
+      <width>121</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1125,8 +1126,8 @@
       <text>Cx warn - LP too high</text>
       <x>29</x>
       <y>522</y>
-      <width>390</width>
-      <height>12</height>
+      <width>123</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1184,8 +1185,8 @@
       <text>Cx warn - LP too low</text>
       <x>29</x>
       <y>551</y>
-      <width>390</width>
-      <height>12</height>
+      <width>119</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1243,8 +1244,8 @@
       <text>C1 common warning</text>
       <x>29</x>
       <y>580</y>
-      <width>390</width>
-      <height>12</height>
+      <width>121</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1302,8 +1303,8 @@
       <text>C2 common warning</text>
       <x>29</x>
       <y>609</y>
-      <width>390</width>
-      <height>12</height>
+      <width>121</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1361,8 +1362,8 @@
       <text>Mcd warn - H2O content too high</text>
       <x>29</x>
       <y>638</y>
-      <width>390</width>
-      <height>12</height>
+      <width>192</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1420,8 +1421,8 @@
       <text>Mcd warn - N2 content too high</text>
       <x>29</x>
       <y>667</y>
-      <width>390</width>
-      <height>12</height>
+      <width>183</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1479,8 +1480,8 @@
       <text>Mcd warn - CxHy content too high</text>
       <x>29</x>
       <y>696</y>
-      <width>390</width>
-      <height>12</height>
+      <width>197</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1538,8 +1539,8 @@
       <text>Mcd warn - Oil content too high</text>
       <x>29</x>
       <y>725</y>
-      <width>390</width>
-      <height>12</height>
+      <width>183</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1597,8 +1598,8 @@
       <text>Cb warn - brake cooler flow not ok</text>
       <x>29</x>
       <y>754</y>
-      <width>390</width>
-      <height>12</height>
+      <width>200</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1656,8 +1657,8 @@
       <text>Cb warn - dewar level too high</text>
       <x>29</x>
       <y>783</y>
-      <width>390</width>
-      <height>12</height>
+      <width>177</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1732,8 +1733,8 @@
       <name>Label Template_2</name>
       <text>Dwr warn - Dewar level measuring under range</text>
       <x>29</x>
-      <width>360</width>
-      <height>12</height>
+      <width>273</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1791,8 +1792,8 @@
       <text>Dwr warn - Dewar level measuring over range</text>
       <x>29</x>
       <y>29</y>
-      <width>360</width>
-      <height>12</height>
+      <width>264</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1850,8 +1851,8 @@
       <text>Cb warn - temperature brake cooler turbine 2 high</text>
       <x>29</x>
       <y>58</y>
-      <width>360</width>
-      <height>12</height>
+      <width>293</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1909,8 +1910,8 @@
       <text>Cb warn - temperature turbine too low</text>
       <x>29</x>
       <y>87</y>
-      <width>360</width>
-      <height>12</height>
+      <width>225</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1968,8 +1969,8 @@
       <text>Cb warn - turbine 2 speed too high</text>
       <x>29</x>
       <y>116</y>
-      <width>360</width>
-      <height>12</height>
+      <width>201</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2027,8 +2028,8 @@
       <text>Cb warn - turbine 2 speed too low</text>
       <x>29</x>
       <y>145</y>
-      <width>360</width>
-      <height>12</height>
+      <width>196</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2086,8 +2087,8 @@
       <text>Cb warn - temperature brake cooler turbine 1 high</text>
       <x>29</x>
       <y>174</y>
-      <width>360</width>
-      <height>12</height>
+      <width>293</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2145,8 +2146,8 @@
       <text>Cb warn - temperature turbine 1 low</text>
       <x>29</x>
       <y>203</y>
-      <width>360</width>
-      <height>12</height>
+      <width>212</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2204,8 +2205,8 @@
       <text>Cb warn - turbine 1 speed too high</text>
       <x>29</x>
       <y>232</y>
-      <width>360</width>
-      <height>12</height>
+      <width>201</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2263,8 +2264,8 @@
       <text>Cb warn - turbine 1 speed too low</text>
       <x>29</x>
       <y>261</y>
-      <width>360</width>
-      <height>12</height>
+      <width>196</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2322,8 +2323,8 @@
       <text>LN2 warn - outlet temperature low</text>
       <x>29</x>
       <y>290</y>
-      <width>360</width>
-      <height>12</height>
+      <width>202</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2381,8 +2382,8 @@
       <text>LN2 warn - process temperature low</text>
       <x>29</x>
       <y>319</y>
-      <width>360</width>
-      <height>12</height>
+      <width>212</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2440,8 +2441,8 @@
       <text>Pu warn - separator level failure</text>
       <x>29</x>
       <y>348</y>
-      <width>360</width>
-      <height>12</height>
+      <width>186</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2499,8 +2500,8 @@
       <text>Vcm warn - vacuum measuring device signal under range</text>
       <x>29</x>
       <y>377</y>
-      <width>360</width>
-      <height>12</height>
+      <width>332</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2558,8 +2559,8 @@
       <text>Vcm warn - vacuum measuring device signal over range</text>
       <x>29</x>
       <y>406</y>
-      <width>360</width>
-      <height>12</height>
+      <width>323</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2617,8 +2618,8 @@
       <text>Pur: Off</text>
       <x>29</x>
       <y>435</y>
-      <width>360</width>
-      <height>12</height>
+      <width>45</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2676,8 +2677,8 @@
       <text>Pur: Idle</text>
       <x>29</x>
       <y>464</y>
-      <width>360</width>
-      <height>12</height>
+      <width>49</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2735,8 +2736,8 @@
       <text>Pur: Purge</text>
       <x>29</x>
       <y>493</y>
-      <width>360</width>
-      <height>12</height>
+      <width>62</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2794,8 +2795,8 @@
       <text>Pur: Spare</text>
       <x>29</x>
       <y>522</y>
-      <width>360</width>
-      <height>12</height>
+      <width>61</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2853,8 +2854,8 @@
       <text>Pur: Cd1</text>
       <x>29</x>
       <y>551</y>
-      <width>360</width>
-      <height>12</height>
+      <width>50</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2912,8 +2913,8 @@
       <text>Pur: Standby</text>
       <x>29</x>
       <y>580</y>
-      <width>360</width>
-      <height>12</height>
+      <width>76</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2971,8 +2972,8 @@
       <text>Pur: Cd2</text>
       <x>29</x>
       <y>609</y>
-      <width>360</width>
-      <height>12</height>
+      <width>50</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -3030,8 +3031,8 @@
       <text>Pur: Purify</text>
       <x>29</x>
       <y>638</y>
-      <width>360</width>
-      <height>12</height>
+      <width>62</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -3089,8 +3090,8 @@
       <text>Pur: Regeneration</text>
       <x>29</x>
       <y>667</y>
-      <width>360</width>
-      <height>12</height>
+      <width>106</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -3148,8 +3149,8 @@
       <text>Warning TI3465</text>
       <x>29</x>
       <y>696</y>
-      <width>360</width>
-      <height>12</height>
+      <width>91</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -3207,8 +3208,8 @@
       <text>Warning TI3475</text>
       <x>29</x>
       <y>725</y>
-      <width>360</width>
-      <height>12</height>
+      <width>91</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -3266,8 +3267,8 @@
       <text>Warning TI3460</text>
       <x>29</x>
       <y>754</y>
-      <width>360</width>
-      <height>12</height>
+      <width>91</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -3325,8 +3326,8 @@
       <text>Warning TI3454</text>
       <x>29</x>
       <y>783</y>
-      <width>360</width>
-      <height>12</height>
+      <width>91</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -3401,8 +3402,8 @@
       <name>Label Template_26</name>
       <text>Error sum QI7210</text>
       <x>29</x>
-      <width>140</width>
-      <height>12</height>
+      <width>102</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -3460,8 +3461,7 @@
       <text>Error sum TI3115</text>
       <x>29</x>
       <y>29</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -3519,8 +3519,8 @@
       <text>Error sum QI7220</text>
       <x>29</x>
       <y>58</y>
-      <width>140</width>
-      <height>12</height>
+      <width>102</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -3578,8 +3578,8 @@
       <text>Error sum QI7230</text>
       <x>29</x>
       <y>87</y>
-      <width>140</width>
-      <height>12</height>
+      <width>102</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -3637,8 +3637,8 @@
       <text>Error sum QI7240</text>
       <x>29</x>
       <y>116</y>
-      <width>140</width>
-      <height>12</height>
+      <width>102</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -3696,8 +3696,8 @@
       <text>Error sum QI7250</text>
       <x>29</x>
       <y>145</y>
-      <width>140</width>
-      <height>12</height>
+      <width>102</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -3755,8 +3755,7 @@
       <text>Error sum PI3404</text>
       <x>29</x>
       <y>174</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -3814,8 +3813,8 @@
       <text>Error sum PDI3685</text>
       <x>29</x>
       <y>203</y>
-      <width>140</width>
-      <height>12</height>
+      <width>109</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -3873,8 +3872,7 @@
       <text>Error sum TI5220</text>
       <x>29</x>
       <y>232</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -3932,8 +3930,7 @@
       <text>Error sum TI7215</text>
       <x>29</x>
       <y>261</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -3991,8 +3988,7 @@
       <text>Error sum SI3131</text>
       <x>29</x>
       <y>290</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -4050,8 +4046,7 @@
       <text>Error sum SI3151</text>
       <x>29</x>
       <y>319</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -4109,8 +4104,7 @@
       <text>Error sum PI3130</text>
       <x>29</x>
       <y>348</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -4168,8 +4162,7 @@
       <text>Error sum PI3150</text>
       <x>29</x>
       <y>377</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -4227,8 +4220,7 @@
       <text>Error sum PI3290</text>
       <x>29</x>
       <y>406</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -4286,8 +4278,7 @@
       <text>Error sum PI3905</text>
       <x>29</x>
       <y>435</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -4345,8 +4336,7 @@
       <text>Error sum TI3131</text>
       <x>29</x>
       <y>464</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -4404,8 +4394,7 @@
       <text>Error sum TI3151</text>
       <x>29</x>
       <y>493</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -4463,8 +4452,7 @@
       <text>Error sum TI3130</text>
       <x>29</x>
       <y>522</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -4522,8 +4510,7 @@
       <text>Error sum TI3155</text>
       <x>29</x>
       <y>551</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -4581,8 +4568,7 @@
       <text>Error sum TI3280</text>
       <x>29</x>
       <y>580</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -4640,8 +4626,7 @@
       <text>Error sum TI3112</text>
       <x>29</x>
       <y>609</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -4699,8 +4684,7 @@
       <text>Error sum TI3610</text>
       <x>29</x>
       <y>638</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -4758,8 +4742,7 @@
       <text>Error sum TI3605</text>
       <x>29</x>
       <y>667</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -4817,8 +4800,8 @@
       <text>Error sum LI5200</text>
       <x>29</x>
       <y>696</y>
-      <width>140</width>
-      <height>12</height>
+      <width>99</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -4876,8 +4859,7 @@
       <text>Error sum PI3400</text>
       <x>29</x>
       <y>725</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -4935,8 +4917,7 @@
       <text>Error sum PI3401</text>
       <x>29</x>
       <y>754</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -4994,8 +4975,7 @@
       <text>Error sum PI3445</text>
       <x>29</x>
       <y>783</y>
-      <width>140</width>
-      <height>12</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -5070,8 +5050,8 @@
       <name>Label Template_54</name>
       <text>Error sum LI3470 </text>
       <x>29</x>
-      <width>140</width>
-      <height>13</height>
+      <width>102</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -5129,8 +5109,7 @@
       <text>Error sum PI3117</text>
       <x>29</x>
       <y>29</y>
-      <width>140</width>
-      <height>13</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -5188,8 +5167,7 @@
       <text>Error sum PI3154</text>
       <x>29</x>
       <y>58</y>
-      <width>140</width>
-      <height>13</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -5247,8 +5225,7 @@
       <text>Error sum TI3111</text>
       <x>29</x>
       <y>87</y>
-      <width>140</width>
-      <height>13</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -5306,8 +5283,7 @@
       <text>Error sum PI3420</text>
       <x>29</x>
       <y>116</y>
-      <width>140</width>
-      <height>13</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -5365,8 +5341,7 @@
       <text>Error sum PI3465</text>
       <x>29</x>
       <y>145</y>
-      <width>140</width>
-      <height>13</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -5424,8 +5399,7 @@
       <text>Error sum PI3460</text>
       <x>29</x>
       <y>174</y>
-      <width>140</width>
-      <height>13</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -5483,8 +5457,7 @@
       <text>Error sum TI3440</text>
       <x>29</x>
       <y>203</y>
-      <width>140</width>
-      <height>13</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -5542,8 +5515,7 @@
       <text>Error sum TI3450</text>
       <x>29</x>
       <y>232</y>
-      <width>140</width>
-      <height>13</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -5601,8 +5573,7 @@
       <text>Error sum PI2160</text>
       <x>29</x>
       <y>261</y>
-      <width>140</width>
-      <height>13</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -5660,8 +5631,7 @@
       <text>Error sum PI2170</text>
       <x>29</x>
       <y>290</y>
-      <width>140</width>
-      <height>13</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -5719,8 +5689,7 @@
       <text>Error sum PI2240</text>
       <x>29</x>
       <y>319</y>
-      <width>140</width>
-      <height>13</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -5778,8 +5747,7 @@
       <text>Error sum SI2110</text>
       <x>29</x>
       <y>348</y>
-      <width>140</width>
-      <height>13</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -5837,8 +5805,8 @@
       <text>Error sum QI1_2160 </text>
       <x>29</x>
       <y>377</y>
-      <width>140</width>
-      <height>13</height>
+      <width>118</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -5896,8 +5864,8 @@
       <text>Error sum QI2_2160 </text>
       <x>29</x>
       <y>406</y>
-      <width>140</width>
-      <height>13</height>
+      <width>118</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -5955,8 +5923,8 @@
       <text>Error sum QI3_2160 </text>
       <x>29</x>
       <y>435</y>
-      <width>140</width>
-      <height>13</height>
+      <width>118</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -6014,8 +5982,8 @@
       <text>Error sum QI4_2160 </text>
       <x>29</x>
       <y>464</y>
-      <width>140</width>
-      <height>13</height>
+      <width>118</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -6073,8 +6041,8 @@
       <text>TAL5220: Mobile dewar filling stopped</text>
       <x>29</x>
       <y>493</y>
-      <width>140</width>
-      <height>13</height>
+      <width>222</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -6132,8 +6100,8 @@
       <text>LAL7215</text>
       <x>29</x>
       <y>522</y>
-      <width>140</width>
-      <height>13</height>
+      <width>50</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -6191,8 +6159,8 @@
       <text>LAH7215</text>
       <x>29</x>
       <y>551</y>
-      <width>140</width>
-      <height>13</height>
+      <width>52</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -6219,8 +6187,8 @@
       <text>TAL7215</text>
       <x>29</x>
       <y>580</y>
-      <width>140</width>
-      <height>13</height>
+      <width>50</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -6247,8 +6215,8 @@
       <text>CoWrn</text>
       <x>29</x>
       <y>609</y>
-      <width>140</width>
-      <height>13</height>
+      <width>40</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -6306,8 +6274,8 @@
       <text>QAH7210</text>
       <x>29</x>
       <y>638</y>
-      <width>140</width>
-      <height>13</height>
+      <width>54</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -6365,8 +6333,8 @@
       <text>QAH7220</text>
       <x>29</x>
       <y>667</y>
-      <width>140</width>
-      <height>13</height>
+      <width>54</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -6424,8 +6392,8 @@
       <text>QAH7230</text>
       <x>29</x>
       <y>696</y>
-      <width>140</width>
-      <height>13</height>
+      <width>54</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -6483,8 +6451,8 @@
       <text>QAH7240</text>
       <x>29</x>
       <y>725</y>
-      <width>140</width>
-      <height>13</height>
+      <width>54</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -6542,8 +6510,8 @@
       <text>QAH7250</text>
       <x>29</x>
       <y>754</y>
-      <width>140</width>
-      <height>13</height>
+      <width>54</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -6601,8 +6569,8 @@
       <text>Compressor warning</text>
       <x>29</x>
       <y>783</y>
-      <width>140</width>
-      <height>13</height>
+      <width>122</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -6741,7 +6709,7 @@ $(pv_value)</tooltip>
         <text>LEGEND</text>
         <x>27</x>
         <width>63</width>
-        <height>18</height>
+        <height>17</height>
         <font>
           <font name="IO Title" family="arial" style="BOLD" size="13.861386138613861">
           </font>
@@ -6853,8 +6821,8 @@ $(pv_value)</tooltip>
       <text>Trip/Alarm</text>
       <x>175</x>
       <y>679</y>
-      <width>70</width>
-      <height>13</height>
+      <width>64</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -6881,8 +6849,8 @@ $(pv_value)</tooltip>
       <text>OK</text>
       <x>175</x>
       <y>648</y>
-      <width>70</width>
-      <height>13</height>
+      <width>18</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
