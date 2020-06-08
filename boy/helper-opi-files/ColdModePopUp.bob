@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
+  <name>Cold Box</name>
+  <width>720</width>
   <background_color>
-    <color name="IO Grid" red="215" green="215" blue="215">
+    <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
   </background_color>
   <actions>
@@ -14,9 +16,9 @@
       <L>Coldbox Coldmode</L>
       <P>Cryo</P>
     </macros>
-    <width>800</width>
+    <width>710</width>
     <height>135</height>
-    <resize>2</resize>
+    <transparent>true</transparent>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Permissives</name>

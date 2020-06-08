@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
+  <name>Purifier</name>
+  <width>720</width>
   <height>400</height>
   <background_color>
-    <color name="IO Grid" red="215" green="215" blue="215">
+    <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
   </background_color>
   <actions>
@@ -15,13 +17,14 @@
       <L>Purifier</L>
       <P>Cryo</P>
     </macros>
-    <width>800</width>
+    <width>710</width>
     <height>150</height>
+    <transparent>true</transparent>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Permissives</name>
     <file>PurPms.bob</file>
-    <x>20</x>
+    <x>5</x>
     <y>140</y>
     <width>580</width>
     <height>210</height>
