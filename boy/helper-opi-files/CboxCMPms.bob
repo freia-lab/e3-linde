@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <width>500</width>
+  <name>Coldmode PMS</name>
+  <width>450</width>
+  <height>470</height>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
@@ -26,8 +28,8 @@
       <text>Vacuum pressure</text>
       <x>1</x>
       <y>9</y>
-      <width>230</width>
-      <height>15</height>
+      <width>102</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -53,8 +55,8 @@
       <name>Label Template_2</name>
       <text>Warm-Up off</text>
       <y>40</y>
-      <width>230</width>
-      <height>15</height>
+      <width>75</width>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -80,8 +82,8 @@
       <name>Label Template_3</name>
       <text>CW flow ok</text>
       <y>80</y>
-      <width>230</width>
-      <height>15</height>
+      <width>65</width>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -107,8 +109,8 @@
       <name>Label Template_4</name>
       <text>Instrument air pressure ok</text>
       <y>120</y>
-      <width>230</width>
-      <height>15</height>
+      <width>155</width>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -134,8 +136,8 @@
       <name>Label Template_5</name>
       <text>GMP pressure stable</text>
       <y>160</y>
-      <width>230</width>
-      <height>15</height>
+      <width>119</width>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -161,8 +163,8 @@
       <name>Label Template_6</name>
       <text>Turbine inlet valve close</text>
       <y>200</y>
-      <width>230</width>
-      <height>15</height>
+      <width>142</width>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -356,8 +358,8 @@
       <name>Label Template_7</name>
       <text>Turbine inlet valve not controlled</text>
       <y>241</y>
-      <width>230</width>
-      <height>15</height>
+      <width>195</width>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -383,8 +385,8 @@
       <name>Label Template_8</name>
       <text>Turbines 1+2 stopped</text>
       <y>281</y>
-      <width>230</width>
-      <height>15</height>
+      <width>127</width>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -410,8 +412,8 @@
       <name>Label Template_9</name>
       <text>Coldbox shutdowns</text>
       <y>321</y>
-      <width>230</width>
-      <height>15</height>
+      <width>117</width>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -437,8 +439,8 @@
       <name>Label Template_10</name>
       <text>No coldbox shutdown</text>
       <y>361</y>
-      <width>230</width>
-      <height>14</height>
+      <width>129</width>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>

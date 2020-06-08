@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <width>830</width>
-  <height>450</height>
+  <name>Comperssor Permissives</name>
+  <width>720</width>
+  <height>430</height>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
@@ -33,8 +34,8 @@
         <text>Turbine inlet valves close</text>
         <x>1</x>
         <y>24</y>
-        <width>210</width>
-        <height>14</height>
+        <width>148</width>
+        <height>18</height>
         <font>
           <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
@@ -61,8 +62,8 @@
         <text>Buffer pressure</text>
         <x>1</x>
         <y>64</y>
-        <width>210</width>
-        <height>14</height>
+        <width>90</width>
+        <height>19</height>
         <font>
           <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
@@ -89,8 +90,8 @@
         <text>Low pressure</text>
         <x>1</x>
         <y>104</y>
-        <width>210</width>
-        <height>14</height>
+        <width>78</width>
+        <height>19</height>
         <font>
           <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
@@ -117,8 +118,8 @@
         <text>High pressure</text>
         <x>1</x>
         <y>144</y>
-        <width>210</width>
-        <height>14</height>
+        <width>81</width>
+        <height>19</height>
         <font>
           <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
@@ -145,8 +146,8 @@
         <text>No Shutdown active</text>
         <x>1</x>
         <y>184</y>
-        <width>210</width>
-        <height>14</height>
+        <width>118</width>
+        <height>19</height>
         <font>
           <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
@@ -173,8 +174,8 @@
         <text>Compressor Motor Protection expired</text>
         <x>1</x>
         <y>224</y>
-        <width>236</width>
-        <height>14</height>
+        <width>221</width>
+        <height>19</height>
         <font>
           <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
@@ -201,8 +202,8 @@
         <text>Motor protection time</text>
         <x>38</x>
         <y>261</y>
-        <width>210</width>
-        <height>14</height>
+        <width>129</width>
+        <height>19</height>
         <font>
           <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
@@ -229,8 +230,8 @@
         <text>Actual off time</text>
         <x>38</x>
         <y>293</y>
-        <width>210</width>
-        <height>14</height>
+        <width>86</width>
+        <height>19</height>
         <font>
           <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
@@ -521,8 +522,8 @@
         <text>Dewar return valve close</text>
         <x>7</x>
         <y>19</y>
-        <width>172</width>
-        <height>14</height>
+        <width>144</width>
+        <height>18</height>
         <font>
           <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
@@ -549,8 +550,8 @@
         <text>Turbine inlet valve close</text>
         <x>7</x>
         <y>59</y>
-        <width>168</width>
-        <height>15</height>
+        <width>142</width>
+        <height>19</height>
         <font>
           <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
@@ -577,8 +578,8 @@
         <text>Cbox Coldmode Off</text>
         <x>7</x>
         <y>99</y>
-        <width>138</width>
-        <height>14</height>
+        <width>114</width>
+        <height>19</height>
         <font>
           <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>
@@ -605,8 +606,8 @@
         <text>Cbox Warm-Up Off</text>
         <x>7</x>
         <y>139</y>
-        <width>134</width>
-        <height>14</height>
+        <width>109</width>
+        <height>19</height>
         <font>
           <font family="Source Sans Pro" style="REGULAR" size="14.0">
           </font>

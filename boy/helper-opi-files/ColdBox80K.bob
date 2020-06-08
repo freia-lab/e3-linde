@@ -338,7 +338,7 @@ $(pv_value)</tooltip>
     <x>179</x>
     <y>609</y>
     <width>49</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -687,7 +687,7 @@ $(pv_value)</tooltip>
       <width>60</width>
       <height>16</height>
       <font>
-        <font family="Source Sans Pro" style="BOLD" size="13.0">
+        <font family="Source Sans Pro" style="REGULAR" size="13.0">
         </font>
       </font>
       <foreground_color>
@@ -715,7 +715,7 @@ $(pv_value)</tooltip>
     <widget type="label" version="2.0.0">
       <name>Label Template_4</name>
       <text>CV3111</text>
-      <x>21</x>
+      <x>19</x>
       <y>6</y>
       <width>44</width>
       <height>18</height>
@@ -767,7 +767,7 @@ $(pv_value)</tooltip>
       <width>60</width>
       <height>16</height>
       <font>
-        <font family="Source Sans Pro" style="BOLD" size="13.0">
+        <font family="Source Sans Pro" style="REGULAR" size="13.0">
         </font>
       </font>
       <foreground_color>
@@ -795,7 +795,7 @@ $(pv_value)</tooltip>
     <widget type="label" version="2.0.0">
       <name>Label Template_4</name>
       <text>CV3117</text>
-      <x>23</x>
+      <x>19</x>
       <y>6</y>
       <width>44</width>
       <height>18</height>
@@ -842,12 +842,12 @@ $(pv_value)</tooltip>
     <widget type="label" version="2.0.0">
       <name>Label Template_4</name>
       <text>CV3114</text>
-      <x>20</x>
-      <y>3</y>
-      <width>37</width>
+      <x>18</x>
+      <y>5</y>
+      <width>50</width>
       <height>16</height>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
       <foreground_color>
@@ -875,7 +875,7 @@ $(pv_value)</tooltip>
       <width>60</width>
       <height>16</height>
       <font>
-        <font family="Source Sans Pro" style="BOLD" size="13.0">
+        <font family="Source Sans Pro" style="REGULAR" size="13.0">
         </font>
       </font>
       <foreground_color>
@@ -1150,7 +1150,7 @@ $(pv_value)</tooltip>
     <x>284</x>
     <y>100</y>
     <width>24</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1447,7 +1447,7 @@ $(pv_value)</tooltip>
       <width>60</width>
       <height>16</height>
       <font>
-        <font family="Source Sans Pro" style="BOLD" size="13.0">
+        <font family="Source Sans Pro" style="REGULAR" size="13.0">
         </font>
       </font>
       <foreground_color>
@@ -1702,7 +1702,7 @@ $(pv_value)</tooltip>
     <x>692</x>
     <y>537</y>
     <width>49</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1786,7 +1786,7 @@ $(pv_value)</tooltip>
     <x>1199</x>
     <y>449</y>
     <width>49</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2081,7 +2081,7 @@ $(pv_value)</tooltip>
     <width>60</width>
     <height>16</height>
     <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
+      <font family="Source Sans Pro" style="REGULAR" size="13.0">
       </font>
     </font>
     <foreground_color>

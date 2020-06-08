@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <width>650</width>
-  <height>400</height>
+  <name>Warm-up Permissives</name>
+  <width>520</width>
+  <height>320</height>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
@@ -22,8 +23,8 @@
       <name>Label Template_1</name>
       <text>Turbine inlet valve close</text>
       <y>5</y>
-      <width>230</width>
-      <height>15</height>
+      <width>142</width>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -49,8 +50,8 @@
       <name>Label Template_2</name>
       <text>Compressor running</text>
       <y>42</y>
-      <width>230</width>
-      <height>14</height>
+      <width>120</width>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -76,8 +77,8 @@
       <name>Label Template_3</name>
       <text>Coldmode Off</text>
       <y>82</y>
-      <width>230</width>
-      <height>14</height>
+      <width>82</width>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -103,8 +104,8 @@
       <name>Label Template_4</name>
       <text>No Warm-Up Shutdown</text>
       <y>122</y>
-      <width>230</width>
-      <height>14</height>
+      <width>139</width>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -130,8 +131,8 @@
       <name>Label Template_5</name>
       <text>Coldbox cold</text>
       <y>162</y>
-      <width>230</width>
-      <height>14</height>
+      <width>77</width>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
