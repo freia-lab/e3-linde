@@ -35,7 +35,7 @@
             <x>685</x>
             <y>15</y>
             <width>79</width>
-            <height>27</height>
+            <height>26</height>
             <font>
               <font family="Source Sans Pro" style="REGULAR" size="20.0">
               </font>
@@ -120,7 +120,7 @@
             <x>685</x>
             <y>15</y>
             <width>81</width>
-            <height>27</height>
+            <height>26</height>
             <font>
               <font family="Source Sans Pro" style="REGULAR" size="20.0">
               </font>
@@ -167,7 +167,7 @@
             <x>685</x>
             <y>15</y>
             <width>109</width>
-            <height>27</height>
+            <height>26</height>
             <font>
               <font family="Source Sans Pro" style="REGULAR" size="20.0">
               </font>
@@ -214,7 +214,7 @@
             <x>685</x>
             <y>15</y>
             <width>148</width>
-            <height>27</height>
+            <height>26</height>
             <font>
               <font family="Source Sans Pro" style="REGULAR" size="20.0">
               </font>
@@ -261,7 +261,7 @@
             <x>685</x>
             <y>15</y>
             <width>149</width>
-            <height>27</height>
+            <height>26</height>
             <font>
               <font family="Source Sans Pro" style="REGULAR" size="20.0">
               </font>
@@ -351,7 +351,7 @@
       <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-    <active_tab>3</active_tab>
+    <active_tab>4</active_tab>
     <tab_height>10</tab_height>
     <actions>
     </actions>
@@ -362,7 +362,7 @@
     <x>1075</x>
     <y>1</y>
     <width>255</width>
-    <height>39</height>
+    <height>37</height>
     <font>
       <font family="Source Sans Pro" style="BOLD" size="29.0">
       </font>

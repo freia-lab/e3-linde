@@ -134,7 +134,7 @@ $(pv_value)</tooltip>
     <x>1115</x>
     <y>425</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -301,7 +301,7 @@ $(pv_value)</tooltip>
     <x>867</x>
     <y>425</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -727,8 +727,8 @@ $(pv_value)</tooltip>
     <text>D5200 </text>
     <x>1203</x>
     <y>816</y>
-    <width>50</width>
-    <height>10</height>
+    <width>40</width>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -778,8 +778,8 @@ $(pv_value)</tooltip>
     <text>atm</text>
     <x>908</x>
     <y>605</y>
-    <width>25</width>
-    <height>10</height>
+    <width>24</width>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1011,8 +1011,8 @@ $(pv_value)</tooltip>
       <text>H5201 </text>
       <x>16</x>
       <y>9</y>
-      <width>40</width>
-      <height>10</height>
+      <width>35</width>
+      <height>16</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="12.0">
         </font>
@@ -1160,8 +1160,8 @@ $(pv_value)</tooltip>
     <text>Rec</text>
     <x>795</x>
     <y>690</y>
-    <width>25</width>
-    <height>10</height>
+    <width>22</width>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1249,7 +1249,7 @@ $(pv_value)</tooltip>
     <x>180</x>
     <y>714</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1310,7 +1310,7 @@ $(pv_value)</tooltip>
     <x>272</x>
     <y>754</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1339,7 +1339,7 @@ $(pv_value)</tooltip>
     <x>686</x>
     <y>694</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1452,7 +1452,7 @@ $(pv_value)</tooltip>
     <x>142</x>
     <y>850</y>
     <width>22</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1737,7 +1737,7 @@ $(pv_value)</tooltip>
     <x>397</x>
     <y>631</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1786,7 +1786,7 @@ $(pv_value)</tooltip>
     <x>521</x>
     <y>710</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2223,8 +2223,8 @@ $(pv_value)</tooltip>
     <text>C2110 </text>
     <x>52</x>
     <y>22</y>
-    <width>50</width>
-    <height>12</height>
+    <width>39</width>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2621,7 +2621,7 @@ $(pv_value)</tooltip>
     <x>234</x>
     <y>423</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2936,7 +2936,7 @@ $(pv_value)</tooltip>
     <x>529</x>
     <y>350</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3112,7 +3112,7 @@ $(pv_value)</tooltip>
     <x>751</x>
     <y>425</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3742,7 +3742,7 @@ $(pv_value)</tooltip>
     <x>969</x>
     <y>425</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3791,7 +3791,7 @@ $(pv_value)</tooltip>
     <x>819</x>
     <y>129</y>
     <width>11</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3865,7 +3865,7 @@ $(pv_value)</tooltip>
     <x>947</x>
     <y>125</y>
     <width>11</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4408,7 +4408,7 @@ $(pv_value)</tooltip>
     <x>1177</x>
     <y>67</y>
     <width>77</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -5136,8 +5136,8 @@ $(pv_value)</tooltip>
     <name>Boolean Symbol Image Control Template_10</name>
     <pv_name>Cryo-CBox:VacSys:EUS3910</pv_name>
     <symbols>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
     </symbols>
     <x>1197</x>
     <y>115</y>
@@ -5288,8 +5288,8 @@ $(pv_value)</tooltip>
     <name>Boolean Symbol Image Control Template_1</name>
     <pv_name>Cryo-Rec:LP:QS7220</pv_name>
     <symbols>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
     </symbols>
     <x>854</x>
     <y>750</y>
@@ -5309,8 +5309,8 @@ $(pv_value)</tooltip>
     <name>Boolean Symbol Image Control Template_9</name>
     <pv_name>Cryo-Rec:LP:QS7240</pv_name>
     <symbols>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
     </symbols>
     <x>854</x>
     <y>794</y>
@@ -5330,8 +5330,8 @@ $(pv_value)</tooltip>
     <name>Boolean Symbol Image Control Template_12</name>
     <pv_name>Cryo-Rec:LP:QS7230</pv_name>
     <symbols>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
     </symbols>
     <x>943</x>
     <y>751</y>
@@ -5351,8 +5351,8 @@ $(pv_value)</tooltip>
     <name>Boolean Symbol Image Control Template_13</name>
     <pv_name>Cryo-Rec:LP:QS7250</pv_name>
     <symbols>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
     </symbols>
     <x>943</x>
     <y>795</y>
@@ -5392,8 +5392,8 @@ $(pv_value)</tooltip>
     <name>Boolean Symbol Image Control Template_14</name>
     <pv_name>Cryo-Rec:LP:EUS7210</pv_name>
     <symbols>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
     </symbols>
     <x>1046</x>
     <y>655</y>

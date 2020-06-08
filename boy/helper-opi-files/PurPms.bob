@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
+  <name>Purifier Permissives</name>
   <width>550</width>
   <height>275</height>
   <background_color>
@@ -22,8 +23,8 @@
       <name>Label Template_1</name>
       <text>Coldmode On</text>
       <y>8</y>
-      <width>250</width>
-      <height>14</height>
+      <width>81</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -49,8 +50,8 @@
       <name>Label Template_2</name>
       <text>Inlet pressure</text>
       <y>44</y>
-      <width>250</width>
-      <height>14</height>
+      <width>81</width>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -76,8 +77,8 @@
       <name>Label Template_3</name>
       <text>All permissives fulfilled</text>
       <y>84</y>
-      <width>250</width>
-      <height>14</height>
+      <width>135</width>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>

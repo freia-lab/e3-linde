@@ -1615,8 +1615,8 @@ $(pv_value)</tooltip>
     <name>Boolean Symbol Image Control Template_1</name>
     <pv_name>Cryo-Rec:LP:QS7220</pv_name>
     <symbols>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
     </symbols>
     <x>127</x>
     <y>634</y>
@@ -3616,8 +3616,8 @@ $(pv_value)</tooltip>
     <name>Boolean Symbol Image Control Template_6</name>
     <pv_name>Cryo-Rec:LP:QS7230</pv_name>
     <symbols>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
     </symbols>
     <x>127</x>
     <y>678</y>
@@ -3637,8 +3637,8 @@ $(pv_value)</tooltip>
     <name>Boolean Symbol Image Control Template_7</name>
     <pv_name>Cryo-Rec:LP:QS7240</pv_name>
     <symbols>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
     </symbols>
     <x>127</x>
     <y>721</y>
@@ -3658,8 +3658,8 @@ $(pv_value)</tooltip>
     <name>Boolean Symbol Image Control Template_8</name>
     <pv_name>Cryo-Rec:LP:QS7250</pv_name>
     <symbols>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
     </symbols>
     <x>127</x>
     <y>763</y>
@@ -3679,8 +3679,8 @@ $(pv_value)</tooltip>
     <name>Boolean Symbol Image Control Template_9</name>
     <pv_name>Cryo-Rec:LP:EUS7210</pv_name>
     <symbols>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
     </symbols>
     <x>612</x>
     <y>493</y>
@@ -3700,8 +3700,8 @@ $(pv_value)</tooltip>
     <name>Boolean Symbol Image Control Template_10</name>
     <pv_name>Cryo-CBox:VacSys:EUS3910</pv_name>
     <symbols>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
-      <symbol>../../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
     </symbols>
     <x>1035</x>
     <y>106</y>
