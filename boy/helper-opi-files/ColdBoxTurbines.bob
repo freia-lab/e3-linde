@@ -494,18 +494,50 @@ $(pv_value)</tooltip>
       <square>true</square>
       <states>
         <state>
-          <value>5</value>
+          <value>0</value>
           <label> </label>
           <color>
-            <color name="LED-RED-ON" red="255" green="60" blue="46">
+            <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>1</value>
+          <label> </label>
+          <color>
+            <color name="LED-YELLOW-ON" red="255" green="235" blue="17">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>2</value>
+          <label></label>
+          <color>
+            <color name="LED-ORANGE-ON" red="255" green="175" blue="81">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>3</value>
+          <label></label>
+          <color>
+            <color name="LED-GREEN-ON" red="70" green="255" blue="70">
             </color>
           </color>
         </state>
         <state>
           <value>4</value>
-          <label> </label>
+          <label></label>
           <color>
-            <color name="LED-GREEN-ON" red="70" green="255" blue="70">
+            <color name="GREEN-BORDER" red="40" green="140" blue="40">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>5</value>
+          <label></label>
+          <color>
+            <color name="LED-RED-ON" red="255" green="60" blue="46">
             </color>
           </color>
         </state>
@@ -635,18 +667,50 @@ $(pv_value)</tooltip>
       <square>true</square>
       <states>
         <state>
-          <value>5</value>
+          <value>0</value>
           <label> </label>
           <color>
-            <color name="LED-RED-ON" red="255" green="60" blue="46">
+            <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>1</value>
+          <label> </label>
+          <color>
+            <color name="LED-YELLOW-ON" red="255" green="235" blue="17">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>2</value>
+          <label></label>
+          <color>
+            <color name="LED-ORANGE-ON" red="255" green="175" blue="81">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>3</value>
+          <label></label>
+          <color>
+            <color name="LED-GREEN-ON" red="70" green="255" blue="70">
             </color>
           </color>
         </state>
         <state>
           <value>4</value>
-          <label> </label>
+          <label></label>
           <color>
-            <color name="LED-GREEN-ON" red="70" green="255" blue="70">
+            <color name="GREEN-BORDER" red="40" green="140" blue="40">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>5</value>
+          <label></label>
+          <color>
+            <color name="LED-RED-ON" red="255" green="60" blue="46">
             </color>
           </color>
         </state>
@@ -720,7 +784,6 @@ $(pv_value)</tooltip>
     <x>306</x>
     <y>315</y>
     <width>38</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="15.0">
       </font>
@@ -749,7 +812,6 @@ $(pv_value)</tooltip>
     <x>690</x>
     <y>314</y>
     <width>38</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="15.0">
       </font>
@@ -804,7 +866,6 @@ $(pv_value)</tooltip>
     <x>840</x>
     <y>314</y>
     <width>38</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="15.0">
       </font>
@@ -855,7 +916,7 @@ $(pv_value)</tooltip>
     <name>Polyline Template_5</name>
     <x>1067</x>
     <y>282</y>
-    <width>0</width>
+    <width>1</width>
     <height>83</height>
     <line_width>2</line_width>
     <line_color>
@@ -880,7 +941,7 @@ $(pv_value)</tooltip>
     <x>1398</x>
     <y>270</y>
     <width>52</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -908,7 +969,7 @@ $(pv_value)</tooltip>
     <x>1398</x>
     <y>363</y>
     <width>52</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -936,7 +997,7 @@ $(pv_value)</tooltip>
     <x>40</x>
     <y>270</y>
     <width>52</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -964,7 +1025,7 @@ $(pv_value)</tooltip>
     <x>40</x>
     <y>361</y>
     <width>52</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1124,7 +1185,7 @@ $(pv_value)</tooltip>
     <x>588</x>
     <y>599</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1271,7 +1332,7 @@ $(pv_value)</tooltip>
     <x>696</x>
     <y>599</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1300,7 +1361,7 @@ $(pv_value)</tooltip>
     <x>877</x>
     <y>543</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1329,7 +1390,7 @@ $(pv_value)</tooltip>
     <x>1231</x>
     <y>654</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1358,7 +1419,7 @@ $(pv_value)</tooltip>
     <x>41</x>
     <y>478</y>
     <width>49</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1386,7 +1447,7 @@ $(pv_value)</tooltip>
     <x>41</x>
     <y>654</y>
     <width>52</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1414,7 +1475,7 @@ $(pv_value)</tooltip>
     <x>47</x>
     <y>762</y>
     <width>110</width>
-    <height>16</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1442,7 +1503,7 @@ $(pv_value)</tooltip>
     <x>1398</x>
     <y>427</y>
     <width>52</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1470,7 +1531,7 @@ $(pv_value)</tooltip>
     <x>159</x>
     <y>45</y>
     <width>38</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1498,7 +1559,7 @@ $(pv_value)</tooltip>
     <x>40</x>
     <y>25</y>
     <width>52</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1526,7 +1587,7 @@ $(pv_value)</tooltip>
     <x>323</x>
     <y>172</y>
     <width>44</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1554,7 +1615,7 @@ $(pv_value)</tooltip>
     <x>580</x>
     <y>44</y>
     <width>46</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1678,7 +1739,7 @@ $(pv_value)</tooltip>
     <x>698</x>
     <y>98</y>
     <width>42</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1723,14 +1784,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -1779,7 +1832,7 @@ $(pv_value)</tooltip>
     <x>697</x>
     <y>147</y>
     <width>44</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1807,7 +1860,7 @@ $(pv_value)</tooltip>
     <x>698</x>
     <y>180</y>
     <width>42</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1852,14 +1905,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -1889,14 +1934,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -2016,7 +2053,7 @@ $(pv_value)</tooltip>
     <x>913</x>
     <y>43</y>
     <width>46</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2140,7 +2177,7 @@ $(pv_value)</tooltip>
     <x>1031</x>
     <y>98</y>
     <width>42</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2185,14 +2222,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -2241,7 +2270,7 @@ $(pv_value)</tooltip>
     <x>1029</x>
     <y>148</y>
     <width>44</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2269,7 +2298,7 @@ $(pv_value)</tooltip>
     <x>1031</x>
     <y>180</y>
     <width>42</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2314,14 +2343,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -2351,14 +2372,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -2398,7 +2411,7 @@ $(pv_value)</tooltip>
     <x>884</x>
     <y>223</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2426,7 +2439,7 @@ $(pv_value)</tooltip>
     <x>556</x>
     <y>223</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2454,7 +2467,7 @@ $(pv_value)</tooltip>
     <x>1148</x>
     <y>147</y>
     <width>47</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2482,7 +2495,7 @@ $(pv_value)</tooltip>
     <x>1149</x>
     <y>180</y>
     <width>42</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2527,14 +2540,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -2587,14 +2592,6 @@ $(pv_value)</tooltip>
     </background_color>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
@@ -2620,14 +2617,6 @@ $(pv_value)</tooltip>
     </background_color>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
@@ -2639,7 +2628,7 @@ $(pv_value)</tooltip>
     <x>413</x>
     <y>180</y>
     <width>42</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2684,14 +2673,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -2704,7 +2685,7 @@ $(pv_value)</tooltip>
     <x>413</x>
     <y>223</y>
     <width>43</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2749,14 +2730,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -2769,7 +2742,7 @@ $(pv_value)</tooltip>
     <x>793</x>
     <y>180</y>
     <width>43</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2814,14 +2787,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -2834,7 +2799,7 @@ $(pv_value)</tooltip>
     <x>430</x>
     <y>615</y>
     <width>40</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2879,14 +2844,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -2899,7 +2856,7 @@ $(pv_value)</tooltip>
     <x>399</x>
     <y>561</y>
     <width>105</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2927,7 +2884,7 @@ $(pv_value)</tooltip>
     <x>402</x>
     <y>506</y>
     <width>110</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2972,14 +2929,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -2992,7 +2941,7 @@ $(pv_value)</tooltip>
     <x>307</x>
     <y>668</y>
     <width>44</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3020,7 +2969,7 @@ $(pv_value)</tooltip>
     <x>129</x>
     <y>713</y>
     <width>40</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3065,14 +3014,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -3085,7 +3026,7 @@ $(pv_value)</tooltip>
     <x>232</x>
     <y>713</y>
     <width>43</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3130,14 +3071,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -3150,7 +3083,7 @@ $(pv_value)</tooltip>
     <x>307</x>
     <y>760</y>
     <width>44</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3202,7 +3135,7 @@ $(pv_value)</tooltip>
     <x>443</x>
     <y>775</y>
     <width>38</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3230,7 +3163,7 @@ $(pv_value)</tooltip>
     <x>403</x>
     <y>811</y>
     <width>54</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3258,7 +3191,7 @@ $(pv_value)</tooltip>
     <x>1029</x>
     <y>568</y>
     <width>39</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3287,7 +3220,7 @@ $(pv_value)</tooltip>
     <x>639</x>
     <y>776</y>
     <width>45</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3332,14 +3265,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -3352,7 +3277,7 @@ $(pv_value)</tooltip>
     <x>555</x>
     <y>442</y>
     <width>45</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3397,14 +3322,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -3417,7 +3334,7 @@ $(pv_value)</tooltip>
     <x>526</x>
     <y>713</y>
     <width>43</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3462,14 +3379,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -3482,7 +3391,7 @@ $(pv_value)</tooltip>
     <x>757</x>
     <y>759</y>
     <width>45</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3527,14 +3436,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -3547,7 +3448,7 @@ $(pv_value)</tooltip>
     <x>757</x>
     <y>804</y>
     <width>46</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3592,14 +3493,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -3648,7 +3541,7 @@ $(pv_value)</tooltip>
     <x>756</x>
     <y>725</y>
     <width>47</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3676,7 +3569,7 @@ $(pv_value)</tooltip>
     <x>863</x>
     <y>651</y>
     <width>42</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3721,14 +3614,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -3741,7 +3626,7 @@ $(pv_value)</tooltip>
     <x>942</x>
     <y>622</y>
     <width>45</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3786,14 +3671,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -3851,14 +3728,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -3897,7 +3766,7 @@ $(pv_value)</tooltip>
     <x>745</x>
     <y>478</y>
     <width>46</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3925,7 +3794,7 @@ $(pv_value)</tooltip>
     <x>773</x>
     <y>421</y>
     <width>52</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3953,7 +3822,7 @@ $(pv_value)</tooltip>
     <x>864</x>
     <y>730</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4051,7 +3920,7 @@ $(pv_value)</tooltip>
     <x>1168</x>
     <y>389</y>
     <width>52</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4079,7 +3948,7 @@ $(pv_value)</tooltip>
     <x>905</x>
     <y>452</y>
     <width>44</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4107,7 +3976,7 @@ $(pv_value)</tooltip>
     <x>1218</x>
     <y>456</y>
     <width>44</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4135,7 +4004,7 @@ $(pv_value)</tooltip>
     <x>1346</x>
     <y>456</y>
     <width>44</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4163,7 +4032,7 @@ $(pv_value)</tooltip>
     <x>1038</x>
     <y>759</y>
     <width>40</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4208,14 +4077,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -4228,7 +4089,7 @@ $(pv_value)</tooltip>
     <x>1038</x>
     <y>804</y>
     <width>40</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4273,14 +4134,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -4293,7 +4146,7 @@ $(pv_value)</tooltip>
     <x>1143</x>
     <y>792</y>
     <width>39</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4338,14 +4191,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -4358,7 +4203,7 @@ $(pv_value)</tooltip>
     <x>1345</x>
     <y>524</y>
     <width>46</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4403,14 +4248,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -4459,7 +4296,7 @@ $(pv_value)</tooltip>
     <x>907</x>
     <y>772</y>
     <width>49</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4554,7 +4391,7 @@ $(pv_value)</tooltip>
     <x>303</x>
     <y>613</y>
     <width>47</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4626,14 +4463,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
@@ -4663,14 +4492,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -4696,14 +4517,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -4729,14 +4542,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -4762,14 +4567,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -4795,14 +4592,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -4828,14 +4617,6 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -4854,21 +4635,13 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
+      <color name="WHITE" red="255" green="255" blue="255">
       </color>
     </background_color>
     <precision>0</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -4887,21 +4660,13 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
+      <color name="WHITE" red="255" green="255" blue="255">
       </color>
     </background_color>
     <precision>0</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
   </widget>
   <widget type="tank" version="2.0.0">
