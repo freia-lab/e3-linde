@@ -97,20 +97,20 @@ $(pv_value)</tooltip>
   <widget type="tank" version="2.0.0">
     <name>Tank Template</name>
     <pv_name>Cryo-Dwr:LHe:LI5200-PercOut</pv_name>
-    <x>995</x>
-    <y>603</y>
-    <width>320</width>
+    <x>986</x>
+    <y>602</y>
+    <width>335</width>
     <height>135</height>
     <font>
       <font name="IO Scale 1" family="arial" style="REGULAR" size="9.900990099009901">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      <color name="WHITE" red="255" green="255" blue="255">
       </color>
     </background_color>
     <fill_color>
@@ -179,6 +179,7 @@ $(pv_value)</tooltip>
     <x>486</x>
     <y>279</y>
     <width>38</width>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="15.0">
       </font>
@@ -257,7 +258,7 @@ $(pv_value)</tooltip>
     <x>130</x>
     <y>188</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -285,7 +286,7 @@ $(pv_value)</tooltip>
     <x>223</x>
     <y>186</y>
     <width>40</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -389,7 +390,7 @@ $(pv_value)</tooltip>
     <x>35</x>
     <y>218</y>
     <width>49</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -570,7 +571,7 @@ $(pv_value)</tooltip>
     <x>568</x>
     <y>297</y>
     <width>42</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -651,9 +652,9 @@ $(pv_value)</tooltip>
     <name>Label Template_55</name>
     <text>CV3160</text>
     <x>576</x>
-    <y>173</y>
+    <y>175</y>
     <width>44</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -706,7 +707,7 @@ $(pv_value)</tooltip>
     <x>766</x>
     <y>232</y>
     <width>44</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -759,7 +760,7 @@ $(pv_value)</tooltip>
     <x>766</x>
     <y>346</y>
     <width>44</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -812,7 +813,7 @@ $(pv_value)</tooltip>
     <x>710</x>
     <y>153</y>
     <width>40</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1002,7 +1003,7 @@ $(pv_value)</tooltip>
     <x>764</x>
     <y>298</y>
     <width>50</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1030,7 +1031,7 @@ $(pv_value)</tooltip>
     <x>863</x>
     <y>280</y>
     <width>40</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1141,7 +1142,7 @@ $(pv_value)</tooltip>
     <x>1195</x>
     <y>529</y>
     <width>44</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1194,7 +1195,7 @@ $(pv_value)</tooltip>
     <x>1112</x>
     <y>529</y>
     <width>44</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1247,7 +1248,7 @@ $(pv_value)</tooltip>
     <x>1028</x>
     <y>529</y>
     <width>44</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1399,7 +1400,7 @@ $(pv_value)</tooltip>
     <x>672</x>
     <y>547</y>
     <width>42</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1482,7 +1483,7 @@ $(pv_value)</tooltip>
     <x>539</x>
     <y>430</y>
     <width>44</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1589,7 +1590,7 @@ $(pv_value)</tooltip>
     <x>648</x>
     <y>500</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1629,7 +1630,6 @@ $(pv_value)</tooltip>
     <rotation>270.0</rotation>
     <actions>
     </actions>
-    <auto_size>true</auto_size>
     <preserve_ratio>false</preserve_ratio>
   </widget>
   <widget type="label" version="2.0.0">
@@ -1638,7 +1638,7 @@ $(pv_value)</tooltip>
     <x>65</x>
     <y>623</y>
     <width>44</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1703,7 +1703,7 @@ $(pv_value)</tooltip>
     <x>65</x>
     <y>666</y>
     <width>41</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1768,7 +1768,7 @@ $(pv_value)</tooltip>
     <x>65</x>
     <y>709</y>
     <width>41</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1833,7 +1833,7 @@ $(pv_value)</tooltip>
     <x>66</x>
     <y>752</y>
     <width>41</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1898,7 +1898,7 @@ $(pv_value)</tooltip>
     <x>179</x>
     <y>640</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1926,7 +1926,7 @@ $(pv_value)</tooltip>
     <x>179</x>
     <y>683</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1954,7 +1954,7 @@ $(pv_value)</tooltip>
     <x>179</x>
     <y>726</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1982,7 +1982,7 @@ $(pv_value)</tooltip>
     <x>179</x>
     <y>769</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2010,7 +2010,7 @@ $(pv_value)</tooltip>
     <x>43</x>
     <y>574</y>
     <width>129</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2038,7 +2038,7 @@ $(pv_value)</tooltip>
     <x>1073</x>
     <y>111</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2066,7 +2066,7 @@ $(pv_value)</tooltip>
     <x>1073</x>
     <y>156</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2130,7 +2130,7 @@ $(pv_value)</tooltip>
     <x>1351</x>
     <y>589</y>
     <width>46</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2158,7 +2158,7 @@ $(pv_value)</tooltip>
     <x>1353</x>
     <y>617</y>
     <width>42</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2239,7 +2239,7 @@ $(pv_value)</tooltip>
     <x>1332</x>
     <y>511</y>
     <width>87</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2267,7 +2267,7 @@ $(pv_value)</tooltip>
     <x>1279</x>
     <y>742</y>
     <width>39</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2292,8 +2292,8 @@ $(pv_value)</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label Template_106</name>
     <text>D5200 </text>
-    <x>1320</x>
-    <y>708</y>
+    <x>997</x>
+    <y>738</y>
     <width>40</width>
     <height>19</height>
     <font>
@@ -2424,7 +2424,7 @@ $(pv_value)</tooltip>
     <x>365</x>
     <y>526</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2452,7 +2452,7 @@ $(pv_value)</tooltip>
     <x>406</x>
     <y>547</y>
     <width>40</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2580,7 +2580,7 @@ $(pv_value)</tooltip>
     <x>432</x>
     <y>679</y>
     <width>86</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2608,7 +2608,7 @@ $(pv_value)</tooltip>
     <x>804</x>
     <y>617</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2822,7 +2822,7 @@ $(pv_value)</tooltip>
     <x>1030</x>
     <y>31</y>
     <width>40</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3186,7 +3186,7 @@ $(pv_value)</tooltip>
       <x>26</x>
       <y>14</y>
       <width>37</width>
-      <height>19</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -3215,7 +3215,7 @@ $(pv_value)</tooltip>
     <x>1193</x>
     <y>509</y>
     <width>49</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3243,7 +3243,7 @@ $(pv_value)</tooltip>
     <x>1113</x>
     <y>509</y>
     <width>43</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3310,7 +3310,6 @@ $(pv_value)</tooltip>
     <width>57</width>
     <height>43</height>
     <rotation>-90.0</rotation>
-    <auto_size>true</auto_size>
   </widget>
   <widget type="group" version="2.0.0">
     <name>Panel 2_3</name>
@@ -3444,7 +3443,6 @@ $(pv_value)</tooltip>
     <rotation>90.0</rotation>
     <actions>
     </actions>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>Symbol_4</name>
@@ -3464,7 +3462,6 @@ $(pv_value)</tooltip>
     <rotation>90.0</rotation>
     <actions>
     </actions>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>Symbol_6</name>
@@ -3484,7 +3481,6 @@ $(pv_value)</tooltip>
     <rotation>90.0</rotation>
     <actions>
     </actions>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_15</name>
@@ -3504,8 +3500,6 @@ $(pv_value)</tooltip>
     <rotation>180.0</rotation>
     <actions>
     </actions>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_16</name>
@@ -3525,8 +3519,6 @@ $(pv_value)</tooltip>
     <rotation>180.0</rotation>
     <actions>
     </actions>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_17</name>
@@ -3546,71 +3538,60 @@ $(pv_value)</tooltip>
     <rotation>180.0</rotation>
     <actions>
     </actions>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_18</name>
     <pv_name>Cryo-CBox:HP:UY3170-PercOut</pv_name>
     <symbols>
-      <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
-      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
     </symbols>
-    <x>777</x>
-    <y>205</y>
-    <width>27</width>
-    <height>41</height>
+    <x>770</x>
+    <y>212</y>
+    <width>41</width>
+    <height>27</height>
     <background_color>
       <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
       </color>
     </background_color>
-    <rotation>90.0</rotation>
     <actions>
     </actions>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_19</name>
     <pv_name>Cryo-CBox:LP:UY3290-PercOut</pv_name>
     <symbols>
-      <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
-      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
     </symbols>
-    <x>777</x>
-    <y>320</y>
-    <width>27</width>
-    <height>41</height>
+    <x>769</x>
+    <y>327</y>
+    <width>41</width>
+    <height>27</height>
     <background_color>
       <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
       </color>
     </background_color>
-    <rotation>90.0</rotation>
     <actions>
     </actions>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_20</name>
     <pv_name>Cryo-CBox:HP:UY3160-PercOut</pv_name>
     <symbols>
-      <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
-      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
     </symbols>
-    <x>586</x>
-    <y>148</y>
-    <width>27</width>
-    <height>41</height>
+    <x>578</x>
+    <y>156</y>
+    <width>41</width>
+    <height>27</height>
     <background_color>
       <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
       </color>
     </background_color>
-    <rotation>90.0</rotation>
     <actions>
     </actions>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>Boolean Symbol Image Control Template_6</name>
@@ -3630,7 +3611,6 @@ $(pv_value)</tooltip>
     <rotation>270.0</rotation>
     <actions>
     </actions>
-    <auto_size>true</auto_size>
     <preserve_ratio>false</preserve_ratio>
   </widget>
   <widget type="symbol" version="2.0.0">
@@ -3651,7 +3631,6 @@ $(pv_value)</tooltip>
     <rotation>270.0</rotation>
     <actions>
     </actions>
-    <auto_size>true</auto_size>
     <preserve_ratio>false</preserve_ratio>
   </widget>
   <widget type="symbol" version="2.0.0">
@@ -3672,7 +3651,6 @@ $(pv_value)</tooltip>
     <rotation>270.0</rotation>
     <actions>
     </actions>
-    <auto_size>true</auto_size>
     <preserve_ratio>false</preserve_ratio>
   </widget>
   <widget type="symbol" version="2.0.0">
@@ -3693,7 +3671,6 @@ $(pv_value)</tooltip>
     <rotation>270.0</rotation>
     <actions>
     </actions>
-    <auto_size>true</auto_size>
     <preserve_ratio>false</preserve_ratio>
   </widget>
   <widget type="symbol" version="2.0.0">
@@ -3714,7 +3691,6 @@ $(pv_value)</tooltip>
     <rotation>270.0</rotation>
     <actions>
     </actions>
-    <auto_size>true</auto_size>
     <preserve_ratio>false</preserve_ratio>
   </widget>
   <widget type="symbol" version="2.0.0">
@@ -3733,7 +3709,6 @@ $(pv_value)</tooltip>
     </background_color>
     <actions>
     </actions>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>Symbol_8</name>
@@ -3751,7 +3726,6 @@ $(pv_value)</tooltip>
     </background_color>
     <actions>
     </actions>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>Symbol_9</name>
@@ -3769,6 +3743,5 @@ $(pv_value)</tooltip>
     </background_color>
     <actions>
     </actions>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
 </display>

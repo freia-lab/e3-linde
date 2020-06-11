@@ -8,6 +8,7 @@
   </background_color>
   <actions>
   </actions>
+  <grid_visible>false</grid_visible>
   <widget type="polygon" version="2.0.0">
     <name>Polygon Template_1</name>
     <x>223</x>
@@ -844,8 +845,8 @@ $(pv_value)</tooltip>
       <text>CV3114</text>
       <x>18</x>
       <y>5</y>
-      <width>50</width>
-      <height>16</height>
+      <width>44</width>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -899,27 +900,6 @@ $(pv_value)</tooltip>
         </rule>
       </rules>
       <border_width>2</border_width>
-    </widget>
-    <widget type="symbol" version="2.0.0">
-      <name>_10</name>
-      <pv_name>Cryo-CBox:Ads80K:UY3114-PercOut</pv_name>
-      <symbols>
-        <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
-        <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
-      </symbols>
-      <x>26</x>
-      <y>35</y>
-      <width>27</width>
-      <height>41</height>
-      <background_color>
-        <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
-        </color>
-      </background_color>
-      <rotation>90.0</rotation>
-      <actions>
-      </actions>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <auto_size>true</auto_size>
     </widget>
   </widget>
   <widget type="label" version="2.0.0">
@@ -1150,7 +1130,7 @@ $(pv_value)</tooltip>
     <x>284</x>
     <y>100</y>
     <width>24</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1251,7 +1231,7 @@ $(pv_value)</tooltip>
     <x>142</x>
     <y>232</y>
     <width>40</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1472,27 +1452,6 @@ $(pv_value)</tooltip>
       </rules>
       <border_width>2</border_width>
     </widget>
-    <widget type="symbol" version="2.0.0">
-      <name>_11</name>
-      <pv_name>Cryo-CBox:Ads80K:UY3112-PercOut</pv_name>
-      <symbols>
-        <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
-        <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
-      </symbols>
-      <x>26</x>
-      <y>34</y>
-      <width>27</width>
-      <height>41</height>
-      <background_color>
-        <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
-        </color>
-      </background_color>
-      <rotation>90.0</rotation>
-      <actions>
-      </actions>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <auto_size>true</auto_size>
-    </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_4</name>
       <text>CV3112</text>
@@ -1702,7 +1661,7 @@ $(pv_value)</tooltip>
     <x>692</x>
     <y>537</y>
     <width>49</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2195,50 +2154,42 @@ $(pv_value)</tooltip>
     <rotation>180.0</rotation>
     <actions>
     </actions>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_9</name>
     <pv_name>Cryo-CBox:HP:UY3111-PercOut</pv_name>
     <symbols>
-      <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
-      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
     </symbols>
-    <x>687</x>
-    <y>230</y>
-    <width>27</width>
-    <height>41</height>
+    <x>682</x>
+    <y>237</y>
+    <width>41</width>
+    <height>27</height>
     <background_color>
       <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
       </color>
     </background_color>
-    <rotation>90.0</rotation>
     <actions>
     </actions>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_12</name>
     <pv_name>Cryo-CBox:Ads80K:UY3117-PercOut</pv_name>
     <symbols>
-      <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
-      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
     </symbols>
-    <x>986</x>
-    <y>230</y>
-    <width>27</width>
-    <height>41</height>
+    <x>981</x>
+    <y>237</y>
+    <width>41</width>
+    <height>27</height>
     <background_color>
       <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
       </color>
     </background_color>
-    <rotation>90.0</rotation>
     <actions>
     </actions>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>Symbol_1</name>
@@ -2257,7 +2208,6 @@ $(pv_value)</tooltip>
     </background_color>
     <actions>
     </actions>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
   <widget type="arc" version="2.0.0">
     <name>Arc</name>
@@ -2417,5 +2367,41 @@ $(pv_value)</tooltip>
     <height>43</height>
     <rotation>-90.0</rotation>
     <auto_size>true</auto_size>
+  </widget>
+  <widget type="symbol" version="2.0.0">
+    <name>_10</name>
+    <pv_name>Cryo-CBox:Ads80K:UY3114-PercOut</pv_name>
+    <symbols>
+      <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
+    </symbols>
+    <x>857</x>
+    <y>127</y>
+    <width>41</width>
+    <height>27</height>
+    <background_color>
+      <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="symbol" version="2.0.0">
+    <name>_11</name>
+    <pv_name>Cryo-CBox:Ads80K:UY3112-PercOut</pv_name>
+    <symbols>
+      <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
+    </symbols>
+    <x>813</x>
+    <y>446</y>
+    <width>41</width>
+    <height>27</height>
+    <background_color>
+      <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
   </widget>
 </display>
