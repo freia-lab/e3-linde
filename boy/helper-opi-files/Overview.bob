@@ -134,7 +134,7 @@ $(pv_value)</tooltip>
     <x>1121</x>
     <y>425</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -301,7 +301,7 @@ $(pv_value)</tooltip>
     <x>867</x>
     <y>425</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -440,7 +440,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <fill_color>
@@ -728,7 +728,7 @@ $(pv_value)</tooltip>
     <x>1203</x>
     <y>814</y>
     <width>40</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -779,7 +779,7 @@ $(pv_value)</tooltip>
     <x>908</x>
     <y>605</y>
     <width>24</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1161,7 +1161,7 @@ $(pv_value)</tooltip>
     <x>795</x>
     <y>690</y>
     <width>22</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1249,7 +1249,7 @@ $(pv_value)</tooltip>
     <x>180</x>
     <y>714</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1310,7 +1310,7 @@ $(pv_value)</tooltip>
     <x>272</x>
     <y>754</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1339,7 +1339,7 @@ $(pv_value)</tooltip>
     <x>686</x>
     <y>694</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1452,7 +1452,7 @@ $(pv_value)</tooltip>
     <x>142</x>
     <y>850</y>
     <width>22</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1657,7 +1657,7 @@ $(pv_value)</tooltip>
     <name>Text Update Template_60</name>
     <pv_name>Cryo-Pur:Htr:UY3470-PercOut</pv_name>
     <x>620</x>
-    <y>815</y>
+    <y>814</y>
     <width>40</width>
     <height>16</height>
     <font>
@@ -1679,7 +1679,7 @@ $(pv_value)</tooltip>
     </actions>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
@@ -1737,7 +1737,7 @@ $(pv_value)</tooltip>
     <x>397</x>
     <y>631</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1786,7 +1786,7 @@ $(pv_value)</tooltip>
     <x>521</x>
     <y>710</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1915,7 +1915,7 @@ $(pv_value)</tooltip>
       </color>
     </foreground_color>
     <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
+      <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
       </color>
     </background_color>
     <fill_color>
@@ -2224,7 +2224,7 @@ $(pv_value)</tooltip>
     <x>52</x>
     <y>22</y>
     <width>39</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2621,7 +2621,7 @@ $(pv_value)</tooltip>
     <x>234</x>
     <y>423</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2896,7 +2896,7 @@ $(pv_value)</tooltip>
     </actions>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
@@ -2936,7 +2936,7 @@ $(pv_value)</tooltip>
     <x>529</x>
     <y>350</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3091,7 +3091,7 @@ $(pv_value)</tooltip>
     <x>751</x>
     <y>425</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3721,7 +3721,7 @@ $(pv_value)</tooltip>
     <x>969</x>
     <y>425</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3770,7 +3770,7 @@ $(pv_value)</tooltip>
     <x>819</x>
     <y>129</y>
     <width>11</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3844,7 +3844,7 @@ $(pv_value)</tooltip>
     <x>947</x>
     <y>125</y>
     <width>11</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4387,7 +4387,7 @@ $(pv_value)</tooltip>
     <x>1177</x>
     <y>67</y>
     <width>77</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4615,10 +4615,10 @@ $(pv_value)</tooltip>
       <symbol>../../freia-symbols/Fluid/HT_Electrical_Heater_OFF.svg</symbol>
       <symbol>../../freia-symbols/Fluid/HT_Electrical_Heater_ON.svg</symbol>
     </symbols>
-    <x>529</x>
+    <x>537</x>
     <y>404</y>
-    <width>57</width>
-    <height>43</height>
+    <width>50</width>
+    <height>35</height>
     <rotation>-90.0</rotation>
   </widget>
   <widget type="symbol" version="2.0.0">
@@ -4904,10 +4904,10 @@ $(pv_value)</tooltip>
       <symbol>../../freia-symbols/Fluid/HT_Electrical_Heater_OFF.svg</symbol>
       <symbol>../../freia-symbols/Fluid/HT_Electrical_Heater_ON.svg</symbol>
     </symbols>
-    <x>565</x>
-    <y>790</y>
-    <width>57</width>
-    <height>43</height>
+    <x>573</x>
+    <y>791</y>
+    <width>50</width>
+    <height>35</height>
     <rotation>-90.0</rotation>
   </widget>
   <widget type="symbol" version="2.0.0">
@@ -5140,9 +5140,9 @@ $(pv_value)</tooltip>
       <symbol>../../freia-symbols/Fluid/HT_Electrical_Heater_ON.svg</symbol>
     </symbols>
     <x>1282</x>
-    <y>799</y>
-    <width>57</width>
-    <height>43</height>
+    <y>797</y>
+    <width>50</width>
+    <height>35</height>
     <rotation>-90.0</rotation>
   </widget>
   <widget type="symbol" version="2.0.0">
