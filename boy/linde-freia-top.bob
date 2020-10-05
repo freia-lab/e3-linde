@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
+  <name>Linde</name>
   <width>1550</width>
   <height>1080</height>
   <background_color>
@@ -35,7 +36,7 @@
             <x>685</x>
             <y>15</y>
             <width>79</width>
-            <height>27</height>
+            <height>26</height>
             <font>
               <font family="Source Sans Pro" style="REGULAR" size="20.0">
               </font>
@@ -120,7 +121,7 @@
             <x>685</x>
             <y>15</y>
             <width>81</width>
-            <height>27</height>
+            <height>26</height>
             <font>
               <font family="Source Sans Pro" style="REGULAR" size="20.0">
               </font>
@@ -167,7 +168,7 @@
             <x>685</x>
             <y>15</y>
             <width>109</width>
-            <height>27</height>
+            <height>26</height>
             <font>
               <font family="Source Sans Pro" style="REGULAR" size="20.0">
               </font>
@@ -214,7 +215,7 @@
             <x>685</x>
             <y>15</y>
             <width>148</width>
-            <height>27</height>
+            <height>26</height>
             <font>
               <font family="Source Sans Pro" style="REGULAR" size="20.0">
               </font>
@@ -261,7 +262,7 @@
             <x>685</x>
             <y>15</y>
             <width>149</width>
-            <height>27</height>
+            <height>26</height>
             <font>
               <font family="Source Sans Pro" style="REGULAR" size="20.0">
               </font>
@@ -362,7 +363,7 @@
     <x>1075</x>
     <y>1</y>
     <width>255</width>
-    <height>39</height>
+    <height>37</height>
     <font>
       <font family="Source Sans Pro" style="BOLD" size="29.0">
       </font>
