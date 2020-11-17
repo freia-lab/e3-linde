@@ -16,5 +16,5 @@
 # CV5203 (to the vertical cryostat)
 #dbpf Cryo-Dwr:CV-5203:OpenClsCmd.DOL "CstatV-Ctrl:CV5203:OCcmd CA"
 #dbpf Cryo-Dwr:CV-5203:OpenClsCmd.OMSL "closed_loop"
-dbpf Cryo-Dwr:CV-5203:OpenClsCmd.FLNK "CstatV-Ctrl:CV5203:OCcmd-ackFO.PROC CA"
-dbpf Cryo-Dwr:CV-5203:OpenClsCmd.IVOA "Set output to IVOV"
+#dbpf Cryo-Dwr:CV-5203:OpenClsCmd.FLNK "CstatV-Ctrl:CV5203:OCcmd-ackFO.PROC CA"
+#dbpf Cryo-Dwr:CV-5203:OpenClsCmd.IVOA "Set output to IVOV"

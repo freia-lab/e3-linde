@@ -30,8 +30,11 @@ s7plcConfigure Cryo-Linde,$(PLC_IPADDR),2000,2000,100,1,1000,100
 dbLoadRecords("linde.db")
 #dbLoadTemplate("lindeCryosystem.substitutions")
 dbLoadRecords("lindeCryosystem.db")
+dbLoadRecords("CV520xValveCtrl.db")
 
 iocInit
+
+seq CV520xValveCtrl
 
 requireSnippet(linde-freia-setup-pv.cmd)
 

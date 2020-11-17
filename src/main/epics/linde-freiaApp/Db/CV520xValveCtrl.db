@@ -1,0 +1,13 @@
+record (bo, "Cryo-Dwr:CV5202:cAuto") {
+    field(ZNAM, "Manual control")
+    field(ONAM, "Automatic control")
+    field(VAL, "1")
+    field(PINI, "YES")
+}
+record (bo, "Cryo-Dwr:CV5203:cAuto") {
+    field(ZNAM, "Manual control")
+    field(ONAM, "Automatic control")
+    field(VAL, "1")
+    field(PINI, "YES")
+}
+
