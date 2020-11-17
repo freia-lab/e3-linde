@@ -1,5 +1,0 @@
-#############################################
-## Build provided environment variables    ##
-#############################################
-epicsEnvSet("AUTOSAVE_SYSM_PV_PREFIX","linde-freia:")
-epicsEnvSet("IOCSH_PS1","${IOC}> ")
