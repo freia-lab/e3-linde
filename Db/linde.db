@@ -147,7 +147,7 @@ record(mbbi, "Cryo-Rec:LP:BalloonLevel") {
   field (SIMS, "INVALID")
 }
 
-record(mbbi, "Cryo-Cryo-CBox:Ads80K:VisuState") {
+record(mbbi, "Cryo-CBox:Ads80K:VisuState") {
   field (DTYP, "S7plc")
   field (INP,  "@Cryo-Linde/1430 T=BYTE")
   field (SCAN, "I/O Intr") 
