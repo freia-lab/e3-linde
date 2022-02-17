@@ -1,0 +1,10 @@
+record (ai, "Cryo-$(SUBS):$(DEV):$(SIG)") {
+  field (DESC, "$(SUBS):$(DEV) $(DESC)")
+  field (EGU, "$(EGU)")
+  field (PREC, "4")
+  field (DTYP, "S7plc")
+  field (INP,  "@Cryo-Linde/$(OFFS) T=FLOAT")
+  field (SCAN, "I/O Intr")
+  field (SIMS, "INVALID")
+}
+
