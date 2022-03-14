@@ -2895,7 +2895,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_27</name>
-    <pv_name>Cryo-Rec:LP:GasBagSonar</pv_name>
+    <pv_name>Cryo-Rec:LP:GasBagLidar</pv_name>
     <x>248</x>
     <y>592</y>
     <width>56</width>
@@ -2924,10 +2924,10 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_115</name>
-    <text>Sonar</text>
+    <text>Lidar</text>
     <x>256</x>
     <y>575</y>
-    <width>33</width>
+    <width>28</width>
     <height>17</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="13.0">
