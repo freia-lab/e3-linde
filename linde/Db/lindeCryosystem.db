@@ -6390,7 +6390,7 @@ record (ai, "Cryo-CBox:HP:TI3454") {
 
 record (ai, "Cryo-Dwr:LHe:LI5200_Lt") {
   field (DESC, "Dwr:LHe Dwr level liter")
-  field (EGU, "Lt")
+  field (EGU, "l")
   field (PREC, "4")
   field (DTYP, "S7plc")
   field (INP,  "@Cryo-Linde/340 T=FLOAT")
