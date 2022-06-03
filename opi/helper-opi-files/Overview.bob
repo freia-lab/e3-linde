@@ -135,7 +135,6 @@ $(pv_value)</tooltip>
     <x>1121</x>
     <y>425</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -302,7 +301,6 @@ $(pv_value)</tooltip>
     <x>867</x>
     <y>425</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -729,7 +727,6 @@ $(pv_value)</tooltip>
     <x>1203</x>
     <y>814</y>
     <width>40</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -780,7 +777,6 @@ $(pv_value)</tooltip>
     <x>908</x>
     <y>605</y>
     <width>24</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -907,7 +903,7 @@ $(pv_value)</tooltip>
     <x>983</x>
     <y>769</y>
     <width>36</width>
-    <height>16</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -1013,7 +1009,7 @@ $(pv_value)</tooltip>
       <x>16</x>
       <y>9</y>
       <width>35</width>
-      <height>16</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="12.0">
         </font>
@@ -1162,7 +1158,6 @@ $(pv_value)</tooltip>
     <x>795</x>
     <y>690</y>
     <width>22</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1250,7 +1245,6 @@ $(pv_value)</tooltip>
     <x>180</x>
     <y>714</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1311,7 +1305,6 @@ $(pv_value)</tooltip>
     <x>272</x>
     <y>754</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1340,7 +1333,6 @@ $(pv_value)</tooltip>
     <x>686</x>
     <y>694</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1453,7 +1445,6 @@ $(pv_value)</tooltip>
     <x>142</x>
     <y>850</y>
     <width>22</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1738,7 +1729,6 @@ $(pv_value)</tooltip>
     <x>397</x>
     <y>631</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1787,7 +1777,6 @@ $(pv_value)</tooltip>
     <x>521</x>
     <y>710</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2225,7 +2214,6 @@ $(pv_value)</tooltip>
     <x>52</x>
     <y>22</y>
     <width>39</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2622,7 +2610,6 @@ $(pv_value)</tooltip>
     <x>234</x>
     <y>423</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2937,7 +2924,6 @@ $(pv_value)</tooltip>
     <x>529</x>
     <y>350</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3092,7 +3078,6 @@ $(pv_value)</tooltip>
     <x>751</x>
     <y>425</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3722,7 +3707,6 @@ $(pv_value)</tooltip>
     <x>969</x>
     <y>425</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3771,7 +3755,6 @@ $(pv_value)</tooltip>
     <x>819</x>
     <y>129</y>
     <width>11</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3845,7 +3828,6 @@ $(pv_value)</tooltip>
     <x>947</x>
     <y>125</y>
     <width>11</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4388,7 +4370,6 @@ $(pv_value)</tooltip>
     <x>1177</x>
     <y>67</y>
     <width>77</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4446,7 +4427,7 @@ Gersemi</text>
     <x>1310</x>
     <y>615</y>
     <width>49</width>
-    <height>39</height>
+    <height>43</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4476,7 +4457,7 @@ and the CM</text>
     <x>1260</x>
     <y>580</y>
     <width>66</width>
-    <height>39</height>
+    <height>43</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4615,7 +4596,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>Symbol_5</name>
-    <pv_name>Cryo-CBox:Htr:UY3115-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:Htr:UY3115-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/Fluid/HT_Electrical_Heater_OFF.svg</symbol>
       <symbol>../../freia-symbols/Fluid/HT_Electrical_Heater_ON.svg</symbol>
@@ -4628,7 +4609,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_15</name>
-    <pv_name>Cryo-CBox:Ads80K:UY3114-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:Ads80K:UY3114-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
@@ -4646,7 +4627,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_16</name>
-    <pv_name>Cryo-CBox:Ads80K:UY3117-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:Ads80K:UY3117-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
@@ -4664,7 +4645,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_18</name>
-    <pv_name>Cryo-CBox:Ads80K:UY3112-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:Ads80K:UY3112-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
@@ -4682,7 +4663,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_19</name>
-    <pv_name>Cryo-CBox:LN2:UY3615-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:LN2:UY3615-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
@@ -4701,7 +4682,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_20</name>
-    <pv_name>Cryo-Cmp:LP:UY2250-PercOut</pv_name>
+    <pv_name>=`Cryo-Cmp:LP:UY2250-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
@@ -4719,7 +4700,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_21</name>
-    <pv_name>Cryo-Cmp:HP:UY2150-PercOut</pv_name>
+    <pv_name>=`Cryo-Cmp:HP:UY2150-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
@@ -4737,7 +4718,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_22</name>
-    <pv_name>Cryo-Cmp:HP:UY2160-PercOut</pv_name>
+    <pv_name>=`Cryo-Cmp:HP:UY2160-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
@@ -4773,7 +4754,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_29</name>
-    <pv_name>Cryo-CBox:Pur:UY3420-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:Pur:UY3420-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
@@ -4791,7 +4772,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_30</name>
-    <pv_name>Cryo-CBox:Pur:UY3401-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:Pur:UY3401-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
@@ -4847,7 +4828,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_31</name>
-    <pv_name>Cryo-CBox:Pur:UY3420-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:Pur:UY3420-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
@@ -4866,7 +4847,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_32</name>
-    <pv_name>Cryo-CBox:Pur:UY3435-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:Pur:UY3435-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
@@ -4885,7 +4866,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_34</name>
-    <pv_name>Cryo-CBox:Pur:UY3490-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:Pur:UY3490-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
@@ -4904,7 +4885,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>Symbol_13</name>
-    <pv_name>Cryo-Pur:Htr:UY3470-PercOut</pv_name>
+    <pv_name>=`Cryo-Pur:Htr:UY3470-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/Fluid/HT_Electrical_Heater_OFF.svg</symbol>
       <symbol>../../freia-symbols/Fluid/HT_Electrical_Heater_ON.svg</symbol>
@@ -4917,7 +4898,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_36</name>
-    <pv_name>Cryo-CBox:HP:UY3130-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:HP:UY3130-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
@@ -4953,7 +4934,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_37</name>
-    <pv_name>Cryo-CBox:HP:UY3131-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:HP:UY3131-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
@@ -4971,7 +4952,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_38</name>
-    <pv_name>Cryo-CBox:HP:UY3151-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:HP:UY3151-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
@@ -4989,7 +4970,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_41</name>
-    <pv_name>Cryo-CBox:HP:UY3160-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:HP:UY3160-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
@@ -5007,7 +4988,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_44</name>
-    <pv_name>Cryo-CBox:HP:UY3170-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:HP:UY3170-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
@@ -5025,7 +5006,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_46</name>
-    <pv_name>Cryo-CBox:LP:UY3290-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:LP:UY3290-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
@@ -5082,7 +5063,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_48</name>
-    <pv_name>Cryo-Dwr:V:UY5203-PercOut</pv_name>
+    <pv_name>=`Cryo-Dwr:V:UY5203-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
@@ -5101,7 +5082,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_49</name>
-    <pv_name>Cryo-Dwr:V:UY5202-PercOut</pv_name>
+    <pv_name>=`Cryo-Dwr:V:UY5202-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
@@ -5120,7 +5101,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_50</name>
-    <pv_name>Cryo-Dwr:V:UY5201-PercOut</pv_name>
+    <pv_name>=`Cryo-Dwr:V:UY5201-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
@@ -5367,7 +5348,7 @@ $(pv_value)</tooltip>
     <x>861</x>
     <y>693</y>
     <width>38</width>
-    <height>16</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -5395,7 +5376,7 @@ $(pv_value)</tooltip>
     <x>864</x>
     <y>706</y>
     <width>32</width>
-    <height>16</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -5423,7 +5404,7 @@ $(pv_value)</tooltip>
     <x>984</x>
     <y>787</y>
     <width>36</width>
-    <height>16</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -5447,7 +5428,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_17</name>
-    <pv_name>Cryo-CBox:HP:UY3111-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:HP:UY3111-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>

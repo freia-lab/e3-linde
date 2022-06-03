@@ -2386,7 +2386,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_7</name>
-    <pv_name>Cryo-Cmp:LP:UY2250-PercOut</pv_name>
+    <pv_name>=`Cryo-Cmp:LP:UY2250-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
@@ -2404,7 +2404,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_8</name>
-    <pv_name>Cryo-Cmp:HP:UY2150-PercOut</pv_name>
+    <pv_name>=`Cryo-Cmp:HP:UY2150-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
@@ -2422,7 +2422,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_9</name>
-    <pv_name>Cryo-Cmp:HP:UY2160-PercOut</pv_name>
+    <pv_name>=`Cryo-Cmp:HP:UY2160-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>

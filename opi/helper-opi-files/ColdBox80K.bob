@@ -2012,7 +2012,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_8</name>
-    <pv_name>Cryo-CBox:LN2:UY3615-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:LN2:UY3615-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
@@ -2031,7 +2031,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_9</name>
-    <pv_name>Cryo-CBox:HP:UY3111-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:HP:UY3111-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
@@ -2049,7 +2049,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_12</name>
-    <pv_name>Cryo-CBox:Ads80K:UY3117-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:Ads80K:UY3117-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
@@ -2230,7 +2230,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>Symbol_5</name>
-    <pv_name>Cryo-CBox:Htr:UY3115-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:Htr:UY3115-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/Fluid/HT_Electrical_Heater_OFF.svg</symbol>
       <symbol>../../freia-symbols/Fluid/HT_Electrical_Heater_ON.svg</symbol>
@@ -2243,7 +2243,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_10</name>
-    <pv_name>Cryo-CBox:Ads80K:UY3114-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:Ads80K:UY3114-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
@@ -2261,7 +2261,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_11</name>
-    <pv_name>Cryo-CBox:Ads80K:UY3112-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:Ads80K:UY3112-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>

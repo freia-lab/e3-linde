@@ -3464,7 +3464,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_15</name>
-    <pv_name>Cryo-Dwr:V:UY5203-PercOut</pv_name>
+    <pv_name>=`Cryo-Dwr:V:UY5203-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
@@ -3483,7 +3483,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_16</name>
-    <pv_name>Cryo-Dwr:V:UY5202-PercOut</pv_name>
+    <pv_name>=`Cryo-Dwr:V:UY5202-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
@@ -3502,7 +3502,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_17</name>
-    <pv_name>Cryo-Dwr:V:UY5201-PercOut</pv_name>
+    <pv_name>=`Cryo-Dwr:V:UY5201-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
@@ -3521,7 +3521,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_18</name>
-    <pv_name>Cryo-CBox:HP:UY3170-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:HP:UY3170-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
@@ -3539,7 +3539,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_19</name>
-    <pv_name>Cryo-CBox:LP:UY3290-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:LP:UY3290-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
@@ -3557,7 +3557,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>_20</name>
-    <pv_name>Cryo-CBox:HP:UY3160-PercOut</pv_name>
+    <pv_name>=`Cryo-CBox:HP:UY3160-PercOut`!=0</pv_name>
     <symbols>
       <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
       <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
