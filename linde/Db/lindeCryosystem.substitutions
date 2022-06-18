@@ -607,31 +607,6 @@ file "lindeAnalogFloatInput.template" { pattern
 {Dwr,	LHe,	LI5200_Lt,	    340,  l, "Dwr level liter"}
 {CBox,	Pur,	ActStaTm,	    344,  min, "Actual state time"}
 {CBox,	Pur,	ActPresDif,	    348,  bara, "Pres diff PI3401-PI3445"}
-{Pur,	Htr,	UY3470-PercOut,	    370,  "%", percent}
-{CBox,	Htr,	UY3115-PercOut,	    374,  "%", percent}
-{Dwr,	V,	UY5201-PercOut,	    378,  "%", CV5201}
-{Dwr,	V,	UY5202-PercOut,	    382,  "%", CV5201}
-{Dwr,	V,	UY5203-PercOut,	    386,  "%", CV5202}
-{CBox,	HP,	UY3130-PercOut,	    434,  "%", "Inlet vlv turbines"}
-{CBox,	HP,	UY3131-PercOut,	    438,  "%", "Brake vlv tu 1"}
-{CBox,	HP,	UY3151-PercOut,	    442,  "%", "Brake vlv tu 2"}
-{CBox,	HP,	UY3160-PercOut,	    446,  "%", "Cooldown bypass vlv"}
-{CBox,	HP,	UY3170-PercOut,	    450,  "%", "JT vlv"}
-{CBox,	LP,	UY3290-PercOut,	    454,  "%", "Return vlv dwr"}
-{CBox,	LN2,	UY3615-PercOut,	    458,  "%", "Precooling"}
-{CBox,	Pur,	UY3401-PercOut,	    462,  "%", "Impur gas supply vlv"}
-{CBox,	Pur,	UY3420-PercOut,	    466,  "%", "Pressure ctrl vlv"}
-{CBox,	HP,	UY3111-PercOut,	    474,  "%", "Outlet vlv"}
-{CBox,	Ads80K,	UY3112-PercOut,	    478,  "%", "Cooldown vlv"}
-{CBox,	Ads80K,	UY3114-PercOut,	    482,  "%", "Bypass vlv"}
-{CBox,	Ads80K,	UY3117-PercOut,	    486,  "%", "Outlet vlv"}
-{CBox,	Pur,	UY3435-PercOut,	    490,  "%", "Regen 2 vlv"}
-{CBox,	Pur,	UY3465-PercOut,	    494,  "%", "Regen vlv"}
-{CBox,	Pur,	UY3490-PercOut,	    498,  "%", "Cold gas supply vlv"}
-{Cmp,	LP,	UY2250-PercOut,	    538,  "%", "Bypass vlv"}
-{Cmp,	HP,	UY2160-PercOut,	    542,  "%", "Load vlv"}
-{Cmp,	HP,	UY2150-PercOut,	    546,  "%", "Unload vlv"}
-{Cmp,	HP,	SY2110-PercOut,	    550,  "%", "Speed setpoint"}
 
 {Dwr,	LHe,	LC5200_Sp,	    724,  "%", "Dewar level controller set-point"}
 
@@ -654,6 +629,35 @@ file "lindeAnalogFloatInput.template" { pattern
 {CBox,	CBox,	StTuMassFlow,	    908,  "kg/s", "Turbine massflow"}
 {CBox,	HP,	SC3131-ActSp,	    912,  "SP", "Speed control tu1"}
 {CBox,	HP,	SC3151-ActSp,	    916,  "SP", "Speed control tu2"}
+}
+
+file "lindeAoStatus.template" { pattern
+{SUBS,	DEV,	SIG,	            OFFS, STAT_OFFS, BIT, EGU, DESC}
+{Pur,	Htr,	UY3470-PercOut,	    370,  602,	     0,	  "%", percent}
+{CBox,	Htr,	UY3115-PercOut,	    374,  602,	     1,	  "%", percent}
+{Dwr,	V,	UY5201-PercOut,	    378,  602,	     2,	  "%", CV5201}
+{Dwr,	V,	UY5202-PercOut,	    382,  602,	     3,	  "%", CV5201}
+{Dwr,	V,	UY5203-PercOut,	    386,  602,	     4,	  "%", CV5202}
+{CBox,	HP,	UY3130-PercOut,	    434,  604,	     0,	  "%", "Inlet vlv turbines"}
+{CBox,	HP,	UY3131-PercOut,	    438,  604,	     1,	  "%", "Brake vlv tu 1"}
+{CBox,	HP,	UY3151-PercOut,	    442,  604,	     2,	  "%", "Brake vlv tu 2"}
+{CBox,	HP,	UY3160-PercOut,	    446,  604,	     3,	  "%", "Cooldown bypass vlv"}
+{CBox,	HP,	UY3170-PercOut,	    450,  604,	     4,	  "%", "JT vlv"}
+{CBox,	LP,	UY3290-PercOut,	    454,  604,	     5,	  "%", "Return vlv dwr"}
+{CBox,	LN2,	UY3615-PercOut,	    458,  604,	     6,	  "%", "Precooling"}
+{CBox,	Pur,	UY3401-PercOut,	    462,  604,	     7,	  "%", "Impur gas supply vlv"}
+{CBox,	Pur,	UY3420-PercOut,	    466,  605,	     0,	  "%", "Pressure ctrl vlv"}
+{CBox,	HP,	UY3111-PercOut,	    474,  605,	     2,	  "%", "Outlet vlv"}
+{CBox,	Ads80K,	UY3112-PercOut,	    478,  605,	     3,	  "%", "Cooldown vlv"}
+{CBox,	Ads80K,	UY3114-PercOut,	    482,  605,	     4,	  "%", "Bypass vlv"}
+{CBox,	Ads80K,	UY3117-PercOut,	    486,  605,	     5,	  "%", "Outlet vlv"}
+{CBox,	Pur,	UY3435-PercOut,	    490,  605,	     6,	  "%", "Regen 2 vlv"}
+{CBox,	Pur,	UY3465-PercOut,	    494,  605,	     7,	  "%", "Regen vlv"}
+{CBox,	Pur,	UY3490-PercOut,	    498,  606,	     0,	  "%", "Cold gas supply vlv"}
+{Cmp,	LP,	UY2250-PercOut,	    538,  607,	     2,	  "%", "Bypass vlv"}
+{Cmp,	HP,	UY2160-PercOut,	    542,  607,	     3,	  "%", "Load vlv"}
+{Cmp,	HP,	UY2150-PercOut,	    546,  607,	     4,	  "%", "Unload vlv"}
+{Cmp,	HP,	SY2110-PercOut,	    550,  607,	     5,	  "%", "Speed setpoint"}
 }
 
 file "lindeAnalogIntInput.template" { pattern

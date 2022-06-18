@@ -1,7 +1,0 @@
-record(stringin, "Cryo-$(SUBS):$(DEV):$(SIG)") {
-  field(DTYP, "S7plc")
-  field(INP, "@Cryo-Linde/$(OFFS) L=16")
-  field(SCAN, "I/O Intr")
-  field(DESC, "$(DESC)")
-  field (SIMS, "INVALID")
-}

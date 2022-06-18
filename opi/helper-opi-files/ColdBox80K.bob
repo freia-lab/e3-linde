@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
+  <macros>
+    <P>Cryo-</P>
+    <S></S>
+  </macros>
   <width>1270</width>
   <height>650</height>
   <background_color>
@@ -139,7 +143,7 @@ $(pv_value)</tooltip>
       <x>15</x>
       <y>87</y>
       <width>41</width>
-      <height>21</height>
+      <height>25</height>
       <foreground_color>
         <color name="BLACK" red="0" green="0" blue="0">
         </color>
@@ -283,7 +287,7 @@ $(pv_value)</tooltip>
     <x>44</x>
     <y>242</y>
     <width>49</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -311,7 +315,7 @@ $(pv_value)</tooltip>
     <x>44</x>
     <y>387</y>
     <width>42</width>
-    <height>16</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -339,7 +343,7 @@ $(pv_value)</tooltip>
     <x>179</x>
     <y>609</y>
     <width>49</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -367,7 +371,7 @@ $(pv_value)</tooltip>
     <x>271</x>
     <y>604</y>
     <width>49</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -538,7 +542,7 @@ $(pv_value)</tooltip>
     <x>758</x>
     <y>252</y>
     <width>40</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -595,7 +599,7 @@ $(pv_value)</tooltip>
     <x>557</x>
     <y>252</y>
     <width>40</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -646,229 +650,13 @@ $(pv_value)</tooltip>
       </color>
     </border_color>
   </widget>
-  <widget type="group" version="2.0.0">
-    <name>Panel 2_4</name>
-    <x>662</x>
-    <y>194</y>
-    <width>81</width>
-    <height>76</height>
-    <style>3</style>
-    <foreground_color>
-      <color red="0" green="128" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color red="240" green="240" blue="240">
-      </color>
-    </background_color>
-    <transparent>true</transparent>
-    <actions>
-    </actions>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update Template_6</name>
-      <pv_name>Cryo-CBox:HP:UY3111-PercOut</pv_name>
-      <x>11</x>
-      <y>24</y>
-      <width>60</width>
-      <height>16</height>
-      <font>
-        <font family="Source Sans Pro" style="REGULAR" size="13.0">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="WHITE" red="255" green="255" blue="255">
-        </color>
-      </background_color>
-      <precision>0</precision>
-      <wrap_words>false</wrap_words>
-      <actions>
-      </actions>
-      <border_width>2</border_width>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_4</name>
-      <text>CV3111</text>
-      <x>19</x>
-      <y>6</y>
-      <width>44</width>
-      <height>18</height>
-      <font>
-        <font family="Source Sans Pro" style="REGULAR" size="14.0">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="BACKGROUND" red="220" green="225" blue="221">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-  </widget>
-  <widget type="group" version="2.0.0">
-    <name>Panel 2_5</name>
-    <x>959</x>
-    <y>194</y>
-    <width>81</width>
-    <height>76</height>
-    <style>3</style>
-    <foreground_color>
-      <color red="0" green="128" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color red="240" green="240" blue="240">
-      </color>
-    </background_color>
-    <transparent>true</transparent>
-    <actions>
-    </actions>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update Template_6</name>
-      <pv_name>Cryo-CBox:Ads80K:UY3117-PercOut</pv_name>
-      <x>11</x>
-      <y>24</y>
-      <width>60</width>
-      <height>16</height>
-      <font>
-        <font family="Source Sans Pro" style="REGULAR" size="13.0">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="WHITE" red="255" green="255" blue="255">
-        </color>
-      </background_color>
-      <precision>0</precision>
-      <wrap_words>false</wrap_words>
-      <actions>
-      </actions>
-      <border_width>2</border_width>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_4</name>
-      <text>CV3117</text>
-      <x>19</x>
-      <y>6</y>
-      <width>44</width>
-      <height>18</height>
-      <font>
-        <font family="Source Sans Pro" style="REGULAR" size="14.0">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="BACKGROUND" red="220" green="225" blue="221">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-  </widget>
-  <widget type="group" version="2.0.0">
-    <name>Panel 2_6</name>
-    <x>836</x>
-    <y>85</y>
-    <width>81</width>
-    <height>76</height>
-    <style>3</style>
-    <foreground_color>
-      <color red="0" green="128" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color red="240" green="240" blue="240">
-      </color>
-    </background_color>
-    <transparent>true</transparent>
-    <actions>
-    </actions>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_4</name>
-      <text>CV3114</text>
-      <x>18</x>
-      <y>5</y>
-      <width>44</width>
-      <height>18</height>
-      <font>
-        <font family="Source Sans Pro" style="REGULAR" size="14.0">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="BACKGROUND" red="220" green="225" blue="221">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update Template_6</name>
-      <pv_name>Cryo-CBox:Ads80K:UY3114-PercOut</pv_name>
-      <x>11</x>
-      <y>24</y>
-      <width>60</width>
-      <height>16</height>
-      <font>
-        <font family="Source Sans Pro" style="REGULAR" size="13.0">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="WHITE" red="255" green="255" blue="255">
-        </color>
-      </background_color>
-      <precision>0</precision>
-      <wrap_words>false</wrap_words>
-      <actions>
-      </actions>
-      <border_width>2</border_width>
-    </widget>
-  </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_39</name>
     <text>TI3610</text>
     <x>360</x>
     <y>187</y>
     <width>40</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -961,7 +749,7 @@ $(pv_value)</tooltip>
     <x>350</x>
     <y>146</y>
     <width>63</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -989,7 +777,7 @@ $(pv_value)</tooltip>
     <x>221</x>
     <y>139</y>
     <width>40</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1041,40 +829,12 @@ $(pv_value)</tooltip>
     </border_color>
   </widget>
   <widget type="label" version="2.0.0">
-    <name>Label Template_4</name>
-    <text>CV3615</text>
-    <x>517</x>
-    <y>191</y>
-    <width>44</width>
-    <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="label" version="2.0.0">
     <name>Label Template_43</name>
     <text>atm</text>
     <x>284</x>
     <y>100</y>
     <width>24</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1102,7 +862,7 @@ $(pv_value)</tooltip>
     <x>459</x>
     <y>98</y>
     <width>23</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1175,7 +935,7 @@ $(pv_value)</tooltip>
     <x>142</x>
     <y>232</y>
     <width>40</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1232,7 +992,7 @@ $(pv_value)</tooltip>
     <x>142</x>
     <y>377</y>
     <width>40</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1329,78 +1089,6 @@ $(pv_value)</tooltip>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
-  <widget type="group" version="2.0.0">
-    <name>Panel 2_7</name>
-    <x>792</x>
-    <y>405</y>
-    <width>81</width>
-    <height>76</height>
-    <style>3</style>
-    <foreground_color>
-      <color red="0" green="128" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color red="240" green="240" blue="240">
-      </color>
-    </background_color>
-    <transparent>true</transparent>
-    <actions>
-    </actions>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update Template_6</name>
-      <pv_name>Cryo-CBox:Ads80K:UY3112-PercOut</pv_name>
-      <x>11</x>
-      <y>24</y>
-      <width>60</width>
-      <height>16</height>
-      <font>
-        <font family="Source Sans Pro" style="REGULAR" size="13.0">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="WHITE" red="255" green="255" blue="255">
-        </color>
-      </background_color>
-      <precision>0</precision>
-      <wrap_words>false</wrap_words>
-      <actions>
-      </actions>
-      <border_width>2</border_width>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_4</name>
-      <text>CV3112</text>
-      <x>20</x>
-      <y>5</y>
-      <width>44</width>
-      <height>18</height>
-      <font>
-        <font family="Source Sans Pro" style="REGULAR" size="14.0">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="BACKGROUND" red="220" green="225" blue="221">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-  </widget>
   <widget type="polyline" version="2.0.0">
     <name>Polyline Template_20</name>
     <x>204</x>
@@ -1430,7 +1118,7 @@ $(pv_value)</tooltip>
     <x>551</x>
     <y>527</y>
     <width>40</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1487,7 +1175,7 @@ $(pv_value)</tooltip>
     <x>224</x>
     <y>515</y>
     <width>36</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1545,7 +1233,7 @@ $(pv_value)</tooltip>
     <x>171</x>
     <y>44</y>
     <width>49</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1573,7 +1261,7 @@ $(pv_value)</tooltip>
     <x>692</x>
     <y>537</y>
     <width>49</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1601,7 +1289,7 @@ $(pv_value)</tooltip>
     <x>1199</x>
     <y>243</y>
     <width>49</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1629,7 +1317,7 @@ $(pv_value)</tooltip>
     <x>1199</x>
     <y>387</y>
     <width>49</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1657,7 +1345,7 @@ $(pv_value)</tooltip>
     <x>1199</x>
     <y>449</y>
     <width>49</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1685,7 +1373,7 @@ $(pv_value)</tooltip>
     <x>861</x>
     <y>303</y>
     <width>36</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1742,7 +1430,7 @@ $(pv_value)</tooltip>
     <x>919</x>
     <y>208</y>
     <width>36</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1792,7 +1480,7 @@ $(pv_value)</tooltip>
     <x>977</x>
     <y>71</y>
     <width>40</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1849,7 +1537,7 @@ $(pv_value)</tooltip>
     <x>447</x>
     <y>603</y>
     <width>49</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1877,7 +1565,7 @@ $(pv_value)</tooltip>
     <x>513</x>
     <y>139</y>
     <width>39</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1927,31 +1615,6 @@ $(pv_value)</tooltip>
       <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_6</name>
-    <pv_name>Cryo-CBox:LN2:UY3615-PercOut</pv_name>
-    <x>506</x>
-    <y>207</y>
-    <width>60</width>
-    <height>16</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
-    <precision>0</precision>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <border_width>2</border_width>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_14</name>
@@ -2009,61 +1672,6 @@ $(pv_value)</tooltip>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </border_color>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>_8</name>
-    <pv_name>=`Cryo-CBox:LN2:UY3615-PercOut`!=0</pv_name>
-    <symbols>
-      <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
-      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
-    </symbols>
-    <x>456</x>
-    <y>192</y>
-    <width>27</width>
-    <height>41</height>
-    <background_color>
-      <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
-      </color>
-    </background_color>
-    <rotation>180.0</rotation>
-    <actions>
-    </actions>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>_9</name>
-    <pv_name>=`Cryo-CBox:HP:UY3111-PercOut`!=0</pv_name>
-    <symbols>
-      <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
-      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
-    </symbols>
-    <x>682</x>
-    <y>237</y>
-    <width>41</width>
-    <height>27</height>
-    <background_color>
-      <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
-      </color>
-    </background_color>
-    <actions>
-    </actions>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>_12</name>
-    <pv_name>=`Cryo-CBox:Ads80K:UY3117-PercOut`!=0</pv_name>
-    <symbols>
-      <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
-      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
-    </symbols>
-    <x>981</x>
-    <y>237</y>
-    <width>41</width>
-    <height>27</height>
-    <background_color>
-      <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
-      </color>
-    </background_color>
-    <actions>
-    </actions>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>Symbol_1</name>
@@ -2230,7 +1838,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>Symbol_5</name>
-    <pv_name>=`Cryo-CBox:Htr:UY3115-PercOut`!=0</pv_name>
+    <pv_name>Cryo-CBox:Htr:UY3115-PercOutsOpen</pv_name>
     <symbols>
       <symbol>../../freia-symbols/Fluid/HT_Electrical_Heater_OFF.svg</symbol>
       <symbol>../../freia-symbols/Fluid/HT_Electrical_Heater_ON.svg</symbol>
@@ -2241,40 +1849,69 @@ $(pv_value)</tooltip>
     <height>35</height>
     <rotation>270.0</rotation>
   </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>_10</name>
-    <pv_name>=`Cryo-CBox:Ads80K:UY3114-PercOut`!=0</pv_name>
-    <symbols>
-      <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
-      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
-    </symbols>
-    <x>857</x>
-    <y>127</y>
-    <width>41</width>
-    <height>27</height>
-    <background_color>
-      <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
-      </color>
-    </background_color>
-    <actions>
-    </actions>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display</name>
+    <macros>
+      <P>Cryo-CBox</P>
+      <S>Ads80K</S>
+      <V>UY3112</V>
+    </macros>
+    <file>../../freia-symbols/display-builder/linde-CtrlValve-h-lu-pv.bob</file>
+    <x>800</x>
+    <y>430</y>
+    <width>50</width>
+    <height>55</height>
   </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>_11</name>
-    <pv_name>=`Cryo-CBox:Ads80K:UY3112-PercOut`!=0</pv_name>
-    <symbols>
-      <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
-      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
-    </symbols>
-    <x>813</x>
-    <y>446</y>
-    <width>41</width>
-    <height>27</height>
-    <background_color>
-      <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
-      </color>
-    </background_color>
-    <actions>
-    </actions>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_1</name>
+    <macros>
+      <P>Cryo-CBox</P>
+      <S>Ads80K</S>
+      <V>UY3114</V>
+    </macros>
+    <file>../../freia-symbols/display-builder/linde-CtrlValve-h-lu-pv.bob</file>
+    <x>850</x>
+    <y>111</y>
+    <width>50</width>
+    <height>55</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_2</name>
+    <macros>
+      <P>Cryo-CBox</P>
+      <S>HP</S>
+      <V>UY3111</V>
+    </macros>
+    <file>../../freia-symbols/display-builder/linde-CtrlValve-h-lu-pv.bob</file>
+    <x>660</x>
+    <y>221</y>
+    <width>50</width>
+    <height>55</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_3</name>
+    <macros>
+      <P>Cryo-CBox</P>
+      <S>Ads80K</S>
+      <V>UY3117</V>
+    </macros>
+    <file>../../freia-symbols/display-builder/linde-CtrlValve-h-lu-pv.bob</file>
+    <x>983</x>
+    <y>220</y>
+    <width>50</width>
+    <height>55</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_4</name>
+    <macros>
+      <P>Cryo-CBox</P>
+      <S>LN2</S>
+      <V>UY3615</V>
+    </macros>
+    <file>../../freia-symbols/display-builder/linde-CtrlValve-v-lr-pv.bob</file>
+    <x>456</x>
+    <y>190</y>
+    <width>56</width>
+    <height>43</height>
   </widget>
 </display>

@@ -18,12 +18,6 @@
     <y>282</y>
     <width>281</width>
     <height>345</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLUE-BORDER" red="47" green="135" blue="148">
-      </color>
-    </line_color>
-    <line_style>1</line_style>
     <points>
       <point x="0.0" y="24.0">
       </point>
@@ -36,6 +30,12 @@
       <point x="280.0" y="344.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -47,12 +47,6 @@ $(pv_value)</tooltip>
     <y>424</y>
     <width>716</width>
     <height>247</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLUE-BORDER" red="47" green="135" blue="148">
-      </color>
-    </line_color>
-    <line_style>1</line_style>
     <points>
       <point x="715.0" y="220.0">
       </point>
@@ -63,6 +57,12 @@ $(pv_value)</tooltip>
       <point x="0.0" y="0.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -74,18 +74,18 @@ $(pv_value)</tooltip>
     <y>558</y>
     <width>1</width>
     <height>26</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLUE-BORDER" red="47" green="135" blue="148">
-      </color>
-    </line_color>
-    <line_style>1</line_style>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="0.0" y="25.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -97,12 +97,6 @@ $(pv_value)</tooltip>
     <y>95</y>
     <width>990</width>
     <height>651</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color name="BLUE-BORDER" red="47" green="135" blue="148">
-      </color>
-    </line_color>
-    <arrows>1</arrows>
     <points>
       <point x="989.0" y="220.0">
       </point>
@@ -123,6 +117,12 @@ $(pv_value)</tooltip>
       <point x="989.0" y="310.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
+    <arrows>1</arrows>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -204,17 +204,17 @@ $(pv_value)</tooltip>
       <y>27</y>
       <width>56</width>
       <height>91</height>
-      <line_width>1</line_width>
-      <line_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </line_color>
       <points>
         <point x="55.0" y="0.0">
         </point>
         <point x="0.0" y="90.0">
         </point>
       </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </line_color>
       <actions>
       </actions>
       <tooltip>$(pv_name)
@@ -226,17 +226,17 @@ $(pv_value)</tooltip>
       <y>27</y>
       <width>56</width>
       <height>91</height>
-      <line_width>1</line_width>
-      <line_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </line_color>
       <points>
         <point x="55.0" y="90.0">
         </point>
         <point x="0.0" y="0.0">
         </point>
       </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </line_color>
       <actions>
       </actions>
       <tooltip>$(pv_name)
@@ -303,17 +303,17 @@ $(pv_value)</tooltip>
       <y>49</y>
       <width>31</width>
       <height>1</height>
-      <line_width>4</line_width>
-      <line_color>
-        <color name="BLACK-BORDER" red="121" green="121" blue="121">
-        </color>
-      </line_color>
       <points>
         <point x="0.0" y="0.0">
         </point>
         <point x="30.0" y="0.0">
         </point>
       </points>
+      <line_width>4</line_width>
+      <line_color>
+        <color name="BLACK-BORDER" red="121" green="121" blue="121">
+        </color>
+      </line_color>
       <actions>
       </actions>
       <tooltip>$(pv_name)
@@ -325,11 +325,6 @@ $(pv_value)</tooltip>
       <y>20</y>
       <width>18</width>
       <height>9</height>
-      <line_width>1</line_width>
-      <line_color>
-        <color name="BLACK-BORDER" red="121" green="121" blue="121">
-        </color>
-      </line_color>
       <points>
         <point x="0.0" y="0.0">
         </point>
@@ -342,6 +337,11 @@ $(pv_value)</tooltip>
         <point x="7.0" y="8.0">
         </point>
       </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="BLACK-BORDER" red="121" green="121" blue="121">
+        </color>
+      </line_color>
       <actions>
       </actions>
       <tooltip>$(pv_name)
@@ -353,11 +353,6 @@ $(pv_value)</tooltip>
       <y>25</y>
       <width>10</width>
       <height>4</height>
-      <line_width>1</line_width>
-      <line_color>
-        <color name="BLACK-BORDER" red="121" green="121" blue="121">
-        </color>
-      </line_color>
       <points>
         <point x="9.0" y="3.0">
         </point>
@@ -366,6 +361,11 @@ $(pv_value)</tooltip>
         <point x="0.0" y="0.0">
         </point>
       </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="BLACK-BORDER" red="121" green="121" blue="121">
+        </color>
+      </line_color>
       <actions>
       </actions>
       <tooltip>$(pv_name)
@@ -376,12 +376,6 @@ $(pv_value)</tooltip>
       <x>8</x>
       <y>30</y>
       <width>20</width>
-      <line_width>1</line_width>
-      <line_color>
-        <color name="BLACK-BORDER" red="121" green="121" blue="121">
-        </color>
-      </line_color>
-      <line_style>1</line_style>
       <points>
         <point x="0.0" y="0.0">
         </point>
@@ -392,6 +386,12 @@ $(pv_value)</tooltip>
         <point x="19.0" y="0.0">
         </point>
       </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="BLACK-BORDER" red="121" green="121" blue="121">
+        </color>
+      </line_color>
+      <line_style>1</line_style>
       <actions>
       </actions>
       <tooltip>$(pv_name)
@@ -458,17 +458,17 @@ $(pv_value)</tooltip>
       <y>49</y>
       <width>31</width>
       <height>1</height>
-      <line_width>4</line_width>
-      <line_color>
-        <color name="BLACK-BORDER" red="121" green="121" blue="121">
-        </color>
-      </line_color>
       <points>
         <point x="0.0" y="0.0">
         </point>
         <point x="30.0" y="0.0">
         </point>
       </points>
+      <line_width>4</line_width>
+      <line_color>
+        <color name="BLACK-BORDER" red="121" green="121" blue="121">
+        </color>
+      </line_color>
       <actions>
       </actions>
       <tooltip>$(pv_name)
@@ -480,11 +480,6 @@ $(pv_value)</tooltip>
       <y>20</y>
       <width>18</width>
       <height>9</height>
-      <line_width>1</line_width>
-      <line_color>
-        <color name="BLACK-BORDER" red="121" green="121" blue="121">
-        </color>
-      </line_color>
       <points>
         <point x="0.0" y="0.0">
         </point>
@@ -497,6 +492,11 @@ $(pv_value)</tooltip>
         <point x="7.0" y="8.0">
         </point>
       </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="BLACK-BORDER" red="121" green="121" blue="121">
+        </color>
+      </line_color>
       <actions>
       </actions>
       <tooltip>$(pv_name)
@@ -508,11 +508,6 @@ $(pv_value)</tooltip>
       <y>25</y>
       <width>10</width>
       <height>4</height>
-      <line_width>1</line_width>
-      <line_color>
-        <color name="BLACK-BORDER" red="121" green="121" blue="121">
-        </color>
-      </line_color>
       <points>
         <point x="9.0" y="3.0">
         </point>
@@ -521,6 +516,11 @@ $(pv_value)</tooltip>
         <point x="0.0" y="0.0">
         </point>
       </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="BLACK-BORDER" red="121" green="121" blue="121">
+        </color>
+      </line_color>
       <actions>
       </actions>
       <tooltip>$(pv_name)
@@ -531,12 +531,6 @@ $(pv_value)</tooltip>
       <x>8</x>
       <y>30</y>
       <width>20</width>
-      <line_width>1</line_width>
-      <line_color>
-        <color name="BLACK-BORDER" red="121" green="121" blue="121">
-        </color>
-      </line_color>
-      <line_style>1</line_style>
       <points>
         <point x="0.0" y="0.0">
         </point>
@@ -547,6 +541,12 @@ $(pv_value)</tooltip>
         <point x="19.0" y="0.0">
         </point>
       </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="BLACK-BORDER" red="121" green="121" blue="121">
+        </color>
+      </line_color>
+      <line_style>1</line_style>
       <actions>
       </actions>
       <tooltip>$(pv_name)
@@ -559,7 +559,6 @@ $(pv_value)</tooltip>
     <x>263</x>
     <y>56</y>
     <width>36</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -587,7 +586,6 @@ $(pv_value)</tooltip>
     <x>423</x>
     <y>59</y>
     <width>39</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -615,11 +613,6 @@ $(pv_value)</tooltip>
     <y>155</y>
     <width>191</width>
     <height>270</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="RED-BORDER" red="150" green="8" blue="16">
-      </color>
-    </line_color>
     <points>
       <point x="190.0" y="0.0">
       </point>
@@ -628,6 +621,11 @@ $(pv_value)</tooltip>
       <point x="0.0" y="269.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="RED-BORDER" red="150" green="8" blue="16">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -639,11 +637,6 @@ $(pv_value)</tooltip>
     <y>155</y>
     <width>161</width>
     <height>151</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="RED-BORDER" red="150" green="8" blue="16">
-      </color>
-    </line_color>
     <points>
       <point x="160.0" y="0.0">
       </point>
@@ -652,6 +645,11 @@ $(pv_value)</tooltip>
       <point x="0.0" y="150.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="RED-BORDER" red="150" green="8" blue="16">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -681,7 +679,6 @@ $(pv_value)</tooltip>
     <x>290</x>
     <y>255</y>
     <width>36</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -709,7 +706,6 @@ $(pv_value)</tooltip>
     <x>450</x>
     <y>253</y>
     <width>36</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -757,17 +753,17 @@ $(pv_value)</tooltip>
     <y>208</y>
     <width>27</width>
     <height>13</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="26.0" y="12.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -799,17 +795,17 @@ $(pv_value)</tooltip>
     <y>209</y>
     <width>27</width>
     <height>13</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="26.0" y="12.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -821,7 +817,6 @@ $(pv_value)</tooltip>
     <x>457</x>
     <y>206</y>
     <width>43</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -849,7 +844,6 @@ $(pv_value)</tooltip>
     <x>295</x>
     <y>208</y>
     <width>46</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -897,15 +891,6 @@ $(pv_value)</tooltip>
     <y>275</y>
     <width>101</width>
     <height>90</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
-    <background_color>
-      <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
-      </color>
-    </background_color>
     <points>
       <point x="20.0" y="0.0">
       </point>
@@ -916,6 +901,15 @@ $(pv_value)</tooltip>
       <point x="80.0" y="0.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="BLUE-GROUP-BACKGROUND" red="179" green="209" blue="209">
+      </color>
+    </background_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -927,11 +921,6 @@ $(pv_value)</tooltip>
     <y>294</y>
     <width>51</width>
     <height>21</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="20.0">
       </point>
@@ -940,6 +929,11 @@ $(pv_value)</tooltip>
       <point x="50.0" y="20.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -951,7 +945,7 @@ $(pv_value)</tooltip>
     <x>73</x>
     <y>366</y>
     <width>41</width>
-    <height>21</height>
+    <height>23</height>
     <foreground_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -975,11 +969,6 @@ $(pv_value)</tooltip>
     <y>320</y>
     <width>51</width>
     <height>21</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="20.0">
       </point>
@@ -988,6 +977,11 @@ $(pv_value)</tooltip>
       <point x="50.0" y="20.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -999,17 +993,17 @@ $(pv_value)</tooltip>
     <y>314</y>
     <width>1</width>
     <height>432</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLUE-BORDER" red="47" green="135" blue="148">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="0.0" y="431.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -1021,17 +1015,17 @@ $(pv_value)</tooltip>
     <y>314</y>
     <width>1</width>
     <height>432</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLUE-BORDER" red="47" green="135" blue="148">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="0.0" y="431.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -1043,105 +1037,21 @@ $(pv_value)</tooltip>
     <y>314</y>
     <width>1</width>
     <height>432</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLUE-BORDER" red="47" green="135" blue="148">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="0.0" y="431.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_98</name>
-    <text>CV2250</text>
-    <x>731</x>
-    <y>609</y>
-    <width>44</width>
-    <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_99</name>
-    <text>CV2160</text>
-    <x>916</x>
-    <y>610</y>
-    <width>44</width>
-    <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_100</name>
-    <text>CV2150</text>
-    <x>916</x>
-    <y>391</y>
-    <width>44</width>
-    <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_101</name>
@@ -1149,7 +1059,6 @@ $(pv_value)</tooltip>
     <x>662</x>
     <y>443</y>
     <width>36</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1177,7 +1086,6 @@ $(pv_value)</tooltip>
     <x>110</x>
     <y>523</y>
     <width>40</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1262,15 +1170,6 @@ $(pv_value)</tooltip>
     <y>580</y>
     <width>90</width>
     <height>24</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
-    <background_color>
-      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
-      </color>
-    </background_color>
     <points>
       <point x="5.0" y="0.0">
       </point>
@@ -1287,6 +1186,15 @@ $(pv_value)</tooltip>
       <point x="84.0" y="0.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+      </color>
+    </background_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -1298,7 +1206,6 @@ $(pv_value)</tooltip>
     <x>115</x>
     <y>583</y>
     <width>44</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1326,15 +1233,6 @@ $(pv_value)</tooltip>
     <y>580</y>
     <width>90</width>
     <height>24</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
-    <background_color>
-      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
-      </color>
-    </background_color>
     <points>
       <point x="5.0" y="0.0">
       </point>
@@ -1351,6 +1249,15 @@ $(pv_value)</tooltip>
       <point x="84.0" y="0.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+      </color>
+    </background_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -1362,7 +1269,6 @@ $(pv_value)</tooltip>
     <x>204</x>
     <y>583</y>
     <width>53</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1390,12 +1296,6 @@ $(pv_value)</tooltip>
     <y>602</y>
     <width>660</width>
     <height>24</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLUE-BORDER" red="47" green="135" blue="148">
-      </color>
-    </line_color>
-    <line_style>1</line_style>
     <points>
       <point x="0.0" y="0.0">
       </point>
@@ -1404,6 +1304,12 @@ $(pv_value)</tooltip>
       <point x="659.0" y="23.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -1415,12 +1321,6 @@ $(pv_value)</tooltip>
     <y>603</y>
     <width>155</width>
     <height>12</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLUE-BORDER" red="47" green="135" blue="148">
-      </color>
-    </line_color>
-    <line_style>1</line_style>
     <points>
       <point x="0.0" y="0.0">
       </point>
@@ -1429,6 +1329,12 @@ $(pv_value)</tooltip>
       <point x="154.0" y="11.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -1440,7 +1346,6 @@ $(pv_value)</tooltip>
     <x>325</x>
     <y>585</y>
     <width>89</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1468,7 +1373,6 @@ $(pv_value)</tooltip>
     <x>549</x>
     <y>455</y>
     <width>45</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1496,15 +1400,6 @@ $(pv_value)</tooltip>
     <y>660</y>
     <width>90</width>
     <height>24</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
-    <background_color>
-      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
-      </color>
-    </background_color>
     <points>
       <point x="5.0" y="0.0">
       </point>
@@ -1521,6 +1416,15 @@ $(pv_value)</tooltip>
       <point x="84.0" y="0.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+      </color>
+    </background_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -1532,7 +1436,6 @@ $(pv_value)</tooltip>
     <x>716</x>
     <y>664</y>
     <width>56</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1560,7 +1463,6 @@ $(pv_value)</tooltip>
     <x>24</x>
     <y>409</y>
     <width>39</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1617,6 +1519,12 @@ $(pv_value)</tooltip>
     <y>541</y>
     <width>1</width>
     <height>74</height>
+    <points>
+      <point x="0.0" y="73.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
     <line_width>1</line_width>
     <line_color>
       <color name="BLUE-BORDER" red="47" green="135" blue="148">
@@ -1624,12 +1532,6 @@ $(pv_value)</tooltip>
     </line_color>
     <line_style>1</line_style>
     <arrows>2</arrows>
-    <points>
-      <point x="0.0" y="73.0">
-      </point>
-      <point x="0.0" y="0.0">
-      </point>
-    </points>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -1641,7 +1543,6 @@ $(pv_value)</tooltip>
     <x>701</x>
     <y>512</y>
     <width>89</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1669,7 +1570,6 @@ $(pv_value)</tooltip>
     <x>590</x>
     <y>306</y>
     <width>40</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1726,15 +1626,6 @@ $(pv_value)</tooltip>
     <y>267</y>
     <width>90</width>
     <height>24</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
-    <background_color>
-      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
-      </color>
-    </background_color>
     <points>
       <point x="5.0" y="0.0">
       </point>
@@ -1751,6 +1642,15 @@ $(pv_value)</tooltip>
       <point x="84.0" y="0.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+      </color>
+    </background_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -1762,7 +1662,6 @@ $(pv_value)</tooltip>
     <x>573</x>
     <y>271</y>
     <width>44</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1790,18 +1689,18 @@ $(pv_value)</tooltip>
     <y>409</y>
     <width>41</width>
     <height>1</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLUE-BORDER" red="47" green="135" blue="148">
-      </color>
-    </line_color>
-    <line_style>1</line_style>
     <points>
       <point x="40.0" y="0.0">
       </point>
       <point x="0.0" y="0.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -1813,15 +1712,6 @@ $(pv_value)</tooltip>
     <y>576</y>
     <width>90</width>
     <height>24</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
-    <background_color>
-      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
-      </color>
-    </background_color>
     <points>
       <point x="5.0" y="0.0">
       </point>
@@ -1838,6 +1728,15 @@ $(pv_value)</tooltip>
       <point x="84.0" y="0.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+      </color>
+    </background_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -1849,7 +1748,6 @@ $(pv_value)</tooltip>
     <x>716</x>
     <y>580</y>
     <width>56</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1897,81 +1795,6 @@ $(pv_value)</tooltip>
       </color>
     </border_color>
   </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_31</name>
-    <pv_name>Cryo-Cmp:LP:UY2250-PercOut</pv_name>
-    <x>722</x>
-    <y>630</y>
-    <width>60</width>
-    <height>16</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
-    <precision>0</precision>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <border_width>2</border_width>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_2</name>
-    <pv_name>Cryo-Cmp:HP:UY2150-PercOut</pv_name>
-    <x>907</x>
-    <y>409</y>
-    <width>60</width>
-    <height>16</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
-    <precision>0</precision>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <border_width>2</border_width>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_1</name>
-    <pv_name>Cryo-Cmp:HP:UY2160-PercOut</pv_name>
-    <x>907</x>
-    <y>627</y>
-    <width>60</width>
-    <height>16</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
-    <precision>0</precision>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <border_width>2</border_width>
-  </widget>
   <widget type="tank" version="2.0.0">
     <name>Tank Template</name>
     <pv_name>Cryo-Cmp:HP:PI2170</pv_name>
@@ -2006,11 +1829,6 @@ $(pv_value)</tooltip>
     <y>523</y>
     <width>106</width>
     <height>160</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLUE-BORDER" red="47" green="135" blue="148">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
@@ -2019,6 +1837,11 @@ $(pv_value)</tooltip>
       <point x="105.0" y="159.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -2030,7 +1853,6 @@ $(pv_value)</tooltip>
     <x>965</x>
     <y>713</y>
     <width>37</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2058,7 +1880,6 @@ $(pv_value)</tooltip>
     <x>920</x>
     <y>481</y>
     <width>40</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2362,7 +2183,6 @@ $(pv_value)</tooltip>
     <x>632</x>
     <y>53</y>
     <width>36</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2383,60 +2203,6 @@ $(pv_value)</tooltip>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
     </border_color>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>_7</name>
-    <pv_name>=`Cryo-Cmp:LP:UY2250-PercOut`!=0</pv_name>
-    <symbols>
-      <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
-      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
-    </symbols>
-    <x>782</x>
-    <y>604</y>
-    <width>27</width>
-    <height>41</height>
-    <background_color>
-      <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
-      </color>
-    </background_color>
-    <actions>
-    </actions>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>_8</name>
-    <pv_name>=`Cryo-Cmp:HP:UY2150-PercOut`!=0</pv_name>
-    <symbols>
-      <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
-      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
-    </symbols>
-    <x>877</x>
-    <y>388</y>
-    <width>27</width>
-    <height>41</height>
-    <background_color>
-      <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
-      </color>
-    </background_color>
-    <actions>
-    </actions>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>_9</name>
-    <pv_name>=`Cryo-Cmp:HP:UY2160-PercOut`!=0</pv_name>
-    <symbols>
-      <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
-      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
-    </symbols>
-    <x>877</x>
-    <y>604</y>
-    <width>27</width>
-    <height>41</height>
-    <background_color>
-      <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
-      </color>
-    </background_color>
-    <actions>
-    </actions>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>Symbol</name>
@@ -2482,18 +2248,18 @@ $(pv_value)</tooltip>
     <y>393</y>
     <width>1</width>
     <height>17</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color name="BLUE-BORDER" red="47" green="135" blue="148">
-      </color>
-    </line_color>
-    <arrows>2</arrows>
     <points>
       <point x="0.0" y="17.33333333333337">
       </point>
       <point x="0.0" y="0.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
+    <arrows>2</arrows>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -2505,21 +2271,60 @@ $(pv_value)</tooltip>
     <y>405</y>
     <width>19</width>
     <height>1</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color name="BLUE-BORDER" red="47" green="135" blue="148">
-      </color>
-    </line_color>
-    <arrows>2</arrows>
     <points>
       <point x="19.174358974358938" y="0.0">
       </point>
       <point x="0.0" y="0.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="BLUE-BORDER" red="47" green="135" blue="148">
+      </color>
+    </line_color>
+    <arrows>2</arrows>
     <actions>
     </actions>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_4</name>
+    <macros>
+      <P>Cryo-Cmp</P>
+      <S>HP</S>
+      <V>UY2150</V>
+    </macros>
+    <file>../../freia-symbols/display-builder/linde-CtrlValve-v-lr-pv.bob</file>
+    <x>877</x>
+    <y>386</y>
+    <width>56</width>
+    <height>43</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_5</name>
+    <macros>
+      <P>Cryo-Cmp</P>
+      <S>HP</S>
+      <V>UY2160</V>
+    </macros>
+    <file>../../freia-symbols/display-builder/linde-CtrlValve-v-lr-pv.bob</file>
+    <x>877</x>
+    <y>603</y>
+    <width>56</width>
+    <height>43</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_6</name>
+    <macros>
+      <P>Cryo-Cmp</P>
+      <S>LP</S>
+      <V>UY2250</V>
+    </macros>
+    <file>../../freia-symbols/display-builder/linde-CtrlValve-v-lr-pv.bob</file>
+    <x>782</x>
+    <y>602</y>
+    <width>56</width>
+    <height>43</height>
   </widget>
 </display>

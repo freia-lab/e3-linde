@@ -71,29 +71,17 @@ DBDS += $(wildcard $(APPSRC)/*.dbd)
 
 SCRIPTS += $(wildcard ../iocsh/*.iocsh)
 
+# Same as with any source or header files, you can also use $SUBS and $TMPS to define
+# database files to be inflated (using MSI), e.g.
+#
+#SUBS = $(wildcard $(APPDB)/*.substitutions)
+#TMPS = $(wildcard $(APPDB)/*.template)
+
 SUBS = $(wildcard $(APPDB)/*.substitutions)
-TMPS = $(wildcard $(APPDB)/*.template)
 
 USR_DBFLAGS += -I . -I ..
 USR_DBFLAGS += -I $(EPICS_BASE)/db
 USR_DBFLAGS += -I $(APPDB)
-
-.PHONY: db
-db: $(SUBS) $(TMPS)
-
-.PHONY: $(SUBS)
-$(SUBS):
-	@printf "Inflating database ... %44s >>> %40s \n" "$@" "$(basename $(@)).db"
-	@rm -f $(basename $(@)).db.d  $(basename $(@)).db
-	@$(MSI) -D $(USR_DBFLAGS) -o $(basename $(@)).db -S $@ > $(basename $(@)).db.d
-	@$(MSI)    $(USR_DBFLAGS) -o $(basename $(@)).db -S $@
-
-.PHONY: $(TMPS)
-$(TMPS):
-	@printf "Inflating database ... %44s >>> %40s \n" "$@" "$(basename $(@)).db"
-	@rm -f $(basename $(@)).db.d  $(basename $(@)).db
-	@$(MSI) -D $(USR_DBFLAGS) -o $(basename $(@)).db $@ > $(basename $(@)).db.d
-	@$(MSI)    $(USR_DBFLAGS) -o $(basename $(@)).db $@
 
 .PHONY: vlibs
 vlibs:

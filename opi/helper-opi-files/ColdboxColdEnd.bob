@@ -179,6 +179,7 @@ $(pv_value)</tooltip>
     <x>486</x>
     <y>279</y>
     <width>38</width>
+    <height>22</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="15.0">
       </font>
@@ -205,14 +206,14 @@ $(pv_value)</tooltip>
     <name>Polyline Template</name>
     <x>519</x>
     <y>226</y>
-    <width>783</width>
-    <height>342</height>
+    <width>782</width>
+    <height>384</height>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="782.0" y="0.0">
       </point>
-      <point x="782.0" y="341.0">
+      <point x="781.0" y="384.0">
       </point>
     </points>
     <line_width>2</line_width>
@@ -230,14 +231,14 @@ $(pv_value)</tooltip>
     <name>Polyline Template_1</name>
     <x>90</x>
     <y>340</y>
-    <width>1191</width>
-    <height>228</height>
+    <width>1190</width>
+    <height>270</height>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="1190.0" y="0.0">
       </point>
-      <point x="1190.0" y="227.0">
+      <point x="1190.0" y="270.0">
       </point>
     </points>
     <line_width>2</line_width>
@@ -257,7 +258,6 @@ $(pv_value)</tooltip>
     <x>130</x>
     <y>188</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -285,7 +285,6 @@ $(pv_value)</tooltip>
     <x>223</x>
     <y>186</y>
     <width>40</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -389,7 +388,6 @@ $(pv_value)</tooltip>
     <x>35</x>
     <y>218</y>
     <width>49</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -417,7 +415,7 @@ $(pv_value)</tooltip>
     <x>35</x>
     <y>330</y>
     <width>52</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -445,7 +443,7 @@ $(pv_value)</tooltip>
     <x>35</x>
     <y>379</y>
     <width>52</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -520,7 +518,6 @@ $(pv_value)</tooltip>
     <x>35</x>
     <y>410</y>
     <width>49</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -570,7 +567,6 @@ $(pv_value)</tooltip>
     <x>568</x>
     <y>297</y>
     <width>42</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -648,171 +644,11 @@ $(pv_value)</tooltip>
 $(pv_value)</tooltip>
   </widget>
   <widget type="label" version="2.0.0">
-    <name>Label Template_55</name>
-    <text>CV3160</text>
-    <x>576</x>
-    <y>175</y>
-    <width>44</width>
-    <height>19</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_6</name>
-    <pv_name>Cryo-CBox:HP:UY3160-PercOut</pv_name>
-    <x>567</x>
-    <y>193</y>
-    <width>60</width>
-    <height>16</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
-    <precision>0</precision>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <border_width>2</border_width>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_77</name>
-    <text>CV3170</text>
-    <x>766</x>
-    <y>232</y>
-    <width>44</width>
-    <height>19</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_7</name>
-    <pv_name>Cryo-CBox:HP:UY3170-PercOut</pv_name>
-    <x>757</x>
-    <y>250</y>
-    <width>60</width>
-    <height>16</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
-    <precision>0</precision>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <border_width>2</border_width>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_78</name>
-    <text>CV3290</text>
-    <x>766</x>
-    <y>346</y>
-    <width>44</width>
-    <height>19</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_8</name>
-    <pv_name>Cryo-CBox:LP:UY3290-PercOut</pv_name>
-    <x>757</x>
-    <y>364</y>
-    <width>60</width>
-    <height>16</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
-    <precision>0</precision>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <border_width>2</border_width>
-  </widget>
-  <widget type="label" version="2.0.0">
     <name>Label Template_79</name>
     <text>TI3155</text>
     <x>710</x>
     <y>153</y>
     <width>40</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -913,7 +749,7 @@ $(pv_value)</tooltip>
     <x>705</x>
     <y>130</y>
     <width>47</width>
-    <height>18</height>
+    <height>21</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -959,332 +795,6 @@ $(pv_value)</tooltip>
     </actions>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-  </widget>
-  <widget type="polygon" version="2.0.0">
-    <name>Polygon Template_1</name>
-    <x>742</x>
-    <y>296</y>
-    <width>90</width>
-    <height>24</height>
-    <points>
-      <point x="5.0" y="0.0">
-      </point>
-      <point x="0.0" y="13.0">
-      </point>
-      <point x="5.0" y="23.0">
-      </point>
-      <point x="84.0" y="23.0">
-      </point>
-      <point x="89.0" y="13.0">
-      </point>
-      <point x="84.0" y="0.0">
-      </point>
-      <point x="84.0" y="0.0">
-      </point>
-    </points>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
-    <background_color>
-      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
-      </color>
-    </background_color>
-    <actions>
-    </actions>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_81</name>
-    <text>PC3290  </text>
-    <x>764</x>
-    <y>298</y>
-    <width>50</width>
-    <height>19</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_82</name>
-    <text>PI3290</text>
-    <x>863</x>
-    <y>280</y>
-    <width>40</width>
-    <height>19</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_10</name>
-    <pv_name>Cryo-CBox:LP:PI3290</pv_name>
-    <x>852</x>
-    <y>300</y>
-    <width>66</width>
-    <height>16</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
-      </color>
-    </background_color>
-    <precision>2</precision>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <border_width>2</border_width>
-    <border_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="polyline" version="2.0.0">
-    <name>Polyline Template_12</name>
-    <x>790</x>
-    <y>319</y>
-    <width>1</width>
-    <height>22</height>
-    <points>
-      <point x="0.0" y="0.0">
-      </point>
-      <point x="0.0" y="21.0">
-      </point>
-    </points>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLUE-BORDER" red="47" green="135" blue="148">
-      </color>
-    </line_color>
-    <line_style>1</line_style>
-    <actions>
-    </actions>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-  </widget>
-  <widget type="polyline" version="2.0.0">
-    <name>Polyline Template_13</name>
-    <x>831</x>
-    <y>307</y>
-    <width>20</width>
-    <height>1</height>
-    <points>
-      <point x="19.0" y="0.0">
-      </point>
-      <point x="0.0" y="0.0">
-      </point>
-    </points>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLUE-BORDER" red="47" green="135" blue="148">
-      </color>
-    </line_color>
-    <line_style>1</line_style>
-    <actions>
-    </actions>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_83</name>
-    <text>CV5203</text>
-    <x>1195</x>
-    <y>529</y>
-    <width>44</width>
-    <height>19</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_11</name>
-    <pv_name>Cryo-Dwr:V:UY5203-PercOut</pv_name>
-    <x>1186</x>
-    <y>547</y>
-    <width>60</width>
-    <height>16</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
-    <precision>0</precision>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <border_width>2</border_width>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_84</name>
-    <text>CV5202</text>
-    <x>1112</x>
-    <y>529</y>
-    <width>44</width>
-    <height>19</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_12</name>
-    <pv_name>Cryo-Dwr:V:UY5202-PercOut</pv_name>
-    <x>1103</x>
-    <y>547</y>
-    <width>60</width>
-    <height>16</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
-    <precision>0</precision>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <border_width>2</border_width>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_85</name>
-    <text>CV5201</text>
-    <x>1028</x>
-    <y>529</y>
-    <width>44</width>
-    <height>19</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_13</name>
-    <pv_name>Cryo-Dwr:V:UY5201-PercOut</pv_name>
-    <x>1019</x>
-    <y>547</y>
-    <width>60</width>
-    <height>16</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
-    <precision>0</precision>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <border_width>2</border_width>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>Polyline Template_14</name>
@@ -1391,7 +901,6 @@ $(pv_value)</tooltip>
     <x>672</x>
     <y>547</y>
     <width>42</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1474,7 +983,6 @@ $(pv_value)</tooltip>
     <x>539</x>
     <y>430</y>
     <width>44</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1553,7 +1061,7 @@ $(pv_value)</tooltip>
     <x>237</x>
     <y>564</y>
     <width>77</width>
-    <height>17</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="13.0">
       </font>
@@ -1581,7 +1089,6 @@ $(pv_value)</tooltip>
     <x>648</x>
     <y>500</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1629,7 +1136,6 @@ $(pv_value)</tooltip>
     <x>65</x>
     <y>623</y>
     <width>44</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1694,7 +1200,6 @@ $(pv_value)</tooltip>
     <x>65</x>
     <y>666</y>
     <width>41</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1759,7 +1264,6 @@ $(pv_value)</tooltip>
     <x>65</x>
     <y>709</y>
     <width>41</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1824,7 +1328,6 @@ $(pv_value)</tooltip>
     <x>66</x>
     <y>752</y>
     <width>41</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1889,7 +1392,6 @@ $(pv_value)</tooltip>
     <x>179</x>
     <y>640</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1917,7 +1419,6 @@ $(pv_value)</tooltip>
     <x>179</x>
     <y>683</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1945,7 +1446,6 @@ $(pv_value)</tooltip>
     <x>179</x>
     <y>726</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1973,7 +1473,6 @@ $(pv_value)</tooltip>
     <x>179</x>
     <y>769</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2001,7 +1500,6 @@ $(pv_value)</tooltip>
     <x>43</x>
     <y>574</y>
     <width>129</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2029,7 +1527,6 @@ $(pv_value)</tooltip>
     <x>1073</x>
     <y>111</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2057,7 +1554,6 @@ $(pv_value)</tooltip>
     <x>1073</x>
     <y>156</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2121,7 +1617,6 @@ $(pv_value)</tooltip>
     <x>1351</x>
     <y>589</y>
     <width>46</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2149,7 +1644,6 @@ $(pv_value)</tooltip>
     <x>1353</x>
     <y>617</y>
     <width>42</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2230,7 +1724,6 @@ $(pv_value)</tooltip>
     <x>1332</x>
     <y>511</y>
     <width>87</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2258,7 +1751,6 @@ $(pv_value)</tooltip>
     <x>1264</x>
     <y>742</y>
     <width>39</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2286,7 +1778,6 @@ $(pv_value)</tooltip>
     <x>997</x>
     <y>738</y>
     <width>40</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2387,7 +1878,6 @@ $(pv_value)</tooltip>
     <x>348</x>
     <y>480</y>
     <width>24</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2415,7 +1905,6 @@ $(pv_value)</tooltip>
     <x>365</x>
     <y>526</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2443,7 +1932,6 @@ $(pv_value)</tooltip>
     <x>406</x>
     <y>547</y>
     <width>40</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2571,7 +2059,6 @@ $(pv_value)</tooltip>
     <x>432</x>
     <y>679</y>
     <width>86</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2599,7 +2086,6 @@ $(pv_value)</tooltip>
     <x>804</x>
     <y>617</y>
     <width>36</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2813,7 +2299,6 @@ $(pv_value)</tooltip>
     <x>1030</x>
     <y>31</y>
     <width>40</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2871,7 +2356,6 @@ $(pv_value)</tooltip>
     <x>1057</x>
     <y>70</y>
     <width>24</width>
-    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2928,7 +2412,7 @@ $(pv_value)</tooltip>
     <x>256</x>
     <y>575</y>
     <width>28</width>
-    <height>17</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="13.0">
       </font>
@@ -3177,7 +2661,6 @@ $(pv_value)</tooltip>
       <x>26</x>
       <y>14</y>
       <width>37</width>
-      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -3203,10 +2686,9 @@ $(pv_value)</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label Template_116</name>
     <text>Gersemi</text>
-    <x>1193</x>
-    <y>509</y>
+    <x>1200</x>
+    <y>489</y>
     <width>49</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3232,9 +2714,8 @@ $(pv_value)</tooltip>
     <name>Label Template_117</name>
     <text>HNOSS/CM</text>
     <x>1100</x>
-    <y>509</y>
+    <y>489</y>
     <width>66</width>
-    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3463,117 +2944,6 @@ $(pv_value)</tooltip>
     </actions>
   </widget>
   <widget type="symbol" version="2.0.0">
-    <name>_15</name>
-    <pv_name>=`Cryo-Dwr:V:UY5203-PercOut`!=0</pv_name>
-    <symbols>
-      <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
-      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
-    </symbols>
-    <x>1241</x>
-    <y>512</y>
-    <width>27</width>
-    <height>41</height>
-    <background_color>
-      <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
-      </color>
-    </background_color>
-    <rotation>180.0</rotation>
-    <actions>
-    </actions>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>_16</name>
-    <pv_name>=`Cryo-Dwr:V:UY5202-PercOut`!=0</pv_name>
-    <symbols>
-      <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
-      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
-    </symbols>
-    <x>1157</x>
-    <y>512</y>
-    <width>27</width>
-    <height>41</height>
-    <background_color>
-      <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
-      </color>
-    </background_color>
-    <rotation>180.0</rotation>
-    <actions>
-    </actions>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>_17</name>
-    <pv_name>=`Cryo-Dwr:V:UY5201-PercOut`!=0</pv_name>
-    <symbols>
-      <symbol>../../freia-symbols/cryogenics/valve_control_RED_v.svg</symbol>
-      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN_v.svg</symbol>
-    </symbols>
-    <x>1071</x>
-    <y>512</y>
-    <width>27</width>
-    <height>41</height>
-    <background_color>
-      <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
-      </color>
-    </background_color>
-    <rotation>180.0</rotation>
-    <actions>
-    </actions>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>_18</name>
-    <pv_name>=`Cryo-CBox:HP:UY3170-PercOut`!=0</pv_name>
-    <symbols>
-      <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
-      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
-    </symbols>
-    <x>770</x>
-    <y>212</y>
-    <width>41</width>
-    <height>27</height>
-    <background_color>
-      <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
-      </color>
-    </background_color>
-    <actions>
-    </actions>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>_19</name>
-    <pv_name>=`Cryo-CBox:LP:UY3290-PercOut`!=0</pv_name>
-    <symbols>
-      <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
-      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
-    </symbols>
-    <x>769</x>
-    <y>327</y>
-    <width>41</width>
-    <height>27</height>
-    <background_color>
-      <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
-      </color>
-    </background_color>
-    <actions>
-    </actions>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>_20</name>
-    <pv_name>=`Cryo-CBox:HP:UY3160-PercOut`!=0</pv_name>
-    <symbols>
-      <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
-      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
-    </symbols>
-    <x>578</x>
-    <y>156</y>
-    <width>41</width>
-    <height>27</height>
-    <background_color>
-      <color name="BLUE-BACKGROUND" red="195" green="226" blue="225">
-      </color>
-    </background_color>
-    <actions>
-    </actions>
-  </widget>
-  <widget type="symbol" version="2.0.0">
     <name>Boolean Symbol Image Control Template_6</name>
     <pv_name>Cryo-Rec:LP:QS7230</pv_name>
     <symbols>
@@ -3739,5 +3109,236 @@ $(pv_value)</tooltip>
     <width>110</width>
     <height>70</height>
     <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_5</name>
+    <macros>
+      <P>Cryo-CBox</P>
+      <S>HP</S>
+      <V>UY3160</V>
+    </macros>
+    <file>../../freia-symbols/display-builder/linde-CtrlValve-h-lu-pv.bob</file>
+    <x>568</x>
+    <y>140</y>
+    <width>50</width>
+    <height>55</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_6</name>
+    <macros>
+      <P>Cryo-CBox</P>
+      <S>HP</S>
+      <V>UY3170</V>
+    </macros>
+    <file>../../freia-symbols/display-builder/linde-CtrlValve-h-lu-pv.bob</file>
+    <x>767</x>
+    <y>197</y>
+    <width>50</width>
+    <height>55</height>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>Group</name>
+    <x>791</x>
+    <y>261</y>
+    <width>187</width>
+    <height>78</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline Template_13</name>
+      <y>28</y>
+      <width>130</width>
+      <height>50</height>
+      <points>
+        <point x="130.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="50.0">
+        </point>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="BLUE-BORDER" red="47" green="135" blue="148">
+        </color>
+      </line_color>
+      <line_style>1</line_style>
+      <actions>
+      </actions>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon Template_1</name>
+      <x>11</x>
+      <y>16</y>
+      <width>90</width>
+      <height>24</height>
+      <points>
+        <point x="5.0" y="0.0">
+        </point>
+        <point x="0.0" y="13.0">
+        </point>
+        <point x="5.0" y="23.0">
+        </point>
+        <point x="84.0" y="23.0">
+        </point>
+        <point x="89.0" y="13.0">
+        </point>
+        <point x="84.0" y="0.0">
+        </point>
+        <point x="84.0" y="0.0">
+        </point>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update Template_10</name>
+      <pv_name>Cryo-CBox:LP:PI3290</pv_name>
+      <x>121</x>
+      <y>20</y>
+      <width>66</width>
+      <height>16</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+        </color>
+      </background_color>
+      <precision>2</precision>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_width>2</border_width>
+      <border_color>
+        <color name="GRAY-BORDER" red="121" green="121" blue="121">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label Template_82</name>
+      <text>PI3290</text>
+      <x>132</x>
+      <width>40</width>
+      <height>21</height>
+      <font>
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="BACKGROUND" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+      <auto_size>true</auto_size>
+      <actions>
+      </actions>
+      <border_color>
+        <color name="IO Border" red="215" green="215" blue="215">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label Template_81</name>
+      <text>PC3290  </text>
+      <x>33</x>
+      <y>18</y>
+      <width>50</width>
+      <height>21</height>
+      <font>
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="BACKGROUND" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+      <auto_size>true</auto_size>
+      <actions>
+      </actions>
+      <border_color>
+        <color name="IO Border" red="215" green="215" blue="215">
+        </color>
+      </border_color>
+    </widget>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_7</name>
+    <macros>
+      <P>Cryo-CBox</P>
+      <S>LP</S>
+      <V>UY3290</V>
+    </macros>
+    <file>../../freia-symbols/display-builder/linde-CtrlValve-h-lu-pv.bob</file>
+    <x>767</x>
+    <y>311</y>
+    <width>50</width>
+    <height>55</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_8</name>
+    <macros>
+      <P>Cryo-Dwr</P>
+      <S>V</S>
+      <V>UY5201</V>
+    </macros>
+    <file>../../freia-symbols/display-builder/linde-CtrlValve-v-lr-pv.bob</file>
+    <x>1071</x>
+    <y>510</y>
+    <width>56</width>
+    <height>43</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_9</name>
+    <macros>
+      <P>Cryo-Dwr</P>
+      <S>V</S>
+      <V>UY5202</V>
+    </macros>
+    <file>../../freia-symbols/display-builder/linde-CtrlValve-v-lr-pv.bob</file>
+    <x>1156</x>
+    <y>510</y>
+    <width>56</width>
+    <height>43</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_10</name>
+    <macros>
+      <P>Cryo-Dwr</P>
+      <S>V</S>
+      <V>UY5203</V>
+    </macros>
+    <file>../../freia-symbols/display-builder/linde-CtrlValve-v-lr-pv.bob</file>
+    <x>1241</x>
+    <y>510</y>
+    <width>56</width>
+    <height>43</height>
   </widget>
 </display>

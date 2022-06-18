@@ -1,8 +1,0 @@
-record (ai, "Cryo-$(SUBS):$(DEV):$(SIG)") {
-  field (DESC, "$(SUBS):$(DEV) $(DESC)")
-  field (EGU, "$(EGU)")
-  field (DTYP, "S7plc")
-  field (INP,  "@Cryo-Linde/$(OFFS) T=$(TYPE)")
-  field (SCAN, "I/O Intr")
-  field (SIMS, "INVALID")
-}
