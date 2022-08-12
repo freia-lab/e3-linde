@@ -701,3 +701,12 @@ file "lindeString.template" { pattern
 {CBox,	Ads80K,	TotRegTm, 1348, "Reg: Total time"}
 }
 
+# PVs accessed via s7nodave support module
+
+file "ao-update.template" { pattern
+{P             R         S               DESC                          EGU    OUT                        SCAN,	     EVNT}
+{Cryo-Dwr:     LHe:   	 cLC5200_Sp    	 "LC5200 regul. SetPoint"      "%"    "G_S7 DB126.DBD8 float"    "10 second" ""}
+{Cryo-Dwr:     V:   	 cUY5201_PercOut "CV5200 Auto SetPoint"        "%"    "G_S7 DB452.DBD20 float"   "10 second" ""}
+{Cryo-Dwr:     V:   	 cUY5202_PercOut "CV5201 Auto SetPoint"        "%"    "G_S7 DB452.DBD24 float"   "10 second" ""}
+{Cryo-Dwr:     V:   	 cUY5203_PercOut "CV5202 Auto SetPoint"        "%"    "G_S7 DB452.DBD28 float"   "10 second" ""}
+}

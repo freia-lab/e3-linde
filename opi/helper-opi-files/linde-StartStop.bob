@@ -147,7 +147,6 @@
     </widget>
     <widget type="embedded" version="2.0.0">
       <name>Embedded Display</name>
-      <file>PopUpTopPrms.bob</file>
       <macros>
         <D>Cmp:C1</D>
         <INVISIBLE>0</INVISIBLE>
@@ -155,12 +154,12 @@
         <P>Cryo</P>
         <Pms_file>CmpPms</Pms_file>
       </macros>
+      <file>PopUpTopPrms.bob</file>
       <width>402</width>
       <height>162</height>
     </widget>
     <widget type="embedded" version="2.0.0">
       <name>Embedded Display_2</name>
-      <file>PopUpTopPrms.bob</file>
       <macros>
         <D>MCD:MCD</D>
         <INVISIBLE>1</INVISIBLE>
@@ -168,26 +167,26 @@
         <P>Cryo</P>
         <Pms_file>MCDPms</Pms_file>
       </macros>
+      <file>PopUpTopPrms.bob</file>
       <y>182</y>
       <width>402</width>
       <height>162</height>
     </widget>
     <widget type="embedded" version="2.0.0">
       <name>Embedded Display_3</name>
-      <file>PopUpTopPrms.bob</file>
       <macros>
         <D>HP:DisChrgRec</D>
         <INVISIBLE>1</INVISIBLE>
         <L>High-Pressure Discharge to Recovery</L>
         <P>Cryo</P>
       </macros>
+      <file>PopUpTopPrms.bob</file>
       <y>364</y>
       <width>402</width>
       <height>162</height>
     </widget>
     <widget type="embedded" version="2.0.0">
       <name>Embedded Display_5</name>
-      <file>PopUpTopPrms.bob</file>
       <macros>
         <D>CBox:CoolMode</D>
         <INVISIBLE>0</INVISIBLE>
@@ -195,13 +194,13 @@
         <P>Cryo</P>
         <Pms_file>CboxCMPms</Pms_file>
       </macros>
+      <file>PopUpTopPrms.bob</file>
       <y>546</y>
       <width>402</width>
       <height>162</height>
     </widget>
     <widget type="embedded" version="2.0.0">
       <name>Embedded Display_6</name>
-      <file>PopUpTopPrms.bob</file>
       <macros>
         <D>CBox:WarmUpMode</D>
         <INVISIBLE>0</INVISIBLE>
@@ -209,26 +208,26 @@
         <P>Cryo</P>
         <Pms_file>CboxWUPms</Pms_file>
       </macros>
+      <file>PopUpTopPrms.bob</file>
       <y>729</y>
       <width>402</width>
       <height>162</height>
     </widget>
     <widget type="embedded" version="2.0.0">
       <name>Embedded Display_4</name>
-      <file>PopUpTopPrms.bob</file>
       <macros>
         <D>CBox:LN2</D>
         <INVISIBLE>1</INVISIBLE>
         <L>LN2 Precooling</L>
         <P>Cryo</P>
       </macros>
+      <file>PopUpTopPrms.bob</file>
       <x>782</x>
       <width>402</width>
       <height>162</height>
     </widget>
     <widget type="embedded" version="2.0.0">
       <name>Embedded Display_11</name>
-      <file>PopUpTopPrms.bob</file>
       <macros>
         <D>VacSys:VacSys</D>
         <INVISIBLE>1</INVISIBLE>
@@ -236,6 +235,7 @@
         <P>Cryo</P>
         <Pms_file></Pms_file>
       </macros>
+      <file>PopUpTopPrms.bob</file>
       <x>782</x>
       <y>546</y>
       <width>402</width>
@@ -243,7 +243,6 @@
     </widget>
     <widget type="embedded" version="2.0.0">
       <name>Embedded Display_12</name>
-      <file>PopUpTopPrms.bob</file>
       <macros>
         <D>CBox:LN2-IlkTu</D>
         <INVISIBLE>0</INVISIBLE>
@@ -251,6 +250,7 @@
         <P>Cryo</P>
         <Pms_file>CboxPrecBef</Pms_file>
       </macros>
+      <file>PopUpTopPrms.bob</file>
       <x>782</x>
       <y>182</y>
       <width>402</width>
@@ -258,7 +258,6 @@
     </widget>
     <widget type="embedded" version="2.0.0">
       <name>Embedded Display_14</name>
-      <file>PopUpTopPrms.bob</file>
       <macros>
         <D>Dwr:Htr</D>
         <INVISIBLE>0</INVISIBLE>
@@ -266,6 +265,7 @@
         <P>Cryo</P>
         <Pms_file>DwrHtrPms</Pms_file>
       </macros>
+      <file>PopUpTopPrms.bob</file>
       <x>782</x>
       <y>364</y>
       <width>402</width>
@@ -273,7 +273,6 @@
     </widget>
     <widget type="embedded" version="2.0.0">
       <name>Embedded Display_15</name>
-      <file>PopUpTopPrms.bob</file>
       <macros>
         <D>Pur:Pur</D>
         <INVISIBLE>0</INVISIBLE>
@@ -281,6 +280,7 @@
         <P>Cryo</P>
         <Pms_file>PurPms</Pms_file>
       </macros>
+      <file>PopUpTopPrms.bob</file>
       <x>782</x>
       <y>729</y>
       <width>402</width>
@@ -337,16 +337,9 @@
       <widget type="textupdate" version="2.0.0">
         <name>Text Update</name>
         <pv_name>$(P):LHe:LC5200_Sp</pv_name>
-        <x>100</x>
-        <y>34</y>
-        <foreground_color>
-          <color red="0" green="0" blue="0">
-          </color>
-        </foreground_color>
-        <background_color>
-          <color red="255" green="255" blue="255">
-          </color>
-        </background_color>
+        <x>176</x>
+        <y>33</y>
+        <width>51</width>
         <precision>1</precision>
         <vertical_alignment>1</vertical_alignment>
         <wrap_words>false</wrap_words>
@@ -387,14 +380,6 @@
         <x>10</x>
         <y>93</y>
         <width>197</width>
-        <foreground_color>
-          <color red="0" green="0" blue="0">
-          </color>
-        </foreground_color>
-        <background_color>
-          <color red="255" green="255" blue="255">
-          </color>
-        </background_color>
         <vertical_alignment>1</vertical_alignment>
         <wrap_words>false</wrap_words>
         <actions>
@@ -410,14 +395,6 @@
         <x>10</x>
         <y>120</y>
         <width>197</width>
-        <foreground_color>
-          <color red="0" green="0" blue="0">
-          </color>
-        </foreground_color>
-        <background_color>
-          <color red="255" green="255" blue="255">
-          </color>
-        </background_color>
         <vertical_alignment>1</vertical_alignment>
         <wrap_words>false</wrap_words>
         <actions>
@@ -503,6 +480,13 @@
           </color>
         </foreground_color>
         <show_confirm_dialog>true</show_confirm_dialog>
+      </widget>
+      <widget type="textentry" version="3.0.0">
+        <name>Text Entry</name>
+        <pv_name>$(P):LHe:cLC5200_Sp</pv_name>
+        <x>106</x>
+        <y>33</y>
+        <width>56</width>
       </widget>
     </widget>
     <widget type="group" version="2.0.0">

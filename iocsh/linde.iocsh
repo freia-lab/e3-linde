@@ -28,6 +28,7 @@
 #<sendIntervall> : time to wait before sending new data to PLC [ms]
 
 s7plcConfigure Cryo-Linde,$(PLC_IP),2000,2000,100,1,1000,100
+s7nodaveConfigureIsoTcpPort("G_S7",$(PLC_IP),0,2,0)
 
 dbLoadRecords("linde.db")
 dbLoadRecords("lindeCryosystem.db")
