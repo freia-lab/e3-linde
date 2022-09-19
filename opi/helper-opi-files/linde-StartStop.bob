@@ -99,12 +99,6 @@
       <actions>
       </actions>
       <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
       </rules>
     </widget>
     <widget type="led" version="2.0.0">
@@ -137,12 +131,6 @@
       <actions>
       </actions>
       <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
       </rules>
     </widget>
     <widget type="embedded" version="2.0.0">
@@ -527,12 +515,6 @@
         <actions>
         </actions>
         <rules>
-          <rule name="BorderRule" prop_id="border_style" out_exp="false">
-            <exp bool_exp="pv0==1">
-              <value>9</value>
-            </exp>
-            <pv_name>$(pv_name).SIMM</pv_name>
-          </rule>
         </rules>
         <border_width>2</border_width>
       </widget>
@@ -577,12 +559,6 @@
         <actions>
         </actions>
         <rules>
-          <rule name="BorderRule" prop_id="border_style" out_exp="false">
-            <exp bool_exp="pv0==1">
-              <value>9</value>
-            </exp>
-            <pv_name>$(pv_name).SIMM</pv_name>
-          </rule>
         </rules>
         <border_width>2</border_width>
       </widget>

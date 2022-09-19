@@ -1759,12 +1759,6 @@ $(pv_value)</tooltip>
     <actions>
     </actions>
     <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
     </rules>
     <limits_from_pv>false</limits_from_pv>
   </widget>
@@ -2195,12 +2189,6 @@ $(pv_value)</tooltip>
     <actions>
     </actions>
     <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
     </rules>
     <border_width>2</border_width>
     <border_color>
