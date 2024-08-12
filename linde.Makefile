@@ -17,39 +17,9 @@
 # The following lines are required
 where_am_I := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 include $(E3_REQUIRE_TOOLS)/driver.makefile
-include $(E3_REQUIRE_CONFIG)/DECOUPLE_FLAGS
 
 # Most modules only need to be built for x86_64
 ARCH_FILTER += linux-x86_64
-
-# If your module has dependencies, you will generate want to include them like
-#
-#     REQUIRED += asyn
-#     ifneq ($(strip $(ASYN_DEP_VERSION)),)
-#       asyn_VERSION=$(ASYN_DEP_VERSION)
-#     endif
-# 
-# with $(ASYN_DEP_VERSION) defined in `configure/CONFIG_MODULE`
-
-REQUIRED += s7plc
-ifneq ($(strip $(S7PLC_DEP_VERSION)),)
-  s7plc_VERSION=$(S7PLC_DEP_VERSION)
-endif
-
-REQUIRED += iocshutils
-ifneq ($(strip $(IOCSHUTILS_DEP_VERSION)),)
-  iocshutils_VERSION=$(IOCSHUTILS_DEP_VERSION)
-endif
-
-REQUIRED += sequencer
-ifneq ($(strip $(SEQ_DEP_VERSION)),)
-  sequencer_VERSION=$(SEQ_DEP_VERSION)
-endif
-
-REQUIRED += s7nodave
-ifneq ($(strip $(S7NODAVE_DEP_VERSION)),)
-  s7nodave_VERSION=$(S7NODAVE_DEP_VERSION)
-endif
 
 # Since this file (linde.Makefile) is copied into
 # the module directory at build-time, these paths have to be relative

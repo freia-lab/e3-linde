@@ -10,6 +10,7 @@
 core.*
 *-loc/*.Makefile
 linde/*.Makefile
+linde/O.*
 cellMods/
 testMods*/
 *PVs.list
