@@ -1,6 +1,7 @@
 # This should be a test or example startup script
 
 require linde
+require afterinit
 
 iocshLoad("$(linde_DIR)/linde.iocsh", "PLC_IP=192.168.1.10")
 
