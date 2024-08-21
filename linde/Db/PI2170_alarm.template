@@ -1,0 +1,25 @@
+record (ai, "PI2170") {
+    field(SCAN, "1 second")
+    field(INP, "Cryo-Cmp:HP:PI2170")
+    field(LOLO, "6.5")
+    field(EGU, "bara")
+    field(PREC, "1")
+    field(LLSV, "MAJOR")
+    field(HYST, "0.1")
+    field(FLNK, "PI2170-ALARM-calc")
+}
+
+record (calc, "PI2170-ALARM-calc") {
+    field(INPA, "PI2170.SEVR")
+    field(INPB, "Cryo-Pur:Pur:VisuState")
+    field(CALC, "(A==2)&&(B==6)?1:0")
+    field(FLNK, "PI2170-ALARM")
+}
+
+record (bi, "PI2170-ALARM") {
+    field(DESC, "P too low during regeneration")
+    field(INP, "PI2170-ALARM-calc")
+    field(ZNAM, "OK")
+    field(ONAM, "FAULT")
+    field(OSV, "MAJOR")
+}

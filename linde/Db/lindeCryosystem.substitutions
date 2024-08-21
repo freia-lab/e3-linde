@@ -710,3 +710,9 @@ file "ao-update.template" { pattern
 {Cryo-Dwr:     V:   	 cUY5202_PercOut "CV5201 Auto SetPoint"        "%"    "G_S7 DB452.DBD24 float"   "10 second" ""}
 {Cryo-Dwr:     V:   	 cUY5203_PercOut "CV5202 Auto SetPoint"        "%"    "G_S7 DB452.DBD28 float"   "10 second" ""}
 }
+
+# Extra alarm related PV
+file "PI2170_alarm.template" { pattern {}
+{}
+}
+
