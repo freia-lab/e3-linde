@@ -20,6 +20,7 @@ monitor CV5202_sOpen;
 monitor CV5202_cAuto;
 monitor CM_CV5202_sOpenReq;
 monitor CstatH_CM_mode;
+monitor CstatH_CV5202_sOpenReq;
 
    state waiting {
        entry {
